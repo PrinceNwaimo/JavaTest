@@ -2,36 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterThree/DemoGrossPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterThree/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterThree/MethodChainCalls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterThree/ParadiseInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterThree/ParadiseInfo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterThree/ReturnTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/ComputeArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/ComputeAreaWithConsoleInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/ComputeAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/ComputeLoan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/ConstantCreation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/DisplayTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/Exe1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/Exe2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/Exe3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/Exe4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/Exercise1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/JOptionPane1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/MatureEvents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/SalesTax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/ShowCurrentTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/UseChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSamples.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/BookStoreCredit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/InchConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/Insurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/JobPricing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/NumbersDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/PaintCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/Percentages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/Sandwich.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/TestSandwich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +46,9 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ParadiseInfo2">
-    <configuration name="DemoGrossPay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterThree.DemoGrossPay" />
+  <component name="RunManager" selected="Application.TestSandwich">
+    <configuration name="InchConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterThree.InchConversion" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodChainCalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterThree.MethodChainCalls" />
+    <configuration name="Insurance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterThree.Insurance" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParadiseInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterThree.ParadiseInfo" />
+    <configuration name="JobPricing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterThree.JobPricing" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParadiseInfo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterThree.ParadiseInfo2" />
+    <configuration name="PaintCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterThree.PaintCalculator" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReturnTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterThree.ReturnTypes" />
+    <configuration name="TestSandwich" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterThree.TestSandwich" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParadiseInfo2" />
-        <item itemvalue="Application.MethodChainCalls" />
-        <item itemvalue="Application.ReturnTypes" />
-        <item itemvalue="Application.DemoGrossPay" />
-        <item itemvalue="Application.ParadiseInfo" />
+        <item itemvalue="Application.TestSandwich" />
+        <item itemvalue="Application.JobPricing" />
+        <item itemvalue="Application.Insurance" />
+        <item itemvalue="Application.PaintCalculator" />
+        <item itemvalue="Application.InchConversion" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +139,7 @@
       <workItem from="1716031462686" duration="15000" />
       <workItem from="1716134374205" duration="22000" />
       <workItem from="1719923323617" duration="42000" />
-      <workItem from="1720381422833" duration="6508000" />
+      <workItem from="1720381422833" duration="19362000" />
     </task>
     <servers />
   </component>
