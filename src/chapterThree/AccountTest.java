@@ -19,5 +19,6 @@ public class AccountTest {
         System.out.println();
         System.out.println("Name in object myAccount is: " + myAccount.getName()+","+myAccount.getBalance());
         System.out.println("Name of account 1 holder is now: "+account1.getName()+","+account1.getBalance());
+
     }
 }

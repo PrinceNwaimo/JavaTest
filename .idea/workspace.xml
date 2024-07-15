@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/GetterAndSetterPractice/PetrolPurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/AccountTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapterThree/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterThree/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapterThree/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterThree/AccountTest.java" afterDir="false" />
@@ -39,7 +41,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AccountTest">
+  <component name="RunManager" selected="Application.AccountTest2">
     <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapterThree.AccountTest" />
       <module name="testSamples" />
@@ -53,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Insurance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterThree.Insurance" />
+    <configuration name="AccountTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterThree.AccountTest2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccountTest2" />
         <item itemvalue="Application.AccountTest" />
         <item itemvalue="Application.ShowStudent" />
         <item itemvalue="Application.TestSandwich" />
         <item itemvalue="Application.JobPricing" />
-        <item itemvalue="Application.Insurance" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +136,7 @@
       <workItem from="1719923323617" duration="42000" />
       <workItem from="1720381422833" duration="19362000" />
       <workItem from="1720706159011" duration="186000" />
-      <workItem from="1720759229580" duration="8356000" />
+      <workItem from="1720759229580" duration="11761000" />
     </task>
     <servers />
   </component>
