@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GetterAndSetterPractice/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GetterAndSetterPractice/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GetterAndSetterPractice/Petrol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GetterAndSetterPractice/Clock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GetterAndSetterPractice/ClockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GetterAndSetterPractice/PetrolPurchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetterAndSetterPractice/PetrolPurchase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GetterAndSetterPractice/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetterAndSetterPractice/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GetterAndSetterPractice/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetterAndSetterPractice/CarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CarTest">
+  <component name="RunManager" selected="Application.ClockTest">
     <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapterThree.AccountTest" />
       <module name="testSamples" />
@@ -81,6 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GetterAndSetterPractice.ClockTest" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GetterAndSetterPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PetrolPurchase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GetterAndSetterPractice.PetrolPurchase" />
       <module name="testSamples" />
@@ -94,26 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterThree.ShowStudent" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapterThree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClockTest" />
         <item itemvalue="Application.CarTest" />
         <item itemvalue="Application.PetrolPurchase" />
         <item itemvalue="Application.AccountTest2" />
         <item itemvalue="Application.AccountTest" />
-        <item itemvalue="Application.ShowStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +136,7 @@
       <workItem from="1719923323617" duration="42000" />
       <workItem from="1720381422833" duration="19362000" />
       <workItem from="1720706159011" duration="186000" />
-      <workItem from="1720759229580" duration="17226000" />
+      <workItem from="1720759229580" duration="18603000" />
     </task>
     <servers />
   </component>

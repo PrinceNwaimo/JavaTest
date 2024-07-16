@@ -47,6 +47,6 @@ public class Car {
     }
     public double payment(){
         double cal = (Price * discount)/100;
-        return cal;
+        return Price - cal;
     }
 }
