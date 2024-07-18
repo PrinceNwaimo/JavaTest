@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GetterAndSetterPractice/HeartRates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +132,7 @@
       <workItem from="1719923323617" duration="42000" />
       <workItem from="1720381422833" duration="19362000" />
       <workItem from="1720706159011" duration="186000" />
-      <workItem from="1720759229580" duration="31679000" />
+      <workItem from="1720759229580" duration="32947000" />
     </task>
     <servers />
   </component>

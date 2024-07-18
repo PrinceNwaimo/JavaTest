@@ -45,7 +45,5 @@ public class HeartRates {
         int age = Period.between(LocalDate.parse(dob),currentDate).getYears();
         return age;
     }
-    public int HeartRate(){
 
-    }
 }
