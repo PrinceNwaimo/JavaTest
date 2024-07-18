@@ -3,6 +3,7 @@ package GetterAndSetterPractice;
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
+import java.util.Locale;
 
 public class HeartRates {
     private String firstName;
@@ -43,10 +44,10 @@ public class HeartRates {
         this.dateOfBirth = dateOfBirth;
     }
     public int AgeCalculator(String dob){
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-        LocalDate birthdate = LocalDate.parse(dob,formatter);
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy", Locale.ENGLISH);
+        LocalDate date = LocalDate.parse(dob,formatter);
         LocalDate currentDate = LocalDate.now();
-        age = Period.between(LocalDate.parse(dob),currentDate).getYears();
+        age = Period.between(date,currentDate).getYears();
         return age;
     }
     public int MaxHeartRate(){
@@ -54,7 +55,7 @@ public class HeartRates {
         return HR;
     }
     public int TargetHR(double range){
-        int target = (int) (range * HR);
+        int target = (int) (range/100 * HR);
         return target;
     }
 
