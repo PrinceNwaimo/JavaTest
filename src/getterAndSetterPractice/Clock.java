@@ -1,4 +1,4 @@
-package GetterAndSetterPractice;
+package getterAndSetterPractice;
 
 public class Clock {
     private int hour;

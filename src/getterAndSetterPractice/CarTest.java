@@ -1,4 +1,4 @@
-package GetterAndSetterPractice;
+package getterAndSetterPractice;
 
 public class CarTest {
     public static void main(String[] args) {

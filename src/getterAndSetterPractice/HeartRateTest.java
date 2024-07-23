@@ -1,4 +1,4 @@
-package GetterAndSetterPractice;
+package getterAndSetterPractice;
 
 import java.util.Scanner;
 

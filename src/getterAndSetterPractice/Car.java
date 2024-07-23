@@ -1,4 +1,4 @@
-package GetterAndSetterPractice;
+package getterAndSetterPractice;
 
 public class Car {
     private String Model;

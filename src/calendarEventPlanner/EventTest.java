@@ -1,4 +1,4 @@
-package Calendar;
+package calendarEventPlanner;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,6 +1,5 @@
-package GetterAndSetterPractice;
+package getterAndSetterPractice;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class PetrolPurchase {
