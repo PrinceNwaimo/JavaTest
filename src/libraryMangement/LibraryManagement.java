@@ -108,9 +108,9 @@ public class LibraryManagement extends JFrame implements ActionListener {
             frame.setSize(800,400);
             frame.setVisible(true);
         } else if (e.getSource()== editButton) {
-            String bookID = JOptionPane.showInputDialog(this,"Enter ID to edit");
+            String bookID = JOptionPane.showInputDialog(this, "Enter ID to edit");
             for (int i = 0; i < books.size(); i++) {
-                if(books.get(i)[0].equals(bookID)) {
+                if (books.get(i)[0].equals(bookID)) {
                     String[] book = new String[7];
                     book[0] = bookID;
                     book[1] = textField2.getText();
@@ -126,8 +126,38 @@ public class LibraryManagement extends JFrame implements ActionListener {
                 }
 
             }
-
+            JOptionPane.showMessageDialog(this, "Book not found");
+        }else if(e.getSource() == deleteButton) {
+            String bookID = JOptionPane.showInputDialog(this, "Enter ID to delete: ");
+            for (int i = 0; i < books.size(); i++) {
+                if (books.get(i)[0].equals(bookID)) {
+                    books.remove(i);
+                    JOptionPane.showMessageDialog(this, "Book deleted");
+                    clearFields();
+                    return;
+                }
+            }
+            JOptionPane.showMessageDialog(this, "Book not found");
+        } else if (e.getSource() == clearButton) {
+            clearFields();
+        } else if (e.getSource() == exitButton) {
+            System.exit(0);
         }
+    }
+private void clearFields(){
+        textField1.setText("");
+        textField2.setText("");
+        textField3.setText("");
+        textField4.setText("");
+        textField5.setText("");
+        textField6.setText("");
+        textField7.setText("");
+    }
+
+    public static void main(String[] args) {
+        new LibraryManagement();
 
     }
-}
+
+    }
+
