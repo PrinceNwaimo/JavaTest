@@ -76,6 +76,34 @@ public class LibraryManagement extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        if(e.getSource() == addButton) {
+            String[] book = new String[7];
+            book[0] = textField1.getText();
+            book[1] = textField2.getText();
+            book[2] = textField3.getText();
+            book[3] = textField4.getText();
+            book[4] = textField5.getText();
+            book[5] = textField6.getText();
+            book[6] = textField7.getText();
+            books.add(book);
+            JOptionPane.showMessageDialog(this, "Book added successfully");
+            clearFields();
+
+        } else if (e.getSource()== viewButton) {
+            String[] columns = {"Book ID", "Book Title","Author", "Publisher","Year of Publication","ISBN","Number of Copies"};
+            Object[][] data = new Object[books.size()][7];
+            for (int i = 0; i < books.size(); i++) {
+                data[i][0]= books.get(i)[0];
+                data[i][1]= books.get(i)[1];
+                data[i][2]= books.get(i)[2];
+                data[i][3]= books.get(i)[3];
+                data[i][4]= books.get(i)[4];
+                data[i][5]= books.get(i)[5];
+                data[i][6]= books.get(i)[6];
+            }
+
+
+        }
 
     }
 }
