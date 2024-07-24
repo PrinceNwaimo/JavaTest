@@ -101,7 +101,31 @@ public class LibraryManagement extends JFrame implements ActionListener {
                 data[i][5]= books.get(i)[5];
                 data[i][6]= books.get(i)[6];
             }
+            JTable table = new JTable(data, columns);
+            JScrollPane scrollPane = new JScrollPane(table);
+            JFrame frame = new JFrame("View Books");
+            frame.add(scrollPane);
+            frame.setSize(800,400);
+            frame.setVisible(true);
+        } else if (e.getSource()== editButton) {
+            String bookID = JOptionPane.showInputDialog(this,"Enter ID to edit");
+            for (int i = 0; i < books.size(); i++) {
+                if(books.get(i)[0].equals(bookID)) {
+                    String[] book = new String[7];
+                    book[0] = bookID;
+                    book[1] = textField2.getText();
+                    book[2] = textField3.getText();
+                    book[3] = textField4.getText();
+                    book[4] = textField5.getText();
+                    book[5] = textField6.getText();
+                    book[6] = textField7.getText();
+                    books.set(i, book);
+                    JOptionPane.showMessageDialog(this, "Book edited");
+                    clearFields();
+                    return;
+                }
 
+            }
 
         }
 
