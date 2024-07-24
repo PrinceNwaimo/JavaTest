@@ -1,0 +1,77 @@
+ Here's a basic deployment script for deploying your Spring Boot application to a development environment. This script assumes that you have Docker installed on your dev environment server and that your application is containerized using Docker.
+Dockerfile for the Spring Boot application:
+Make sure you have a Dockerfile that builds your Spring Boot application. Here's an example:
+FROM openjdk:11-jre-slim
+VOLUME /tmp
+COPY target/your-app.jar app.jar
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+
+Docker Compose file (optional):
+If your application depends on other services like a PostgreSQL database, you can use Docker Compose to manage these services. Here's an example docker-compose.yml:
+version: '3.8'
+services:
+  app:
+    image: your-dockerhub-username/your-app:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+      - DATABASE_URL=jdbc:postgresql://your-db-host:5432/your-db-name
+      - DATABASE_USERNAME=your-db-username
+      - DATABASE_PASSWORD=your-db-password
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: your-db-name
+      POSTGRES_USER: your-db-username
+      POSTGRES_PASSWORD: your-db-password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+volumes:
+  postgres-data:
+Deployment script:
+Here is a deployment script that will build the Docker image, push it to Docker Hub (or another registry), and then deploy it using Docker Compose. Save this as deploy.sh:
+#!/bin/bash
+
+# Variables
+APP_NAME="your-app"
+DOCKER_USERNAME="your-dockerhub-username"
+VERSION="latest"
+
+# Build the Docker image
+echo "Building the Docker image..."
+mvn clean package -DskipTests
+docker build -t $DOCKER_USERNAME/$APP_NAME:$VERSION .
+
+# Push the Docker image to Docker Hub
+echo "Pushing the Docker image to Docker Hub..."
+docker push $DOCKER_USERNAME/$APP_NAME:$VERSION
+
+# SSH into the server and deploy the Docker image
+echo "Deploying the Docker image to the server..."
+ssh your-username@your-server-ip << EOF
+  docker pull $DOCKER_USERNAME/$APP_NAME:$VERSION
+  docker-compose down
+  docker-compose up -d
+EOF
+
+echo "Deployment complete!"
+
+Make the script executable:
+Ensure the deploy.sh script is executable by running:
+chmod +x deploy.sh
+Run the deployment script:
+Execute the deployment script:
+./deploy.sh
+
+Explanation
+Dockerfile: Defines how to build the Docker image for your Spring Boot application.
+docker-compose.yml: Defines the services needed for your application, including the app and a PostgreSQL database.
+deploy.sh: A script to build, push, and deploy the Docker image. It assumes you are using Maven to build your Spring Boot application and Docker Compose to manage your containers.
+Prerequisites
+Docker and Docker Compose: Installed on your development environment.
+SSH access: To your development server.
+Maven: For building the Spring Boot application.
+Docker Hub account: Or another Docker image registry.
