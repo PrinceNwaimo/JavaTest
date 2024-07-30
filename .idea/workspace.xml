@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SureFirre Script" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ifAndElseStatements/BMI_Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ifAndElseStatements/SubtractionQuiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,26 +39,13 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NestedIf">
-    <configuration name="CalendarApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="calendarEventPlanner.CalendarApplication" />
+  <component name="RunManager" selected="Application.BMI_Calculator">
+    <configuration name="BMI_Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ifAndElseStatements.BMI_Calculator" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="calendarEventPlanner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LibraryManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="libraryMangement.LibraryManagement" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="libraryMangement.*" />
+          <option name="PATTERN" value="ifAndElseStatements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,6 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubtractionQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ifAndElseStatements.SubtractionQuiz" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ifAndElseStatements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoWayIFElse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="conditionStatements.TwoWayIFElse" />
       <module name="testSamples" />
@@ -105,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BMI_Calculator" />
+        <item itemvalue="Application.SubtractionQuiz" />
         <item itemvalue="Application.NestedIf" />
         <item itemvalue="Application.TwoWayIFElse" />
         <item itemvalue="Application.OneWayIf" />
-        <item itemvalue="Application.LibraryManagement" />
-        <item itemvalue="Application.CalendarApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +137,9 @@
       <workItem from="1720759229580" duration="38565000" />
       <workItem from="1721715132143" duration="6516000" />
       <workItem from="1721822602501" duration="3642000" />
+      <workItem from="1721982240482" duration="1058000" />
+      <workItem from="1722027320186" duration="723000" />
+      <workItem from="1722318565824" duration="2003000" />
     </task>
     <servers />
   </component>
