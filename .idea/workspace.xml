@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ifAndElseStatements/ExampleWIthSystemOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ifAndElseStatements/Lottery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ifAndElseStatements/SwitchCaseExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ifAndElseStatements/TestBooleanOperators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ifAndElseStatements/leapYear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +37,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ExampleWIthSystemOut">
+  <component name="RunManager" selected="Application.QuadraticEquation">
     <configuration name="BMI_Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ifAndElseStatements.BMI_Calculator" />
       <module name="testSamples" />
@@ -69,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conditionStatements.NestedIf" />
+    <configuration name="QuadraticEquation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ifAndElseStatements.QuadraticEquation" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="conditionStatements.*" />
+          <option name="PATTERN" value="ifAndElseStatements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoWayIFElse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conditionStatements.TwoWayIFElse" />
+    <configuration name="SwitchCaseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ifAndElseStatements.SwitchCaseExample" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="conditionStatements.*" />
+          <option name="PATTERN" value="ifAndElseStatements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuadraticEquation" />
+        <item itemvalue="Application.SwitchCaseExample" />
         <item itemvalue="Application.ExampleWIthSystemOut" />
         <item itemvalue="Application.BMI_Calculator" />
         <item itemvalue="Application.SubtractionQuiz" />
-        <item itemvalue="Application.NestedIf" />
-        <item itemvalue="Application.TwoWayIFElse" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +138,8 @@
       <workItem from="1721982240482" duration="1058000" />
       <workItem from="1722027320186" duration="723000" />
       <workItem from="1722318565824" duration="2433000" />
-      <workItem from="1722371109927" duration="2037000" />
+      <workItem from="1722371109927" duration="2117000" />
+      <workItem from="1722603990283" duration="956000" />
     </task>
     <servers />
   </component>
