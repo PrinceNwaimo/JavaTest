@@ -12,6 +12,11 @@ public class BMI_Calculator {
         System.out.print("Enter height in inches: ");
         double height = input.nextDouble();
 
+        BMI(weight, height);
+    }
+
+    public static void BMI( double weight, double height){
+
         final double KILOGRAMS_PER_POUND = 0.45359237;
         final double METRES_PER_INCH = 0.0254;
 

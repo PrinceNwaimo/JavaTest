@@ -8,10 +8,10 @@ public class AdditionalQuiz1 {
         int number2 = (int)(System.currentTimeMillis() / 7 % 10);
         int number3 = (int)(System.currentTimeMillis() / 7 % 10);
         Scanner input = new Scanner(System.in);
-        System.out.print("What is " + number1 + " + " + number2 + "? ");
+        System.out.print("What is " + number1 + " + " + number2 + " + "  +number3 + "? ");
         int answer = input.nextInt();
-        int correct = number1 + number2;
-        System.out.println(number1 + " + " + number2 + " = " + answer + " is " + (number1 + number2 == answer));
-        System.out.println(number1 + " + " + number2 + " = " + correct );
+        int correct = number1 + number2 + number3;
+        System.out.println(number1 + " + " + number2 + " + "+ number3 + " = " + answer + " is " + (number1 + number2 + number3 == answer));
+        System.out.println(number1 + " + " + number2 + " + "+ number3 + " = " + correct );
     }
 }
