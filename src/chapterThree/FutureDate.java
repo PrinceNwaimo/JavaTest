@@ -10,35 +10,35 @@ public class FutureDate {
         System.out.print("Enter the number of days elapsed since today: ");
         int elapsed = input.nextInt();
 
-        Day(day);
-        int cal = Day(day + elapsed);
-
+        String select = Calculate(day, elapsed);
+        System.out.println(select);
 
     }
-    public static int Day(int day){
+
+    public static String Calculate(int day, int elapsed){
+         String val = ((Day(day)));
+        String cal = (Day(day + elapsed));
+
+        return "Today is "+val +" and the future day is "+cal;
+
+    }
+    public static String Day(int day){
         switch (day % 7){
             case 0 :
-                System.out.println("Sunday");
-                break;
+                return "Sunday";
             case 1:
-                System.out.println("Monday");
-                break;
+                return "Monday";
             case 2:
-                System.out.println("Tuesday");
-                break;
+                return "Tuesday";
             case 3:
-                System.out.println("Wednesday");
-                break;
+                return "Wednesday";
             case 4:
-                System.out.println("Thursday");
-                break;
+                return "Thursday";
             case 5:
-                System.out.println("Friday");
-                break;
+                return "Friday";
             case 6:
-                System.out.println("Saturday");
-
+                return"Saturday";
         }
-        return day;
+        return "invalid day";
     }
 }

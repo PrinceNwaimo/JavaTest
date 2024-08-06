@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapterThree/FutureDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterThree/RandomMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/CramersRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ifAndElseStatements/Algebra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/HealthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/SortingIntegers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ifAndElseStatements/AdditionalQuiz1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifAndElseStatements/AdditionalQuiz1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ifAndElseStatements/BMI_Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifAndElseStatements/BMI_Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ifAndElseStatements/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifAndElseStatements/QuadraticEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterThree/FutureDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterThree/FutureDate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +40,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FutureDate">
-    <configuration name="Algebra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ifAndElseStatements.Algebra" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ifAndElseStatements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SortingIntegers">
     <configuration name="BMI_Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ifAndElseStatements.BMI_Calculator" />
       <module name="testSamples" />
@@ -71,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CramersRule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterTwo.CramersRule" />
+    <configuration name="FutureDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterThree.FutureDate" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterTwo.*" />
+          <option name="PATTERN" value="chapterThree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FutureDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterThree.FutureDate" />
+    <configuration name="HealthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterThree.HealthApplication" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -110,13 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortingIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterThree.SortingIntegers" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingIntegers" />
+        <item itemvalue="Application.HealthApplication" />
         <item itemvalue="Application.FutureDate" />
         <item itemvalue="Application.BMI_Calculator" />
         <item itemvalue="Application.RandomMonth" />
-        <item itemvalue="Application.Algebra" />
-        <item itemvalue="Application.CramersRule" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +142,7 @@
       <workItem from="1722027320186" duration="723000" />
       <workItem from="1722318565824" duration="2433000" />
       <workItem from="1722371109927" duration="2117000" />
-      <workItem from="1722603990283" duration="8518000" />
+      <workItem from="1722603990283" duration="16224000" />
     </task>
     <servers />
   </component>
