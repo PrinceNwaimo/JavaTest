@@ -27,5 +27,6 @@ public class SortingIntegers {
             num2 = num3;
             num3 = temp;
         }
+        System.out.println(num1 +","+ num2+","+num3);
     }
 }
