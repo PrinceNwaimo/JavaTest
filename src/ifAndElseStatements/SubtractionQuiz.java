@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class SubtractionQuiz {
     public static void main(String[] args) {
 
-        int number1 = (int)(Math.random() * 10);
-        int number2 = (int)(Math.random() * 10);
+        int number1 = (int)(Math.random() * 100);
+        int number2 = (int)(Math.random() * 100);
 
         if(number1 < number2){
             int temp = number1;
