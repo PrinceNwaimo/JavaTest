@@ -1,4 +1,4 @@
-package ifAndElseStatements;
+package sortAlgorithms;
 
 import java.util.Scanner;
 

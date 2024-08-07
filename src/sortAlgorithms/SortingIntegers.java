@@ -1,4 +1,4 @@
-package chapterThree;
+package sortAlgorithms;
 
 import java.util.Scanner;
 
