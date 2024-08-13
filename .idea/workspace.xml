@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/HeadsOrTails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/Lottery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/NumberOfDays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/ScissorRockPaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/WindChillTemperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sortAlgorithms/PalindromeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterThree/ISBN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterThree/ISBN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ifAndElseStatements/SubtractionQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifAndElseStatements/SubtractionQuiz.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +43,9 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SubtractionQuiz">
-    <configuration name="FutureDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterThree.FutureDate" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapterThree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HealthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterThree.HealthApplication" />
+  <component name="RunManager" selected="Application.HeadsOrTails">
+    <configuration name="HeadsOrTails" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterThree.HeadsOrTails" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -71,6 +62,19 @@
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
+          <option name="PATTERN" value="sortAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberOfDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterThree.NumberOfDays" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
           <option name="PATTERN" value="chapterThree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
@@ -79,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterThree.SortingIntegers" />
+    <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sortAlgorithms.PalindromeNumber" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterThree.*" />
+          <option name="PATTERN" value="sortAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,11 +97,11 @@
       </method>
     </configuration>
     <configuration name="SubtractionQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ifAndElseStatements.SubtractionQuiz" />
+      <option name="MAIN_CLASS_NAME" value="sortAlgorithms.SubtractionQuiz" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ifAndElseStatements.*" />
+          <option name="PATTERN" value="sortAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeadsOrTails" />
+        <item itemvalue="Application.NumberOfDays" />
+        <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.SubtractionQuiz" />
         <item itemvalue="Application.ISBN" />
-        <item itemvalue="Application.SortingIntegers" />
-        <item itemvalue="Application.HealthApplication" />
-        <item itemvalue="Application.FutureDate" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +145,11 @@
       <workItem from="1722027320186" duration="723000" />
       <workItem from="1722318565824" duration="2433000" />
       <workItem from="1722371109927" duration="2117000" />
-      <workItem from="1722603990283" duration="24520000" />
+      <workItem from="1722603990283" duration="28898000" />
+      <workItem from="1723149492816" duration="3769000" />
+      <workItem from="1723175046494" duration="143000" />
+      <workItem from="1723183687079" duration="1781000" />
+      <workItem from="1723523121454" duration="2315000" />
     </task>
     <servers />
   </component>
