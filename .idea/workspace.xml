@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/CircleOverlap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/CostOfShipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/CurrencyExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/IntersectingPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/PickACard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/PointInCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/PointInRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/PointInTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/PointPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/RandomCoordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/RectangleOverlap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterThree/ZellersCongruence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterThree/ScissorRockPaper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterThree/ScissorRockPaper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,26 +50,13 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HeadsOrTails">
+  <component name="RunManager" selected="Application.ZellersCongruence">
     <configuration name="HeadsOrTails" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapterThree.HeadsOrTails" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chapterThree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ISBN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterThree.ISBN" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sortAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZellersCongruence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterThree.ZellersCongruence" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZellersCongruence" />
         <item itemvalue="Application.HeadsOrTails" />
         <item itemvalue="Application.NumberOfDays" />
         <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.SubtractionQuiz" />
-        <item itemvalue="Application.ISBN" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +156,8 @@
       <workItem from="1723149492816" duration="3769000" />
       <workItem from="1723175046494" duration="143000" />
       <workItem from="1723183687079" duration="1781000" />
-      <workItem from="1723523121454" duration="4307000" />
+      <workItem from="1723523121454" duration="4971000" />
+      <workItem from="1723698751137" duration="1660000" />
     </task>
     <servers />
   </component>
