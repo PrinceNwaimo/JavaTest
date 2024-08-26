@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mathsClasses/FormatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stringsMethods/LotteryUsingStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/AreaOfPentagon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/AsciiCodeToChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/DaysOfMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/DecimalToHex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/FindUnicode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/GeographyArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/GreatCircleDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/HexToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/HexagonArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/LetterGradeToNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/LetterToNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/Payroll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/PentagonCornerPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/PolygonArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/RandomCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/RandomPointsOnCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/StudentMajorAndStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathsClasses/VowelOrConsonant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sortAlgorithms/OrderCities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stringsMethods/CheckSSN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stringsMethods/CheckSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stringsMethods/GeneratePlateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stringsMethods/GuessBirthday2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stringsMethods/ProcessString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +61,22 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LotteryUsingStrings">
-    <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringsMethods.Example1" />
+  <component name="RunManager" selected="Application.GeneratePlateNumber">
+    <configuration name="AsciiCodeToChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathsClasses.AsciiCodeToChar" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mathsClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneratePlateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stringsMethods.GeneratePlateNumber" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -53,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HexDigit2Dec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringsMethods.HexDigit2Dec" />
+    <configuration name="GreatCircleDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathsClasses.GreatCircleDistance" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringsMethods.*" />
+          <option name="PATTERN" value="mathsClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LotteryUsingStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringsMethods.LotteryUsingStrings" />
+    <configuration name="PolygonArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathsClasses.PolygonArea" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringsMethods.*" />
+          <option name="PATTERN" value="mathsClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,25 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTwoCities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringsMethods.OrderTwoCities" />
+    <configuration name="RandomPointsOnCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathsClasses.RandomPointsOnCircle" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringsMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Substring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringsMethods.Substring" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stringsMethods.*" />
+          <option name="PATTERN" value="mathsClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LotteryUsingStrings" />
-        <item itemvalue="Application.HexDigit2Dec" />
-        <item itemvalue="Application.Substring" />
-        <item itemvalue="Application.OrderTwoCities" />
-        <item itemvalue="Application.Example1" />
+        <item itemvalue="Application.GeneratePlateNumber" />
+        <item itemvalue="Application.AsciiCodeToChar" />
+        <item itemvalue="Application.RandomPointsOnCircle" />
+        <item itemvalue="Application.PolygonArea" />
+        <item itemvalue="Application.GreatCircleDistance" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +172,8 @@
       <workItem from="1723786764584" duration="785000" />
       <workItem from="1724130422850" duration="2067000" />
       <workItem from="1724270413621" duration="7008000" />
+      <workItem from="1724408767049" duration="163000" />
+      <workItem from="1724647976757" duration="4724000" />
     </task>
     <servers />
   </component>
