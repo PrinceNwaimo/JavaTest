@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="" />
+    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/diettel4/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel4/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathsClasses/AreaOfPentagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mathsClasses/AreaOfPentagon.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +40,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GeneratePlateNumber">
+  <component name="RunManager" selected="Application.StudentTest">
     <configuration name="AsciiCodeToChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mathsClasses.AsciiCodeToChar" />
       <module name="testSamples" />
@@ -55,19 +60,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="stringsMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GreatCircleDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathsClasses.GreatCircleDistance" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mathsClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,13 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel4.StudentTest" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettel4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentTest" />
         <item itemvalue="Application.GeneratePlateNumber" />
         <item itemvalue="Application.AsciiCodeToChar" />
         <item itemvalue="Application.RandomPointsOnCircle" />
         <item itemvalue="Application.PolygonArea" />
-        <item itemvalue="Application.GreatCircleDistance" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +152,12 @@
       <workItem from="1724130422850" duration="2067000" />
       <workItem from="1724270413621" duration="7008000" />
       <workItem from="1724408767049" duration="163000" />
-      <workItem from="1724647976757" duration="5031000" />
+      <workItem from="1724647976757" duration="5248000" />
+      <workItem from="1724662207130" duration="655000" />
+      <workItem from="1724674612555" duration="707000" />
+      <workItem from="1724760049386" duration="36000" />
+      <workItem from="1724764816515" duration="15000" />
+      <workItem from="1725339828537" duration="3090000" />
     </task>
     <servers />
   </component>
