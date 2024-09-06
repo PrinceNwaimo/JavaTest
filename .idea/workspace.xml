@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettel4/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel4/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel4/AverageCal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel4/ClassAverage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mathsClasses/AreaOfPentagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mathsClasses/AreaOfPentagon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StudentTest">
+  <component name="RunManager" selected="Application.AverageCal">
     <configuration name="AsciiCodeToChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mathsClasses.AsciiCodeToChar" />
       <module name="testSamples" />
@@ -54,38 +53,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AverageCal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel4.AverageCal" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettel4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel4.ClassAverage" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettel4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GeneratePlateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stringsMethods.GeneratePlateNumber" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="stringsMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PolygonArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathsClasses.PolygonArea" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mathsClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomPointsOnCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathsClasses.RandomPointsOnCircle" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mathsClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AverageCal" />
+        <item itemvalue="Application.ClassAverage" />
         <item itemvalue="Application.StudentTest" />
         <item itemvalue="Application.GeneratePlateNumber" />
         <item itemvalue="Application.AsciiCodeToChar" />
-        <item itemvalue="Application.RandomPointsOnCircle" />
-        <item itemvalue="Application.PolygonArea" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +156,9 @@
       <workItem from="1724674612555" duration="707000" />
       <workItem from="1724760049386" duration="36000" />
       <workItem from="1724764816515" duration="15000" />
-      <workItem from="1725339828537" duration="3090000" />
+      <workItem from="1725339828537" duration="3945000" />
+      <workItem from="1725371510930" duration="1190000" />
+      <workItem from="1725601980826" duration="1417000" />
     </task>
     <servers />
   </component>
