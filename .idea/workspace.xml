@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettel4/GasMileage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel4/SalesCommissionCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel4/TaxCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +159,7 @@
       <workItem from="1725371510930" duration="1190000" />
       <workItem from="1725601980826" duration="1741000" />
       <workItem from="1725893720409" duration="32000" />
-      <workItem from="1725897281384" duration="12364000" />
+      <workItem from="1725897281384" duration="12682000" />
     </task>
     <servers />
   </component>
