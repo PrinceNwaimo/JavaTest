@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettel4/BinaryToDecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel4/CalculateEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel4/CreditLimitCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel4/EstimateE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel4/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel4/NumberComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel4/PointDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel4/RightAngledTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel4/SumReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/makingAdifference/Decryption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/makingAdifference/Encryption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/makingAdifference/WorldPopulationGrowth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel4/LargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel4/TabularOutput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,20 +39,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GasMileage">
-    <configuration name="ClassAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel4.ClassAnalysis" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettel4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TabularOutput">
     <configuration name="GasMileage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="diettel4.GasMileage" />
       <module name="testSamples" />
@@ -89,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MembersAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel4.MembersAnalyzer" />
+    <configuration name="LargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel4.LargestNumber" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -115,13 +92,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TabularOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel4.TabularOutput" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettel4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TabularOutput" />
+        <item itemvalue="Application.LargestNumber" />
         <item itemvalue="Application.GasMileage" />
         <item itemvalue="Application.Membership" />
         <item itemvalue="Application.Increment" />
-        <item itemvalue="Application.MembersAnalyzer" />
-        <item itemvalue="Application.ClassAnalysis" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +160,8 @@
       <workItem from="1725371510930" duration="1190000" />
       <workItem from="1725601980826" duration="1741000" />
       <workItem from="1725893720409" duration="32000" />
-      <workItem from="1725897281384" duration="14272000" />
+      <workItem from="1725897281384" duration="16085000" />
+      <workItem from="1726093803767" duration="2590000" />
     </task>
     <servers />
   </component>
