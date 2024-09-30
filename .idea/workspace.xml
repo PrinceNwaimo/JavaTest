@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettel4/TwoLargestNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel5/Interest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel5/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/diettel4/TabularOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diettel4/TabularOutput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +39,13 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TabularOutput">
-    <configuration name="GasMileage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel4.GasMileage" />
+  <component name="RunManager" selected="Application.Interest">
+    <configuration name="Interest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel5.Interest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettel4.*" />
+          <option name="PATTERN" value="diettel5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Membership" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel4.Membership" />
+    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel5.Sum" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettel4.*" />
+          <option name="PATTERN" value="diettel5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Interest" />
+        <item itemvalue="Application.Sum" />
         <item itemvalue="Application.TabularOutput" />
         <item itemvalue="Application.TwoLargestNumbers" />
         <item itemvalue="Application.LargestNumber" />
-        <item itemvalue="Application.GasMileage" />
-        <item itemvalue="Application.Membership" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +164,9 @@
       <workItem from="1726093803767" duration="2590000" />
       <workItem from="1726127986809" duration="216000" />
       <workItem from="1726141383709" duration="17000" />
-      <workItem from="1726173060970" duration="997000" />
+      <workItem from="1726173060970" duration="1688000" />
+      <workItem from="1727329984291" duration="684000" />
+      <workItem from="1727452857684" duration="1857000" />
     </task>
     <servers />
   </component>
