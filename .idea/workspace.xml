@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettel5/StudentGrades.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +169,7 @@
       <workItem from="1727863439315" duration="79000" />
       <workItem from="1727931955418" duration="4239000" />
       <workItem from="1728054293555" duration="1042000" />
-      <workItem from="1728281321843" duration="14328000" />
+      <workItem from="1728281321843" duration="15756000" />
     </task>
     <servers />
   </component>
