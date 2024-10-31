@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liang5/FutureTuition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang5/KilogramsToPounds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang5/Dec2Hex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang5/MilesToKilometers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +39,9 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.KilogramsToPounds">
-    <configuration name="CurrentValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang5.CurrentValue" />
+  <component name="RunManager" selected="Application.Dec2Hex">
+    <configuration name="Dec2Hex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang5.Dec2Hex" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreatestCommonDivisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang5.GreatestCommonDivisor" />
+    <configuration name="KilogramsToPounds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang5.KilogramsToPounds" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KilogramsToPounds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang5.KilogramsToPounds" />
+    <configuration name="MilesToKilometers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang5.MilesToKilometers" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dec2Hex" />
+        <item itemvalue="Application.MilesToKilometers" />
         <item itemvalue="Application.KilogramsToPounds" />
         <item itemvalue="Application.MultiplicationTable" />
         <item itemvalue="Application.FutureTuition" />
-        <item itemvalue="Application.GreatestCommonDivisor" />
-        <item itemvalue="Application.CurrentValue" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +173,7 @@
       <workItem from="1728054293555" duration="1042000" />
       <workItem from="1728281321843" duration="16819000" />
       <workItem from="1729489957391" duration="1788000" />
-      <workItem from="1729624714630" duration="15356000" />
+      <workItem from="1729624714630" duration="16766000" />
     </task>
     <servers />
   </component>
