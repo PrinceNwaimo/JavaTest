@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liang5/MeanAndStandardDeviation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang5/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang5/CountUppercaseLetters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +171,7 @@
       <workItem from="1728054293555" duration="1042000" />
       <workItem from="1728281321843" duration="16819000" />
       <workItem from="1729489957391" duration="1788000" />
-      <workItem from="1729624714630" duration="21059000" />
+      <workItem from="1729624714630" duration="21364000" />
     </task>
     <servers />
   </component>
