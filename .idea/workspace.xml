@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liang5/DivisibleBy5And6.java" afterDir="false" />
-    </list>
+    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +169,7 @@
       <workItem from="1728054293555" duration="1042000" />
       <workItem from="1728281321843" duration="16819000" />
       <workItem from="1729489957391" duration="1788000" />
-      <workItem from="1729624714630" duration="31042000" />
+      <workItem from="1729624714630" duration="31367000" />
     </task>
     <servers />
   </component>
