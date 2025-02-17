@@ -12,11 +12,10 @@ public class CarlysEventPriceWithEventClass {
         displayEventDetails(event);
     }
 
-    public static String getEventNumber() {
+    public static int getEventNumber() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the event number: ");
-        String eventNumber = scanner.next();
-        scanner.close();
+        int eventNumber = scanner.nextInt();
         return eventNumber;
     }
 
@@ -24,7 +23,6 @@ public class CarlysEventPriceWithEventClass {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of guests: ");
         int guests = scanner.nextInt();
-        scanner.close();
         return guests;
     }
 

@@ -4,11 +4,11 @@ public class Event {
     public final static int PRICE_PER_GUEST = 35;
     public final static int LARGE_EVENT_CUTOFF = 50;
 
-    private String eventNumber;
+    private int eventNumber;
     private int guests;
     private double price;
 
-    public void setEventNumber(String eventNumber) {
+    public void setEventNumber(int eventNumber) {
         this.eventNumber = eventNumber;
     }
 
@@ -17,7 +17,7 @@ public class Event {
         this.price = guests * PRICE_PER_GUEST;
     }
 
-    public String getEventNumber() {
+    public int getEventNumber() {
         return eventNumber;
     }
 
