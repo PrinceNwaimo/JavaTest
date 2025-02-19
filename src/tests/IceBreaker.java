@@ -1,3 +1,5 @@
+package tests;
+
 public class IceBreaker {
     public static void main(String[] args) {
         function(4,5);
