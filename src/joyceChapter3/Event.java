@@ -8,6 +8,8 @@ public class Event {
     private int guests;
     private double price;
 
+
+
     public void setEventNumber(int eventNumber) {
         this.eventNumber = eventNumber;
     }
