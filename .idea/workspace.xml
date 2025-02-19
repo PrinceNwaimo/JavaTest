@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/DemoBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/DemoOverload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IceBreaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/joyceChapter3/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceChapter3/Event.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,7 @@
     "Application.CarlysEventPriceWithMethods.executor": "Run",
     "Application.DemoBlock.executor": "Run",
     "Application.DemoOverload.executor": "Run",
+    "Application.IceBreaker.executor": "Run",
     "Application.ParadiseInfo.executor": "Run",
     "Application.PickTwoCards.executor": "Run",
     "Application.SammysRentalDemo.executor": "Run",
@@ -59,7 +58,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DemoOverload">
+  <component name="RunManager" selected="Application.IceBreaker">
     <configuration name="CarlysEventPriceWithEventClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceChapter3.CarlysEventPriceWithEventClass" />
       <module name="testSamples" />
@@ -99,15 +98,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SammysRentalPriceWithMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter3.SammysRentalPriceWithMethods" />
+    <configuration name="IceBreaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IceBreaker" />
       <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joyceChapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IceBreaker" />
         <item itemvalue="Application.DemoOverload" />
         <item itemvalue="Application.DemoBlock" />
         <item itemvalue="Application.CarlysEventPriceWithEventClass" />
         <item itemvalue="Application.TwoCharacters" />
-        <item itemvalue="Application.SammysRentalPriceWithMethods" />
       </list>
     </recent_temporary>
   </component>
