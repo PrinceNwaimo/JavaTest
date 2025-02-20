@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/IceBreaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/IceBreaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/BaseballPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/BaseballPlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/CarInsurancePolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/CreatePolicies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/IceBreaker2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/IceBreaker2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +41,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BaseballPlayerTest.executor": "Run",
     "Application.CarlysEventPriceWithEventClass.executor": "Run",
     "Application.CarlysEventPriceWithMethods.executor": "Run",
+    "Application.CreatePolicies.executor": "Run",
     "Application.DemoBlock.executor": "Run",
     "Application.DemoOverload.executor": "Run",
     "Application.IceBreaker.executor": "Run",
+    "Application.IceBreaker2.executor": "Run",
     "Application.ParadiseInfo.executor": "Run",
     "Application.PickTwoCards.executor": "Run",
     "Application.SammysRentalDemo.executor": "Run",
@@ -57,13 +65,13 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IceBreaker2">
-    <configuration name="CarlysEventPriceWithEventClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter3.CarlysEventPriceWithEventClass" />
+  <component name="RunManager" selected="Application.BaseballPlayerTest">
+    <configuration name="BaseballPlayerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceChapter4.BaseballPlayerTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceChapter3.*" />
+          <option name="PATTERN" value="joyceChapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter4.DemoBlock" />
+    <configuration name="CreatePolicies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceChapter4.CreatePolicies" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaseballPlayerTest" />
+        <item itemvalue="Application.CreatePolicies" />
         <item itemvalue="Application.IceBreaker2" />
         <item itemvalue="Application.IceBreaker" />
         <item itemvalue="Application.DemoOverload" />
-        <item itemvalue="Application.DemoBlock" />
-        <item itemvalue="Application.CarlysEventPriceWithEventClass" />
       </list>
     </recent_temporary>
   </component>

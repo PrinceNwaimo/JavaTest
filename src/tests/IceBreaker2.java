@@ -6,7 +6,7 @@ public class IceBreaker2 {
         }
 
         public static void function(int x, int y) {
-            int product = 0; // Initialize the product to 0
+            int product = 0;
             for (int i = 0; i < y; i++) {
                 product += x;
             }
