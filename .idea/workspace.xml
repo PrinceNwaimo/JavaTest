@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/joyceChapter4/BaseballPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceChapter4/BaseballPlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/DogTriathlonParticipantTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,7 @@
     "Application.CreatePolicies.executor": "Run",
     "Application.DemoBlock.executor": "Run",
     "Application.DemoOverload.executor": "Run",
+    "Application.DogTriathlonParticipantTest.executor": "Run",
     "Application.IceBreaker.executor": "Run",
     "Application.IceBreaker2.executor": "Run",
     "Application.ParadiseInfo.executor": "Run",
@@ -60,7 +61,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BaseballPlayerTest">
+  <component name="RunManager" selected="Application.DogTriathlonParticipantTest">
     <configuration name="BaseballPlayerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceChapter4.BaseballPlayerTest" />
       <module name="testSamples" />
@@ -87,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoOverload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter4.DemoOverload" />
+    <configuration name="DogTriathlonParticipantTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceChapter4.DogTriathlonParticipantTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DogTriathlonParticipantTest" />
         <item itemvalue="Application.BaseballPlayerTest" />
         <item itemvalue="Application.CreatePolicies" />
         <item itemvalue="Application.IceBreaker2" />
         <item itemvalue="Application.IceBreaker" />
-        <item itemvalue="Application.DemoOverload" />
       </list>
     </recent_temporary>
   </component>
