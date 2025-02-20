@@ -10,5 +10,12 @@ public class BaseballPlayerTest {
         BaseballPlayer anOutfielder = new BaseballPlayer(44, .505);
         anOutfielder.showPlayer();
         aCatcher.showPlayer();
+
+
+        String baby = "Baby";
+        String BabyHub = baby.replace("Ba", "Hu").replace("by", "bby");
+        System.out.println(BabyHub);
     }
+
+
 }
