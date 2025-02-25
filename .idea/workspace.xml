@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/FormLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/FormLetterWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/Billing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/BillingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BaseballPlayerTest.executor": "Run",
+    "Application.BillingTest.executor": "Run",
     "Application.CarlysEventPriceWithEventClass.executor": "Run",
     "Application.CarlysEventPriceWithMethods.executor": "Run",
     "Application.CreatePolicies.executor": "Run",
@@ -67,9 +68,9 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FormLetter">
-    <configuration name="DeliveryDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter4.DeliveryDate" />
+  <component name="RunManager" selected="Application.BillingTest">
+    <configuration name="BillingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceChapter4.BillingTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DogTriathlonParticipantTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter4.DogTriathlonParticipantTest" />
+    <configuration name="DeliveryDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceChapter4.DeliveryDate" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BillingTest" />
         <item itemvalue="Application.FormLetter" />
         <item itemvalue="Application.TimedResponse" />
         <item itemvalue="Application.DeliveryDate" />
         <item itemvalue="Application.LocalDateDemo" />
-        <item itemvalue="Application.DogTriathlonParticipantTest" />
       </list>
     </recent_temporary>
   </component>
