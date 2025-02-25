@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/TimedResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/FormLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/FormLetterWriter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
     "Application.DemoBlock.executor": "Run",
     "Application.DemoOverload.executor": "Run",
     "Application.DogTriathlonParticipantTest.executor": "Run",
+    "Application.FormLetter.executor": "Run",
     "Application.IceBreaker.executor": "Run",
     "Application.IceBreaker2.executor": "Run",
     "Application.LocalDateDemo.executor": "Run",
@@ -65,20 +67,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TimedResponse">
-    <configuration name="BaseballPlayerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter4.BaseballPlayerTest" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joyceChapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FormLetter">
     <configuration name="DeliveryDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceChapter4.DeliveryDate" />
       <module name="testSamples" />
@@ -94,6 +83,19 @@
     </configuration>
     <configuration name="DogTriathlonParticipantTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceChapter4.DogTriathlonParticipantTest" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceChapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceChapter4.FormLetter" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FormLetter" />
         <item itemvalue="Application.TimedResponse" />
         <item itemvalue="Application.DeliveryDate" />
         <item itemvalue="Application.LocalDateDemo" />
         <item itemvalue="Application.DogTriathlonParticipantTest" />
-        <item itemvalue="Application.BaseballPlayerTest" />
       </list>
     </recent_temporary>
   </component>
