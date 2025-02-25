@@ -23,13 +23,13 @@ public class GlobalWarmingQuiz {
                 {"1) Kyoto Protocol", "2) Paris Agreement", "3) Copenhagen Accord", "4) Montreal Protocol"}
         };
 
-        // Correct answers
+
         int[] correctAnswers = {1, 1, 2, 4, 2};
 
-        // User's answers
+
         int[] userAnswers = new int[5];
 
-        // Ask the questions
+
         for (int i = 0; i < questions.length; i++) {
             System.out.println(questions[i]);
             for (String option : options[i]) {
@@ -39,14 +39,14 @@ public class GlobalWarmingQuiz {
             System.out.print("Your answer (1-4): ");
             userAnswers[i] = input.nextInt();
 
-            // Validate input
+
             while (userAnswers[i] < 1 || userAnswers[i] > 4) {
                 System.out.print("Invalid choice. Please enter a number between 1 and 4: ");
                 userAnswers[i] = input.nextInt();
             }
         }
 
-        // Calculate the score
+
         int score = 0;
         for (int i = 0; i < correctAnswers.length; i++) {
             if (userAnswers[i] == correctAnswers[i]) {
@@ -54,10 +54,10 @@ public class GlobalWarmingQuiz {
             }
         }
 
-        // Display the result
+
         System.out.printf("%nYou scored %d out of 5.%n", score);
 
-        // Provide feedback based on the score
+
         if (score == 5) {
             System.out.println("Excellent");
         } else if (score == 4) {

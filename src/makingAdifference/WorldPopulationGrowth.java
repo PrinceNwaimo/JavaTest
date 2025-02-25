@@ -2,8 +2,8 @@ package makingAdifference;
 
 public class WorldPopulationGrowth {
     public static void main(String[] args) {
-        double currentPopulation = 7.92e9; // current world population in billions
-        double growthRate = 0.012; // current growth rate (1.2%)
+        double currentPopulation = 7.92e9;
+        double growthRate = 0.012;
 
         System.out.println("Year\tPopulation (billions)\tIncrease (billions)");
 
