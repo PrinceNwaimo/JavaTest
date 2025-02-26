@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/BloodData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/FitnessTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/FitnessTrackerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/IceBreaker3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/IceBreaker3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/IceBreaker3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +51,7 @@
     "Application.FormLetter.executor": "Run",
     "Application.IceBreaker.executor": "Run",
     "Application.IceBreaker2.executor": "Run",
+    "Application.IceBreaker3.executor": "Run",
     "Application.LocalDateDemo.executor": "Run",
     "Application.ParadiseInfo.executor": "Run",
     "Application.PickTwoCards.executor": "Run",
@@ -74,7 +72,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FitnessTrackerTest">
+  <component name="RunManager" selected="Application.IceBreaker3">
     <configuration name="BillingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceChapter4.BillingTest" />
       <module name="testSamples" />
@@ -114,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter4.FormLetter" />
+    <configuration name="IceBreaker3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.IceBreaker3" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceChapter4.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IceBreaker3" />
         <item itemvalue="Application.FitnessTrackerTest" />
         <item itemvalue="Application.FiveDice" />
         <item itemvalue="Application.TwoDice" />
         <item itemvalue="Application.BillingTest" />
-        <item itemvalue="Application.FormLetter" />
       </list>
     </recent_temporary>
   </component>
