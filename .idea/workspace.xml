@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/makingAdifference/FairTaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/makingAdifference/FairTaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/BloodData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/FitnessTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/FitnessTrackerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/IceBreaker3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +49,7 @@
     "Application.DemoBlock.executor": "Run",
     "Application.DemoOverload.executor": "Run",
     "Application.DogTriathlonParticipantTest.executor": "Run",
+    "Application.FitnessTrackerTest.executor": "Run",
     "Application.FiveDice.executor": "Run",
     "Application.FormLetter.executor": "Run",
     "Application.IceBreaker.executor": "Run",
@@ -69,9 +74,22 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FiveDice">
+  <component name="RunManager" selected="Application.FitnessTrackerTest">
     <configuration name="BillingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceChapter4.BillingTest" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceChapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FitnessTrackerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceChapter4.FitnessTrackerTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -109,19 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimedResponse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter4.TimedResponse" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joyceChapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TwoDice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceChapter4.TwoDice" />
       <module name="testSamples" />
@@ -137,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FitnessTrackerTest" />
         <item itemvalue="Application.FiveDice" />
         <item itemvalue="Application.TwoDice" />
         <item itemvalue="Application.BillingTest" />
         <item itemvalue="Application.FormLetter" />
-        <item itemvalue="Application.TimedResponse" />
       </list>
     </recent_temporary>
   </component>
