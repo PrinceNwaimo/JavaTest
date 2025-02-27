@@ -59,6 +59,7 @@
     "Application.TestBloodData.executor": "Run",
     "Application.TestMonthHandling.executor": "Run",
     "Application.TestPatient.executor": "Run",
+    "Application.TestTeam.executor": "Run",
     "Application.TimedResponse.executor": "Run",
     "Application.TwoCharacters.executor": "Run",
     "Application.TwoDice.executor": "Run",
@@ -73,7 +74,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestTeam">
+  <component name="RunManager" selected="Application.TestGame">
     <configuration name="TenThousandDaysOld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceChapter4.TenThousandDaysOld" />
       <module name="testSamples" />
@@ -100,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMonthHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter4.TestMonthHandling" />
+    <configuration name="TestGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceChapter4.TestGame" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestGame" />
         <item itemvalue="Application.TestTeam" />
         <item itemvalue="Application.TestPatient" />
         <item itemvalue="Application.TestBloodData" />
         <item itemvalue="Application.TenThousandDaysOld" />
-        <item itemvalue="Application.TestMonthHandling" />
       </list>
     </recent_temporary>
   </component>
