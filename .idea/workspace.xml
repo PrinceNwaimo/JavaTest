@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="" />
+    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/Circle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +59,7 @@
     "Application.SammysRentalPriceWithMethods.executor": "Run",
     "Application.TenThousandDaysOld.executor": "Run",
     "Application.TestBloodData.executor": "Run",
+    "Application.TestGame.executor": "Run",
     "Application.TestMonthHandling.executor": "Run",
     "Application.TestPatient.executor": "Run",
     "Application.TestTeam.executor": "Run",
@@ -74,9 +77,9 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestGame">
-    <configuration name="TenThousandDaysOld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter4.TenThousandDaysOld" />
+  <component name="RunManager" selected="Application.TestCircle">
+    <configuration name="TestBloodData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceChapter4.TestBloodData" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBloodData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter4.TestBloodData" />
+    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceChapter4.TestCircle" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCircle" />
         <item itemvalue="Application.TestGame" />
         <item itemvalue="Application.TestTeam" />
         <item itemvalue="Application.TestPatient" />
         <item itemvalue="Application.TestBloodData" />
-        <item itemvalue="Application.TenThousandDaysOld" />
       </list>
     </recent_temporary>
   </component>
