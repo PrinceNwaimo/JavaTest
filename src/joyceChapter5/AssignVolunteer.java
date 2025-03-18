@@ -13,8 +13,8 @@ public class AssignVolunteer {
         final String OTHER_PRICER = "Macro";
 
         Scanner input = new Scanner(System .in);
-        System.out.println("What type if donation is this?");
-        System.out.print("Enter " + CLOTHING_CODE + "for clothing, "+ OTHER_CODE + "for anything else...");
+        System.out.println("What type of donation is this?");
+        System.out.print("Enter " +  CLOTHING_CODE  + " for clothing, "+ OTHER_CODE + " for anything else...");
 
         donationType = input.nextInt();
 
@@ -22,7 +22,7 @@ public class AssignVolunteer {
         else
             volunteer = OTHER_PRICER;
 
-        System.out.println("You entered" + donationType);
+        System.out.println("You entered " + donationType);
         System.out.println("The volunteer who will price this item is " + volunteer);
     }
 }
