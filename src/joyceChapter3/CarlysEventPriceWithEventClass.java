@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CarlysEventPriceWithEventClass {
     public static void main(String[] args) {
-        Event event = new Event();
+        Event event = new Event(50,300);
         event.setEventNumber(getEventNumber());
         event.setGuests(getNumberOfGuests());
 

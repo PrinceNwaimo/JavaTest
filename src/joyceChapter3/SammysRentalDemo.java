@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SammysRentalDemo {
     public static void main(String[] args) {
-        Rental rental = new Rental();
+        Rental rental = new Rental("08037178521",5);
         rental.setContractNumber(getContractNumber());
         rental.setHoursAndMinutes(getMinutesRented());
 

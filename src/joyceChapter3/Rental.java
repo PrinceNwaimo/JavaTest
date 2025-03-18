@@ -4,6 +4,11 @@ public class Rental {
     public final static int MINUTES_IN_HOUR = 60;
     public final static int HOURLY_RATE = 40;
 
+    public Rental(String contractNumber, int hours) {
+        this.contractNumber = contractNumber;
+        this.hours = hours;
+    }
+
     private String contractNumber;
     private int hours;
     private int extraMinutes;

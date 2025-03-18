@@ -14,6 +14,11 @@ public class Event {
         this.eventNumber = eventNumber;
     }
 
+    public Event(int eventNumber, int guests) {
+        this.eventNumber = eventNumber;
+        this.guests = guests;
+    }
+
     public void setGuests(int guests) {
         this.guests = guests;
         this.price = guests * PRICE_PER_GUEST;

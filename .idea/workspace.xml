@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-<<<<<<< HEAD
-=======
-      <change afterPath="$PROJECT_DIR$/src/joyceChapter4/MathTest.java" afterDir="false" />
->>>>>>> 84ce9dcaa023beb8e494788b61e455422d245fb0
+      <change afterPath="$PROJECT_DIR$/src/joyceChapter5/AssignVolunteer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter3/CarlysEventPriceWithEventClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceChapter3/CarlysEventPriceWithEventClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter3/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceChapter3/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter3/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceChapter3/Rental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter3/SammysRentalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceChapter3/SammysRentalDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,68 +27,28 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
   <component name="ProjectId" id="2eayY5GHIydxzwVr2Tu194vBCO6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BaseballPlayerTest.executor": "Run",
-    "Application.BillingTest.executor": "Run",
-    "Application.CarlysEventPriceWithEventClass.executor": "Run",
-    "Application.CarlysEventPriceWithMethods.executor": "Run",
-    "Application.CreatePolicies.executor": "Run",
-    "Application.DeliveryDate.executor": "Run",
-    "Application.DemoBlock.executor": "Run",
-    "Application.DemoOverload.executor": "Run",
-    "Application.DogTriathlonParticipantTest.executor": "Run",
-    "Application.FitnessTrackerTest.executor": "Run",
-    "Application.FiveDice.executor": "Run",
-    "Application.FormLetter.executor": "Run",
-    "Application.IceBreaker.executor": "Run",
-    "Application.IceBreaker2.executor": "Run",
-    "Application.IceBreaker3.executor": "Run",
-    "Application.LocalDateDemo.executor": "Run",
-    "Application.MathTest.executor": "Run",
-    "Application.ParadiseInfo.executor": "Run",
-    "Application.PickTwoCards.executor": "Run",
-    "Application.SammysRentalDemo.executor": "Run",
-    "Application.SammysRentalPrice.executor": "Run",
-    "Application.SammysRentalPriceWithMethods.executor": "Run",
-    "Application.TenThousandDaysOld.executor": "Run",
-    "Application.TestBloodData.executor": "Run",
-    "Application.TestCircle.executor": "Run",
-    "Application.TestGame.executor": "Run",
-    "Application.TestMonthHandling.executor": "Run",
-    "Application.TestPatient.executor": "Run",
-    "Application.TestTeam.executor": "Run",
-    "Application.TestWedding.executor": "Run",
-    "Application.TimedResponse.executor": "Run",
-    "Application.TwoCharacters.executor": "Run",
-    "Application.TwoDice.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/princenwaimo/IdeaProjects/JavaTest",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.MathTest">
-    <configuration name="MathTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter4.MathTest" />
+}</component>
+  <component name="RunManager" selected="Application.AssignVolunteer">
+    <configuration name="AssignVolunteer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceChapter5.AssignVolunteer" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceChapter4.*" />
+          <option name="PATTERN" value="joyceChapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter4.TestCircle" />
+    <configuration name="CarlysEventPriceWithEventClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceChapter3.CarlysEventPriceWithEventClass" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceChapter4.*" />
+          <option name="PATTERN" value="joyceChapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter4.TestGame" />
+    <configuration name="PrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang5.PrimeNumbers" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceChapter4.*" />
+          <option name="PATTERN" value="liang5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTeam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter4.TestTeam" />
+    <configuration name="TestBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang5.TestBreak" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceChapter4.*" />
+          <option name="PATTERN" value="liang5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWedding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter4.TestWedding" />
+    <configuration name="TestContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang5.TestContinue" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceChapter4.*" />
+          <option name="PATTERN" value="liang5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MathTest" />
-        <item itemvalue="Application.TestWedding" />
-        <item itemvalue="Application.TestCircle" />
-        <item itemvalue="Application.TestGame" />
-        <item itemvalue="Application.TestTeam" />
+        <item itemvalue="Application.AssignVolunteer" />
+        <item itemvalue="Application.CarlysEventPriceWithEventClass" />
+        <item itemvalue="Application.PrimeNumbers" />
+        <item itemvalue="Application.TestContinue" />
+        <item itemvalue="Application.TestBreak" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +180,7 @@
       <workItem from="1730990176591" duration="24000" />
       <workItem from="1734589503810" duration="115000" />
       <workItem from="1736499594415" duration="7000" />
+      <workItem from="1741762197124" duration="2765000" />
     </task>
     <servers />
   </component>
