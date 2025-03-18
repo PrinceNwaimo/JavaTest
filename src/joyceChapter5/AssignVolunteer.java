@@ -7,6 +7,7 @@ public class AssignVolunteer {
 
         int donationType;
         String volunteer;
+        String message;
         final int CLOTHING_CODE = 1;
         final int OTHER_CODE = 2;
         final String CLOTHING_PRICER = "Regina";
@@ -18,11 +19,17 @@ public class AssignVolunteer {
 
         donationType = input.nextInt();
 
-        if(donationType == CLOTHING_CODE) volunteer = CLOTHING_PRICER;
-        else
+        if(donationType == CLOTHING_CODE) {
+            volunteer = CLOTHING_PRICER;
+            message = "a clothing donation";
+        }
+        else {
             volunteer = OTHER_PRICER;
+            message = "a non- clothing donation";
+        }
 
         System.out.println("You entered " + donationType);
         System.out.println("The volunteer who will price this item is " + volunteer);
+        System.out.println("This is " + message);
     }
 }
