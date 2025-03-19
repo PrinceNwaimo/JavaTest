@@ -12,6 +12,8 @@ public class DogTriathlonParticipant {
     private int total;
     private double avg;
 
+    private boolean doScoresAgree;
+
 
     public DogTriathlonParticipant(String name, int numEvents, int score1, int score2, int score3) {
         this.name = name;
@@ -23,7 +25,21 @@ public class DogTriathlonParticipant {
         avg = (double) total / Num_EVENTS;
         totalCumulativeScore = totalCumulativeScore + total;
 
+        if(Num_EVENTS == 0)
+            avg = 0;
+        else
+            avg = (double) total / Num_EVENTS;
+
+        int totalNot0 = 0;
+        if(score1 != 0)
+            totalNot0 = totalNot0 + 1;
+        if(score2 != 0)
+            totalNot0 = totalNot0 + 1;
+        if(score3 != 0)
+            totalNot0 = totalNot0 + 1;
+
     }
+
 
     public void display()
     {
