@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceChapter5/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceChapter5/EventDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceChapter5/Rental.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +175,7 @@
       <workItem from="1730990176591" duration="24000" />
       <workItem from="1734589503810" duration="115000" />
       <workItem from="1736499594415" duration="7000" />
-      <workItem from="1741762197124" duration="11713000" />
+      <workItem from="1741762197124" duration="12068000" />
     </task>
     <servers />
   </component>
