@@ -10,12 +10,12 @@ public class War {
         Card playerCard = new Card(rand.nextInt(13) + 1, getSuit(rand));
         Card computerCard = new Card(rand.nextInt(13) + 1, getSuit(rand));
 
-        // Ensure the two cards are not the same
+
         while (playerCard.getValue() == computerCard.getValue() && playerCard.getSuit().equals(computerCard.getSuit())) {
             computerCard = new Card(rand.nextInt(13) + 1, getSuit(rand));
         }
 
-        // Determine the higher card
+
         System.out.println("Player's card: " + playerCard);
         System.out.println("Computer's card: " + computerCard);
 
