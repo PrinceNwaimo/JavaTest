@@ -1,4 +1,4 @@
-package joyceChapter5;
+package joyceUsingIfAndElse;
 
 public class JobApplicantTest {
     public static void main(String[] args) {

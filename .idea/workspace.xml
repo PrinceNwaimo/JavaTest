@@ -6,6 +6,35 @@
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/AcmePay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/AcmePay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/Apartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/Apartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/ApartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/ApartmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/AssignVolunteer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/AssignVolunteer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/Automobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/Automobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/AutomobileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/AutomobileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/CellPhoneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/CellPhoneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/Die.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/Die.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/DogTriathlonParticipant2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/DogTriathlonParticipant2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/EvenOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/EvenOdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/EventDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/EventDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/JobApplicant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/JobApplicant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/JobApplicantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/JobApplicantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/Lottery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/Lottery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/PastPresentFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/PastPresentFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/PastPresentFuture2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/PastPresentFuture2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/Payroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/Payroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/RandomGuess2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/RandomGuess2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/Rental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/RentalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/RentalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/RockPaperScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/RockPaperScissors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/ShadyRestRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/ShadyRestRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/ShadyRestRoom2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/ShadyRestRoom2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/ShortCircuitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/ShortCircuitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/TwelveDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/TwelveDays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/TwoDice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/TwoDice2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceChapter5/War.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceUsingIfAndElse/War.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,26 +74,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.EventDemo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CarlysEventPriceWithEventClass.executor": "Run",
+    "Application.EventDemo.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
-  <component name="RunManager" selected="Application.EventDemo">
-    <configuration name="AutomobileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter5.AutomobileTest" />
+}]]></component>
+  <component name="RunManager" selected="Application.CalendarApplication">
+    <configuration name="CalendarApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="calendarEventPlanner.CalendarApplication" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceChapter5.*" />
+          <option name="PATTERN" value="calendarEventPlanner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarlysEventPriceWithEventClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceChapter3.CarlysEventPriceWithEventClass" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceChapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,20 +120,7 @@
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceChapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwelveDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceChapter5.TwelveDays" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joyceChapter5.*" />
+          <option name="PATTERN" value="joyceUsingIfAndElse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,7 +133,7 @@
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceChapter5.*" />
+          <option name="PATTERN" value="joyceUsingIfAndElse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,7 +146,7 @@
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceChapter5.*" />
+          <option name="PATTERN" value="joyceUsingIfAndElse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalendarApplication" />
+        <item itemvalue="Application.CarlysEventPriceWithEventClass" />
         <item itemvalue="Application.EventDemo" />
         <item itemvalue="Application.TwoDice2" />
         <item itemvalue="Application.War" />
-        <item itemvalue="Application.TwelveDays" />
-        <item itemvalue="Application.AutomobileTest" />
       </list>
     </recent_temporary>
   </component>

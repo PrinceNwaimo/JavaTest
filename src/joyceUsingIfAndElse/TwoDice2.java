@@ -1,4 +1,4 @@
-package joyceChapter5;
+package joyceUsingIfAndElse;
 
 public class TwoDice2 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package joyceChapter5;
+package joyceUsingIfAndElse;
 
 import java.util.Scanner;
 

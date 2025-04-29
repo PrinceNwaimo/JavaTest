@@ -1,4 +1,4 @@
-package joyceChapter5;
+package joyceUsingIfAndElse;
 
 public class ShortCircuitTest {
     public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package joyceChapter5;
+package joyceUsingIfAndElse;
 
 import java.util.Scanner;
 
-public class ShadyRestRoom2 {
+public class ShadyRestRoom {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -31,29 +31,10 @@ public class ShadyRestRoom2 {
                 break;
             default:
                 System.out.println("Invalid room type. Price set to $0.");
-                return;
-        }
-
-        System.out.println("Choose a view:");
-        System.out.println("1. Lake view (+$15)");
-        System.out.println("2. Park view");
-
-        int view = scanner.nextInt();
-
-        switch (view) {
-            case 1:
-                System.out.println("You chose a lake view.");
-                price += 15;
-                break;
-            case 2:
-                System.out.println("You chose a park view.");
-                break;
-            default:
-                System.out.println("Invalid view. Assuming lake view (+$15).");
-                price += 15;
         }
 
         System.out.println("Room price: $" + price);
-
     }
 }
+
+
