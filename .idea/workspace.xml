@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/Perfect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/IncreasedProduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/QuizScoreStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/TriangleWithLoops.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +61,7 @@
     "Application.CountBy5.executor": "Run",
     "Application.CountByAnything.executor": "Run",
     "Application.DemoIncrement.executor": "Run",
+    "Application.DiagonalOs.executor": "Run",
     "Application.DivideEvenly.executor": "Run",
     "Application.DivideEvenly2.executor": "Run",
     "Application.EnterSmallValue.executor": "Run",
@@ -66,8 +69,12 @@
     "Application.EventDemo.executor": "Run",
     "Application.Factorials.executor": "Run",
     "Application.Inbetween.executor": "Run",
+    "Application.IncreasedProduction.executor": "Run",
+    "Application.Perfect.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
+    "Application.QuizScoreStatistics.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
+    "Application.TriangleWithLoops.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -79,7 +86,7 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DiagonalOs">
+  <component name="RunManager" selected="Application.IncreasedProduction">
     <configuration name="DiagonalOs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.DiagonalOs" />
       <module name="testSamples" />
@@ -93,34 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvenEntryLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.EvenEntryLoop" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joyceUsingLoops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Factorials" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.Factorials" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joyceUsingLoops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Inbetween" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.Inbetween" />
+    <configuration name="IncreasedProduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.IncreasedProduction" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -145,13 +126,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuizScoreStatistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.QuizScoreStatistics" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceUsingLoops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleWithLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.TriangleWithLoops" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceUsingLoops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IncreasedProduction" />
+        <item itemvalue="Application.QuizScoreStatistics" />
+        <item itemvalue="Application.TriangleWithLoops" />
         <item itemvalue="Application.DiagonalOs" />
         <item itemvalue="Application.Perfect" />
-        <item itemvalue="Application.Inbetween" />
-        <item itemvalue="Application.Factorials" />
-        <item itemvalue="Application.EvenEntryLoop" />
       </list>
     </recent_temporary>
   </component>
