@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="" />
+    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/BarChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/BarChart2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/CreatePurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/DrugTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/Population.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/Purchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/Quiz2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,16 +59,20 @@
     "Application.BankBalance.executor": "Run",
     "Application.BankBalance2.executor": "Run",
     "Application.BankBalanceByRateAndYear.executor": "Run",
+    "Application.BarChart.executor": "Run",
+    "Application.BarChart2.executor": "Run",
     "Application.CalendarApplication.executor": "Run",
     "Application.CarlysEventPriceWithEventClass.executor": "Run",
     "Application.Clock.executor": "Run",
     "Application.CompareLoopTimes.executor": "Run",
     "Application.CountBy5.executor": "Run",
     "Application.CountByAnything.executor": "Run",
+    "Application.CreatePurchase.executor": "Run",
     "Application.DemoIncrement.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
     "Application.DivideEvenly.executor": "Run",
     "Application.DivideEvenly2.executor": "Run",
+    "Application.DrugTests.executor": "Run",
     "Application.EnterSmallValue.executor": "Run",
     "Application.EvenEntryLoop.executor": "Run",
     "Application.EventDemo.executor": "Run",
@@ -66,8 +80,12 @@
     "Application.Inbetween.executor": "Run",
     "Application.IncreasedProduction.executor": "Run",
     "Application.Perfect.executor": "Run",
+    "Application.Population.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
+    "Application.Quiz2.executor": "Run",
     "Application.QuizScoreStatistics.executor": "Run",
+    "Application.RetirementGoal.executor": "Run",
+    "Application.RetirementGoal2.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
     "Application.TriangleWithLoops.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -81,9 +99,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RetirementGoal2">
-    <configuration name="IncreasedProduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.IncreasedProduction" />
+  <component name="RunManager" selected="Application.Quiz2">
+    <configuration name="BarChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.BarChart" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuizScoreStatistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.QuizScoreStatistics" />
+    <configuration name="BarChart2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.BarChart2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RetirementGoal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.RetirementGoal" />
+    <configuration name="CreatePurchase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.CreatePurchase" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RetirementGoal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.RetirementGoal2" />
+    <configuration name="Population" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.Population" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleWithLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.TriangleWithLoops" />
+    <configuration name="Quiz2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.Quiz2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RetirementGoal2" />
-        <item itemvalue="Application.RetirementGoal" />
-        <item itemvalue="Application.IncreasedProduction" />
-        <item itemvalue="Application.QuizScoreStatistics" />
-        <item itemvalue="Application.TriangleWithLoops" />
+        <item itemvalue="Application.Quiz2" />
+        <item itemvalue="Application.CreatePurchase" />
+        <item itemvalue="Application.BarChart2" />
+        <item itemvalue="Application.BarChart" />
+        <item itemvalue="Application.Population" />
       </list>
     </recent_temporary>
   </component>
