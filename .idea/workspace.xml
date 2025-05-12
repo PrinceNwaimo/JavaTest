@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/BarChart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/BarChart2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/CreatePurchase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/DrugTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/Population.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/Purchase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/Quiz2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/RandomGuess3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/TwoDice3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +92,7 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Quiz2">
+  <component name="RunManager" selected="Application.TwoDice3">
     <configuration name="BarChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.BarChart" />
       <module name="testSamples" />
@@ -139,19 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Population" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.Population" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joyceUsingLoops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Quiz2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.Quiz2" />
       <module name="testSamples" />
@@ -165,13 +145,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoDice3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.TwoDice3" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceUsingLoops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoDice3" />
         <item itemvalue="Application.Quiz2" />
         <item itemvalue="Application.CreatePurchase" />
         <item itemvalue="Application.BarChart2" />
         <item itemvalue="Application.BarChart" />
-        <item itemvalue="Application.Population" />
       </list>
     </recent_temporary>
   </component>
