@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/PigDiceGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/EventDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/RentalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +74,8 @@
     "Application.Inbetween.executor": "Run",
     "Application.IncreasedProduction.executor": "Run",
     "Application.Perfect.executor": "Run",
+    "Application.PigDiceGame.executor": "Run",
+    "Application.PigDiceGame2.executor": "Run",
     "Application.Population.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
     "Application.Quiz2.executor": "Run",
@@ -92,9 +96,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PigDiceGame2">
-    <configuration name="CreatePurchase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.CreatePurchase" />
+  <component name="RunManager" selected="Application.RentalDemo">
+    <configuration name="EventDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.EventDemo" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quiz2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.Quiz2" />
+    <configuration name="RentalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.RentalDemo" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -160,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RentalDemo" />
+        <item itemvalue="Application.EventDemo" />
         <item itemvalue="Application.PigDiceGame2" />
         <item itemvalue="Application.PigDiceGame" />
         <item itemvalue="Application.TwoDice3" />
-        <item itemvalue="Application.Quiz2" />
-        <item itemvalue="Application.CreatePurchase" />
       </list>
     </recent_temporary>
   </component>
