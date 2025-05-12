@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/CountBy5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/CountByAnything.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/EvenEntryLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/Factorials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceUsingLoops/Inbetween.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,9 @@
     "Application.DivideEvenly.executor": "Run",
     "Application.DivideEvenly2.executor": "Run",
     "Application.EnterSmallValue.executor": "Run",
+    "Application.EvenEntryLoop.executor": "Run",
     "Application.EventDemo.executor": "Run",
+    "Application.Factorials.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -78,20 +79,7 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EvenEntryLoop">
-    <configuration name="CompareLoopTimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.CompareLoopTimes" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joyceUsingLoops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Factorials">
     <configuration name="CountBy5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.CountBy5" />
       <module name="testSamples" />
@@ -131,6 +119,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Factorials" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.Factorials" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceUsingLoops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestFusedLoopTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceUsingLoops.TestFusedLoopTime" />
       <module name="testSamples" />
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorials" />
         <item itemvalue="Application.EvenEntryLoop" />
         <item itemvalue="Application.CountByAnything" />
         <item itemvalue="Application.CountBy5" />
         <item itemvalue="Application.TestFusedLoopTime" />
-        <item itemvalue="Application.CompareLoopTimes" />
       </list>
     </recent_temporary>
   </component>
