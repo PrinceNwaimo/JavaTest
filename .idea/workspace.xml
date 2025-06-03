@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapterTwo/Charge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/Businessletter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/CharacterInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/CompareStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/NumberInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/RepairName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/TryToCompareStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/Alphabetize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/Alphabetize2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/BabyNameComparison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/ConcatenationTimeComparison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/CountSpaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/CountSpaces2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/CountWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/StringBuilderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/StringBuilderMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/ValidatePassword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/characterAndStrings/NumberInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/characterAndStrings/NumberInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Alphabetize.executor": "Run",
     "Application.AssignVolunteer5.executor": "Run",
+    "Application.BabyNameComparison.executor": "Run",
     "Application.BankBalance.executor": "Run",
     "Application.BankBalance2.executor": "Run",
     "Application.BankBalanceByRateAndYear.executor": "Run",
@@ -68,8 +74,11 @@
     "Application.Clock.executor": "Run",
     "Application.CompareLoopTimes.executor": "Run",
     "Application.CompareStrings.executor": "Run",
+    "Application.ConcatenationTimeComparison.executor": "Run",
     "Application.CountBy5.executor": "Run",
     "Application.CountByAnything.executor": "Run",
+    "Application.CountSpaces2.executor": "Run",
+    "Application.CountWords.executor": "Run",
     "Application.CreatePurchase.executor": "Run",
     "Application.DemoIncrement.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
@@ -82,6 +91,7 @@
     "Application.Factorials.executor": "Run",
     "Application.Inbetween.executor": "Run",
     "Application.IncreasedProduction.executor": "Run",
+    "Application.NumberInput.executor": "Run",
     "Application.Perfect.executor": "Run",
     "Application.PigDiceGame.executor": "Run",
     "Application.PigDiceGame2.executor": "Run",
@@ -93,6 +103,8 @@
     "Application.RepairName.executor": "Run",
     "Application.RetirementGoal.executor": "Run",
     "Application.RetirementGoal2.executor": "Run",
+    "Application.StringBuilderDemo.executor": "Run",
+    "Application.StringBuilderMethods.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
     "Application.TriangleWithLoops.executor": "Run",
     "Application.TryToCompareStrings.executor": "Run",
@@ -108,9 +120,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RepairName">
-    <configuration name="Businessletter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterAndStrings.Businessletter" />
+  <component name="RunManager" selected="Application.Alphabetize">
+    <configuration name="Alphabetize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="characterAndStrings.Alphabetize" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterAndStrings.CharacterInfo" />
+    <configuration name="BabyNameComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="characterAndStrings.BabyNameComparison" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompareStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterAndStrings.CompareStrings" />
+    <configuration name="CountSpaces2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="characterAndStrings.CountSpaces2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -148,8 +160,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepairName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterAndStrings.RepairName" />
+    <configuration name="CountWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="characterAndStrings.CountWords" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -161,8 +173,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryToCompareStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterAndStrings.TryToCompareStrings" />
+    <configuration name="StringBuilderMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="characterAndStrings.StringBuilderMethods" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -176,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RepairName" />
-        <item itemvalue="Application.Businessletter" />
-        <item itemvalue="Application.CompareStrings" />
-        <item itemvalue="Application.CharacterInfo" />
-        <item itemvalue="Application.TryToCompareStrings" />
+        <item itemvalue="Application.Alphabetize" />
+        <item itemvalue="Application.CountWords" />
+        <item itemvalue="Application.CountSpaces2" />
+        <item itemvalue="Application.BabyNameComparison" />
+        <item itemvalue="Application.StringBuilderMethods" />
       </list>
     </recent_temporary>
   </component>
