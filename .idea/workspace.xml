@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/Alphabetize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/Alphabetize2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/BabyNameComparison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/ConcatenationTimeComparison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/CountSpaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/CountSpaces2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/CountWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/StringBuilderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/StringBuilderMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/ValidatePassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/PhoneNumberFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/PigLatin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/characterAndStrings/NumberInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/characterAndStrings/NumberInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +87,7 @@
     "Application.Perfect.executor": "Run",
     "Application.PigDiceGame.executor": "Run",
     "Application.PigDiceGame2.executor": "Run",
+    "Application.PigLatin.executor": "Run",
     "Application.Population.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
     "Application.Quiz2.executor": "Run",
@@ -120,7 +113,7 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Alphabetize">
+  <component name="RunManager" selected="Application.PigLatin">
     <configuration name="Alphabetize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="characterAndStrings.Alphabetize" />
       <module name="testSamples" />
@@ -173,8 +166,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterAndStrings.StringBuilderMethods" />
+    <configuration name="PigLatin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="characterAndStrings.PigLatin" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -188,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PigLatin" />
         <item itemvalue="Application.Alphabetize" />
         <item itemvalue="Application.CountWords" />
         <item itemvalue="Application.CountSpaces2" />
         <item itemvalue="Application.BabyNameComparison" />
-        <item itemvalue="Application.StringBuilderMethods" />
       </list>
     </recent_temporary>
   </component>
