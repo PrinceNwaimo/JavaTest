@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/CheckPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/CountLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/DaysInYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/EstimatePi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/MyTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PhoneKeypad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PrintChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PrintMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/SumSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/TaxTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/ConvertMillis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/CountChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/Craps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/CrapsSimulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/CreditCardValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/CurrentDateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/Emirp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/MersennePrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PalindromicPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/ShowCurrentDateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/TwinPrimes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,19 +78,25 @@
     "Application.CompareLoopTimes.executor": "Run",
     "Application.CompareStrings.executor": "Run",
     "Application.ConcatenationTimeComparison.executor": "Run",
+    "Application.ConvertMillis.executor": "Run",
     "Application.CountBy5.executor": "Run",
     "Application.CountByAnything.executor": "Run",
+    "Application.CountChar.executor": "Run",
     "Application.CountLetters.executor": "Run",
     "Application.CountPrimeNumbers.executor": "Run",
     "Application.CountSpaces2.executor": "Run",
     "Application.CountWords.executor": "Run",
+    "Application.Craps.executor": "Run",
+    "Application.CrapsSimulation.executor": "Run",
     "Application.CreatePurchase.executor": "Run",
+    "Application.CreditCardValidator.executor": "Run",
     "Application.DaysInYear.executor": "Run",
     "Application.DemoIncrement.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
     "Application.DivideEvenly.executor": "Run",
     "Application.DivideEvenly2.executor": "Run",
     "Application.DrugTests.executor": "Run",
+    "Application.Emirp.executor": "Run",
     "Application.EnterSmallValue.executor": "Run",
     "Application.EstimatePi.executor": "Run",
     "Application.EvenEntryLoop.executor": "Run",
@@ -100,12 +107,16 @@
     "Application.Inbetween.executor": "Run",
     "Application.IncreasedProduction.executor": "Run",
     "Application.LengthConverter.executor": "Run",
+    "Application.MersennePrime.executor": "Run",
     "Application.MyTriangle.executor": "Run",
     "Application.NumberInput.executor": "Run",
     "Application.PalindromeInteger.executor": "Run",
+    "Application.PalindromicPrime.executor": "Run",
     "Application.PatternDisplay.executor": "Run",
     "Application.PentagonalNumbers.executor": "Run",
     "Application.Perfect.executor": "Run",
+    "Application.PhoneKeypad.executor": "Run",
+    "Application.PhoneKeypad2.executor": "Run",
     "Application.PigDiceGame.executor": "Run",
     "Application.PigDiceGame2.executor": "Run",
     "Application.PigLatin.executor": "Run",
@@ -122,6 +133,8 @@
     "Application.RetirementGoal.executor": "Run",
     "Application.RetirementGoal2.executor": "Run",
     "Application.ReverseInteger.executor": "Run",
+    "Application.ShowCurrentDateTime.executor": "Run",
+    "Application.Sqrt.executor": "Run",
     "Application.StringBuilderDemo.executor": "Run",
     "Application.StringBuilderMethods.executor": "Run",
     "Application.SumDigits.executor": "Run",
@@ -132,6 +145,7 @@
     "Application.TestRandomCharacter.executor": "Run",
     "Application.TriangleWithLoops.executor": "Run",
     "Application.TryToCompareStrings.executor": "Run",
+    "Application.TwinPrimes.executor": "Run",
     "Application.TwoDice3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -144,9 +158,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Sqrt">
-    <configuration name="CountLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.CountLetters" />
+  <component name="RunManager" selected="Application.CurrentDateTime2">
+    <configuration name="Craps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.Craps" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +172,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.MyTriangle" />
+    <configuration name="CrapsSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.CrapsSimulation" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -171,8 +185,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneKeypad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.PhoneKeypad" />
+    <configuration name="CreditCardValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.CreditCardValidator" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -184,8 +198,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneKeypad2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.PhoneKeypad2" />
+    <configuration name="CurrentDateTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.CurrentDateTime" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -197,8 +211,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.Sqrt" />
+    <configuration name="CurrentDateTime2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.CurrentDateTime2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -212,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sqrt" />
-        <item itemvalue="Application.PhoneKeypad2" />
-        <item itemvalue="Application.PhoneKeypad" />
-        <item itemvalue="Application.CountLetters" />
-        <item itemvalue="Application.MyTriangle" />
+        <item itemvalue="Application.CurrentDateTime2" />
+        <item itemvalue="Application.CurrentDateTime" />
+        <item itemvalue="Application.CrapsSimulation" />
+        <item itemvalue="Application.CreditCardValidator" />
+        <item itemvalue="Application.Craps" />
       </list>
     </recent_temporary>
   </component>
