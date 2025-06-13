@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/AB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/GreatestCommonDivisorMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/Hex2Dec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PrimeNumberMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PrintCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/RandomCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/TestRandomCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/FutureInvestmentValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/LengthConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PalindromeInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PatternDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PentagonalNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/ReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/SortThreeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/SumDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/TemperatureConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +93,9 @@
     "Application.Inbetween.executor": "Run",
     "Application.IncreasedProduction.executor": "Run",
     "Application.NumberInput.executor": "Run",
+    "Application.PalindromeInteger.executor": "Run",
+    "Application.PatternDisplay.executor": "Run",
+    "Application.PentagonalNumbers.executor": "Run",
     "Application.Perfect.executor": "Run",
     "Application.PigDiceGame.executor": "Run",
     "Application.PigDiceGame2.executor": "Run",
@@ -105,8 +110,11 @@
     "Application.RepairName.executor": "Run",
     "Application.RetirementGoal.executor": "Run",
     "Application.RetirementGoal2.executor": "Run",
+    "Application.ReverseInteger.executor": "Run",
     "Application.StringBuilderDemo.executor": "Run",
     "Application.StringBuilderMethods.executor": "Run",
+    "Application.SumDigits.executor": "Run",
+    "Application.TemperatureConverter.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
     "Application.TestRandomCharacter.executor": "Run",
     "Application.TriangleWithLoops.executor": "Run",
@@ -123,9 +131,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrintCalendar">
-    <configuration name="GreatestCommonDivisorMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.GreatestCommonDivisorMethod" />
+  <component name="RunManager" selected="Application.CommissionCalculator">
+    <configuration name="CommissionCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.CommissionCalculator" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hex2Dec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.Hex2Dec" />
+    <configuration name="CountPrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.CountPrimeNumbers" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -150,8 +158,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumberMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.PrimeNumberMethod" />
+    <configuration name="LengthConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.LengthConverter" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +171,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.PrintCalendar" />
+    <configuration name="PatternDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.PatternDisplay" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -176,8 +184,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRandomCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.TestRandomCharacter" />
+    <configuration name="TemperatureConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.TemperatureConverter" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -191,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrintCalendar" />
-        <item itemvalue="Application.TestRandomCharacter" />
-        <item itemvalue="Application.Hex2Dec" />
-        <item itemvalue="Application.PrimeNumberMethod" />
-        <item itemvalue="Application.GreatestCommonDivisorMethod" />
+        <item itemvalue="Application.CommissionCalculator" />
+        <item itemvalue="Application.CountPrimeNumbers" />
+        <item itemvalue="Application.LengthConverter" />
+        <item itemvalue="Application.TemperatureConverter" />
+        <item itemvalue="Application.PatternDisplay" />
       </list>
     </recent_temporary>
   </component>
