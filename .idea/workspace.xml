@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/FutureInvestmentValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/LengthConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PalindromeInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PatternDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PentagonalNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/SortThreeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/SumDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/TemperatureConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/CheckPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/CountLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/DaysInYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/EstimatePi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/MyTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PhoneKeypad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PrintChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PrintMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/SumSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/TaxTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,21 +71,27 @@
     "Application.CarlysEventPriceWithEventClass.executor": "Run",
     "Application.CharacterInfo.executor": "Run",
     "Application.Charge.executor": "Run",
+    "Application.CheckPassword.executor": "Run",
     "Application.Clock.executor": "Run",
+    "Application.CommissionCalculator.executor": "Run",
     "Application.CompareLoopTimes.executor": "Run",
     "Application.CompareStrings.executor": "Run",
     "Application.ConcatenationTimeComparison.executor": "Run",
     "Application.CountBy5.executor": "Run",
     "Application.CountByAnything.executor": "Run",
+    "Application.CountLetters.executor": "Run",
+    "Application.CountPrimeNumbers.executor": "Run",
     "Application.CountSpaces2.executor": "Run",
     "Application.CountWords.executor": "Run",
     "Application.CreatePurchase.executor": "Run",
+    "Application.DaysInYear.executor": "Run",
     "Application.DemoIncrement.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
     "Application.DivideEvenly.executor": "Run",
     "Application.DivideEvenly2.executor": "Run",
     "Application.DrugTests.executor": "Run",
     "Application.EnterSmallValue.executor": "Run",
+    "Application.EstimatePi.executor": "Run",
     "Application.EvenEntryLoop.executor": "Run",
     "Application.EventDemo.executor": "Run",
     "Application.Factorials.executor": "Run",
@@ -92,6 +99,8 @@
     "Application.Hex2Dec.executor": "Run",
     "Application.Inbetween.executor": "Run",
     "Application.IncreasedProduction.executor": "Run",
+    "Application.LengthConverter.executor": "Run",
+    "Application.MyTriangle.executor": "Run",
     "Application.NumberInput.executor": "Run",
     "Application.PalindromeInteger.executor": "Run",
     "Application.PatternDisplay.executor": "Run",
@@ -104,6 +113,8 @@
     "Application.PrefixPostFixDemo.executor": "Run",
     "Application.PrimeNumberMethod.executor": "Run",
     "Application.PrintCalendar.executor": "Run",
+    "Application.PrintChars.executor": "Run",
+    "Application.PrintMatrix.executor": "Run",
     "Application.Quiz2.executor": "Run",
     "Application.QuizScoreStatistics.executor": "Run",
     "Application.RentalDemo.executor": "Run",
@@ -114,6 +125,8 @@
     "Application.StringBuilderDemo.executor": "Run",
     "Application.StringBuilderMethods.executor": "Run",
     "Application.SumDigits.executor": "Run",
+    "Application.SumSeries.executor": "Run",
+    "Application.TaxTable.executor": "Run",
     "Application.TemperatureConverter.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
     "Application.TestRandomCharacter.executor": "Run",
@@ -131,9 +144,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CommissionCalculator">
-    <configuration name="CommissionCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.CommissionCalculator" />
+  <component name="RunManager" selected="Application.Sqrt">
+    <configuration name="CountLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.CountLetters" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -145,8 +158,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountPrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.CountPrimeNumbers" />
+    <configuration name="MyTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.MyTriangle" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +171,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.LengthConverter" />
+    <configuration name="PhoneKeypad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.PhoneKeypad" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -171,8 +184,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatternDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.PatternDisplay" />
+    <configuration name="PhoneKeypad2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.PhoneKeypad2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -184,8 +197,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemperatureConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.TemperatureConverter" />
+    <configuration name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.Sqrt" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -199,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CommissionCalculator" />
-        <item itemvalue="Application.CountPrimeNumbers" />
-        <item itemvalue="Application.LengthConverter" />
-        <item itemvalue="Application.TemperatureConverter" />
-        <item itemvalue="Application.PatternDisplay" />
+        <item itemvalue="Application.Sqrt" />
+        <item itemvalue="Application.PhoneKeypad2" />
+        <item itemvalue="Application.PhoneKeypad" />
+        <item itemvalue="Application.CountLetters" />
+        <item itemvalue="Application.MyTriangle" />
       </list>
     </recent_temporary>
   </component>
