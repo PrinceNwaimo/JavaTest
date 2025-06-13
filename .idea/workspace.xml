@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/ConvertMillis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/CountChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/Craps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/CrapsSimulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/CreditCardValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/CurrentDateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/Emirp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/MersennePrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PalindromicPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/ShowCurrentDateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/TwinPrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/FormatInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PentagonArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PointPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PrintCalendar2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/RandomCharacter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/RegularPolygonArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,6 +85,8 @@
     "Application.CrapsSimulation.executor": "Run",
     "Application.CreatePurchase.executor": "Run",
     "Application.CreditCardValidator.executor": "Run",
+    "Application.CurrentDateTime.executor": "Run",
+    "Application.CurrentDateTime2.executor": "Run",
     "Application.DaysInYear.executor": "Run",
     "Application.DemoIncrement.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
@@ -102,6 +99,7 @@
     "Application.EvenEntryLoop.executor": "Run",
     "Application.EventDemo.executor": "Run",
     "Application.Factorials.executor": "Run",
+    "Application.FormatInteger.executor": "Run",
     "Application.GreatestCommonDivisorMethod.executor": "Run",
     "Application.Hex2Dec.executor": "Run",
     "Application.Inbetween.executor": "Run",
@@ -113,6 +111,7 @@
     "Application.PalindromeInteger.executor": "Run",
     "Application.PalindromicPrime.executor": "Run",
     "Application.PatternDisplay.executor": "Run",
+    "Application.PentagonArea.executor": "Run",
     "Application.PentagonalNumbers.executor": "Run",
     "Application.Perfect.executor": "Run",
     "Application.PhoneKeypad.executor": "Run",
@@ -124,10 +123,13 @@
     "Application.PrefixPostFixDemo.executor": "Run",
     "Application.PrimeNumberMethod.executor": "Run",
     "Application.PrintCalendar.executor": "Run",
+    "Application.PrintCalendar2.executor": "Run",
     "Application.PrintChars.executor": "Run",
     "Application.PrintMatrix.executor": "Run",
     "Application.Quiz2.executor": "Run",
     "Application.QuizScoreStatistics.executor": "Run",
+    "Application.RandomCharacter2.executor": "Run",
+    "Application.RegularPolygonArea.executor": "Run",
     "Application.RentalDemo.executor": "Run",
     "Application.RepairName.executor": "Run",
     "Application.RetirementGoal.executor": "Run",
@@ -158,9 +160,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CurrentDateTime2">
-    <configuration name="Craps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.Craps" />
+  <component name="RunManager" selected="Application.PointPosition">
+    <configuration name="FormatInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.FormatInteger" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -172,8 +174,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrapsSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.CrapsSimulation" />
+    <configuration name="PentagonArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.PentagonArea" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -185,8 +187,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreditCardValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.CreditCardValidator" />
+    <configuration name="PointPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.PointPosition" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -198,8 +200,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrentDateTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.CurrentDateTime" />
+    <configuration name="RandomCharacter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.RandomCharacter2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -211,8 +213,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrentDateTime2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.CurrentDateTime2" />
+    <configuration name="RegularPolygonArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.RegularPolygonArea" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -226,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CurrentDateTime2" />
-        <item itemvalue="Application.CurrentDateTime" />
-        <item itemvalue="Application.CrapsSimulation" />
-        <item itemvalue="Application.CreditCardValidator" />
-        <item itemvalue="Application.Craps" />
+        <item itemvalue="Application.PointPosition" />
+        <item itemvalue="Application.RandomCharacter2" />
+        <item itemvalue="Application.FormatInteger" />
+        <item itemvalue="Application.RegularPolygonArea" />
+        <item itemvalue="Application.PentagonArea" />
       </list>
     </recent_temporary>
   </component>
