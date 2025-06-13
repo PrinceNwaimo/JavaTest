@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/PhoneNumberFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/characterAndStrings/PigLatin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/AB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/GreatestCommonDivisorMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/Hex2Dec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PrimeNumberMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PrintCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/RandomCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter6/TestRandomCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AB.executor": "Run",
     "Application.Alphabetize.executor": "Run",
     "Application.AssignVolunteer5.executor": "Run",
     "Application.BabyNameComparison.executor": "Run",
@@ -81,6 +86,8 @@
     "Application.EvenEntryLoop.executor": "Run",
     "Application.EventDemo.executor": "Run",
     "Application.Factorials.executor": "Run",
+    "Application.GreatestCommonDivisorMethod.executor": "Run",
+    "Application.Hex2Dec.executor": "Run",
     "Application.Inbetween.executor": "Run",
     "Application.IncreasedProduction.executor": "Run",
     "Application.NumberInput.executor": "Run",
@@ -90,6 +97,8 @@
     "Application.PigLatin.executor": "Run",
     "Application.Population.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
+    "Application.PrimeNumberMethod.executor": "Run",
+    "Application.PrintCalendar.executor": "Run",
     "Application.Quiz2.executor": "Run",
     "Application.QuizScoreStatistics.executor": "Run",
     "Application.RentalDemo.executor": "Run",
@@ -99,6 +108,7 @@
     "Application.StringBuilderDemo.executor": "Run",
     "Application.StringBuilderMethods.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
+    "Application.TestRandomCharacter.executor": "Run",
     "Application.TriangleWithLoops.executor": "Run",
     "Application.TryToCompareStrings.executor": "Run",
     "Application.TwoDice3.executor": "Run",
@@ -113,13 +123,13 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PigLatin">
-    <configuration name="Alphabetize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterAndStrings.Alphabetize" />
+  <component name="RunManager" selected="Application.PrintCalendar">
+    <configuration name="GreatestCommonDivisorMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.GreatestCommonDivisorMethod" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="characterAndStrings.*" />
+          <option name="PATTERN" value="liangChapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BabyNameComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterAndStrings.BabyNameComparison" />
+    <configuration name="Hex2Dec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.Hex2Dec" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="characterAndStrings.*" />
+          <option name="PATTERN" value="liangChapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountSpaces2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterAndStrings.CountSpaces2" />
+    <configuration name="PrimeNumberMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.PrimeNumberMethod" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="characterAndStrings.*" />
+          <option name="PATTERN" value="liangChapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterAndStrings.CountWords" />
+    <configuration name="PrintCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.PrintCalendar" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="characterAndStrings.*" />
+          <option name="PATTERN" value="liangChapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PigLatin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="characterAndStrings.PigLatin" />
+    <configuration name="TestRandomCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter6.TestRandomCharacter" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="characterAndStrings.*" />
+          <option name="PATTERN" value="liangChapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PigLatin" />
-        <item itemvalue="Application.Alphabetize" />
-        <item itemvalue="Application.CountWords" />
-        <item itemvalue="Application.CountSpaces2" />
-        <item itemvalue="Application.BabyNameComparison" />
+        <item itemvalue="Application.PrintCalendar" />
+        <item itemvalue="Application.TestRandomCharacter" />
+        <item itemvalue="Application.Hex2Dec" />
+        <item itemvalue="Application.PrimeNumberMethod" />
+        <item itemvalue="Application.GreatestCommonDivisorMethod" />
       </list>
     </recent_temporary>
   </component>
