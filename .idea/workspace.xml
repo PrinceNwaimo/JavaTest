@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/FormatInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PentagonArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PointPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/PrintCalendar2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/RandomCharacter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangChapter6/RegularPolygonArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel6/Craps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel6/MaximumFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel6/RandomIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel6/RollDice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +103,7 @@
     "Application.Inbetween.executor": "Run",
     "Application.IncreasedProduction.executor": "Run",
     "Application.LengthConverter.executor": "Run",
+    "Application.MaximumFinder.executor": "Run",
     "Application.MersennePrime.executor": "Run",
     "Application.MyTriangle.executor": "Run",
     "Application.NumberInput.executor": "Run",
@@ -119,6 +118,7 @@
     "Application.PigDiceGame.executor": "Run",
     "Application.PigDiceGame2.executor": "Run",
     "Application.PigLatin.executor": "Run",
+    "Application.PointPosition.executor": "Run",
     "Application.Population.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
     "Application.PrimeNumberMethod.executor": "Run",
@@ -129,12 +129,14 @@
     "Application.Quiz2.executor": "Run",
     "Application.QuizScoreStatistics.executor": "Run",
     "Application.RandomCharacter2.executor": "Run",
+    "Application.RandomIntegers.executor": "Run",
     "Application.RegularPolygonArea.executor": "Run",
     "Application.RentalDemo.executor": "Run",
     "Application.RepairName.executor": "Run",
     "Application.RetirementGoal.executor": "Run",
     "Application.RetirementGoal2.executor": "Run",
     "Application.ReverseInteger.executor": "Run",
+    "Application.RollDice.executor": "Run",
     "Application.ShowCurrentDateTime.executor": "Run",
     "Application.Sqrt.executor": "Run",
     "Application.StringBuilderDemo.executor": "Run",
@@ -160,13 +162,13 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PointPosition">
-    <configuration name="FormatInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.FormatInteger" />
+  <component name="RunManager" selected="Application.Craps">
+    <configuration name="Craps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel6.Craps" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangChapter6.*" />
+          <option name="PATTERN" value="diettel6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PentagonArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.PentagonArea" />
+    <configuration name="MaximumFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel6.MaximumFinder" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangChapter6.*" />
+          <option name="PATTERN" value="diettel6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomCharacter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.RandomCharacter2" />
+    <configuration name="RandomIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel6.RandomIntegers" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangChapter6.*" />
+          <option name="PATTERN" value="diettel6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegularPolygonArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.RegularPolygonArea" />
+    <configuration name="RollDice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel6.RollDice" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangChapter6.*" />
+          <option name="PATTERN" value="diettel6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Craps" />
+        <item itemvalue="Application.RollDice" />
+        <item itemvalue="Application.RandomIntegers" />
+        <item itemvalue="Application.MaximumFinder" />
         <item itemvalue="Application.PointPosition" />
-        <item itemvalue="Application.RandomCharacter2" />
-        <item itemvalue="Application.FormatInteger" />
-        <item itemvalue="Application.RegularPolygonArea" />
-        <item itemvalue="Application.PentagonArea" />
       </list>
     </recent_temporary>
   </component>
