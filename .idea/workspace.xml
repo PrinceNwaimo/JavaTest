@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettel6/Craps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel6/MaximumFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel6/RandomIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel6/RollDice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel6/DivisibleBy5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel6/FloorAndCeil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel6/HypotenuseCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel6/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel6/Multiples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel6/PalindromeChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel6/StringBeautifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel6/TemperatureConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,6 +94,7 @@
     "Application.DiagonalOs.executor": "Run",
     "Application.DivideEvenly.executor": "Run",
     "Application.DivideEvenly2.executor": "Run",
+    "Application.DivisibleBy5.executor": "Run",
     "Application.DrugTests.executor": "Run",
     "Application.Emirp.executor": "Run",
     "Application.EnterSmallValue.executor": "Run",
@@ -97,16 +102,21 @@
     "Application.EvenEntryLoop.executor": "Run",
     "Application.EventDemo.executor": "Run",
     "Application.Factorials.executor": "Run",
+    "Application.FloorAndCeil.executor": "Run",
     "Application.FormatInteger.executor": "Run",
     "Application.GreatestCommonDivisorMethod.executor": "Run",
     "Application.Hex2Dec.executor": "Run",
+    "Application.HypotenuseCalculator.executor": "Run",
     "Application.Inbetween.executor": "Run",
     "Application.IncreasedProduction.executor": "Run",
+    "Application.LeapYear.executor": "Run",
     "Application.LengthConverter.executor": "Run",
     "Application.MaximumFinder.executor": "Run",
     "Application.MersennePrime.executor": "Run",
+    "Application.Multiples.executor": "Run",
     "Application.MyTriangle.executor": "Run",
     "Application.NumberInput.executor": "Run",
+    "Application.PalindromeChecker.executor": "Run",
     "Application.PalindromeInteger.executor": "Run",
     "Application.PalindromicPrime.executor": "Run",
     "Application.PatternDisplay.executor": "Run",
@@ -139,6 +149,7 @@
     "Application.RollDice.executor": "Run",
     "Application.ShowCurrentDateTime.executor": "Run",
     "Application.Sqrt.executor": "Run",
+    "Application.StringBeautifier.executor": "Run",
     "Application.StringBuilderDemo.executor": "Run",
     "Application.StringBuilderMethods.executor": "Run",
     "Application.SumDigits.executor": "Run",
@@ -162,9 +173,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Craps">
-    <configuration name="Craps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel6.Craps" />
+  <component name="RunManager" selected="Application.PrimeNumbers">
+    <configuration name="PalindromeChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel6.PalindromeChecker" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -176,8 +187,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel6.MaximumFinder" />
+    <configuration name="PerfectNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel6.PerfectNumbers" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -189,21 +200,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangChapter6.PointPosition" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangChapter6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel6.RandomIntegers" />
+    <configuration name="PrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel6.PrimeNumbers" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -215,8 +213,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RollDice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel6.RollDice" />
+    <configuration name="StringBeautifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel6.StringBeautifier" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettel6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel6.TemperatureConverter" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -230,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Craps" />
-        <item itemvalue="Application.RollDice" />
-        <item itemvalue="Application.RandomIntegers" />
-        <item itemvalue="Application.MaximumFinder" />
-        <item itemvalue="Application.PointPosition" />
+        <item itemvalue="Application.PrimeNumbers" />
+        <item itemvalue="Application.PerfectNumbers" />
+        <item itemvalue="Application.PalindromeChecker" />
+        <item itemvalue="Application.TemperatureConverter" />
+        <item itemvalue="Application.StringBeautifier" />
       </list>
     </recent_temporary>
   </component>
