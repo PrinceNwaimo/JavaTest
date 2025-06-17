@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettel6/CoinTossSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel6/GreatestCommonDivisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel6/GuessTheNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel6/GuessTheNumberModification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel6/SportsRecommender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel6/SumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/makingAdifference/ArithmeticCAI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/makingAdifference/MultiplicationCAI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/makingAdifference/MultiplicationCAI2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/makingAdifference/MultiplicationCAI3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/makingAdifference/MultiplicationCAIModification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +90,7 @@
     "Application.DaysInYear.executor": "Run",
     "Application.DemoIncrement.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
+    "Application.DistanceBetweenPoints.executor": "Run",
     "Application.DivideEvenly.executor": "Run",
     "Application.DivideEvenly2.executor": "Run",
     "Application.DivisibleBy5.executor": "Run",
@@ -116,8 +116,13 @@
     "Application.MaximumFinder.executor": "Run",
     "Application.MersennePrime.executor": "Run",
     "Application.Multiples.executor": "Run",
+    "Application.MultiplicationCAI.executor": "Run",
+    "Application.MultiplicationCAI2.executor": "Run",
+    "Application.MultiplicationCAI3.executor": "Run",
+    "Application.MultiplicationCAIModification.executor": "Run",
     "Application.MyTriangle.executor": "Run",
     "Application.NumberInput.executor": "Run",
+    "Application.NumberSystemsTable.executor": "Run",
     "Application.PalindromeChecker.executor": "Run",
     "Application.PalindromeInteger.executor": "Run",
     "Application.PalindromicPrime.executor": "Run",
@@ -179,13 +184,13 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NumberSystemsTable">
-    <configuration name="CoinTossSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel6.CoinTossSimulator" />
+  <component name="RunManager" selected="Application.ArithmeticCAI">
+    <configuration name="ArithmeticCAI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="makingAdifference.ArithmeticCAI" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettel6.*" />
+          <option name="PATTERN" value="makingAdifference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistanceBetweenPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel6.DistanceBetweenPoints" />
+    <configuration name="MultiplicationCAI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="makingAdifference.MultiplicationCAI" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettel6.*" />
+          <option name="PATTERN" value="makingAdifference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +211,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessTheNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel6.GuessTheNumber" />
+    <configuration name="MultiplicationCAI2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="makingAdifference.MultiplicationCAI2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettel6.*" />
+          <option name="PATTERN" value="makingAdifference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessTheNumberModification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel6.GuessTheNumberModification" />
+    <configuration name="MultiplicationCAI3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="makingAdifference.MultiplicationCAI3" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettel6.*" />
+          <option name="PATTERN" value="makingAdifference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,12 +237,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberSystemsTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel6.NumberSystemsTable" />
+    <configuration name="MultiplicationCAIModification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="makingAdifference.MultiplicationCAIModification" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettel6.*" />
+          <option name="PATTERN" value="makingAdifference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumberSystemsTable" />
-        <item itemvalue="Application.DistanceBetweenPoints" />
-        <item itemvalue="Application.GuessTheNumberModification" />
-        <item itemvalue="Application.GuessTheNumber" />
-        <item itemvalue="Application.CoinTossSimulator" />
+        <item itemvalue="Application.ArithmeticCAI" />
+        <item itemvalue="Application.MultiplicationCAI3" />
+        <item itemvalue="Application.MultiplicationCAI2" />
+        <item itemvalue="Application.MultiplicationCAIModification" />
+        <item itemvalue="Application.MultiplicationCAI" />
       </list>
     </recent_temporary>
   </component>
