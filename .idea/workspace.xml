@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/makingAdifference/ArithmeticCAI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/makingAdifference/MultiplicationCAI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/makingAdifference/MultiplicationCAI2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/makingAdifference/MultiplicationCAI3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/makingAdifference/MultiplicationCAIModification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/AverageOfQuizzes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/BowlingTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/BowlingTeamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/BowlingTeamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/BowlingTeamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/BowlingTeamDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/DemoArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/FindDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/FindPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/PassArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/PassArrayElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +60,19 @@
   "keyToString": {
     "Application.AB.executor": "Run",
     "Application.Alphabetize.executor": "Run",
+    "Application.ArithmeticCAI.executor": "Run",
     "Application.AssignVolunteer5.executor": "Run",
+    "Application.AverageOfQuizzes.executor": "Run",
     "Application.BabyNameComparison.executor": "Run",
     "Application.BankBalance.executor": "Run",
     "Application.BankBalance2.executor": "Run",
     "Application.BankBalanceByRateAndYear.executor": "Run",
     "Application.BarChart.executor": "Run",
     "Application.BarChart2.executor": "Run",
+    "Application.BowlingTeamDemo.executor": "Run",
+    "Application.BowlingTeamDemo2.executor": "Run",
+    "Application.BowlingTeamDemo3.executor": "Run",
+    "Application.BowlingTeamDemo4.executor": "Run",
     "Application.Businessletter.executor": "Run",
     "Application.CalendarApplication.executor": "Run",
     "Application.CarlysEventPriceWithEventClass.executor": "Run",
@@ -88,6 +100,7 @@
     "Application.CurrentDateTime.executor": "Run",
     "Application.CurrentDateTime2.executor": "Run",
     "Application.DaysInYear.executor": "Run",
+    "Application.DemoArray.executor": "Run",
     "Application.DemoIncrement.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
     "Application.DistanceBetweenPoints.executor": "Run",
@@ -101,6 +114,8 @@
     "Application.EvenEntryLoop.executor": "Run",
     "Application.EventDemo.executor": "Run",
     "Application.Factorials.executor": "Run",
+    "Application.FindDiscount.executor": "Run",
+    "Application.FindPrice.executor": "Run",
     "Application.FloorAndCeil.executor": "Run",
     "Application.FormatInteger.executor": "Run",
     "Application.GreatestCommonDivisor.executor": "Run",
@@ -126,6 +141,8 @@
     "Application.PalindromeChecker.executor": "Run",
     "Application.PalindromeInteger.executor": "Run",
     "Application.PalindromicPrime.executor": "Run",
+    "Application.PassArray.executor": "Run",
+    "Application.PassArrayElement.executor": "Run",
     "Application.PatternDisplay.executor": "Run",
     "Application.PentagonArea.executor": "Run",
     "Application.PentagonalNumbers.executor": "Run",
@@ -156,6 +173,7 @@
     "Application.RetirementGoal2.executor": "Run",
     "Application.ReverseInteger.executor": "Run",
     "Application.RollDice.executor": "Run",
+    "Application.Score.executor": "Run",
     "Application.ShowCurrentDateTime.executor": "Run",
     "Application.SportsRecommender.executor": "Run",
     "Application.Sqrt.executor": "Run",
@@ -184,13 +202,13 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArithmeticCAI">
-    <configuration name="ArithmeticCAI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="makingAdifference.ArithmeticCAI" />
+  <component name="RunManager" selected="Application.BowlingTeamDemo4">
+    <configuration name="BowlingTeamDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.BowlingTeamDemo3" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="makingAdifference.*" />
+          <option name="PATTERN" value="joyceArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationCAI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="makingAdifference.MultiplicationCAI" />
+    <configuration name="BowlingTeamDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.BowlingTeamDemo4" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="makingAdifference.*" />
+          <option name="PATTERN" value="joyceArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,12 +229,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationCAI2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="makingAdifference.MultiplicationCAI2" />
+    <configuration name="FindDiscount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.FindDiscount" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="makingAdifference.*" />
+          <option name="PATTERN" value="joyceArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,12 +242,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationCAI3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="makingAdifference.MultiplicationCAI3" />
+    <configuration name="PassArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.PassArray" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="makingAdifference.*" />
+          <option name="PATTERN" value="joyceArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationCAIModification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="makingAdifference.MultiplicationCAIModification" />
+    <configuration name="PassArrayElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.PassArrayElement" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="makingAdifference.*" />
+          <option name="PATTERN" value="joyceArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArithmeticCAI" />
-        <item itemvalue="Application.MultiplicationCAI3" />
-        <item itemvalue="Application.MultiplicationCAI2" />
-        <item itemvalue="Application.MultiplicationCAIModification" />
-        <item itemvalue="Application.MultiplicationCAI" />
+        <item itemvalue="Application.BowlingTeamDemo4" />
+        <item itemvalue="Application.PassArray" />
+        <item itemvalue="Application.PassArrayElement" />
+        <item itemvalue="Application.BowlingTeamDemo3" />
+        <item itemvalue="Application.FindDiscount" />
       </list>
     </recent_temporary>
   </component>
