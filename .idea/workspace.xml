@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/AverageOfQuizzes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/BowlingTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/BowlingTeamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/BowlingTeamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/BowlingTeamDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/BowlingTeamDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/DemoArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/FindDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/FindPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/PassArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/PassArrayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/ArrayMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/CarCareChoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/CarCareChoice2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/CategorizeStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/DistanceFromAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/NineInts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +56,7 @@
     "Application.AB.executor": "Run",
     "Application.Alphabetize.executor": "Run",
     "Application.ArithmeticCAI.executor": "Run",
+    "Application.ArrayMethodDemo.executor": "Run",
     "Application.AssignVolunteer5.executor": "Run",
     "Application.AverageOfQuizzes.executor": "Run",
     "Application.BabyNameComparison.executor": "Run",
@@ -75,6 +71,8 @@
     "Application.BowlingTeamDemo4.executor": "Run",
     "Application.Businessletter.executor": "Run",
     "Application.CalendarApplication.executor": "Run",
+    "Application.CarCareChoice.executor": "Run",
+    "Application.CarCareChoice2.executor": "Run",
     "Application.CarlysEventPriceWithEventClass.executor": "Run",
     "Application.CharacterInfo.executor": "Run",
     "Application.Charge.executor": "Run",
@@ -104,6 +102,7 @@
     "Application.DemoIncrement.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
     "Application.DistanceBetweenPoints.executor": "Run",
+    "Application.DistanceFromAverage.executor": "Run",
     "Application.DivideEvenly.executor": "Run",
     "Application.DivideEvenly2.executor": "Run",
     "Application.DivisibleBy5.executor": "Run",
@@ -136,6 +135,7 @@
     "Application.MultiplicationCAI3.executor": "Run",
     "Application.MultiplicationCAIModification.executor": "Run",
     "Application.MyTriangle.executor": "Run",
+    "Application.NineInts.executor": "Run",
     "Application.NumberInput.executor": "Run",
     "Application.NumberSystemsTable.executor": "Run",
     "Application.PalindromeChecker.executor": "Run",
@@ -202,9 +202,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BowlingTeamDemo4">
-    <configuration name="BowlingTeamDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceArrays.BowlingTeamDemo3" />
+  <component name="RunManager" selected="Application.DemoSalesperson2">
+    <configuration name="ArrayMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.ArrayMethodDemo" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -216,8 +216,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BowlingTeamDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceArrays.BowlingTeamDemo4" />
+    <configuration name="CategorizeStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.CategorizeStrings" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -229,8 +229,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDiscount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceArrays.FindDiscount" />
+    <configuration name="CategorizeStrings2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.CategorizeStrings2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -242,8 +242,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceArrays.PassArray" />
+    <configuration name="DemoSalesperson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.DemoSalesperson" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -255,8 +255,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassArrayElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceArrays.PassArrayElement" />
+    <configuration name="DemoSalesperson2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.DemoSalesperson2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -270,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BowlingTeamDemo4" />
-        <item itemvalue="Application.PassArray" />
-        <item itemvalue="Application.PassArrayElement" />
-        <item itemvalue="Application.BowlingTeamDemo3" />
-        <item itemvalue="Application.FindDiscount" />
+        <item itemvalue="Application.DemoSalesperson2" />
+        <item itemvalue="Application.DemoSalesperson" />
+        <item itemvalue="Application.CategorizeStrings2" />
+        <item itemvalue="Application.CategorizeStrings" />
+        <item itemvalue="Application.ArrayMethodDemo" />
       </list>
     </recent_temporary>
   </component>
