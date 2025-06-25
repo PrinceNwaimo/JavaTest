@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/BirthdayReminder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/CertOfDeposit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/CertOfDepositArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/CollegeCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/DrugTests2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/DrugTests3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/InputGrades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/PhoneNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/Purchase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/PurchaseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/FiveDice2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/FiveDice3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/FullDeck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/SecretPhrase2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/War3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,8 +125,11 @@
     "Application.Factorials.executor": "Run",
     "Application.FindDiscount.executor": "Run",
     "Application.FindPrice.executor": "Run",
+    "Application.FiveDice2.executor": "Run",
+    "Application.FiveDice3.executor": "Run",
     "Application.FloorAndCeil.executor": "Run",
     "Application.FormatInteger.executor": "Run",
+    "Application.FullDeck.executor": "Run",
     "Application.GreatestCommonDivisor.executor": "Run",
     "Application.GreatestCommonDivisorMethod.executor": "Run",
     "Application.GuessTheNumber.executor": "Run",
@@ -178,6 +178,7 @@
     "Application.PrintChars.executor": "Run",
     "Application.PrintMatrix.executor": "Run",
     "Application.PurchaseArray.executor": "Run",
+    "Application.Quiz.executor": "Run",
     "Application.Quiz2.executor": "Run",
     "Application.QuizScoreStatistics.executor": "Run",
     "Application.RandomCharacter2.executor": "Run",
@@ -190,6 +191,7 @@
     "Application.ReverseInteger.executor": "Run",
     "Application.RollDice.executor": "Run",
     "Application.Score.executor": "Run",
+    "Application.SecretPhrase2.executor": "Run",
     "Application.ShowCurrentDateTime.executor": "Run",
     "Application.SportsRecommender.executor": "Run",
     "Application.Sqrt.executor": "Run",
@@ -207,6 +209,7 @@
     "Application.TryToCompareStrings.executor": "Run",
     "Application.TwinPrimes.executor": "Run",
     "Application.TwoDice3.executor": "Run",
+    "Application.War3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -218,9 +221,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DrugTests3">
-    <configuration name="CertOfDepositArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceArrays.CertOfDepositArray" />
+  <component name="RunManager" selected="Application.RentalDemo">
+    <configuration name="EventDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.EventDemo" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -232,8 +235,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DrugTests2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceArrays.DrugTests2" />
+    <configuration name="FullDeck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.FullDeck" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -245,8 +248,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DrugTests3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceArrays.DrugTests3" />
+    <configuration name="RentalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.RentalDemo" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -258,8 +261,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceArrays.PhoneNumbers" />
+    <configuration name="SecretPhrase2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.SecretPhrase2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -271,8 +274,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PurchaseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceArrays.PurchaseArray" />
+    <configuration name="War3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.War3" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -286,11 +289,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DrugTests3" />
-        <item itemvalue="Application.DrugTests2" />
-        <item itemvalue="Application.PurchaseArray" />
-        <item itemvalue="Application.CertOfDepositArray" />
-        <item itemvalue="Application.PhoneNumbers" />
+        <item itemvalue="Application.RentalDemo" />
+        <item itemvalue="Application.EventDemo" />
+        <item itemvalue="Application.SecretPhrase2" />
+        <item itemvalue="Application.War3" />
+        <item itemvalue="Application.FullDeck" />
       </list>
     </recent_temporary>
   </component>
