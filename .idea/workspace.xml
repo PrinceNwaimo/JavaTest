@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/ArrayMethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/CarCareChoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/CarCareChoice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/CategorizeStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/DistanceFromAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceArrays/NineInts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/BirthdayReminder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/CertOfDeposit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/CertOfDepositArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/CollegeCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/DrugTests2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/DrugTests3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/InputGrades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/PhoneNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/Purchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/PurchaseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceArrays/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +70,7 @@
     "Application.BankBalanceByRateAndYear.executor": "Run",
     "Application.BarChart.executor": "Run",
     "Application.BarChart2.executor": "Run",
+    "Application.BirthdayReminder.executor": "Run",
     "Application.BowlingTeamDemo.executor": "Run",
     "Application.BowlingTeamDemo2.executor": "Run",
     "Application.BowlingTeamDemo3.executor": "Run",
@@ -74,6 +80,9 @@
     "Application.CarCareChoice.executor": "Run",
     "Application.CarCareChoice2.executor": "Run",
     "Application.CarlysEventPriceWithEventClass.executor": "Run",
+    "Application.CategorizeStrings.executor": "Run",
+    "Application.CategorizeStrings2.executor": "Run",
+    "Application.CertOfDepositArray.executor": "Run",
     "Application.CharacterInfo.executor": "Run",
     "Application.Charge.executor": "Run",
     "Application.CheckPassword.executor": "Run",
@@ -100,6 +109,8 @@
     "Application.DaysInYear.executor": "Run",
     "Application.DemoArray.executor": "Run",
     "Application.DemoIncrement.executor": "Run",
+    "Application.DemoSalesperson.executor": "Run",
+    "Application.DemoSalesperson2.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
     "Application.DistanceBetweenPoints.executor": "Run",
     "Application.DistanceFromAverage.executor": "Run",
@@ -107,6 +118,8 @@
     "Application.DivideEvenly2.executor": "Run",
     "Application.DivisibleBy5.executor": "Run",
     "Application.DrugTests.executor": "Run",
+    "Application.DrugTests2.executor": "Run",
+    "Application.DrugTests3.executor": "Run",
     "Application.Emirp.executor": "Run",
     "Application.EnterSmallValue.executor": "Run",
     "Application.EstimatePi.executor": "Run",
@@ -125,6 +138,7 @@
     "Application.HypotenuseCalculator.executor": "Run",
     "Application.Inbetween.executor": "Run",
     "Application.IncreasedProduction.executor": "Run",
+    "Application.InputGrades.executor": "Run",
     "Application.LeapYear.executor": "Run",
     "Application.LengthConverter.executor": "Run",
     "Application.MaximumFinder.executor": "Run",
@@ -150,6 +164,7 @@
     "Application.PerfectNumbers.executor": "Run",
     "Application.PhoneKeypad.executor": "Run",
     "Application.PhoneKeypad2.executor": "Run",
+    "Application.PhoneNumbers.executor": "Run",
     "Application.PigDiceGame.executor": "Run",
     "Application.PigDiceGame2.executor": "Run",
     "Application.PigLatin.executor": "Run",
@@ -162,6 +177,7 @@
     "Application.PrintCalendar2.executor": "Run",
     "Application.PrintChars.executor": "Run",
     "Application.PrintMatrix.executor": "Run",
+    "Application.PurchaseArray.executor": "Run",
     "Application.Quiz2.executor": "Run",
     "Application.QuizScoreStatistics.executor": "Run",
     "Application.RandomCharacter2.executor": "Run",
@@ -202,9 +218,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DemoSalesperson2">
-    <configuration name="ArrayMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceArrays.ArrayMethodDemo" />
+  <component name="RunManager" selected="Application.DrugTests3">
+    <configuration name="CertOfDepositArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.CertOfDepositArray" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -216,8 +232,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategorizeStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceArrays.CategorizeStrings" />
+    <configuration name="DrugTests2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.DrugTests2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -229,8 +245,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategorizeStrings2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceArrays.CategorizeStrings2" />
+    <configuration name="DrugTests3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.DrugTests3" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -242,8 +258,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoSalesperson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceArrays.DemoSalesperson" />
+    <configuration name="PhoneNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.PhoneNumbers" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -255,8 +271,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoSalesperson2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceArrays.DemoSalesperson2" />
+    <configuration name="PurchaseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceArrays.PurchaseArray" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -270,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoSalesperson2" />
-        <item itemvalue="Application.DemoSalesperson" />
-        <item itemvalue="Application.CategorizeStrings2" />
-        <item itemvalue="Application.CategorizeStrings" />
-        <item itemvalue="Application.ArrayMethodDemo" />
+        <item itemvalue="Application.DrugTests3" />
+        <item itemvalue="Application.DrugTests2" />
+        <item itemvalue="Application.PurchaseArray" />
+        <item itemvalue="Application.CertOfDepositArray" />
+        <item itemvalue="Application.PhoneNumbers" />
       </list>
     </recent_temporary>
   </component>
