@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangArrays/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangArrays/CheckSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangArrays/ComputeDeviation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangArrays/ComputeGCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangArrays/EliminateDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangArrays/EliminateDuplicatesUsingHashsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangArrays/RandomNumberChooser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangArrays/ReverseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangArrays/SearchExecutionTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangArrays/SortStudents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangArrays/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangArrays/BeanMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangArrays/ChineseZodiac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangArrays/Combinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangArrays/ConsecutiveFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangArrays/CouponCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangArrays/EightQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangArrays/Hangman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangArrays/LockerPuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangArrays/MergeSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangArrays/PartitionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangArrays/PickFourCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangArrays/QuadraticEquationSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangArrays/SortString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangArrays/StrictlyIdenticalArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +75,7 @@
     "Application.BankBalanceByRateAndYear.executor": "Run",
     "Application.BarChart.executor": "Run",
     "Application.BarChart2.executor": "Run",
+    "Application.BeanMachine.executor": "Run",
     "Application.BirthdayReminder.executor": "Run",
     "Application.BowlingTeamDemo.executor": "Run",
     "Application.BowlingTeamDemo2.executor": "Run",
@@ -91,8 +95,10 @@
     "Application.Charge.executor": "Run",
     "Application.CheckPassword.executor": "Run",
     "Application.CheckSorted.executor": "Run",
+    "Application.ChineseZodiac.executor": "Run",
     "Application.Clock.executor": "Run",
     "Application.CoinTossSimulator.executor": "Run",
+    "Application.Combinations.executor": "Run",
     "Application.CommissionCalculator.executor": "Run",
     "Application.CompareLoopTimes.executor": "Run",
     "Application.CompareStrings.executor": "Run",
@@ -107,6 +113,7 @@
     "Application.CountPrimeNumbers.executor": "Run",
     "Application.CountSpaces2.executor": "Run",
     "Application.CountWords.executor": "Run",
+    "Application.CouponCollector.executor": "Run",
     "Application.Craps.executor": "Run",
     "Application.CrapsSimulation.executor": "Run",
     "Application.CreatePurchase.executor": "Run",
@@ -128,6 +135,7 @@
     "Application.DrugTests.executor": "Run",
     "Application.DrugTests2.executor": "Run",
     "Application.DrugTests3.executor": "Run",
+    "Application.EightQueens.executor": "Run",
     "Application.EliminateDuplicates.executor": "Run",
     "Application.EliminateDuplicatesUsingHashsets.executor": "Run",
     "Application.Emirp.executor": "Run",
@@ -149,6 +157,7 @@
     "Application.GreatestCommonDivisorMethod.executor": "Run",
     "Application.GuessTheNumber.executor": "Run",
     "Application.GuessTheNumberModification.executor": "Run",
+    "Application.Hangman.executor": "Run",
     "Application.Hex2Dec.executor": "Run",
     "Application.HypotenuseCalculator.executor": "Run",
     "Application.Inbetween.executor": "Run",
@@ -157,7 +166,9 @@
     "Application.LeapYear.executor": "Run",
     "Application.LengthConverter.executor": "Run",
     "Application.LinearSearchApproach.executor": "Run",
+    "Application.LockerPuzzle.executor": "Run",
     "Application.MaximumFinder.executor": "Run",
+    "Application.MergeSortedLists.executor": "Run",
     "Application.MersennePrime.executor": "Run",
     "Application.Months.executor": "Run",
     "Application.Multiples.executor": "Run",
@@ -172,6 +183,7 @@
     "Application.PalindromeChecker.executor": "Run",
     "Application.PalindromeInteger.executor": "Run",
     "Application.PalindromicPrime.executor": "Run",
+    "Application.PartitionList.executor": "Run",
     "Application.PassArray.executor": "Run",
     "Application.PassArrayElement.executor": "Run",
     "Application.PatternDisplay.executor": "Run",
@@ -182,6 +194,7 @@
     "Application.PhoneKeypad.executor": "Run",
     "Application.PhoneKeypad2.executor": "Run",
     "Application.PhoneNumbers.executor": "Run",
+    "Application.PickFourCards.executor": "Run",
     "Application.PigDiceGame.executor": "Run",
     "Application.PigDiceGame2.executor": "Run",
     "Application.PigLatin.executor": "Run",
@@ -196,6 +209,7 @@
     "Application.PrintMatrix.executor": "Run",
     "Application.ProcessingArrays.executor": "Run",
     "Application.PurchaseArray.executor": "Run",
+    "Application.QuadraticEquationSolver.executor": "Run",
     "Application.Quiz.executor": "Run",
     "Application.Quiz2.executor": "Run",
     "Application.QuizScoreStatistics.executor": "Run",
@@ -214,10 +228,13 @@
     "Application.Score.executor": "Run",
     "Application.SearchExecutionTime.executor": "Run",
     "Application.SecretPhrase2.executor": "Run",
+    "Application.SelectionSort2.executor": "Run",
     "Application.ShowCurrentDateTime.executor": "Run",
+    "Application.SortString.executor": "Run",
     "Application.SortStudents.executor": "Run",
     "Application.SportsRecommender.executor": "Run",
     "Application.Sqrt.executor": "Run",
+    "Application.StrictlyIdenticalArrays.executor": "Run",
     "Application.StringBeautifier.executor": "Run",
     "Application.StringBuilderDemo.executor": "Run",
     "Application.StringBuilderMethods.executor": "Run",
@@ -244,9 +261,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SelectionSort2">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangArrays.BubbleSort" />
+  <component name="RunManager" selected="Application.Hangman">
+    <configuration name="ChineseZodiac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangArrays.ChineseZodiac" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -258,8 +275,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangArrays.CheckSorted" />
+    <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangArrays.Hangman" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -271,8 +288,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchExecutionTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangArrays.SearchExecutionTime" />
+    <configuration name="MergeSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangArrays.MergeSortedLists" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -284,8 +301,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangArrays.SelectionSort2" />
+    <configuration name="PartitionList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangArrays.PartitionList" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -297,8 +314,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortStudents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangArrays.SortStudents" />
+    <configuration name="SortString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangArrays.SortString" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -312,11 +329,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelectionSort2" />
-        <item itemvalue="Application.CheckSorted" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.SortStudents" />
-        <item itemvalue="Application.SearchExecutionTime" />
+        <item itemvalue="Application.Hangman" />
+        <item itemvalue="Application.SortString" />
+        <item itemvalue="Application.ChineseZodiac" />
+        <item itemvalue="Application.PartitionList" />
+        <item itemvalue="Application.MergeSortedLists" />
       </list>
     </recent_temporary>
   </component>
