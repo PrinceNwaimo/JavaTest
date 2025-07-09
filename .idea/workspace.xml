@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/CheckSudokuSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/FindNearestPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/GradeExam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/GuessBirthdayUsingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/PassTwoDimensionalArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/SummingElementsInAColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/AddMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/AllClosestPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/ComputeTax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/ComputeWeeklyHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/ExploreMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/GradeExam2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/LargestRowAndColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/LocateLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/MultiplyMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/NearestPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/NineHeadsAndTails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/SameLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/SumColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/SumMajorDiagonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/TicTacToe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +63,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AB.executor": "Run",
+    "Application.AddMatrix.executor": "Run",
+    "Application.AllClosestPairs.executor": "Run",
     "Application.Alphabetize.executor": "Run",
     "Application.AnalyzeNumbers.executor": "Run",
     "Application.ArithmeticCAI.executor": "Run",
@@ -98,6 +108,8 @@
     "Application.CompareStrings.executor": "Run",
     "Application.ComputeDeviation.executor": "Run",
     "Application.ComputeGCD.executor": "Run",
+    "Application.ComputeTax.executor": "Run",
+    "Application.ComputeWeeklyHours.executor": "Run",
     "Application.ConcatenationTimeComparison.executor": "Run",
     "Application.ConvertMillis.executor": "Run",
     "Application.CountBy5.executor": "Run",
@@ -149,6 +161,7 @@
     "Application.FormatInteger.executor": "Run",
     "Application.FullDeck.executor": "Run",
     "Application.GradeExam.executor": "Run",
+    "Application.GradeExam2.executor": "Run",
     "Application.GreatestCommonDivisor.executor": "Run",
     "Application.GreatestCommonDivisorMethod.executor": "Run",
     "Application.GuessBirthdayUsingArray.executor": "Run",
@@ -160,6 +173,7 @@
     "Application.Inbetween.executor": "Run",
     "Application.IncreasedProduction.executor": "Run",
     "Application.InputGrades.executor": "Run",
+    "Application.LargestRowAndColumn.executor": "Run",
     "Application.LeapYear.executor": "Run",
     "Application.LengthConverter.executor": "Run",
     "Application.LinearSearchApproach.executor": "Run",
@@ -173,7 +187,10 @@
     "Application.MultiplicationCAI2.executor": "Run",
     "Application.MultiplicationCAI3.executor": "Run",
     "Application.MultiplicationCAIModification.executor": "Run",
+    "Application.MultiplyMatrix.executor": "Run",
     "Application.MyTriangle.executor": "Run",
+    "Application.NearestPoints.executor": "Run",
+    "Application.NineHeadsAndTails.executor": "Run",
     "Application.NineInts.executor": "Run",
     "Application.NumberInput.executor": "Run",
     "Application.NumberSystemsTable.executor": "Run",
@@ -223,6 +240,7 @@
     "Application.ReverseArray.executor": "Run",
     "Application.ReverseInteger.executor": "Run",
     "Application.RollDice.executor": "Run",
+    "Application.SameLine.executor": "Run",
     "Application.Score.executor": "Run",
     "Application.SearchExecutionTime.executor": "Run",
     "Application.SecretPhrase2.executor": "Run",
@@ -236,7 +254,9 @@
     "Application.StringBeautifier.executor": "Run",
     "Application.StringBuilderDemo.executor": "Run",
     "Application.StringBuilderMethods.executor": "Run",
+    "Application.SumColumn.executor": "Run",
     "Application.SumDigits.executor": "Run",
+    "Application.SumMajorDiagonal.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
     "Application.SumSeries.executor": "Run",
     "Application.SummingElementsInAColumn.executor": "Run",
@@ -244,6 +264,7 @@
     "Application.TemperatureConverter.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
     "Application.TestRandomCharacter.executor": "Run",
+    "Application.TicTacToe.executor": "Run",
     "Application.TriangleWithLoops.executor": "Run",
     "Application.TryToCompareStrings.executor": "Run",
     "Application.TwinPrimes.executor": "Run",
@@ -261,9 +282,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GuessBirthdayUsingArray">
-    <configuration name="CheckSudokuSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.CheckSudokuSolution" />
+  <component name="RunManager" selected="Application.FinancialTsunami">
+    <configuration name="ComputeTax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.ComputeTax" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -275,8 +296,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindNearestPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.FindNearestPoints" />
+    <configuration name="FinancialTsunami" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.FinancialTsunami" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -288,8 +309,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.GradeExam" />
+    <configuration name="NineHeadsAndTails" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.NineHeadsAndTails" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -301,8 +322,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessBirthdayUsingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.GuessBirthdayUsingArray" />
+    <configuration name="SameLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.SameLine" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -314,8 +335,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Weather" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.Weather" />
+    <configuration name="Sort2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.Sort2DArray" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -329,11 +350,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuessBirthdayUsingArray" />
-        <item itemvalue="Application.Weather" />
-        <item itemvalue="Application.CheckSudokuSolution" />
-        <item itemvalue="Application.FindNearestPoints" />
-        <item itemvalue="Application.GradeExam" />
+        <item itemvalue="Application.FinancialTsunami" />
+        <item itemvalue="Application.Sort2DArray" />
+        <item itemvalue="Application.SameLine" />
+        <item itemvalue="Application.ComputeTax" />
+        <item itemvalue="Application.NineHeadsAndTails" />
       </list>
     </recent_temporary>
   </component>
