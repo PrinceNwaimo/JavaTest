@@ -5,21 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/AddMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/AllClosestPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/ComputeTax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/ComputeWeeklyHours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/ExploreMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/GradeExam2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/LargestRowAndColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/LocateLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/MultiplyMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/NearestPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/NineHeadsAndTails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/SameLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/SumColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/SumMajorDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/CentralCity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/CheckSudokuSolution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/ColumnSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/ConnectFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/ConsecutiveFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/EvenNumberOfOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/FindFlippedCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/GuessTheCapitals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/IdenticalArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/IntersectingPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/LargestBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/LatinSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/LinearEquationSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/MarkovMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/PolygonSubareas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/RightmostLowestPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/RowSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/ShuffleRows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/StrictlyIdenticalArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/TriangleArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +98,7 @@
     "Application.CarlysEventPriceWithEventClass.executor": "Run",
     "Application.CategorizeStrings.executor": "Run",
     "Application.CategorizeStrings2.executor": "Run",
+    "Application.CentralCity.executor": "Run",
     "Application.CertOfDepositArray.executor": "Run",
     "Application.CharacterInfo.executor": "Run",
     "Application.Charge.executor": "Run",
@@ -111,6 +117,8 @@
     "Application.ComputeTax.executor": "Run",
     "Application.ComputeWeeklyHours.executor": "Run",
     "Application.ConcatenationTimeComparison.executor": "Run",
+    "Application.ConnectFour.executor": "Run",
+    "Application.ConsecutiveFour.executor": "Run",
     "Application.ConvertMillis.executor": "Run",
     "Application.CountBy5.executor": "Run",
     "Application.CountByAnything.executor": "Run",
@@ -150,7 +158,9 @@
     "Application.EvenEntryLoop.executor": "Run",
     "Application.EventDemo.executor": "Run",
     "Application.Factorials.executor": "Run",
+    "Application.FinancialTsunami.executor": "Run",
     "Application.FindDiscount.executor": "Run",
+    "Application.FindFlippedCell.executor": "Run",
     "Application.FindNearestPoints.executor": "Run",
     "Application.FindPrice.executor": "Run",
     "Application.FindSmallestElement.executor": "Run",
@@ -165,6 +175,7 @@
     "Application.GreatestCommonDivisor.executor": "Run",
     "Application.GreatestCommonDivisorMethod.executor": "Run",
     "Application.GuessBirthdayUsingArray.executor": "Run",
+    "Application.GuessTheCapitals.executor": "Run",
     "Application.GuessTheNumber.executor": "Run",
     "Application.GuessTheNumberModification.executor": "Run",
     "Application.Hangman.executor": "Run",
@@ -178,6 +189,7 @@
     "Application.LengthConverter.executor": "Run",
     "Application.LinearSearchApproach.executor": "Run",
     "Application.LockerPuzzle.executor": "Run",
+    "Application.MarkovMatrix.executor": "Run",
     "Application.MaximumFinder.executor": "Run",
     "Application.MergeSortedLists.executor": "Run",
     "Application.MersennePrime.executor": "Run",
@@ -246,6 +258,7 @@
     "Application.SecretPhrase2.executor": "Run",
     "Application.SelectionSort2.executor": "Run",
     "Application.ShowCurrentDateTime.executor": "Run",
+    "Application.Sort2DArray.executor": "Run",
     "Application.SortString.executor": "Run",
     "Application.SortStudents.executor": "Run",
     "Application.SportsRecommender.executor": "Run",
@@ -282,9 +295,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FinancialTsunami">
-    <configuration name="ComputeTax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.ComputeTax" />
+  <component name="RunManager" selected="Application.GuessTheCapitals">
+    <configuration name="CentralCity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.CentralCity" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -296,8 +309,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinancialTsunami" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.FinancialTsunami" />
+    <configuration name="ConnectFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.ConnectFour" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -309,8 +322,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NineHeadsAndTails" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.NineHeadsAndTails" />
+    <configuration name="FindFlippedCell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.FindFlippedCell" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -322,8 +335,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SameLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.SameLine" />
+    <configuration name="GuessTheCapitals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.GuessTheCapitals" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -335,8 +348,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.Sort2DArray" />
+    <configuration name="MarkovMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.MarkovMatrix" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -350,11 +363,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FinancialTsunami" />
-        <item itemvalue="Application.Sort2DArray" />
-        <item itemvalue="Application.SameLine" />
-        <item itemvalue="Application.ComputeTax" />
-        <item itemvalue="Application.NineHeadsAndTails" />
+        <item itemvalue="Application.GuessTheCapitals" />
+        <item itemvalue="Application.MarkovMatrix" />
+        <item itemvalue="Application.FindFlippedCell" />
+        <item itemvalue="Application.CentralCity" />
+        <item itemvalue="Application.ConnectFour" />
       </list>
     </recent_temporary>
   </component>
