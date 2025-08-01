@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/CardShufflingAndDealing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/DeckOfCards2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/KnightsTourClosedTourTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/SieveOfEratosthenes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/TortoiseAndHare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +75,7 @@
     "Application.CalendarApplication.executor": "Run",
     "Application.CarCareChoice.executor": "Run",
     "Application.CarCareChoice2.executor": "Run",
+    "Application.CardShufflingAndDealing.executor": "Run",
     "Application.CarlysEventPriceWithEventClass.executor": "Run",
     "Application.CategorizeStrings.executor": "Run",
     "Application.CategorizeStrings2.executor": "Run",
@@ -300,7 +293,7 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CardShufflingAndDealing">
+  <component name="RunManager" selected="Application.Polling">
     <configuration name="CardShufflingAndDealing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="diettelArrays.CardShufflingAndDealing" />
       <module name="testSamples" />
@@ -327,12 +320,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightsTourClosedTourTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelArrays.KnightsTourClosedTourTest" />
+    <configuration name="Polling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="makingAdifference.Polling" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelArrays.*" />
+          <option name="PATTERN" value="makingAdifference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,11 +361,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Polling" />
         <item itemvalue="Application.CardShufflingAndDealing" />
         <item itemvalue="Application.DeckOfCards2$deckOfCards2$Hand" />
         <item itemvalue="Application.TortoiseAndHare" />
         <item itemvalue="Application.SieveOfEratosthenes" />
-        <item itemvalue="Application.KnightsTourClosedTourTest" />
       </list>
     </recent_temporary>
   </component>
