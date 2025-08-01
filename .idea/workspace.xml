@@ -5,26 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/CentralCity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/CheckSudokuSolution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/ColumnSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/ConnectFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/ConsecutiveFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/EvenNumberOfOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/FindFlippedCell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/GuessTheCapitals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/IdenticalArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/IntersectingPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/LargestBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/LatinSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/LinearEquationSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/MarkovMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/PolygonSubareas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/RightmostLowestPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/RowSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/ShuffleRows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/StrictlyIdenticalArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiArrays/TriangleArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelArrays/BarChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelArrays/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelArrays/DeckOfCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelArrays/DeckOfCardsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelArrays/GradeBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelArrays/GradeBookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelArrays/InitArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelArrays/InitArray2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelArrays/SumArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,6 +125,7 @@
     "Application.CurrentDateTime2.executor": "Run",
     "Application.DaysInYear.executor": "Run",
     "Application.DeckOfCards.executor": "Run",
+    "Application.DeckOfCardsTest.executor": "Run",
     "Application.DemoArray.executor": "Run",
     "Application.DemoIncrement.executor": "Run",
     "Application.DemoSalesperson.executor": "Run",
@@ -170,6 +160,7 @@
     "Application.FloorAndCeil.executor": "Run",
     "Application.FormatInteger.executor": "Run",
     "Application.FullDeck.executor": "Run",
+    "Application.GradeBookTest.executor": "Run",
     "Application.GradeExam.executor": "Run",
     "Application.GradeExam2.executor": "Run",
     "Application.GreatestCommonDivisor.executor": "Run",
@@ -183,6 +174,7 @@
     "Application.HypotenuseCalculator.executor": "Run",
     "Application.Inbetween.executor": "Run",
     "Application.IncreasedProduction.executor": "Run",
+    "Application.InitArray.executor": "Run",
     "Application.InputGrades.executor": "Run",
     "Application.LargestRowAndColumn.executor": "Run",
     "Application.LeapYear.executor": "Run",
@@ -267,6 +259,7 @@
     "Application.StringBeautifier.executor": "Run",
     "Application.StringBuilderDemo.executor": "Run",
     "Application.StringBuilderMethods.executor": "Run",
+    "Application.SumArrays.executor": "Run",
     "Application.SumColumn.executor": "Run",
     "Application.SumDigits.executor": "Run",
     "Application.SumMajorDiagonal.executor": "Run",
@@ -295,13 +288,13 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GuessTheCapitals">
-    <configuration name="CentralCity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.CentralCity" />
+  <component name="RunManager" selected="Application.GradeBookTest">
+    <configuration name="BarChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelArrays.BarChart" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangMultiArrays.*" />
+          <option name="PATTERN" value="diettelArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,12 +302,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.ConnectFour" />
+    <configuration name="DeckOfCardsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelArrays.DeckOfCardsTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangMultiArrays.*" />
+          <option name="PATTERN" value="diettelArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,12 +315,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFlippedCell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.FindFlippedCell" />
+    <configuration name="GradeBookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelArrays.GradeBookTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangMultiArrays.*" />
+          <option name="PATTERN" value="diettelArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,12 +328,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessTheCapitals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.GuessTheCapitals" />
+    <configuration name="InitArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelArrays.InitArray" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangMultiArrays.*" />
+          <option name="PATTERN" value="diettelArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -348,12 +341,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarkovMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiArrays.MarkovMatrix" />
+    <configuration name="SumArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelArrays.SumArrays" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangMultiArrays.*" />
+          <option name="PATTERN" value="diettelArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,11 +356,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuessTheCapitals" />
-        <item itemvalue="Application.MarkovMatrix" />
-        <item itemvalue="Application.FindFlippedCell" />
-        <item itemvalue="Application.CentralCity" />
-        <item itemvalue="Application.ConnectFour" />
+        <item itemvalue="Application.GradeBookTest" />
+        <item itemvalue="Application.DeckOfCardsTest" />
+        <item itemvalue="Application.BarChart" />
+        <item itemvalue="Application.SumArrays" />
+        <item itemvalue="Application.InitArray" />
       </list>
     </recent_temporary>
   </component>
