@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/AirlineReservations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/ArcheryGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/CommandLineAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/Craps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/DiceRolling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/DuplicateElimination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/EightQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/KnightsTour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/KnightsTourBruteForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/PixelQuantization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/TurtleGraphics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/TurtleGraphics2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelArrays/VariableLengthArgumentList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelArrays/CardShufflingAndDealing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelArrays/DeckOfCards2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelArrays/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelArrays/KnightsTourClosedTourTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelArrays/SieveOfEratosthenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelArrays/TortoiseAndHare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,6 +125,7 @@
     "Application.CurrentDateTime2.executor": "Run",
     "Application.DaysInYear.executor": "Run",
     "Application.DeckOfCards.executor": "Run",
+    "Application.DeckOfCards2$deckOfCards2$Hand.executor": "Run",
     "Application.DeckOfCardsTest.executor": "Run",
     "Application.DemoArray.executor": "Run",
     "Application.DemoIncrement.executor": "Run",
@@ -187,6 +181,7 @@
     "Application.InputGrades.executor": "Run",
     "Application.KnightsTour.executor": "Run",
     "Application.KnightsTourBruteForce.executor": "Run",
+    "Application.KnightsTourClosedTourTest.executor": "Run",
     "Application.LargestRowAndColumn.executor": "Run",
     "Application.LeapYear.executor": "Run",
     "Application.LengthConverter.executor": "Run",
@@ -262,6 +257,7 @@
     "Application.SecretPhrase2.executor": "Run",
     "Application.SelectionSort2.executor": "Run",
     "Application.ShowCurrentDateTime.executor": "Run",
+    "Application.SieveOfEratosthenes.executor": "Run",
     "Application.Sort2DArray.executor": "Run",
     "Application.SortString.executor": "Run",
     "Application.SortStudents.executor": "Run",
@@ -283,6 +279,7 @@
     "Application.TestFusedLoopTime.executor": "Run",
     "Application.TestRandomCharacter.executor": "Run",
     "Application.TicTacToe.executor": "Run",
+    "Application.TortoiseAndHare.executor": "Run",
     "Application.TriangleWithLoops.executor": "Run",
     "Application.TryToCompareStrings.executor": "Run",
     "Application.TurtleGraphics.executor": "Run",
@@ -303,9 +300,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EightQueens">
-    <configuration name="EightQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelArrays.EightQueens" />
+  <component name="RunManager" selected="Application.CardShufflingAndDealing">
+    <configuration name="CardShufflingAndDealing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelArrays.CardShufflingAndDealing" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -317,8 +314,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightsTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelArrays.KnightsTour" />
+    <configuration name="DeckOfCards2$deckOfCards2$Hand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelArrays.DeckOfCards2$deckOfCards2$Hand" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -330,8 +327,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightsTourBruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelArrays.KnightsTourBruteForce" />
+    <configuration name="KnightsTourClosedTourTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelArrays.KnightsTourClosedTourTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -343,8 +340,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurtleGraphics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelArrays.TurtleGraphics" />
+    <configuration name="SieveOfEratosthenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelArrays.SieveOfEratosthenes" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -356,8 +353,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurtleGraphics2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelArrays.TurtleGraphics2" />
+    <configuration name="TortoiseAndHare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelArrays.TortoiseAndHare" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -371,11 +368,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EightQueens" />
-        <item itemvalue="Application.KnightsTourBruteForce" />
-        <item itemvalue="Application.KnightsTour" />
-        <item itemvalue="Application.TurtleGraphics2" />
-        <item itemvalue="Application.TurtleGraphics" />
+        <item itemvalue="Application.CardShufflingAndDealing" />
+        <item itemvalue="Application.DeckOfCards2$deckOfCards2$Hand" />
+        <item itemvalue="Application.TortoiseAndHare" />
+        <item itemvalue="Application.SieveOfEratosthenes" />
+        <item itemvalue="Application.KnightsTourClosedTourTest" />
       </list>
     </recent_temporary>
   </component>
