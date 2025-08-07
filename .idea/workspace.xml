@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="" />
+    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/joyceBubbleSortAlgorithm/BubbleSortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceBubbleSortAlgorithm/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceBubbleSortAlgorithm/InsertionSortAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +75,7 @@
     "Application.BowlingTeamDemo3.executor": "Run",
     "Application.BowlingTeamDemo4.executor": "Run",
     "Application.BubbleSort.executor": "Run",
+    "Application.BubbleSortDemo.executor": "Run",
     "Application.Businessletter.executor": "Run",
     "Application.Calculator.executor": "Run",
     "Application.CalendarApplication.executor": "Run",
@@ -172,6 +178,7 @@
     "Application.IncreasedProduction.executor": "Run",
     "Application.InitArray.executor": "Run",
     "Application.InputGrades.executor": "Run",
+    "Application.InsertionSortAlgorithm.executor": "Run",
     "Application.KnightsTour.executor": "Run",
     "Application.KnightsTourBruteForce.executor": "Run",
     "Application.KnightsTourClosedTourTest.executor": "Run",
@@ -218,6 +225,7 @@
     "Application.PigLatin.executor": "Run",
     "Application.PixelQuantization.executor": "Run",
     "Application.PointPosition.executor": "Run",
+    "Application.Polling.executor": "Run",
     "Application.Population.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
     "Application.PrimeNumberMethod.executor": "Run",
@@ -293,7 +301,20 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Polling">
+  <component name="RunManager" selected="Application.FindRent">
+    <configuration name="BubbleSortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceBubbleSortAlgorithm.BubbleSortDemo" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceBubbleSortAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CardShufflingAndDealing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="diettelArrays.CardShufflingAndDealing" />
       <module name="testSamples" />
@@ -307,12 +328,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeckOfCards2$deckOfCards2$Hand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelArrays.DeckOfCards2$deckOfCards2$Hand" />
+    <configuration name="FindRent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.FindRent" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelArrays.*" />
+          <option name="PATTERN" value="joyceTwoDimensionalArrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSortAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceBubbleSortAlgorithm.InsertionSortAlgorithm" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceBubbleSortAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,39 +367,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SieveOfEratosthenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelArrays.SieveOfEratosthenes" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TortoiseAndHare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelArrays.TortoiseAndHare" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindRent" />
+        <item itemvalue="Application.InsertionSortAlgorithm" />
+        <item itemvalue="Application.BubbleSortDemo" />
         <item itemvalue="Application.Polling" />
         <item itemvalue="Application.CardShufflingAndDealing" />
-        <item itemvalue="Application.DeckOfCards2$deckOfCards2$Hand" />
-        <item itemvalue="Application.TortoiseAndHare" />
-        <item itemvalue="Application.SieveOfEratosthenes" />
       </list>
     </recent_temporary>
   </component>
