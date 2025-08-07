@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceBubbleSortAlgorithm/BubbleSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceBubbleSortAlgorithm/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceBubbleSortAlgorithm/InsertionSortAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/ArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/DisplayRents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/JavaArrayClass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/MenuSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/TwoDimensionalArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/VerifyCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,6 +135,7 @@
     "Application.DemoSalesperson2.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
     "Application.DiceRolling.executor": "Run",
+    "Application.DisplayRents.executor": "Run",
     "Application.DistanceBetweenPoints.executor": "Run",
     "Application.DistanceFromAverage.executor": "Run",
     "Application.DivideEvenly.executor": "Run",
@@ -155,6 +159,7 @@
     "Application.FindFlippedCell.executor": "Run",
     "Application.FindNearestPoints.executor": "Run",
     "Application.FindPrice.executor": "Run",
+    "Application.FindRent.executor": "Run",
     "Application.FindSmallestElement.executor": "Run",
     "Application.FindSmallestIndex.executor": "Run",
     "Application.FiveDice2.executor": "Run",
@@ -189,6 +194,7 @@
     "Application.LockerPuzzle.executor": "Run",
     "Application.MarkovMatrix.executor": "Run",
     "Application.MaximumFinder.executor": "Run",
+    "Application.MenuSearch.executor": "Run",
     "Application.MergeSortedLists.executor": "Run",
     "Application.MersennePrime.executor": "Run",
     "Application.Months.executor": "Run",
@@ -287,7 +293,9 @@
     "Application.TurtleGraphics2.executor": "Run",
     "Application.TwinPrimes.executor": "Run",
     "Application.TwoDice3.executor": "Run",
+    "Application.TwoDimensionalArrayDemo.executor": "Run",
     "Application.VariableLengthArgumentList.executor": "Run",
+    "Application.VerifyCode.executor": "Run",
     "Application.War3.executor": "Run",
     "Application.Weather.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -301,26 +309,13 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FindRent">
-    <configuration name="BubbleSortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceBubbleSortAlgorithm.BubbleSortDemo" />
+  <component name="RunManager" selected="Application.MenuSearch">
+    <configuration name="DisplayRents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.DisplayRents" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceBubbleSortAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CardShufflingAndDealing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelArrays.CardShufflingAndDealing" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelArrays.*" />
+          <option name="PATTERN" value="joyceTwoDimensionalArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,12 +336,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceBubbleSortAlgorithm.InsertionSortAlgorithm" />
+    <configuration name="MenuSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.MenuSearch" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceBubbleSortAlgorithm.*" />
+          <option name="PATTERN" value="joyceTwoDimensionalArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,12 +349,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="makingAdifference.Polling" />
+    <configuration name="TwoDimensionalArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.TwoDimensionalArrayDemo" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="makingAdifference.*" />
+          <option name="PATTERN" value="joyceTwoDimensionalArrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.VerifyCode" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceTwoDimensionalArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,11 +377,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MenuSearch" />
+        <item itemvalue="Application.VerifyCode" />
+        <item itemvalue="Application.TwoDimensionalArrayDemo" />
+        <item itemvalue="Application.DisplayRents" />
         <item itemvalue="Application.FindRent" />
-        <item itemvalue="Application.InsertionSortAlgorithm" />
-        <item itemvalue="Application.BubbleSortDemo" />
-        <item itemvalue="Application.Polling" />
-        <item itemvalue="Application.CardShufflingAndDealing" />
       </list>
     </recent_temporary>
   </component>
