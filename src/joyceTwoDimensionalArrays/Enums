@@ -1,0 +1,40 @@
+ Method              Description                                 example if mon = Month.MaY
+ toString()          Returns the name of the calling              mon.toString() is "MAY"
+                     constant object
+
+ ordinal()            Returns an integer that represents           mon.ordinal() is 4
+                     the constant’s position in the list of
+                     constants; as with arrays, the first
+                     position is 0
+
+ equals()             Returns true if its argument is equal        mon.equals(Month.MAY) is true
+                                                                   mon.equals(Month.NOV) is false
+                       to the calling object’s value
+
+ compareTo()         Returns a negative integer if the              mon.compareTo(Month.JUL) is negative
+                                                                    mon.compareTo(Month.FEB) is positive
+                                                                    mon.compareTo(Month.MAY) is 0
+                     calling object’s ordinal value is less
+                     than that of the argument, 0 if they
+                     are the same, and a positive integer
+                     if the calling object’s ordinal value is
+                     greater than that of the argument
+
+
+valueOf()            Accepts a string parameter and returns            Month.valueOf("DEC") returns the
+                                                                      DEC enum constant
+                     an enumeration constant
+
+values()            Returns an array of the enumerated                 Month.values() returns an array
+                                                                      with 12 elements that contain the
+                                                                      enum constants
+                    constants
+
+
+
+
+
+
+
+
+
