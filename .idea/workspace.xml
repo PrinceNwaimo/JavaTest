@@ -5,15 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/ArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/ArrayListDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/CarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/EnumDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/EnumDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/Enums" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/DayOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/DoesItHaveLegs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/Majors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/MeanMedian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/MeanMedian2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/MorgansBonuses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/Recording.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/RecordingSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/Salesperson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/Salesperson2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/SalespersonDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/SalespersonSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/SortPurchasesArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/StringSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/StringSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/TicTacToe2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/TimesAndInstructors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,6 +140,7 @@
     "Application.CreditCardValidator.executor": "Run",
     "Application.CurrentDateTime.executor": "Run",
     "Application.CurrentDateTime2.executor": "Run",
+    "Application.DayOfWeek.executor": "Run",
     "Application.DaysInYear.executor": "Run",
     "Application.DeckOfCards.executor": "Run",
     "Application.DeckOfCards2$deckOfCards2$Hand.executor": "Run",
@@ -146,6 +157,7 @@
     "Application.DivideEvenly.executor": "Run",
     "Application.DivideEvenly2.executor": "Run",
     "Application.DivisibleBy5.executor": "Run",
+    "Application.DoesItHaveLegs.executor": "Run",
     "Application.DrugTests.executor": "Run",
     "Application.DrugTests2.executor": "Run",
     "Application.DrugTests3.executor": "Run",
@@ -198,12 +210,15 @@
     "Application.LengthConverter.executor": "Run",
     "Application.LinearSearchApproach.executor": "Run",
     "Application.LockerPuzzle.executor": "Run",
+    "Application.Majors.executor": "Run",
     "Application.MarkovMatrix.executor": "Run",
     "Application.MaximumFinder.executor": "Run",
+    "Application.MeanMedian.executor": "Run",
     "Application.MenuSearch.executor": "Run",
     "Application.MergeSortedLists.executor": "Run",
     "Application.MersennePrime.executor": "Run",
     "Application.Months.executor": "Run",
+    "Application.MorgansBonuses.executor": "Run",
     "Application.Multiples.executor": "Run",
     "Application.MultiplicationCAI.executor": "Run",
     "Application.MultiplicationCAI2.executor": "Run",
@@ -264,6 +279,7 @@
     "Application.ReverseArray.executor": "Run",
     "Application.ReverseInteger.executor": "Run",
     "Application.RollDice.executor": "Run",
+    "Application.SalespersonDatabase.executor": "Run",
     "Application.SameLine.executor": "Run",
     "Application.Score.executor": "Run",
     "Application.SearchExecutionTime.executor": "Run",
@@ -272,6 +288,7 @@
     "Application.ShowCurrentDateTime.executor": "Run",
     "Application.SieveOfEratosthenes.executor": "Run",
     "Application.Sort2DArray.executor": "Run",
+    "Application.SortPurchasesArray.executor": "Run",
     "Application.SortString.executor": "Run",
     "Application.SortStudents.executor": "Run",
     "Application.SportsRecommender.executor": "Run",
@@ -315,9 +332,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CarDemo">
-    <configuration name="ArrayListDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.ArrayListDemo2" />
+  <component name="RunManager" selected="Application.TicTacToe2">
+    <configuration name="DoesItHaveLegs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.DoesItHaveLegs" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -329,8 +346,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.CarDemo" />
+    <configuration name="Majors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.Majors" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -342,8 +359,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.EnumDemo2" />
+    <configuration name="MorgansBonuses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.MorgansBonuses" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -355,8 +372,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.MenuSearch" />
+    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.TicTacToe" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -368,8 +385,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.VerifyCode" />
+    <configuration name="TicTacToe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.TicTacToe2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -383,11 +400,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CarDemo" />
-        <item itemvalue="Application.EnumDemo2" />
-        <item itemvalue="Application.ArrayListDemo2" />
-        <item itemvalue="Application.MenuSearch" />
-        <item itemvalue="Application.VerifyCode" />
+        <item itemvalue="Application.TicTacToe2" />
+        <item itemvalue="Application.TicTacToe" />
+        <item itemvalue="Application.DoesItHaveLegs" />
+        <item itemvalue="Application.MorgansBonuses" />
+        <item itemvalue="Application.Majors" />
       </list>
     </recent_temporary>
   </component>
