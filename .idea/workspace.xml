@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettel8/Complex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/ComplexTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/CylinderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/FancyTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/FancyTimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/FoodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/HugeInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/HugeIntegerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/IntegerSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/IntegerSet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/IntegerSet2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/IntegerSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/RandomNumberGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/Rational.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/RationalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/makingAdifference/Emergency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/diettel8/Time2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diettel8/Time2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/diettel8/Time2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diettel8/Time2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +150,7 @@
     "Application.EightQueens.executor": "Run",
     "Application.EliminateDuplicates.executor": "Run",
     "Application.EliminateDuplicatesUsingHashsets.executor": "Run",
+    "Application.Emergency.executor": "Run",
     "Application.Emirp.executor": "Run",
     "Application.EmployeeTest.executor": "Run",
     "Application.EnterSmallValue.executor": "Run",
@@ -347,7 +330,20 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HugeIntegerTest">
+  <component name="RunManager" selected="Application.Emergency">
+    <configuration name="Emergency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="makingAdifference.Emergency" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="makingAdifference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FancyTimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="diettel8.FancyTimeTest" />
       <module name="testSamples" />
@@ -387,19 +383,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel8.IntegerSetTest" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettel8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RationalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="diettel8.RationalTest" />
       <module name="testSamples" />
@@ -415,11 +398,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Emergency" />
         <item itemvalue="Application.HugeIntegerTest" />
         <item itemvalue="Application.RationalTest" />
         <item itemvalue="Application.FancyTimeTest" />
         <item itemvalue="Application.IntegerSet2Test" />
-        <item itemvalue="Application.IntegerSetTest" />
       </list>
     </recent_temporary>
   </component>
