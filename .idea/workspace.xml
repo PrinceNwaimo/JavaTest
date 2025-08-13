@@ -5,15 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettel8/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/EmployeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/Interest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/Time1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/Time1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/Time2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettel8/Time2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/Complex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/ComplexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/CylinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/FancyTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/FancyTimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/FoodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/HugeInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/HugeIntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/IntegerSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/IntegerSet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/IntegerSet2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/IntegerSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/RandomNumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/Rational.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettel8/RationalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diettel8/Time2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diettel8/Time2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diettel8/Time2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diettel8/Time2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -107,6 +119,7 @@
     "Application.CommissionCalculator.executor": "Run",
     "Application.CompareLoopTimes.executor": "Run",
     "Application.CompareStrings.executor": "Run",
+    "Application.ComplexTest.executor": "Run",
     "Application.ComputeDeviation.executor": "Run",
     "Application.ComputeGCD.executor": "Run",
     "Application.ComputeTax.executor": "Run",
@@ -129,6 +142,7 @@
     "Application.CreditCardValidator.executor": "Run",
     "Application.CurrentDateTime.executor": "Run",
     "Application.CurrentDateTime2.executor": "Run",
+    "Application.CylinderTest.executor": "Run",
     "Application.DayOfWeek.executor": "Run",
     "Application.DaysInYear.executor": "Run",
     "Application.DeckOfCards.executor": "Run",
@@ -162,6 +176,7 @@
     "Application.EvenEntryLoop.executor": "Run",
     "Application.EventDemo.executor": "Run",
     "Application.Factorials.executor": "Run",
+    "Application.FancyTimeTest.executor": "Run",
     "Application.FinancialTsunami.executor": "Run",
     "Application.FindDiscount.executor": "Run",
     "Application.FindFlippedCell.executor": "Run",
@@ -173,6 +188,7 @@
     "Application.FiveDice2.executor": "Run",
     "Application.FiveDice3.executor": "Run",
     "Application.FloorAndCeil.executor": "Run",
+    "Application.FoodTest.executor": "Run",
     "Application.FormatInteger.executor": "Run",
     "Application.FullDeck.executor": "Run",
     "Application.GradeBookTest.executor": "Run",
@@ -186,12 +202,15 @@
     "Application.GuessTheNumberModification.executor": "Run",
     "Application.Hangman.executor": "Run",
     "Application.Hex2Dec.executor": "Run",
+    "Application.HugeIntegerTest.executor": "Run",
     "Application.HypotenuseCalculator.executor": "Run",
     "Application.Inbetween.executor": "Run",
     "Application.IncreasedProduction.executor": "Run",
     "Application.InitArray.executor": "Run",
     "Application.InputGrades.executor": "Run",
     "Application.InsertionSortAlgorithm.executor": "Run",
+    "Application.IntegerSet2Test.executor": "Run",
+    "Application.IntegerSetTest.executor": "Run",
     "Application.Interest.executor": "Run",
     "Application.KnightsTour.executor": "Run",
     "Application.KnightsTourBruteForce.executor": "Run",
@@ -261,7 +280,9 @@
     "Application.RandomCharacter2.executor": "Run",
     "Application.RandomIntegers.executor": "Run",
     "Application.RandomNumberChooser.executor": "Run",
+    "Application.RandomNumberGenerator.executor": "Run",
     "Application.RandomShuffling.executor": "Run",
+    "Application.RationalTest.executor": "Run",
     "Application.RegularPolygonArea.executor": "Run",
     "Application.RentalDemo.executor": "Run",
     "Application.RepairName.executor": "Run",
@@ -326,9 +347,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Interest">
-    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel8.EmployeeTest" />
+  <component name="RunManager" selected="Application.HugeIntegerTest">
+    <configuration name="FancyTimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel8.FancyTimeTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -340,8 +361,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Interest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel8.Interest" />
+    <configuration name="HugeIntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel8.HugeIntegerTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -353,21 +374,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceTwoDimensionalArrays.TicTacToe2" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joyceTwoDimensionalArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Time1Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel8.Time1Test" />
+    <configuration name="IntegerSet2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel8.IntegerSet2Test" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -379,8 +387,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Time2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel8.Time2Test" />
+    <configuration name="IntegerSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel8.IntegerSetTest" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettel8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RationalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettel8.RationalTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -394,11 +415,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Interest" />
-        <item itemvalue="Application.EmployeeTest" />
-        <item itemvalue="Application.Time2Test" />
-        <item itemvalue="Application.Time1Test" />
-        <item itemvalue="Application.TicTacToe2" />
+        <item itemvalue="Application.HugeIntegerTest" />
+        <item itemvalue="Application.RationalTest" />
+        <item itemvalue="Application.FancyTimeTest" />
+        <item itemvalue="Application.IntegerSet2Test" />
+        <item itemvalue="Application.IntegerSetTest" />
       </list>
     </recent_temporary>
   </component>
