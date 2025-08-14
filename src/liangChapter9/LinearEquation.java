@@ -19,6 +19,9 @@ public class LinearEquation {
         this.f = f;
     }
 
+    public LinearEquation(double a, double b, double e) {
+    }
+
     public double getA() {
         return a;
     }

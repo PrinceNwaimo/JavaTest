@@ -87,7 +87,7 @@ public class Emergency {
     }
 
     public static void main(String[] args) {
-        Emergency emergency = new Emergency("John Doe", "123-456-7890", "123 Main St", "Fire");
+        Emergency emergency = new Emergency("John Doe", "123-456-7890", "123 PointTest St", "Fire");
         emergency.setTypeOfResponse("Fire Department");
         emergency.setStatusOfResponse("In Progress");
         emergency.displayEmergencyDetails();
