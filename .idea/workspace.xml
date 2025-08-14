@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/makingAdifference/Emergency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter9/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter9/Calendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter9/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter9/LinearEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter9/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter9/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter9/RegularPolygon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter9/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter9/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter9/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter9/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter9/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangChapter9/TvTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +62,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AB.executor": "Run",
+    "Application.Account.executor": "Run",
     "Application.AddMatrix.executor": "Run",
     "Application.AirlineReservations.executor": "Run",
     "Application.AllClosestPairs.executor": "Run",
@@ -78,6 +91,7 @@
     "Application.BubbleSortDemo.executor": "Run",
     "Application.Businessletter.executor": "Run",
     "Application.Calculator.executor": "Run",
+    "Application.Calendar.executor": "Run",
     "Application.CalendarApplication.executor": "Run",
     "Application.CarCareChoice.executor": "Run",
     "Application.CarCareChoice2.executor": "Run",
@@ -122,6 +136,7 @@
     "Application.CrapsSimulation.executor": "Run",
     "Application.CreatePurchase.executor": "Run",
     "Application.CreditCardValidator.executor": "Run",
+    "Application.CurrencyConverter.executor": "Run",
     "Application.CurrentDateTime.executor": "Run",
     "Application.CurrentDateTime2.executor": "Run",
     "Application.CylinderTest.executor": "Run",
@@ -159,6 +174,7 @@
     "Application.EvenEntryLoop.executor": "Run",
     "Application.EventDemo.executor": "Run",
     "Application.Factorials.executor": "Run",
+    "Application.Fan.executor": "Run",
     "Application.FancyTimeTest.executor": "Run",
     "Application.FinancialTsunami.executor": "Run",
     "Application.FindDiscount.executor": "Run",
@@ -256,6 +272,7 @@
     "Application.PrintMatrix.executor": "Run",
     "Application.ProcessingArrays.executor": "Run",
     "Application.PurchaseArray.executor": "Run",
+    "Application.QuadraticEquation.executor": "Run",
     "Application.QuadraticEquationSolver.executor": "Run",
     "Application.Quiz.executor": "Run",
     "Application.Quiz2.executor": "Run",
@@ -288,6 +305,8 @@
     "Application.SortStudents.executor": "Run",
     "Application.SportsRecommender.executor": "Run",
     "Application.Sqrt.executor": "Run",
+    "Application.Stock.executor": "Run",
+    "Application.StopWatch.executor": "Run",
     "Application.StrictlyIdenticalArrays.executor": "Run",
     "Application.StringBeautifier.executor": "Run",
     "Application.StringBuilderDemo.executor": "Run",
@@ -301,6 +320,8 @@
     "Application.SummingElementsInAColumn.executor": "Run",
     "Application.TaxTable.executor": "Run",
     "Application.TemperatureConverter.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Test2.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
     "Application.TestRandomCharacter.executor": "Run",
     "Application.TicTacToe.executor": "Run",
@@ -312,6 +333,7 @@
     "Application.TryToCompareStrings.executor": "Run",
     "Application.TurtleGraphics.executor": "Run",
     "Application.TurtleGraphics2.executor": "Run",
+    "Application.TvTest.executor": "Run",
     "Application.TwinPrimes.executor": "Run",
     "Application.TwoDice3.executor": "Run",
     "Application.TwoDimensionalArrayDemo.executor": "Run",
@@ -330,13 +352,13 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Emergency">
-    <configuration name="Emergency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="makingAdifference.Emergency" />
+  <component name="RunManager" selected="Application.QuadraticEquation">
+    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter9.Account" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="makingAdifference.*" />
+          <option name="PATTERN" value="liangChapter9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,12 +366,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FancyTimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel8.FancyTimeTest" />
+    <configuration name="Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter9.Calendar" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettel8.*" />
+          <option name="PATTERN" value="liangChapter9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,12 +379,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HugeIntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel8.HugeIntegerTest" />
+    <configuration name="Fan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter9.Fan" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettel8.*" />
+          <option name="PATTERN" value="liangChapter9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,12 +392,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerSet2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel8.IntegerSet2Test" />
+    <configuration name="QuadraticEquation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter9.QuadraticEquation" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettel8.*" />
+          <option name="PATTERN" value="liangChapter9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,12 +405,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RationalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettel8.RationalTest" />
+    <configuration name="StopWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangChapter9.StopWatch" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettel8.*" />
+          <option name="PATTERN" value="liangChapter9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,11 +420,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Emergency" />
-        <item itemvalue="Application.HugeIntegerTest" />
-        <item itemvalue="Application.RationalTest" />
-        <item itemvalue="Application.FancyTimeTest" />
-        <item itemvalue="Application.IntegerSet2Test" />
+        <item itemvalue="Application.QuadraticEquation" />
+        <item itemvalue="Application.Fan" />
+        <item itemvalue="Application.Account" />
+        <item itemvalue="Application.StopWatch" />
+        <item itemvalue="Application.Calendar" />
       </list>
     </recent_temporary>
   </component>
