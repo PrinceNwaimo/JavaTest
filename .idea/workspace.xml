@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liang10/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/Circle2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/Course2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/MyInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/MyPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/MyPoint2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/StackOfIntegers2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/StackOfIntegers3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/Tax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/TestTriangle2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/ApproximateE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/DivisibleBy2Or3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/DivisibleBy5Or6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/Geometry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/LargePrimeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/MersennePrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/MyCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/MyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/MyRectangle2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/MyString1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/MyString2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/MyStringBuilder1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/MyStringBuilder2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/NewStringSplitMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/SquareNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +71,7 @@
     "Application.AllClosestPairs.executor": "Run",
     "Application.Alphabetize.executor": "Run",
     "Application.AnalyzeNumbers.executor": "Run",
+    "Application.ApproximateE.executor": "Run",
     "Application.ArcheryGame.executor": "Run",
     "Application.ArithmeticCAI.executor": "Run",
     "Application.ArrayListDemo2.executor": "Run",
@@ -156,7 +162,9 @@
     "Application.DistanceFromAverage.executor": "Run",
     "Application.DivideEvenly.executor": "Run",
     "Application.DivideEvenly2.executor": "Run",
+    "Application.DivisibleBy2Or3.executor": "Run",
     "Application.DivisibleBy5.executor": "Run",
+    "Application.DivisibleBy5Or6.executor": "Run",
     "Application.DoesItHaveLegs.executor": "Run",
     "Application.DrugTests.executor": "Run",
     "Application.DrugTests2.executor": "Run",
@@ -190,6 +198,7 @@
     "Application.FoodTest.executor": "Run",
     "Application.FormatInteger.executor": "Run",
     "Application.FullDeck.executor": "Run",
+    "Application.Geometry.executor": "Run",
     "Application.GradeBookTest.executor": "Run",
     "Application.GradeExam.executor": "Run",
     "Application.GradeExam2.executor": "Run",
@@ -214,6 +223,7 @@
     "Application.KnightsTour.executor": "Run",
     "Application.KnightsTourBruteForce.executor": "Run",
     "Application.KnightsTourClosedTourTest.executor": "Run",
+    "Application.LargePrimeNumbers.executor": "Run",
     "Application.LargestRowAndColumn.executor": "Run",
     "Application.LeapYear.executor": "Run",
     "Application.LengthConverter.executor": "Run",
@@ -237,10 +247,14 @@
     "Application.MultiplicationCAI3.executor": "Run",
     "Application.MultiplicationCAIModification.executor": "Run",
     "Application.MultiplyMatrix.executor": "Run",
+    "Application.MyDate.executor": "Run",
     "Application.MyInteger.executor": "Run",
     "Application.MyPoint.executor": "Run",
+    "Application.MyRectangle2D.executor": "Run",
+    "Application.MyStringBuilder2.executor": "Run",
     "Application.MyTriangle.executor": "Run",
     "Application.NearestPoints.executor": "Run",
+    "Application.NewStringSplitMethod.executor": "Run",
     "Application.NineHeadsAndTails.executor": "Run",
     "Application.NineInts.executor": "Run",
     "Application.NumberInput.executor": "Run",
@@ -313,6 +327,7 @@
     "Application.SortStudents.executor": "Run",
     "Application.SportsRecommender.executor": "Run",
     "Application.Sqrt.executor": "Run",
+    "Application.SquareNumbers.executor": "Run",
     "Application.Stock.executor": "Run",
     "Application.StopWatch.executor": "Run",
     "Application.StrictlyIdenticalArrays.executor": "Run",
@@ -336,6 +351,7 @@
     "Application.TestFusedLoopTime.executor": "Run",
     "Application.TestRandomCharacter.executor": "Run",
     "Application.TestStackOfIntegers.executor": "Run",
+    "Application.TestTriangle2D.executor": "Run",
     "Application.TicTacToe.executor": "Run",
     "Application.TicTacToe2.executor": "Run",
     "Application.Time.executor": "Run",
@@ -366,9 +382,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestTriangle2D">
-    <configuration name="Circle2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang10.Circle2D" />
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="ApproximateE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang10.ApproximateE" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -380,8 +396,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Course2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang10.Course2" />
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang10.Calculator" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -393,8 +409,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang10.Queue" />
+    <configuration name="DivisibleBy5Or6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang10.DivisibleBy5Or6" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -406,8 +422,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang10.Tax" />
+    <configuration name="MyStringBuilder2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang10.MyStringBuilder2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -419,8 +435,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTriangle2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang10.TestTriangle2D" />
+    <configuration name="NewStringSplitMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang10.NewStringSplitMethod" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -434,11 +450,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestTriangle2D" />
-        <item itemvalue="Application.Circle2D" />
-        <item itemvalue="Application.Queue" />
-        <item itemvalue="Application.Course2" />
-        <item itemvalue="Application.Tax" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.MyStringBuilder2" />
+        <item itemvalue="Application.NewStringSplitMethod" />
+        <item itemvalue="Application.DivisibleBy5Or6" />
+        <item itemvalue="Application.ApproximateE" />
       </list>
     </recent_temporary>
   </component>
