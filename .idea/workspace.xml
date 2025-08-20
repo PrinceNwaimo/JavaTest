@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liang10/Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/CircleFromSimpleGeometricObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/RectangleFromSimpleGeometricObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/SimpleGeometricObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/TestCircleRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/Circle2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/Course2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/MyInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/MyPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/MyPoint2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/StackOfIntegers2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/StackOfIntegers3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/Tax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liang10/TestTriangle2D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +106,7 @@
     "Application.CheckSorted.executor": "Run",
     "Application.CheckSudokuSolution.executor": "Run",
     "Application.ChineseZodiac.executor": "Run",
+    "Application.Circle2D.executor": "Run",
     "Application.Clock.executor": "Run",
     "Application.CoinTossSimulator.executor": "Run",
     "Application.Combinations.executor": "Run",
@@ -124,6 +131,7 @@
     "Application.CountSpaces2.executor": "Run",
     "Application.CountWords.executor": "Run",
     "Application.CouponCollector.executor": "Run",
+    "Application.Course2.executor": "Run",
     "Application.Craps.executor": "Run",
     "Application.CrapsSimulation.executor": "Run",
     "Application.CreatePurchase.executor": "Run",
@@ -212,6 +220,8 @@
     "Application.LinearSearchApproach.executor": "Run",
     "Application.Location.executor": "Run",
     "Application.LockerPuzzle.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Maine.executor": "Run",
     "Application.Majors.executor": "Run",
     "Application.MarkovMatrix.executor": "Run",
     "Application.MaximumFinder.executor": "Run",
@@ -227,6 +237,8 @@
     "Application.MultiplicationCAI3.executor": "Run",
     "Application.MultiplicationCAIModification.executor": "Run",
     "Application.MultiplyMatrix.executor": "Run",
+    "Application.MyInteger.executor": "Run",
+    "Application.MyPoint.executor": "Run",
     "Application.MyTriangle.executor": "Run",
     "Application.NearestPoints.executor": "Run",
     "Application.NineHeadsAndTails.executor": "Run",
@@ -269,6 +281,7 @@
     "Application.PurchaseArray.executor": "Run",
     "Application.QuadraticEquation.executor": "Run",
     "Application.QuadraticEquationSolver.executor": "Run",
+    "Application.Queue.executor": "Run",
     "Application.Quiz.executor": "Run",
     "Application.Quiz2.executor": "Run",
     "Application.QuizScoreStatistics.executor": "Run",
@@ -313,6 +326,7 @@
     "Application.SumOfDigits.executor": "Run",
     "Application.SumSeries.executor": "Run",
     "Application.SummingElementsInAColumn.executor": "Run",
+    "Application.Tax.executor": "Run",
     "Application.TaxTable.executor": "Run",
     "Application.TemperatureConverter.executor": "Run",
     "Application.Test.executor": "Run",
@@ -324,6 +338,7 @@
     "Application.TestStackOfIntegers.executor": "Run",
     "Application.TicTacToe.executor": "Run",
     "Application.TicTacToe2.executor": "Run",
+    "Application.Time.executor": "Run",
     "Application.Time1Test.executor": "Run",
     "Application.Time2Test.executor": "Run",
     "Application.TortoiseAndHare.executor": "Run",
@@ -339,6 +354,7 @@
     "Application.VerifyCode.executor": "Run",
     "Application.War3.executor": "Run",
     "Application.Weather.executor": "Run",
+    "Application.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -350,9 +366,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Time">
-    <configuration name="PalindromeIgnoreNonAlphanumeric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang10.PalindromeIgnoreNonAlphanumeric" />
+  <component name="RunManager" selected="Application.TestTriangle2D">
+    <configuration name="Circle2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang10.Circle2D" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -364,21 +380,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCircleRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangInheritance.TestCircleRectangle" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangInheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCourse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang10.TestCourse" />
+    <configuration name="Course2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang10.Course2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -390,8 +393,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStackOfIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang10.TestStackOfIntegers" />
+    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang10.Queue" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -403,8 +406,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Time" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang10.Time" />
+    <configuration name="Tax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang10.Tax" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liang10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTriangle2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liang10.TestTriangle2D" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -418,11 +434,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Time" />
-        <item itemvalue="Application.TestCircleRectangle" />
-        <item itemvalue="Application.PalindromeIgnoreNonAlphanumeric" />
-        <item itemvalue="Application.TestStackOfIntegers" />
-        <item itemvalue="Application.TestCourse" />
+        <item itemvalue="Application.TestTriangle2D" />
+        <item itemvalue="Application.Circle2D" />
+        <item itemvalue="Application.Queue" />
+        <item itemvalue="Application.Course2" />
+        <item itemvalue="Application.Tax" />
       </list>
     </recent_temporary>
   </component>
