@@ -5,22 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liang10/ApproximateE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/DivisibleBy2Or3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/DivisibleBy5Or6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/Geometry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/LargePrimeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/MersennePrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/MyCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/MyDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/MyRectangle2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/MyString1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/MyString2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/MyStringBuilder1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/MyStringBuilder2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/NewStringSplitMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liang10/SquareNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelInheritance/BasePlusCommissionEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelInheritance/BasePlusCommissionEmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelInheritance/CommissionEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelPolymorphismAndInterfaces/PolymorphismTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/GeometricObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/MaximumElementInArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/MyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/account/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/account/CheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/account/SavingsAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/account/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +87,7 @@
     "Application.BankBalanceByRateAndYear.executor": "Run",
     "Application.BarChart.executor": "Run",
     "Application.BarChart2.executor": "Run",
+    "Application.BasePlusCommissionEmployeeTest.executor": "Run",
     "Application.BeanMachine.executor": "Run",
     "Application.BirthdayReminder.executor": "Run",
     "Application.BowlingTeamDemo.executor": "Run",
@@ -234,6 +237,7 @@
     "Application.Maine.executor": "Run",
     "Application.Majors.executor": "Run",
     "Application.MarkovMatrix.executor": "Run",
+    "Application.MaximumElementInArrayList.executor": "Run",
     "Application.MaximumFinder.executor": "Run",
     "Application.MeanMedian.executor": "Run",
     "Application.MenuSearch.executor": "Run",
@@ -283,6 +287,7 @@
     "Application.PointPosition.executor": "Run",
     "Application.PointTest.executor": "Run",
     "Application.Polling.executor": "Run",
+    "Application.PolymorphismTest.executor": "Run",
     "Application.Population.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
     "Application.PrimeNumberMethod.executor": "Run",
@@ -351,6 +356,7 @@
     "Application.TestFusedLoopTime.executor": "Run",
     "Application.TestRandomCharacter.executor": "Run",
     "Application.TestStackOfIntegers.executor": "Run",
+    "Application.TestTriangle.executor": "Run",
     "Application.TestTriangle2D.executor": "Run",
     "Application.TicTacToe.executor": "Run",
     "Application.TicTacToe2.executor": "Run",
@@ -370,6 +376,7 @@
     "Application.VerifyCode.executor": "Run",
     "Application.War3.executor": "Run",
     "Application.Weather.executor": "Run",
+    "Application.liangInheritance.account.Test.executor": "Run",
     "Application.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -382,13 +389,13 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Calculator">
-    <configuration name="ApproximateE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang10.ApproximateE" />
+  <component name="RunManager" selected="Application.TestCourse">
+    <configuration name="MaximumElementInArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangInheritance.MaximumElementInArrayList" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liang10.*" />
+          <option name="PATTERN" value="liangInheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,12 +403,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang10.Calculator" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangInheritance.Test" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liang10.*" />
+          <option name="PATTERN" value="liangInheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -409,12 +416,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivisibleBy5Or6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang10.DivisibleBy5Or6" />
+    <configuration name="TestCourse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangInheritance.TestCourse" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liang10.*" />
+          <option name="PATTERN" value="liangInheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -422,12 +429,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStringBuilder2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang10.MyStringBuilder2" />
+    <configuration name="TestTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangInheritance.TestTriangle" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liang10.*" />
+          <option name="PATTERN" value="liangInheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -435,12 +442,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewStringSplitMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liang10.NewStringSplitMethod" />
+    <configuration name="liangInheritance.account.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangInheritance.account.Test" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liang10.*" />
+          <option name="PATTERN" value="liangInheritance.account.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -450,11 +457,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.MyStringBuilder2" />
-        <item itemvalue="Application.NewStringSplitMethod" />
-        <item itemvalue="Application.DivisibleBy5Or6" />
-        <item itemvalue="Application.ApproximateE" />
+        <item itemvalue="Application.TestCourse" />
+        <item itemvalue="Application.MaximumElementInArrayList" />
+        <item itemvalue="Application.liangInheritance.account.Test" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestTriangle" />
       </list>
     </recent_temporary>
   </component>
