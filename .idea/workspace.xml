@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/AdditionQuiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/AlgebraPerfectSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/AreaOfConvexPolygon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/CombineTwoLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/LargestRowsAndColumns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Loan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/RemoveDuplicates2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/ShuffleArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/SortArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/SumArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/TestLoanCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelInheritance/AudioBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelInheritance/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelInheritance/PrintBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelInheritance/TestBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +57,7 @@
     "Application.AddMatrix.executor": "Run",
     "Application.AdditionQuiz.executor": "Run",
     "Application.AirlineReservations.executor": "Run",
+    "Application.AlgebraPerfectSquare.executor": "Run",
     "Application.AllClosestPairs.executor": "Run",
     "Application.Alphabetize.executor": "Run",
     "Application.AnalyzeNumbers.executor": "Run",
@@ -356,6 +345,7 @@
     "Application.TemperatureConverter.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test2.executor": "Run",
+    "Application.TestBook.executor": "Run",
     "Application.TestCircleRectangle.executor": "Run",
     "Application.TestCourse.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
@@ -395,7 +385,7 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AlgebraPerfectSquare">
+  <component name="RunManager" selected="Application.TestBook">
     <configuration name="AdditionQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangInheritance.AdditionQuiz" />
       <module name="testSamples" />
@@ -448,12 +438,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangInheritance.SumArrayList" />
+    <configuration name="TestBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelInheritance.TestBook" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangInheritance.*" />
+          <option name="PATTERN" value="diettelInheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -463,11 +453,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBook" />
         <item itemvalue="Application.AlgebraPerfectSquare" />
         <item itemvalue="Application.AdditionQuiz" />
         <item itemvalue="Application.CombineTwoLists" />
         <item itemvalue="Application.RemoveDuplicates2" />
-        <item itemvalue="Application.SumArrayList" />
       </list>
     </recent_temporary>
   </component>
