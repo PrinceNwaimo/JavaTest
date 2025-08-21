@@ -5,24 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelInheritance/BasePlusCommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelInheritance/BasePlusCommissionEmployeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelInheritance/CommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelPolymorphismAndInterfaces/PolymorphismTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Faculty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/GeometricObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/MaximumElementInArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/MyDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/account/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/account/CheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/account/SavingsAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangInheritance/account/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/AdditionQuiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/AlgebraPerfectSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/AreaOfConvexPolygon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/CombineTwoLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/LargestRowsAndColumns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/RemoveDuplicates2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/ShuffleArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/SortArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/SumArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/TestLoanCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInheritance/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +67,7 @@
     "Application.AB.executor": "Run",
     "Application.Account.executor": "Run",
     "Application.AddMatrix.executor": "Run",
+    "Application.AdditionQuiz.executor": "Run",
     "Application.AirlineReservations.executor": "Run",
     "Application.AllClosestPairs.executor": "Run",
     "Application.Alphabetize.executor": "Run",
@@ -119,6 +118,7 @@
     "Application.Clock.executor": "Run",
     "Application.CoinTossSimulator.executor": "Run",
     "Application.Combinations.executor": "Run",
+    "Application.CombineTwoLists.executor": "Run",
     "Application.CommandLineAverage.executor": "Run",
     "Application.CommissionCalculator.executor": "Run",
     "Application.CompareLoopTimes.executor": "Run",
@@ -228,6 +228,7 @@
     "Application.KnightsTourClosedTourTest.executor": "Run",
     "Application.LargePrimeNumbers.executor": "Run",
     "Application.LargestRowAndColumn.executor": "Run",
+    "Application.LargestRowsAndColumns.executor": "Run",
     "Application.LeapYear.executor": "Run",
     "Application.LengthConverter.executor": "Run",
     "Application.LinearSearchApproach.executor": "Run",
@@ -311,6 +312,7 @@
     "Application.RandomShuffling.executor": "Run",
     "Application.RationalTest.executor": "Run",
     "Application.RegularPolygonArea.executor": "Run",
+    "Application.RemoveDuplicates2.executor": "Run",
     "Application.RentalDemo.executor": "Run",
     "Application.RepairName.executor": "Run",
     "Application.RetirementGoal.executor": "Run",
@@ -325,8 +327,10 @@
     "Application.SecretPhrase2.executor": "Run",
     "Application.SelectionSort2.executor": "Run",
     "Application.ShowCurrentDateTime.executor": "Run",
+    "Application.ShuffleArrayList.executor": "Run",
     "Application.SieveOfEratosthenes.executor": "Run",
     "Application.Sort2DArray.executor": "Run",
+    "Application.SortArrayList.executor": "Run",
     "Application.SortPurchasesArray.executor": "Run",
     "Application.SortString.executor": "Run",
     "Application.SortStudents.executor": "Run",
@@ -339,6 +343,7 @@
     "Application.StringBeautifier.executor": "Run",
     "Application.StringBuilderDemo.executor": "Run",
     "Application.StringBuilderMethods.executor": "Run",
+    "Application.SumArrayList.executor": "Run",
     "Application.SumArrays.executor": "Run",
     "Application.SumColumn.executor": "Run",
     "Application.SumDigits.executor": "Run",
@@ -354,6 +359,7 @@
     "Application.TestCircleRectangle.executor": "Run",
     "Application.TestCourse.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
+    "Application.TestLoanCircle.executor": "Run",
     "Application.TestRandomCharacter.executor": "Run",
     "Application.TestStackOfIntegers.executor": "Run",
     "Application.TestTriangle.executor": "Run",
@@ -389,9 +395,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestCourse">
-    <configuration name="MaximumElementInArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangInheritance.MaximumElementInArrayList" />
+  <component name="RunManager" selected="Application.AlgebraPerfectSquare">
+    <configuration name="AdditionQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangInheritance.AdditionQuiz" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -403,8 +409,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangInheritance.Test" />
+    <configuration name="AlgebraPerfectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangInheritance.AlgebraPerfectSquare" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -416,8 +422,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCourse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangInheritance.TestCourse" />
+    <configuration name="CombineTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangInheritance.CombineTwoLists" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -429,8 +435,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangInheritance.TestTriangle" />
+    <configuration name="RemoveDuplicates2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangInheritance.RemoveDuplicates2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -442,12 +448,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="liangInheritance.account.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangInheritance.account.Test" />
+    <configuration name="SumArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangInheritance.SumArrayList" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangInheritance.account.*" />
+          <option name="PATTERN" value="liangInheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -457,11 +463,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestCourse" />
-        <item itemvalue="Application.MaximumElementInArrayList" />
-        <item itemvalue="Application.liangInheritance.account.Test" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestTriangle" />
+        <item itemvalue="Application.AlgebraPerfectSquare" />
+        <item itemvalue="Application.AdditionQuiz" />
+        <item itemvalue="Application.CombineTwoLists" />
+        <item itemvalue="Application.RemoveDuplicates2" />
+        <item itemvalue="Application.SumArrayList" />
       </list>
     </recent_temporary>
   </component>
