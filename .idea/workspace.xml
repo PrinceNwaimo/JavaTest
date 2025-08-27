@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelInheritance/AudioBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelInheritance/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelInheritance/PrintBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelInheritance/TestBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DinnerParty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/EmployeeWithTerritory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Party.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/UseDinnerParty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/UseParty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -368,6 +370,8 @@
     "Application.TwinPrimes.executor": "Run",
     "Application.TwoDice3.executor": "Run",
     "Application.TwoDimensionalArrayDemo.executor": "Run",
+    "Application.UseDinnerParty.executor": "Run",
+    "Application.UseParty.executor": "Run",
     "Application.VariableLengthArgumentList.executor": "Run",
     "Application.VerifyCode.executor": "Run",
     "Application.War3.executor": "Run",
@@ -385,20 +389,7 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestBook">
-    <configuration name="AdditionQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangInheritance.AdditionQuiz" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangInheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UseDinnerParty">
     <configuration name="AlgebraPerfectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangInheritance.AlgebraPerfectSquare" />
       <module name="testSamples" />
@@ -412,25 +403,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CombineTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangInheritance.CombineTwoLists" />
+    <configuration name="PolymorphismTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelPolymorphismAndInterfaces.PolymorphismTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangInheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDuplicates2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangInheritance.RemoveDuplicates2" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangInheritance.*" />
+          <option name="PATTERN" value="diettelPolymorphismAndInterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -451,13 +429,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UseDinnerParty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.UseDinnerParty" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceInheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseParty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.UseParty" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceInheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseDinnerParty" />
+        <item itemvalue="Application.UseParty" />
+        <item itemvalue="Application.PolymorphismTest" />
         <item itemvalue="Application.TestBook" />
         <item itemvalue="Application.AlgebraPerfectSquare" />
-        <item itemvalue="Application.AdditionQuiz" />
-        <item itemvalue="Application.CombineTwoLists" />
-        <item itemvalue="Application.RemoveDuplicates2" />
       </list>
     </recent_temporary>
   </component>
