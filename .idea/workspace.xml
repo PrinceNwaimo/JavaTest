@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Candle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/CustomTee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoCandles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoTees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/ScentedCandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/TeeShirt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/BaseballGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DeliveryPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoBaseballGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoPizzas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoSugarSmash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/HighSchoolBaseballGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/LittleLeagueBaseballGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/PremiumSugarSmashPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/SugarSmashPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,12 +151,17 @@
     "Application.DeckOfCards2$deckOfCards2$Hand.executor": "Run",
     "Application.DeckOfCardsTest.executor": "Run",
     "Application.DemoArray.executor": "Run",
+    "Application.DemoBaseballGame.executor": "Run",
     "Application.DemoCandles.executor": "Run",
     "Application.DemoHorse.executor": "Run",
     "Application.DemoIncrement.executor": "Run",
     "Application.DemoLambda.executor": "Run",
+    "Application.DemoPizzas.executor": "Run",
+    "Application.DemoPoems.executor": "Run",
     "Application.DemoSalesperson.executor": "Run",
     "Application.DemoSalesperson2.executor": "Run",
+    "Application.DemoSugarSmash.executor": "Run",
+    "Application.DemoTees.executor": "Run",
     "Application.DemoVehicles.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
     "Application.DiceRolling.executor": "Run",
@@ -397,9 +406,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DemoPoems">
-    <configuration name="DemoCandles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoCandles" />
+  <component name="RunManager" selected="Application.UseCourse">
+    <configuration name="DemoBaseballGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoBaseballGame" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -411,8 +420,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoLambda" />
+    <configuration name="DemoPizzas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoPizzas" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -437,8 +446,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoTees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoTees" />
+    <configuration name="DemoSugarSmash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoSugarSmash" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -450,8 +459,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsuredCarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.InsuredCarDemo" />
+    <configuration name="UseCourse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.UseCourse" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -465,11 +474,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseCourse" />
+        <item itemvalue="Application.DemoPizzas" />
+        <item itemvalue="Application.DemoSugarSmash" />
+        <item itemvalue="Application.DemoBaseballGame" />
         <item itemvalue="Application.DemoPoems" />
-        <item itemvalue="Application.DemoTees" />
-        <item itemvalue="Application.DemoCandles" />
-        <item itemvalue="Application.DemoLambda" />
-        <item itemvalue="Application.InsuredCarDemo" />
       </list>
     </recent_temporary>
   </component>
