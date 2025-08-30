@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoHorse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoVehicles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DinnerParty2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Insured.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/InsuredCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/InsuredCarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/PreferredCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/RaceHorse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Sailboat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/TestCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/VehicleDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Candle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/CustomTee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoCandles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoTees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/ScentedCandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/TeeShirt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -158,6 +147,7 @@
     "Application.DeckOfCards2$deckOfCards2$Hand.executor": "Run",
     "Application.DeckOfCardsTest.executor": "Run",
     "Application.DemoArray.executor": "Run",
+    "Application.DemoCandles.executor": "Run",
     "Application.DemoHorse.executor": "Run",
     "Application.DemoIncrement.executor": "Run",
     "Application.DemoLambda.executor": "Run",
@@ -407,9 +397,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DemoLambda">
-    <configuration name="DemoHorse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoHorse" />
+  <component name="RunManager" selected="Application.DemoPoems">
+    <configuration name="DemoCandles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoCandles" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -434,8 +424,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoVehicles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoVehicles" />
+    <configuration name="DemoPoems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoPoems" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceInheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoTees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoTees" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -460,26 +463,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleDatabase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.VehicleDatabase" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joyceInheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoPoems" />
+        <item itemvalue="Application.DemoTees" />
+        <item itemvalue="Application.DemoCandles" />
         <item itemvalue="Application.DemoLambda" />
         <item itemvalue="Application.InsuredCarDemo" />
-        <item itemvalue="Application.VehicleDatabase" />
-        <item itemvalue="Application.DemoVehicles" />
-        <item itemvalue="Application.DemoHorse" />
       </list>
     </recent_temporary>
   </component>
