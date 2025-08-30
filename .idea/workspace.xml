@@ -5,16 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/BaseballGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DeliveryPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoBaseballGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoPizzas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoSugarSmash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/HighSchoolBaseballGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/LittleLeagueBaseballGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/PremiumSugarSmashPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/SugarSmashPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/CollegeEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/CollegeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Die.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DinnerEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DinnerEventDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/LoadedDie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/TestLoadedDie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/alien/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/alien/CreateAliens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/alien/Jupiterian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/alien/Martian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,6 +144,7 @@
     "Application.Course2.executor": "Run",
     "Application.Craps.executor": "Run",
     "Application.CrapsSimulation.executor": "Run",
+    "Application.CreateAliens.executor": "Run",
     "Application.CreatePurchase.executor": "Run",
     "Application.CreditCardValidator.executor": "Run",
     "Application.CurrencyConverter.executor": "Run",
@@ -165,6 +171,7 @@
     "Application.DemoVehicles.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
     "Application.DiceRolling.executor": "Run",
+    "Application.DinnerEventDemo.executor": "Run",
     "Application.DisplayRents.executor": "Run",
     "Application.DistanceBetweenPoints.executor": "Run",
     "Application.DistanceFromAverage.executor": "Run",
@@ -367,6 +374,7 @@
     "Application.TestCourse.executor": "Run",
     "Application.TestCustomer.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
+    "Application.TestLoadedDie.executor": "Run",
     "Application.TestLoanCircle.executor": "Run",
     "Application.TestRandomCharacter.executor": "Run",
     "Application.TestStackOfIntegers.executor": "Run",
@@ -386,6 +394,7 @@
     "Application.TwinPrimes.executor": "Run",
     "Application.TwoDice3.executor": "Run",
     "Application.TwoDimensionalArrayDemo.executor": "Run",
+    "Application.UseCourse.executor": "Run",
     "Application.UseDinnerParty.executor": "Run",
     "Application.UseParty.executor": "Run",
     "Application.VariableLengthArgumentList.executor": "Run",
@@ -406,13 +415,13 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.UseCourse">
-    <configuration name="DemoBaseballGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoBaseballGame" />
+  <component name="RunManager" selected="Application.DinnerEventDemo">
+    <configuration name="CreateAliens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.alien.CreateAliens" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceInheritance.*" />
+          <option name="PATTERN" value="joyceInheritance.alien.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -433,8 +442,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoPoems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoPoems" />
+    <configuration name="DinnerEventDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DinnerEventDemo" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -446,8 +455,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoSugarSmash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoSugarSmash" />
+    <configuration name="TestLoadedDie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.TestLoadedDie" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -474,11 +483,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DinnerEventDemo" />
+        <item itemvalue="Application.TestLoadedDie" />
+        <item itemvalue="Application.CreateAliens" />
         <item itemvalue="Application.UseCourse" />
         <item itemvalue="Application.DemoPizzas" />
-        <item itemvalue="Application.DemoSugarSmash" />
-        <item itemvalue="Application.DemoBaseballGame" />
-        <item itemvalue="Application.DemoPoems" />
       </list>
     </recent_temporary>
   </component>
