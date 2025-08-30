@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DinnerParty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/EmployeeWithTerritory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Party.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/UseDinnerParty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/UseParty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoHorse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoVehicles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DinnerParty2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Insured.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/InsuredCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/InsuredCarDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/PreferredCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/RaceHorse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Sailboat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/TestCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/VehicleDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +34,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -146,9 +158,12 @@
     "Application.DeckOfCards2$deckOfCards2$Hand.executor": "Run",
     "Application.DeckOfCardsTest.executor": "Run",
     "Application.DemoArray.executor": "Run",
+    "Application.DemoHorse.executor": "Run",
     "Application.DemoIncrement.executor": "Run",
+    "Application.DemoLambda.executor": "Run",
     "Application.DemoSalesperson.executor": "Run",
     "Application.DemoSalesperson2.executor": "Run",
+    "Application.DemoVehicles.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
     "Application.DiceRolling.executor": "Run",
     "Application.DisplayRents.executor": "Run",
@@ -211,6 +226,7 @@
     "Application.InitArray.executor": "Run",
     "Application.InputGrades.executor": "Run",
     "Application.InsertionSortAlgorithm.executor": "Run",
+    "Application.InsuredCarDemo.executor": "Run",
     "Application.IntegerSet2Test.executor": "Run",
     "Application.IntegerSetTest.executor": "Run",
     "Application.Interest.executor": "Run",
@@ -350,6 +366,7 @@
     "Application.TestBook.executor": "Run",
     "Application.TestCircleRectangle.executor": "Run",
     "Application.TestCourse.executor": "Run",
+    "Application.TestCustomer.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
     "Application.TestLoanCircle.executor": "Run",
     "Application.TestRandomCharacter.executor": "Run",
@@ -373,6 +390,7 @@
     "Application.UseDinnerParty.executor": "Run",
     "Application.UseParty.executor": "Run",
     "Application.VariableLengthArgumentList.executor": "Run",
+    "Application.VehicleDatabase.executor": "Run",
     "Application.VerifyCode.executor": "Run",
     "Application.War3.executor": "Run",
     "Application.Weather.executor": "Run",
@@ -389,48 +407,9 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.UseDinnerParty">
-    <configuration name="AlgebraPerfectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangInheritance.AlgebraPerfectSquare" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangInheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PolymorphismTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelPolymorphismAndInterfaces.PolymorphismTest" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelPolymorphismAndInterfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelInheritance.TestBook" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelInheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseDinnerParty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.UseDinnerParty" />
+  <component name="RunManager" selected="Application.DemoLambda">
+    <configuration name="DemoHorse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoHorse" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -442,8 +421,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseParty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.UseParty" />
+    <configuration name="DemoLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoLambda" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceInheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoVehicles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DemoVehicles" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceInheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsuredCarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.InsuredCarDemo" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceInheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleDatabase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.VehicleDatabase" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -457,11 +475,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UseDinnerParty" />
-        <item itemvalue="Application.UseParty" />
-        <item itemvalue="Application.PolymorphismTest" />
-        <item itemvalue="Application.TestBook" />
-        <item itemvalue="Application.AlgebraPerfectSquare" />
+        <item itemvalue="Application.DemoLambda" />
+        <item itemvalue="Application.InsuredCarDemo" />
+        <item itemvalue="Application.VehicleDatabase" />
+        <item itemvalue="Application.DemoVehicles" />
+        <item itemvalue="Application.DemoHorse" />
       </list>
     </recent_temporary>
   </component>
