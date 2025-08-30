@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/BookArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Fiction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/IncomingPhoneCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/NonFiction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/OutgoingPhoneCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/PhoneCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/UseBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoSubscriptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/NewspaperSubscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/OnlineNewspaperSubscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/PhysicalNewspaperSubscription.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
