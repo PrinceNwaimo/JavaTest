@@ -5,11 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoSubscriptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/NewspaperSubscription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/OnlineNewspaperSubscription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/PhysicalNewspaperSubscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Blanket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoBlankets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/DemoStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/ElectricBlanket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/ElementArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/GeometricFigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/GeometricFigure2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/GraduateStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/LoanConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Machine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/MetalElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/NonMetalElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/SidedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Square2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Student2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/StudentAtLarge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/Triangle2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/UndergraduateStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/UseGeometric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/UseGeometric2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/insurance/Health.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/insurance/Insurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/insurance/Life.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/insurance/UseInsurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/turner/DemoTurners2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/turner/Leaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/turner/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/turner/Pancake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/turner/Record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/turner/SteeringWheel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceInheritance/turner/Turner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +51,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -177,6 +207,7 @@
     "Application.DrugTests3.executor": "Run",
     "Application.DuplicateElimination.executor": "Run",
     "Application.EightQueens.executor": "Run",
+    "Application.ElementArray.executor": "Run",
     "Application.EliminateDuplicates.executor": "Run",
     "Application.EliminateDuplicatesUsingHashsets.executor": "Run",
     "Application.Emergency.executor": "Run",
@@ -387,6 +418,7 @@
     "Application.TwoDimensionalArrayDemo.executor": "Run",
     "Application.UseCourse.executor": "Run",
     "Application.UseDinnerParty.executor": "Run",
+    "Application.UseGeometric.executor": "Run",
     "Application.UseParty.executor": "Run",
     "Application.VariableLengthArgumentList.executor": "Run",
     "Application.VehicleDatabase.executor": "Run",
@@ -406,7 +438,7 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BookArray">
+  <component name="RunManager" selected="Application.UseGeometric">
     <configuration name="BookArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceInheritance.BookArray" />
       <module name="testSamples" />
@@ -420,12 +452,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateAliens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.alien.CreateAliens" />
+    <configuration name="DinnerEventDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DinnerEventDemo" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceInheritance.alien.*" />
+          <option name="PATTERN" value="joyceInheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -433,8 +465,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DinnerEventDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DinnerEventDemo" />
+    <configuration name="ElementArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.ElementArray" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -459,8 +491,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseCourse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.UseCourse" />
+    <configuration name="UseGeometric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceInheritance.UseGeometric" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -474,11 +506,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseGeometric" />
+        <item itemvalue="Application.ElementArray" />
         <item itemvalue="Application.BookArray" />
         <item itemvalue="Application.DinnerEventDemo" />
         <item itemvalue="Application.TestLoadedDie" />
-        <item itemvalue="Application.CreateAliens" />
-        <item itemvalue="Application.UseCourse" />
       </list>
     </recent_temporary>
   </component>
