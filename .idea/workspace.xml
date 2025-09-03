@@ -5,28 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/AddPackageStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/ArrayIndexOutOfBounds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/BinaryFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/BinaryFormatExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/CalculateScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/CalculatorWithExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/CountFileContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/CountWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/Hangman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/HexFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/HexFormatExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/IllegalTriangleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/Loan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/OutOfMemoryErrorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/ReplaceText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/SumOfTwoIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/TestLoan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/TestTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/WriteReadData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/BabyNameRanking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/CalculateScores2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/CheckSortedStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/CountLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/CreateDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/CreateSalaryData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/ProcessSalaryData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/RankingSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/RenameFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/RenameFiles2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/ReplaceTextInDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/ReplaceWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/WebCrawler2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangExceptionHandling/ChainedExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangExceptionHandling/ChainedExceptionDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
