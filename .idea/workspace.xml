@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/makingAdifference/CarbonFootprint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/ChainedExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/InvalidRadiusException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/Quotient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/QuotientWithException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/ReadData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/ReadFileFromURL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/WebCrawler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/WriteData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/WriteDataWithAutoClose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInterface/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInterface/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangInterface/SortComparableObjects.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,12 +101,14 @@
     "Application.CarCareChoice.executor": "Run",
     "Application.CarCareChoice2.executor": "Run",
     "Application.CarDemo.executor": "Run",
+    "Application.CarbonFootPrintTest.executor": "Run",
     "Application.CardShufflingAndDealing.executor": "Run",
     "Application.CarlysEventPriceWithEventClass.executor": "Run",
     "Application.CategorizeStrings.executor": "Run",
     "Application.CategorizeStrings2.executor": "Run",
     "Application.CentralCity.executor": "Run",
     "Application.CertOfDepositArray.executor": "Run",
+    "Application.ChainedExceptionDemo.executor": "Run",
     "Application.CharacterInfo.executor": "Run",
     "Application.Charge.executor": "Run",
     "Application.CheckPassword.executor": "Run",
@@ -307,12 +320,15 @@
     "Application.Quiz.executor": "Run",
     "Application.Quiz2.executor": "Run",
     "Application.QuizScoreStatistics.executor": "Run",
+    "Application.Quotient.executor": "Run",
+    "Application.QuotientWithException.executor": "Run",
     "Application.RandomCharacter2.executor": "Run",
     "Application.RandomIntegers.executor": "Run",
     "Application.RandomNumberChooser.executor": "Run",
     "Application.RandomNumberGenerator.executor": "Run",
     "Application.RandomShuffling.executor": "Run",
     "Application.RationalTest.executor": "Run",
+    "Application.ReadData.executor": "Run",
     "Application.RegularPolygonArea.executor": "Run",
     "Application.RemoveDuplicates2.executor": "Run",
     "Application.RentalDemo.executor": "Run",
@@ -333,6 +349,7 @@
     "Application.SieveOfEratosthenes.executor": "Run",
     "Application.Sort2DArray.executor": "Run",
     "Application.SortArrayList.executor": "Run",
+    "Application.SortComparableObjects.executor": "Run",
     "Application.SortPurchasesArray.executor": "Run",
     "Application.SortString.executor": "Run",
     "Application.SortStudents.executor": "Run",
@@ -392,6 +409,8 @@
     "Application.VerifyCode.executor": "Run",
     "Application.War3.executor": "Run",
     "Application.Weather.executor": "Run",
+    "Application.WebCrawler.executor": "Run",
+    "Application.WriteDataWithAutoClose.executor": "Run",
     "Application.liangInheritance.account.Test.executor": "Run",
     "Application.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -405,13 +424,13 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PayableInterfaceTest">
-    <configuration name="BookArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.BookArray" />
+  <component name="RunManager" selected="Application.SortComparableObjects">
+    <configuration name="ChainedExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.ChainedExceptionDemo" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceInheritance.*" />
+          <option name="PATTERN" value="liangExceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -419,12 +438,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DinnerEventDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.DinnerEventDemo" />
+    <configuration name="ReadData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.ReadData" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceInheritance.*" />
+          <option name="PATTERN" value="liangExceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -432,12 +451,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElementArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.ElementArray" />
+    <configuration name="SortComparableObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangInterface.SortComparableObjects" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceInheritance.*" />
+          <option name="PATTERN" value="liangInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -445,12 +464,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayableInterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelPolymorphismAndInterfaces.PayableInterfaceTest" />
+    <configuration name="WebCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.WebCrawler" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelPolymorphismAndInterfaces.*" />
+          <option name="PATTERN" value="liangExceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -458,12 +477,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseGeometric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceInheritance.UseGeometric" />
+    <configuration name="WriteDataWithAutoClose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.WriteDataWithAutoClose" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceInheritance.*" />
+          <option name="PATTERN" value="liangExceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -473,11 +492,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PayableInterfaceTest" />
-        <item itemvalue="Application.UseGeometric" />
-        <item itemvalue="Application.ElementArray" />
-        <item itemvalue="Application.BookArray" />
-        <item itemvalue="Application.DinnerEventDemo" />
+        <item itemvalue="Application.SortComparableObjects" />
+        <item itemvalue="Application.WebCrawler" />
+        <item itemvalue="Application.ReadData" />
+        <item itemvalue="Application.WriteDataWithAutoClose" />
+        <item itemvalue="Application.ChainedExceptionDemo" />
       </list>
     </recent_temporary>
   </component>
