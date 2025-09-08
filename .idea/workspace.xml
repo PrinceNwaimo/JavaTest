@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelException/ExceptionA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelException/ExceptionB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelException/ExceptionC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelException/ExceptionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelException/UsingChainedExceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelException/UsingExceptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangExceptionHandling/CreateSalaryData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangExceptionHandling/CreateSalaryData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelException/ValidationException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +135,7 @@
     "Application.CrapsSimulation.executor": "Run",
     "Application.CreateAliens.executor": "Run",
     "Application.CreatePurchase.executor": "Run",
+    "Application.CreateSalaryData.executor": "Run",
     "Application.CreditCardValidator.executor": "Run",
     "Application.CurrencyConverter.executor": "Run",
     "Application.CurrentDateTime.executor": "Run",
@@ -422,7 +416,7 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CreateSalaryData">
+  <component name="RunManager" selected="Application.OtherScopes">
     <configuration name="CountFileContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.CountFileContent" />
       <module name="testSamples" />
@@ -442,6 +436,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="liangExceptionHandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OtherScopes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelException.OtherScopes" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettelException.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -475,26 +482,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.TestTriangle" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangExceptionHandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OtherScopes" />
         <item itemvalue="Application.CreateSalaryData" />
         <item itemvalue="Application.RenameFiles2" />
         <item itemvalue="Application.CountFileContent" />
         <item itemvalue="Application.OutOfMemoryErrorTest" />
-        <item itemvalue="Application.TestTriangle" />
       </list>
     </recent_temporary>
   </component>
