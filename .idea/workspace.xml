@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/CourseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/DistanceFromAverageWithExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/SqrtException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/DataEntryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/GetIDAndAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/GradeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/ScoreException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/TestGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/TestScore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -383,6 +386,7 @@
     "Application.TestStackOfIntegers.executor": "Run",
     "Application.TestTriangle.executor": "Run",
     "Application.TestTriangle2D.executor": "Run",
+    "Application.ThrowUsedCarException.executor": "Run",
     "Application.TicTacToe.executor": "Run",
     "Application.TicTacToe2.executor": "Run",
     "Application.Time.executor": "Run",
@@ -421,13 +425,13 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ThrowUsedCarException">
-    <configuration name="CreateSalaryData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.CreateSalaryData" />
+  <component name="RunManager" selected="Application.GetIDAndAge">
+    <configuration name="GetIDAndAge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceExceptionHandling.GetIDAndAge" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangExceptionHandling.*" />
+          <option name="PATTERN" value="joyceExceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -489,11 +493,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetIDAndAge" />
         <item itemvalue="Application.ThrowUsedCarException" />
         <item itemvalue="Application.RationalTest2" />
         <item itemvalue="Application.RationalTest" />
         <item itemvalue="Application.OtherScopes" />
-        <item itemvalue="Application.CreateSalaryData" />
       </list>
     </recent_temporary>
   </component>
