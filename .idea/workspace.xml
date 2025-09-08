@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/BadSubscriptCaught.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/TryToParseDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/CourseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/DistanceFromAverageWithExceptionHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/SqrtException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -420,7 +421,7 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RationalTest2">
+  <component name="RunManager" selected="Application.ThrowUsedCarException">
     <configuration name="CreateSalaryData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.CreateSalaryData" />
       <module name="testSamples" />
@@ -473,12 +474,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RenameFiles2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.RenameFiles2" />
+    <configuration name="ThrowUsedCarException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceExceptionHandling.ThrowUsedCarException" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangExceptionHandling.*" />
+          <option name="PATTERN" value="joyceExceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -488,11 +489,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThrowUsedCarException" />
         <item itemvalue="Application.RationalTest2" />
         <item itemvalue="Application.RationalTest" />
         <item itemvalue="Application.OtherScopes" />
         <item itemvalue="Application.CreateSalaryData" />
-        <item itemvalue="Application.RenameFiles2" />
       </list>
     </recent_temporary>
   </component>
