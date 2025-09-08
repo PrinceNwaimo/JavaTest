@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelException/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/Complex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/Complex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/ComplexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/Rational.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/Rational2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/RationalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangExceptionHandling/RationalTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,6 +276,7 @@
     "Application.NineInts.executor": "Run",
     "Application.NumberInput.executor": "Run",
     "Application.NumberSystemsTable.executor": "Run",
+    "Application.OtherScopes.executor": "Run",
     "Application.OutOfMemoryErrorTest.executor": "Run",
     "Application.PalindromeChecker.executor": "Run",
     "Application.PalindromeIgnoreNonAlphanumeric.executor": "Run",
@@ -319,6 +328,7 @@
     "Application.RandomNumberGenerator.executor": "Run",
     "Application.RandomShuffling.executor": "Run",
     "Application.RationalTest.executor": "Run",
+    "Application.RationalTest2.executor": "Run",
     "Application.ReadData.executor": "Run",
     "Application.RegularPolygonArea.executor": "Run",
     "Application.RemoveDuplicates2.executor": "Run",
@@ -416,20 +426,7 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OtherScopes">
-    <configuration name="CountFileContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.CountFileContent" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangExceptionHandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RationalTest2">
     <configuration name="CreateSalaryData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.CreateSalaryData" />
       <module name="testSamples" />
@@ -456,8 +453,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutOfMemoryErrorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.OutOfMemoryErrorTest" />
+    <configuration name="RationalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.RationalTest" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangExceptionHandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RationalTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.RationalTest2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -484,11 +494,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RationalTest2" />
+        <item itemvalue="Application.RationalTest" />
         <item itemvalue="Application.OtherScopes" />
         <item itemvalue="Application.CreateSalaryData" />
         <item itemvalue="Application.RenameFiles2" />
-        <item itemvalue="Application.CountFileContent" />
-        <item itemvalue="Application.OutOfMemoryErrorTest" />
       </list>
     </recent_temporary>
   </component>
