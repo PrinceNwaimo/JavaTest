@@ -47,6 +47,6 @@ public class CreateSalaryData {
                 break;
         }
 
-        return min + (max - min) * random.nextDouble()= random.nextDouble();
+        return min + (max - min) * random.nextDouble();
     }
 }
