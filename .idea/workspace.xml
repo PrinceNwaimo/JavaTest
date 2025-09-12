@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangFile/FileEncryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangFile/FileEncryptor2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangFile/FileEncryptor3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/BitOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/CharacterFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/FileDecryptor4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/ViewBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/ViewHex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/binaryEditor/BinaryEditor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +81,10 @@
     "Application.BarChart2.executor": "Run",
     "Application.BasePlusCommissionEmployeeTest.executor": "Run",
     "Application.BeanMachine.executor": "Run",
+    "Application.BinaryEditor.executor": "Run",
+    "Application.BinaryEditorTest.executor": "Run",
     "Application.BirthdayReminder.executor": "Run",
+    "Application.BitOutputStream.executor": "Run",
     "Application.BookArray.executor": "Run",
     "Application.BowlingTeamDemo.executor": "Run",
     "Application.BowlingTeamDemo2.executor": "Run",
@@ -102,6 +108,7 @@
     "Application.CentralCity.executor": "Run",
     "Application.CertOfDepositArray.executor": "Run",
     "Application.ChainedExceptionDemo.executor": "Run",
+    "Application.CharacterFrequency.executor": "Run",
     "Application.CharacterInfo.executor": "Run",
     "Application.Charge.executor": "Run",
     "Application.CheckPassword.executor": "Run",
@@ -206,6 +213,7 @@
     "Application.FancyTimeTest.executor": "Run",
     "Application.File1.executor": "Run",
     "Application.File2.executor": "Run",
+    "Application.FileDecryptor4.executor": "Run",
     "Application.FileEncryptor.executor": "Run",
     "Application.FileEncryptor2.executor": "Run",
     "Application.FinancialTsunami.executor": "Run",
@@ -450,13 +458,13 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileEncryptor2">
-    <configuration name="AddressBookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangFile.AddressBookTest" />
+  <component name="RunManager" selected="Application.HexEditor">
+    <configuration name="BinaryEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangFile.binaryEditor.BinaryEditor" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangFile.*" />
+          <option name="PATTERN" value="liangFile.binaryEditor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -464,12 +472,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise17_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangFile.Exercise17_10" />
+    <configuration name="BinaryEditorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangFile.binaryEditor.BinaryEditorTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangFile.*" />
+          <option name="PATTERN" value="liangFile.binaryEditor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -477,12 +485,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise17_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangFile.Exercise17_12" />
+    <configuration name="BitOutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangFile.BitOutputStream" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangFile.*" />
+          <option name="PATTERN" value="liangFile.binaryEditor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -490,12 +498,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileEncryptor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangFile.FileEncryptor" />
+    <configuration name="CharacterFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangFile.CharacterFrequency" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangFile.*" />
+          <option name="PATTERN" value="liangFile.binaryEditor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -503,8 +511,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileEncryptor2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangFile.FileEncryptor2" />
+    <configuration name="HexEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangFile.HexEditor" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -518,11 +526,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileEncryptor2" />
-        <item itemvalue="Application.FileEncryptor" />
-        <item itemvalue="Application.Exercise17_12" />
-        <item itemvalue="Application.Exercise17_10" />
-        <item itemvalue="Application.AddressBookTest" />
+        <item itemvalue="Application.HexEditor" />
+        <item itemvalue="Application.BinaryEditor" />
+        <item itemvalue="Application.BinaryEditorTest" />
+        <item itemvalue="Application.BitOutputStream" />
+        <item itemvalue="Application.CharacterFrequency" />
       </list>
     </recent_temporary>
   </component>
