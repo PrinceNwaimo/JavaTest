@@ -1,0 +1,22 @@
+package joyceExceptionHandling;
+
+import javax.swing.*;
+
+public class PlanMenu {
+    public static void main(String[] args) {
+       Menu briefmenu = new Menu();
+       PickMenu entree = null;
+       String guestChoice = new String();
+
+       try{
+           PickMenu selection = new PickMenu(briefmenu);
+           entree = selection;
+           guestChoice = entree.getGuestChoice();
+       }
+       catch (Exception error)
+       {
+           guestChoice = "an invalid selection";
+       }
+        JOptionPane.showMessageDialog(null,"You chose " + guestChoice);
+    }
+}

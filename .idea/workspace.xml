@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/DataEntryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/GetIDAndAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/GradeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/ScoreException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/TestGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/TestScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/CalculatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/Menu2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/MenuException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/PickMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/PickMenu2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/PlanMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/PlanMenu2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/PlanVegetarianMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/VegetarianMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceExceptionHandling/VirtualKeyboardDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/Copy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/DetectEndOfFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/TestDataStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/TestFileStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/TestObjectInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/TestObjectOutPutStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/TestObjectStreamForArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,6 +102,7 @@
     "Application.BubbleSortDemo.executor": "Run",
     "Application.Businessletter.executor": "Run",
     "Application.Calculator.executor": "Run",
+    "Application.CalculatorDemo.executor": "Run",
     "Application.Calendar.executor": "Run",
     "Application.CalendarApplication.executor": "Run",
     "Application.CarCareChoice.executor": "Run",
@@ -165,6 +178,7 @@
     "Application.DemoSugarSmash.executor": "Run",
     "Application.DemoTees.executor": "Run",
     "Application.DemoVehicles.executor": "Run",
+    "Application.DetectEndOfFile.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
     "Application.DiceRolling.executor": "Run",
     "Application.DinnerEventDemo.executor": "Run",
@@ -211,6 +225,7 @@
     "Application.FormatInteger.executor": "Run",
     "Application.FullDeck.executor": "Run",
     "Application.Geometry.executor": "Run",
+    "Application.GetIDAndAge.executor": "Run",
     "Application.GradeBookTest.executor": "Run",
     "Application.GradeExam.executor": "Run",
     "Application.GradeExam2.executor": "Run",
@@ -298,6 +313,9 @@
     "Application.PigDiceGame2.executor": "Run",
     "Application.PigLatin.executor": "Run",
     "Application.PixelQuantization.executor": "Run",
+    "Application.PlanMenu.executor": "Run",
+    "Application.PlanMenu2.executor": "Run",
+    "Application.PlanVegetarianMenu.executor": "Run",
     "Application.PointPosition.executor": "Run",
     "Application.PointTest.executor": "Run",
     "Application.Polling.executor": "Run",
@@ -379,9 +397,11 @@
     "Application.TestCircleRectangle.executor": "Run",
     "Application.TestCourse.executor": "Run",
     "Application.TestCustomer.executor": "Run",
+    "Application.TestFileStream.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
     "Application.TestLoadedDie.executor": "Run",
     "Application.TestLoanCircle.executor": "Run",
+    "Application.TestObjectOutPutStream.executor": "Run",
     "Application.TestRandomCharacter.executor": "Run",
     "Application.TestStackOfIntegers.executor": "Run",
     "Application.TestTriangle.executor": "Run",
@@ -408,6 +428,7 @@
     "Application.VariableLengthArgumentList.executor": "Run",
     "Application.VehicleDatabase.executor": "Run",
     "Application.VerifyCode.executor": "Run",
+    "Application.VirtualKeyboardDemo.executor": "Run",
     "Application.War3.executor": "Run",
     "Application.Weather.executor": "Run",
     "Application.WebCrawler.executor": "Run",
@@ -425,9 +446,14 @@
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GetIDAndAge">
-    <configuration name="GetIDAndAge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceExceptionHandling.GetIDAndAge" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="joyceExceptionHandling" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestObjectStreamForArray">
+    <configuration name="CalculatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceExceptionHandling.CalculatorDemo" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -439,12 +465,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OtherScopes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelException.OtherScopes" />
+    <configuration name="DetectEndOfFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangFile.DetectEndOfFile" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelException.*" />
+          <option name="PATTERN" value="liangFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -452,12 +478,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RationalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.RationalTest" />
+    <configuration name="TestFileStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangFile.TestFileStream" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangExceptionHandling.*" />
+          <option name="PATTERN" value="liangFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -465,12 +491,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RationalTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangExceptionHandling.RationalTest2" />
+    <configuration name="TestObjectOutPutStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangFile.TestObjectOutPutStream" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangExceptionHandling.*" />
+          <option name="PATTERN" value="liangFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -478,12 +504,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowUsedCarException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceExceptionHandling.ThrowUsedCarException" />
+    <configuration name="TestObjectStreamForArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangFile.TestObjectStreamForArray" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="joyceExceptionHandling.*" />
+          <option name="PATTERN" value="liangFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -493,11 +519,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetIDAndAge" />
-        <item itemvalue="Application.ThrowUsedCarException" />
-        <item itemvalue="Application.RationalTest2" />
-        <item itemvalue="Application.RationalTest" />
-        <item itemvalue="Application.OtherScopes" />
+        <item itemvalue="Application.TestObjectStreamForArray" />
+        <item itemvalue="Application.TestObjectOutPutStream" />
+        <item itemvalue="Application.DetectEndOfFile" />
+        <item itemvalue="Application.TestFileStream" />
+        <item itemvalue="Application.CalculatorDemo" />
       </list>
     </recent_temporary>
   </component>
