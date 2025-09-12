@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangFile/Exercise17_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangFile/Exercise17_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangFile/Exercise17_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangFile/Exercise17_06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangFile/File1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangFile/File2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangFile/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/AddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/AddressBookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/Exercise17_08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/Exercise17_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangFile/Exercise17_12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +58,7 @@
     "Application.Account.executor": "Run",
     "Application.AddMatrix.executor": "Run",
     "Application.AdditionQuiz.executor": "Run",
+    "Application.AddressBookTest.executor": "Run",
     "Application.AirlineReservations.executor": "Run",
     "Application.AlgebraPerfectSquare.executor": "Run",
     "Application.AllClosestPairs.executor": "Run",
@@ -200,6 +199,10 @@
     "Application.Exercise17_04.executor": "Run",
     "Application.Exercise17_05.executor": "Run",
     "Application.Exercise17_06.executor": "Run",
+    "Application.Exercise17_07.executor": "Run",
+    "Application.Exercise17_08.executor": "Run",
+    "Application.Exercise17_10.executor": "Run",
+    "Application.Exercise17_12.executor": "Run",
     "Application.Factorials.executor": "Run",
     "Application.Fan.executor": "Run",
     "Application.FancyTimeTest.executor": "Run",
@@ -447,48 +450,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise17_07">
-    <configuration name="Exercise17_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangFile.Exercise17_03" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangFile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise17_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangFile.Exercise17_04" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangFile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise17_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangFile.Exercise17_05" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangFile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise17_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangFile.Exercise17_06" />
+  <component name="RunManager" selected="Application.Exercise17_12">
+    <configuration name="AddressBookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangFile.AddressBookTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -513,13 +477,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exercise17_08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangFile.Exercise17_08" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangFile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise17_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangFile.Exercise17_10" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangFile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise17_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangFile.Exercise17_12" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangFile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise17_12" />
+        <item itemvalue="Application.Exercise17_10" />
+        <item itemvalue="Application.AddressBookTest" />
+        <item itemvalue="Application.Exercise17_08" />
         <item itemvalue="Application.Exercise17_07" />
-        <item itemvalue="Application.Exercise17_06" />
-        <item itemvalue="Application.Exercise17_05" />
-        <item itemvalue="Application.Exercise17_04" />
-        <item itemvalue="Application.Exercise17_03" />
       </list>
     </recent_temporary>
   </component>
