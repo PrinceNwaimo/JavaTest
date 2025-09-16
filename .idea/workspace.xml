@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/DisplaySelectedCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/DisplaySelectedCustomerByBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/DisplaySelectedCustomersByNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/SavedCustomerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/SeekPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/SeekPosition2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/ValidateCheckDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/CreateBankFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/CreateCustomerFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/CreateItemFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/CustomerItemOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/GameWithPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/QuizUsingFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/ReadBankAccountsRandomly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/ReadBankAccountsSequentially.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/RentalDemoAndCreateFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/SecretPhraseUsingFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/StudentStanding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/StudentStanding2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,6 +153,7 @@
     "Application.Craps.executor": "Run",
     "Application.CrapsSimulation.executor": "Run",
     "Application.CreateAliens.executor": "Run",
+    "Application.CreateItemFile.executor": "Run",
     "Application.CreatePurchase.executor": "Run",
     "Application.CreateSalaryData.executor": "Run",
     "Application.CreditCardValidator.executor": "Run",
@@ -356,6 +362,7 @@
     "Application.Quiz.executor": "Run",
     "Application.Quiz2.executor": "Run",
     "Application.QuizScoreStatistics.executor": "Run",
+    "Application.QuizUsingFiles.executor": "Run",
     "Application.Quotient.executor": "Run",
     "Application.QuotientWithException.executor": "Run",
     "Application.RandomAccessTest.executor": "Run",
@@ -374,6 +381,7 @@
     "Application.RemoveDuplicates2.executor": "Run",
     "Application.RenameFiles2.executor": "Run",
     "Application.RentalDemo.executor": "Run",
+    "Application.RentalDemoAndCreateFile.executor": "Run",
     "Application.RepairName.executor": "Run",
     "Application.RetirementGoal.executor": "Run",
     "Application.RetirementGoal2.executor": "Run",
@@ -387,6 +395,7 @@
     "Application.ScreenOut.executor": "Run",
     "Application.SearchExecutionTime.executor": "Run",
     "Application.SecretPhrase2.executor": "Run",
+    "Application.SecretPhraseUsingFiles.executor": "Run",
     "Application.SeekPosition.executor": "Run",
     "Application.SelectionSort2.executor": "Run",
     "Application.SequentialDataFile.executor": "Run",
@@ -481,9 +490,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SeekPosition">
-    <configuration name="DisplaySelectedCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceFiles.DisplaySelectedCustomer" />
+  <component name="RunManager" selected="Application.DisplayDinnerEventFile">
+    <configuration name="DisplayDinnerEventFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceFiles.DisplayDinnerEventFile" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -495,8 +504,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisplaySelectedCustomerByBalance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceFiles.DisplaySelectedCustomerByBalance" />
+    <configuration name="DisplayRentalFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceFiles.DisplayRentalFile" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -508,8 +517,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisplaySelectedCustomersByNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceFiles.DisplaySelectedCustomersByNames" />
+    <configuration name="QuizUsingFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceFiles.QuizUsingFiles" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -521,8 +530,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SavedCustomerList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceFiles.SavedCustomerList" />
+    <configuration name="RentalDemoAndCreateFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceFiles.RentalDemoAndCreateFile" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -534,8 +543,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeekPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceFiles.SeekPosition" />
+    <configuration name="StaffDinnerEventAndCreateFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceFiles.StaffDinnerEventAndCreateFile" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -549,11 +558,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SeekPosition" />
-        <item itemvalue="Application.DisplaySelectedCustomerByBalance" />
-        <item itemvalue="Application.DisplaySelectedCustomersByNames" />
-        <item itemvalue="Application.DisplaySelectedCustomer" />
-        <item itemvalue="Application.SavedCustomerList" />
+        <item itemvalue="Application.DisplayDinnerEventFile" />
+        <item itemvalue="Application.StaffDinnerEventAndCreateFile" />
+        <item itemvalue="Application.DisplayRentalFile" />
+        <item itemvalue="Application.RentalDemoAndCreateFile" />
+        <item itemvalue="Application.QuizUsingFiles" />
       </list>
     </recent_temporary>
   </component>
