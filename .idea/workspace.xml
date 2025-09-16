@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/CreateEmptyEmployeesFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/FileOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/PathDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/PathDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/PathDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/PathDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/PathDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/PathDemo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/RandomAccessTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/ReadEmployeeFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/ReadEmployeeFile2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/ReadFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/ScreenOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/SequentialDataFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/FileStatistics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -225,6 +212,7 @@
     "Application.FileEncryptor.executor": "Run",
     "Application.FileEncryptor2.executor": "Run",
     "Application.FileOut.executor": "Run",
+    "Application.FileStatistics.executor": "Run",
     "Application.FinancialTsunami.executor": "Run",
     "Application.FindDiscount.executor": "Run",
     "Application.FindFlippedCell.executor": "Run",
@@ -480,7 +468,33 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomAccessTest">
+  <component name="RunManager" selected="Application.CompareFolders">
+    <configuration name="CompareFolders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceFiles.CompareFolders" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceFiles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileStatistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceFiles.FileStatistics" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joyceFiles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RandomAccessTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceFiles.RandomAccessTest" />
       <module name="testSamples" />
@@ -494,34 +508,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadEmployeeFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceFiles.ReadEmployeeFile" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joyceFiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReadEmployeeFile2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="joyceFiles.ReadEmployeeFile2" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joyceFiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceFiles.ReadFiles" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -548,11 +536,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompareFolders" />
+        <item itemvalue="Application.FileStatistics" />
         <item itemvalue="Application.RandomAccessTest" />
         <item itemvalue="Application.ReadEmployeeFile2" />
         <item itemvalue="Application.SequentialDataFile" />
-        <item itemvalue="Application.ReadEmployeeFile" />
-        <item itemvalue="Application.ReadFiles" />
       </list>
     </recent_temporary>
   </component>
