@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/joyceFiles/FileStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/DisplaySelectedCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/DisplaySelectedCustomerByBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/DisplaySelectedCustomersByNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/SavedCustomerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/SeekPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/SeekPosition2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/joyceFiles/ValidateCheckDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,6 +123,7 @@
     "Application.CombineTwoLists.executor": "Run",
     "Application.CommandLineAverage.executor": "Run",
     "Application.CommissionCalculator.executor": "Run",
+    "Application.CompareFolders.executor": "Run",
     "Application.CompareLoopTimes.executor": "Run",
     "Application.CompareStrings.executor": "Run",
     "Application.ComplexTest.executor": "Run",
@@ -171,6 +178,9 @@
     "Application.DiceRolling.executor": "Run",
     "Application.DinnerEventDemo.executor": "Run",
     "Application.DisplayRents.executor": "Run",
+    "Application.DisplaySelectedCustomer.executor": "Run",
+    "Application.DisplaySelectedCustomerByBalance.executor": "Run",
+    "Application.DisplaySelectedCustomersByNames.executor": "Run",
     "Application.DistanceBetweenPoints.executor": "Run",
     "Application.DistanceFromAverage.executor": "Run",
     "Application.DivideEvenly.executor": "Run",
@@ -372,10 +382,12 @@
     "Application.RollDice.executor": "Run",
     "Application.SalespersonDatabase.executor": "Run",
     "Application.SameLine.executor": "Run",
+    "Application.SavedCustomerList.executor": "Run",
     "Application.Score.executor": "Run",
     "Application.ScreenOut.executor": "Run",
     "Application.SearchExecutionTime.executor": "Run",
     "Application.SecretPhrase2.executor": "Run",
+    "Application.SeekPosition.executor": "Run",
     "Application.SelectionSort2.executor": "Run",
     "Application.SequentialDataFile.executor": "Run",
     "Application.ShowCurrentDateTime.executor": "Run",
@@ -449,6 +461,7 @@
     "Application.War3.executor": "Run",
     "Application.Weather.executor": "Run",
     "Application.WebCrawler.executor": "Run",
+    "Application.WriteCustomerList.executor": "Run",
     "Application.WriteDataWithAutoClose.executor": "Run",
     "Application.liangInheritance.account.Test.executor": "Run",
     "Application.main.executor": "Run",
@@ -468,9 +481,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompareFolders">
-    <configuration name="CompareFolders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceFiles.CompareFolders" />
+  <component name="RunManager" selected="Application.SeekPosition">
+    <configuration name="DisplaySelectedCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceFiles.DisplaySelectedCustomer" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -482,8 +495,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileStatistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceFiles.FileStatistics" />
+    <configuration name="DisplaySelectedCustomerByBalance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceFiles.DisplaySelectedCustomerByBalance" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -495,8 +508,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomAccessTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceFiles.RandomAccessTest" />
+    <configuration name="DisplaySelectedCustomersByNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceFiles.DisplaySelectedCustomersByNames" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -508,8 +521,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadEmployeeFile2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceFiles.ReadEmployeeFile2" />
+    <configuration name="SavedCustomerList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceFiles.SavedCustomerList" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -521,8 +534,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequentialDataFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceFiles.SequentialDataFile" />
+    <configuration name="SeekPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="joyceFiles.SeekPosition" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -536,11 +549,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompareFolders" />
-        <item itemvalue="Application.FileStatistics" />
-        <item itemvalue="Application.RandomAccessTest" />
-        <item itemvalue="Application.ReadEmployeeFile2" />
-        <item itemvalue="Application.SequentialDataFile" />
+        <item itemvalue="Application.SeekPosition" />
+        <item itemvalue="Application.DisplaySelectedCustomerByBalance" />
+        <item itemvalue="Application.DisplaySelectedCustomersByNames" />
+        <item itemvalue="Application.DisplaySelectedCustomer" />
+        <item itemvalue="Application.SavedCustomerList" />
       </list>
     </recent_temporary>
   </component>
