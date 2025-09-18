@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/CustomStringSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/IntToChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/ThreeLetterStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/WordsEndingWithED.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/CheckAmountInWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/CheckProtection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/DateFormatConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/MorseCodeEncoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +109,7 @@
     "Application.CharacterFrequency.executor": "Run",
     "Application.CharacterInfo.executor": "Run",
     "Application.Charge.executor": "Run",
+    "Application.CheckAmountInWords.executor": "Run",
     "Application.CheckPassword.executor": "Run",
     "Application.CheckSorted.executor": "Run",
     "Application.CheckSudokuSolution.executor": "Run",
@@ -153,6 +154,7 @@
     "Application.CurrentDateTime.executor": "Run",
     "Application.CurrentDateTime2.executor": "Run",
     "Application.CylinderTest.executor": "Run",
+    "Application.DateFormatConverter.executor": "Run",
     "Application.DayOfWeek.executor": "Run",
     "Application.DaysInYear.executor": "Run",
     "Application.DeckOfCards.executor": "Run",
@@ -484,6 +486,7 @@
     "Application.War3.executor": "Run",
     "Application.Weather.executor": "Run",
     "Application.WebCrawler.executor": "Run",
+    "Application.WordOccurrences.executor": "Run",
     "Application.WriteCustomerList.executor": "Run",
     "Application.WriteDataWithAutoClose.executor": "Run",
     "Application.liangInheritance.account.Test.executor": "Run",
@@ -504,9 +507,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordOccurrences">
-    <configuration name="PasswordValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.PasswordValidation" />
+  <component name="RunManager" selected="Application.MorseCodeDecoder">
+    <configuration name="CheckAmountInWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.CheckAmountInWords" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -518,8 +521,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PigLatin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.PigLatin" />
+    <configuration name="DateFormatConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.DateFormatConverter" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettelStringsAndCharacters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MorseCodeDecoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.MorseCodeDecoder" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -533,19 +549,6 @@
     </configuration>
     <configuration name="ThreeLetterStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.ThreeLetterStrings" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelStringsAndCharacters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TokenizingTelephoneNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.TokenizingTelephoneNumbers" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -572,11 +575,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MorseCodeDecoder" />
+        <item itemvalue="Application.CheckAmountInWords" />
+        <item itemvalue="Application.DateFormatConverter" />
         <item itemvalue="Application.WordOccurrences" />
         <item itemvalue="Application.ThreeLetterStrings" />
-        <item itemvalue="Application.TokenizingTelephoneNumbers" />
-        <item itemvalue="Application.PigLatin" />
-        <item itemvalue="Application.PasswordValidation" />
       </list>
     </recent_temporary>
   </component>
