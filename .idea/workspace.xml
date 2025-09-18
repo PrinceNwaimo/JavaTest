@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/ExtractingSubstringsFromStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringBuilderAppend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringBuilderCapLen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringBuilderChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringBuilderConstructors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringConcatenation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringMiscellaneous2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringValueOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/OtherCharMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StaticCharMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StaticCharMethods2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringBuilderInsertDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/TokenTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -308,6 +305,7 @@
     "Application.NineInts.executor": "Run",
     "Application.NumberInput.executor": "Run",
     "Application.NumberSystemsTable.executor": "Run",
+    "Application.OtherCharMethods.executor": "Run",
     "Application.OtherScopes.executor": "Run",
     "Application.OutOfMemoryErrorTest.executor": "Run",
     "Application.PalindromeChecker.executor": "Run",
@@ -411,10 +409,13 @@
     "Application.Sqrt.executor": "Run",
     "Application.SquareNumbers.executor": "Run",
     "Application.StaffDinnerEventAndCreateFile.executor": "Run",
+    "Application.StaticCharMethods.executor": "Run",
+    "Application.StaticCharMethods2.executor": "Run",
     "Application.Stock.executor": "Run",
     "Application.StopWatch.executor": "Run",
     "Application.StrictlyIdenticalArrays.executor": "Run",
     "Application.StringBeautifier.executor": "Run",
+    "Application.StringBuilderAppend.executor": "Run",
     "Application.StringBuilderCapLen.executor": "Run",
     "Application.StringBuilderDemo.executor": "Run",
     "Application.StringBuilderMethods.executor": "Run",
@@ -456,6 +457,7 @@
     "Application.Time.executor": "Run",
     "Application.Time1Test.executor": "Run",
     "Application.Time2Test.executor": "Run",
+    "Application.TokenTest.executor": "Run",
     "Application.TortoiseAndHare.executor": "Run",
     "Application.TriangleWithLoops.executor": "Run",
     "Application.TryToCompareStrings.executor": "Run",
@@ -496,9 +498,35 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringBuilderAppend">
-    <configuration name="ExtractingSubstringsFromStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.ExtractingSubstringsFromStrings" />
+  <component name="RunManager" selected="Application.TokenTest">
+    <configuration name="OtherCharMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.OtherCharMethods" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettelStringsAndCharacters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticCharMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.StaticCharMethods" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettelStringsAndCharacters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticCharMethods2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.StaticCharMethods2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -523,34 +551,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderCapLen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.StringBuilderCapLen" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelStringsAndCharacters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringMiscellaneous2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.StringMiscellaneous2" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelStringsAndCharacters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringValueOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.StringValueOf" />
+    <configuration name="TokenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.TokenTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -564,11 +566,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TokenTest" />
+        <item itemvalue="Application.OtherCharMethods" />
+        <item itemvalue="Application.StaticCharMethods2" />
+        <item itemvalue="Application.StaticCharMethods" />
         <item itemvalue="Application.StringBuilderAppend" />
-        <item itemvalue="Application.StringBuilderCapLen" />
-        <item itemvalue="Application.StringValueOf" />
-        <item itemvalue="Application.StringMiscellaneous2" />
-        <item itemvalue="Application.ExtractingSubstringsFromStrings" />
       </list>
     </recent_temporary>
   </component>
