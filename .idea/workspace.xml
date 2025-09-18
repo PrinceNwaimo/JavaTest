@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringIndexMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/ExtractingSubstringsFromStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringBuilderAppend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringBuilderCapLen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringBuilderChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringBuilderConstructors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringConcatenation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringMiscellaneous2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringValueOf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,6 +217,7 @@
     "Application.Exercise17_08.executor": "Run",
     "Application.Exercise17_10.executor": "Run",
     "Application.Exercise17_12.executor": "Run",
+    "Application.ExtractingSubstringsFromStrings.executor": "Run",
     "Application.Factorials.executor": "Run",
     "Application.Fan.executor": "Run",
     "Application.FancyTimeTest.executor": "Run",
@@ -407,11 +415,14 @@
     "Application.StopWatch.executor": "Run",
     "Application.StrictlyIdenticalArrays.executor": "Run",
     "Application.StringBeautifier.executor": "Run",
+    "Application.StringBuilderCapLen.executor": "Run",
     "Application.StringBuilderDemo.executor": "Run",
     "Application.StringBuilderMethods.executor": "Run",
     "Application.StringCompare.executor": "Run",
     "Application.StringConstructors.executor": "Run",
+    "Application.StringMiscellaneous2.executor": "Run",
     "Application.StringStartEnd.executor": "Run",
+    "Application.StringValueOf.executor": "Run",
     "Application.SumArrayList.executor": "Run",
     "Application.SumArrays.executor": "Run",
     "Application.SumColumn.executor": "Run",
@@ -485,35 +496,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringStartEnd">
-    <configuration name="DisplayDinnerEventFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceFiles.DisplayDinnerEventFile" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joyceFiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaffDinnerEventAndCreateFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="joyceFiles.StaffDinnerEventAndCreateFile" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joyceFiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.StringCompare" />
+  <component name="RunManager" selected="Application.StringBuilderAppend">
+    <configuration name="ExtractingSubstringsFromStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.ExtractingSubstringsFromStrings" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -525,8 +510,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringConstructors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.StringConstructors" />
+    <configuration name="StringBuilderAppend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.StringBuilderAppend" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -538,8 +523,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringStartEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.StringStartEnd" />
+    <configuration name="StringBuilderCapLen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.StringBuilderCapLen" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettelStringsAndCharacters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringMiscellaneous2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.StringMiscellaneous2" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettelStringsAndCharacters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringValueOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.StringValueOf" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -553,11 +564,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringStartEnd" />
-        <item itemvalue="Application.StringCompare" />
-        <item itemvalue="Application.StringConstructors" />
-        <item itemvalue="Application.DisplayDinnerEventFile" />
-        <item itemvalue="Application.StaffDinnerEventAndCreateFile" />
+        <item itemvalue="Application.StringBuilderAppend" />
+        <item itemvalue="Application.StringBuilderCapLen" />
+        <item itemvalue="Application.StringValueOf" />
+        <item itemvalue="Application.StringMiscellaneous2" />
+        <item itemvalue="Application.ExtractingSubstringsFromStrings" />
       </list>
     </recent_temporary>
   </component>
