@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/CheckAmountInWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/CheckProtection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/DateFormatConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/MorseCodeEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/CrosswordPuzzleGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/MetricConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/SpellChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +148,7 @@
     "Application.CreatePurchase.executor": "Run",
     "Application.CreateSalaryData.executor": "Run",
     "Application.CreditCardValidator.executor": "Run",
+    "Application.CrosswordPuzzleGenerator.executor": "Run",
     "Application.CurrencyConverter.executor": "Run",
     "Application.CurrentDateTime.executor": "Run",
     "Application.CurrentDateTime2.executor": "Run",
@@ -288,6 +287,7 @@
     "Application.MersennePrime.executor": "Run",
     "Application.Months.executor": "Run",
     "Application.MorgansBonuses.executor": "Run",
+    "Application.MorseCodeDecoder.executor": "Run",
     "Application.Multiples.executor": "Run",
     "Application.MultiplicationCAI.executor": "Run",
     "Application.MultiplicationCAI2.executor": "Run",
@@ -507,9 +507,22 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MorseCodeDecoder">
+  <component name="RunManager" selected="Application.CrosswordPuzzleGenerator">
     <configuration name="CheckAmountInWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.CheckAmountInWords" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettelStringsAndCharacters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrosswordPuzzleGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.CrosswordPuzzleGenerator" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -547,19 +560,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeLetterStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.ThreeLetterStrings" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelStringsAndCharacters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WordOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.WordOccurrences" />
       <module name="testSamples" />
@@ -575,11 +575,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CrosswordPuzzleGenerator" />
         <item itemvalue="Application.MorseCodeDecoder" />
         <item itemvalue="Application.CheckAmountInWords" />
         <item itemvalue="Application.DateFormatConverter" />
         <item itemvalue="Application.WordOccurrences" />
-        <item itemvalue="Application.ThreeLetterStrings" />
       </list>
     </recent_temporary>
   </component>
