@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/RegexMatches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/RegexSubstitution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/Validate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/ValidateInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/CompareStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringManipulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -307,6 +306,7 @@
     "Application.OtherCharMethods.executor": "Run",
     "Application.OtherScopes.executor": "Run",
     "Application.OutOfMemoryErrorTest.executor": "Run",
+    "Application.Palindrome.executor": "Run",
     "Application.PalindromeChecker.executor": "Run",
     "Application.PalindromeIgnoreNonAlphanumeric.executor": "Run",
     "Application.PalindromeInteger.executor": "Run",
@@ -373,6 +373,7 @@
     "Application.ReadEmployeeFile.executor": "Run",
     "Application.ReadEmployeeFile2.executor": "Run",
     "Application.ReadFiles.executor": "Run",
+    "Application.RegexMatches.executor": "Run",
     "Application.RegexSubstitution.executor": "Run",
     "Application.RegularPolygonArea.executor": "Run",
     "Application.RemoveDuplicates2.executor": "Run",
@@ -499,9 +500,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RegexMatches">
-    <configuration name="OtherCharMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.OtherCharMethods" />
+  <component name="RunManager" selected="Application.TokenizingTelephoneNumbers">
+    <configuration name="CompareStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.CompareStrings" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -513,8 +514,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexMatches" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.RegexMatches" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.Palindrome" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -526,8 +527,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexSubstitution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.RegexSubstitution" />
+    <configuration name="PasswordValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.PasswordValidation" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -539,8 +540,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TokenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.TokenTest" />
+    <configuration name="PigLatin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.PigLatin" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -552,8 +553,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Validate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.Validate" />
+    <configuration name="TokenizingTelephoneNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.TokenizingTelephoneNumbers" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -567,11 +568,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RegexMatches" />
-        <item itemvalue="Application.RegexSubstitution" />
-        <item itemvalue="Application.Validate" />
-        <item itemvalue="Application.TokenTest" />
-        <item itemvalue="Application.OtherCharMethods" />
+        <item itemvalue="Application.TokenizingTelephoneNumbers" />
+        <item itemvalue="Application.PigLatin" />
+        <item itemvalue="Application.PasswordValidation" />
+        <item itemvalue="Application.CompareStrings" />
+        <item itemvalue="Application.Palindrome" />
       </list>
     </recent_temporary>
   </component>
