@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/CompareStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringManipulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/ReverseSentence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,6 +312,7 @@
     "Application.PassArray.executor": "Run",
     "Application.PassArrayElement.executor": "Run",
     "Application.PassTwoDimensionalArrays.executor": "Run",
+    "Application.PasswordValidation.executor": "Run",
     "Application.PathDemo.executor": "Run",
     "Application.PathDemo2.executor": "Run",
     "Application.PathDemo3.executor": "Run",
@@ -459,6 +457,7 @@
     "Application.Time1Test.executor": "Run",
     "Application.Time2Test.executor": "Run",
     "Application.TokenTest.executor": "Run",
+    "Application.TokenizingTelephoneNumbers.executor": "Run",
     "Application.TortoiseAndHare.executor": "Run",
     "Application.TriangleWithLoops.executor": "Run",
     "Application.TryToCompareStrings.executor": "Run",
