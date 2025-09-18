@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelFiles/CreateTextFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelFiles/FileAndDirectoryInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelFiles/ReadTextFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelFiles/creditInquirySystem/CreditInquiry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelFiles/creditInquirySystem/MenuOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelFiles/FileEncryptionDecryption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelFiles/PhishingScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelFiles/TelephoneNumberWordGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelFiles/transaction/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelFiles/transaction/FileMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelFiles/transaction/TransactionRecord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clients.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testSamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testSamples.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +156,7 @@
     "Application.CreateSalaryData.executor": "Run",
     "Application.CreateTextFile.executor": "Run",
     "Application.CreditCardValidator.executor": "Run",
+    "Application.CreditInquiry.executor": "Run",
     "Application.CrosswordPuzzleGenerator.executor": "Run",
     "Application.CurrencyConverter.executor": "Run",
     "Application.CurrentDateTime.executor": "Run",
@@ -226,8 +231,10 @@
     "Application.File2.executor": "Run",
     "Application.FileAndDirectoryInfo.executor": "Run",
     "Application.FileDecryptor4.executor": "Run",
+    "Application.FileEncryptionDecryption.executor": "Run",
     "Application.FileEncryptor.executor": "Run",
     "Application.FileEncryptor2.executor": "Run",
+    "Application.FileMatch.executor": "Run",
     "Application.FileOut.executor": "Run",
     "Application.FileStatistics.executor": "Run",
     "Application.FinancialTsunami.executor": "Run",
@@ -337,6 +344,7 @@
     "Application.PentagonalNumbers.executor": "Run",
     "Application.Perfect.executor": "Run",
     "Application.PerfectNumbers.executor": "Run",
+    "Application.PhishingScanner.executor": "Run",
     "Application.PhoneKeypad.executor": "Run",
     "Application.PhoneKeypad2.executor": "Run",
     "Application.PhoneNumbers.executor": "Run",
@@ -448,6 +456,7 @@
     "Application.SummingElementsInAColumn.executor": "Run",
     "Application.Tax.executor": "Run",
     "Application.TaxTable.executor": "Run",
+    "Application.TelephoneNumberWordGenerator.executor": "Run",
     "Application.TemperatureConverter.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test2.executor": "Run",
@@ -508,6 +517,9 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
@@ -516,20 +528,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreditInquiry">
-    <configuration name="CreateTextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelFiles.CreateTextFile" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelFiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PhishingScanner">
     <configuration name="CreditInquiry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="diettelFiles.creditInquirySystem.CreditInquiry" />
       <module name="testSamples" />
@@ -543,8 +542,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileAndDirectoryInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelFiles.FileAndDirectoryInfo" />
+    <configuration name="FileEncryptionDecryption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelFiles.FileEncryptionDecryption" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -556,8 +555,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadTextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelFiles.ReadTextFile" />
+    <configuration name="FileMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelFiles.transaction.FileMatch" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettelFiles.transaction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhishingScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelFiles.PhishingScanner" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -569,12 +581,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SMSLanguageTranslator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="makingAdifference.SMSLanguageTranslator" />
+    <configuration name="TelephoneNumberWordGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelFiles.TelephoneNumberWordGenerator" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="makingAdifference.*" />
+          <option name="PATTERN" value="diettelFiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -584,11 +596,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhishingScanner" />
+        <item itemvalue="Application.FileEncryptionDecryption" />
+        <item itemvalue="Application.TelephoneNumberWordGenerator" />
+        <item itemvalue="Application.FileMatch" />
         <item itemvalue="Application.CreditInquiry" />
-        <item itemvalue="Application.ReadTextFile" />
-        <item itemvalue="Application.CreateTextFile" />
-        <item itemvalue="Application.FileAndDirectoryInfo" />
-        <item itemvalue="Application.SMSLanguageTranslator" />
       </list>
     </recent_temporary>
   </component>
