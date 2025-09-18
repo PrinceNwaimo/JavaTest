@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/OtherCharMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StaticCharMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StaticCharMethods2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringBuilderInsertDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/TokenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/RegexMatches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/RegexSubstitution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/Validate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/ValidateInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -374,6 +373,7 @@
     "Application.ReadEmployeeFile.executor": "Run",
     "Application.ReadEmployeeFile2.executor": "Run",
     "Application.ReadFiles.executor": "Run",
+    "Application.RegexSubstitution.executor": "Run",
     "Application.RegularPolygonArea.executor": "Run",
     "Application.RemoveDuplicates2.executor": "Run",
     "Application.RenameFiles2.executor": "Run",
@@ -471,6 +471,7 @@
     "Application.UseDinnerParty.executor": "Run",
     "Application.UseGeometric.executor": "Run",
     "Application.UseParty.executor": "Run",
+    "Application.Validate.executor": "Run",
     "Application.VariableLengthArgumentList.executor": "Run",
     "Application.VehicleDatabase.executor": "Run",
     "Application.VerifyCode.executor": "Run",
@@ -498,7 +499,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TokenTest">
+  <component name="RunManager" selected="Application.RegexMatches">
     <configuration name="OtherCharMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.OtherCharMethods" />
       <module name="testSamples" />
@@ -512,8 +513,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticCharMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.StaticCharMethods" />
+    <configuration name="RegexMatches" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.RegexMatches" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -525,21 +526,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticCharMethods2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.StaticCharMethods2" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelStringsAndCharacters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringBuilderAppend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.StringBuilderAppend" />
+    <configuration name="RegexSubstitution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.RegexSubstitution" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -564,13 +552,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Validate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStringsAndCharacters.Validate" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettelStringsAndCharacters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegexMatches" />
+        <item itemvalue="Application.RegexSubstitution" />
+        <item itemvalue="Application.Validate" />
         <item itemvalue="Application.TokenTest" />
         <item itemvalue="Application.OtherCharMethods" />
-        <item itemvalue="Application.StaticCharMethods2" />
-        <item itemvalue="Application.StaticCharMethods" />
-        <item itemvalue="Application.StringBuilderAppend" />
       </list>
     </recent_temporary>
   </component>
