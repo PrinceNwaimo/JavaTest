@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringConstructors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringMiscellaneous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringStartEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStringsAndCharacters/StringIndexMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -414,6 +411,7 @@
     "Application.StringBuilderMethods.executor": "Run",
     "Application.StringCompare.executor": "Run",
     "Application.StringConstructors.executor": "Run",
+    "Application.StringStartEnd.executor": "Run",
     "Application.SumArrayList.executor": "Run",
     "Application.SumArrays.executor": "Run",
     "Application.SumColumn.executor": "Run",
