@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/ComputeFibonacci2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/FibonacciIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/GCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/ReversedDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/SumSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/SumSeries2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/CountUpperCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/FindLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/ReversedDisplay3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
