@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/BinaryToDecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/DecimalToBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/DecimalToHex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/DisplayCircles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/HexToDecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/SierpinskiTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/DirectorySize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/FileCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/FindWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/KnightsTour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/KochSnowflake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/Maze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/ReplaceWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/StringPermutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,6 +187,7 @@
     "Application.DiagonalOs.executor": "Run",
     "Application.DiceRolling.executor": "Run",
     "Application.DinnerEventDemo.executor": "Run",
+    "Application.DirectorySize.executor": "Run",
     "Application.DisplayCircles.executor": "Run",
     "Application.DisplayDinnerEventFile.executor": "Run",
     "Application.DisplayRentalFile.executor": "Run",
@@ -232,6 +235,7 @@
     "Application.File1.executor": "Run",
     "Application.File2.executor": "Run",
     "Application.FileAndDirectoryInfo.executor": "Run",
+    "Application.FileCounter.executor": "Run",
     "Application.FileDecryptor4.executor": "Run",
     "Application.FileEncryptionDecryption.executor": "Run",
     "Application.FileEncryptor.executor": "Run",
@@ -247,6 +251,7 @@
     "Application.FindRent.executor": "Run",
     "Application.FindSmallestElement.executor": "Run",
     "Application.FindSmallestIndex.executor": "Run",
+    "Application.FindWords.executor": "Run",
     "Application.FiveDice2.executor": "Run",
     "Application.FiveDice3.executor": "Run",
     "Application.FloorAndCeil.executor": "Run",
@@ -282,6 +287,7 @@
     "Application.KnightsTour.executor": "Run",
     "Application.KnightsTourBruteForce.executor": "Run",
     "Application.KnightsTourClosedTourTest.executor": "Run",
+    "Application.KochSnowflake.executor": "Run",
     "Application.LargePrimeNumbers.executor": "Run",
     "Application.LargestRowAndColumn.executor": "Run",
     "Application.LargestRowsAndColumns.executor": "Run",
@@ -296,6 +302,7 @@
     "Application.MarkovMatrix.executor": "Run",
     "Application.MaximumElementInArrayList.executor": "Run",
     "Application.MaximumFinder.executor": "Run",
+    "Application.Maze.executor": "Run",
     "Application.MeanMedian.executor": "Run",
     "Application.MenuSearch.executor": "Run",
     "Application.MergeSortedLists.executor": "Run",
@@ -447,6 +454,7 @@
     "Application.StringCompare.executor": "Run",
     "Application.StringConstructors.executor": "Run",
     "Application.StringMiscellaneous2.executor": "Run",
+    "Application.StringPermutation.executor": "Run",
     "Application.StringStartEnd.executor": "Run",
     "Application.StringValueOf.executor": "Run",
     "Application.SumArrayList.executor": "Run",
@@ -531,9 +539,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryToDecimal">
-    <configuration name="BinaryToDecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.BinaryToDecimal" />
+  <component name="RunManager" selected="Application.KnightsTour">
+    <configuration name="DirectorySize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.DirectorySize" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -545,8 +553,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputeFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.ComputeFibonacci" />
+    <configuration name="FileCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.FileCounter" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -558,8 +566,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisplayCircles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.DisplayCircles" />
+    <configuration name="FindWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.FindWords" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -571,8 +579,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.FibonacciIndex" />
+    <configuration name="KnightsTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.KnightsTour" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -584,8 +592,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SierpinskiTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.SierpinskiTriangle" />
+    <configuration name="KochSnowflake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.KochSnowflake" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -599,11 +607,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryToDecimal" />
-        <item itemvalue="Application.DisplayCircles" />
-        <item itemvalue="Application.SierpinskiTriangle" />
-        <item itemvalue="Application.FibonacciIndex" />
-        <item itemvalue="Application.ComputeFibonacci" />
+        <item itemvalue="Application.KnightsTour" />
+        <item itemvalue="Application.FindWords" />
+        <item itemvalue="Application.FileCounter" />
+        <item itemvalue="Application.DirectorySize" />
+        <item itemvalue="Application.KochSnowflake" />
       </list>
     </recent_temporary>
   </component>
