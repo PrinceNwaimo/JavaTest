@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/ComputeFactorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/ComputeFibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/ComputeFibonacci2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/FibonacciIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/ReversedDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/SumSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/SumSeries2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,6 +226,7 @@
     "Application.Factorials.executor": "Run",
     "Application.Fan.executor": "Run",
     "Application.FancyTimeTest.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
     "Application.File1.executor": "Run",
     "Application.File2.executor": "Run",
     "Application.FileAndDirectoryInfo.executor": "Run",
@@ -523,7 +528,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComputeFibonacci">
+  <component name="RunManager" selected="Application.FibonacciIndex">
     <configuration name="ComputeFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangRecursion.ComputeFactorial" />
       <module name="testSamples" />
@@ -539,6 +544,19 @@
     </configuration>
     <configuration name="ComputeFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangRecursion.ComputeFibonacci" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangRecursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.FibonacciIndex" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -576,26 +594,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelephoneNumberWordGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelFiles.TelephoneNumberWordGenerator" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="makingAdifference.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciIndex" />
         <item itemvalue="Application.ComputeFibonacci" />
         <item itemvalue="Application.ComputeFactorial" />
         <item itemvalue="Application.PhishingScanner" />
         <item itemvalue="Application.FileEncryptionDecryption" />
-        <item itemvalue="Application.TelephoneNumberWordGenerator" />
       </list>
     </recent_temporary>
   </component>
