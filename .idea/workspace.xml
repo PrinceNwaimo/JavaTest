@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/CountUpperCases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/FindLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/ReversedDisplay3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/BinaryToDecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/DecimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/DecimalToHex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/DisplayCircles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/HexToDecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/SierpinskiTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +83,7 @@
     "Application.BeanMachine.executor": "Run",
     "Application.BinaryEditor.executor": "Run",
     "Application.BinaryEditorTest.executor": "Run",
+    "Application.BinaryToDecimal.executor": "Run",
     "Application.BirthdayReminder.executor": "Run",
     "Application.BitOutputStream.executor": "Run",
     "Application.BookArray.executor": "Run",
@@ -180,6 +185,7 @@
     "Application.DiagonalOs.executor": "Run",
     "Application.DiceRolling.executor": "Run",
     "Application.DinnerEventDemo.executor": "Run",
+    "Application.DisplayCircles.executor": "Run",
     "Application.DisplayDinnerEventFile.executor": "Run",
     "Application.DisplayRentalFile.executor": "Run",
     "Application.DisplayRents.executor": "Run",
@@ -415,6 +421,7 @@
     "Application.SequentialDataFile.executor": "Run",
     "Application.ShowCurrentDateTime.executor": "Run",
     "Application.ShuffleArrayList.executor": "Run",
+    "Application.SierpinskiTriangle.executor": "Run",
     "Application.SieveOfEratosthenes.executor": "Run",
     "Application.Sort2DArray.executor": "Run",
     "Application.SortArrayList.executor": "Run",
@@ -524,9 +531,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FibonacciIndex">
-    <configuration name="ComputeFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.ComputeFactorial" />
+  <component name="RunManager" selected="Application.BinaryToDecimal">
+    <configuration name="BinaryToDecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.BinaryToDecimal" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -551,6 +558,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DisplayCircles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.DisplayCircles" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangRecursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FibonacciIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangRecursion.FibonacciIndex" />
       <module name="testSamples" />
@@ -564,25 +584,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileEncryptionDecryption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelFiles.FileEncryptionDecryption" />
+    <configuration name="SierpinskiTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.SierpinskiTriangle" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="makingAdifference.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PhishingScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="makingAdifference.PhishingScanner" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="makingAdifference.*" />
+          <option name="PATTERN" value="liangRecursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -592,11 +599,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryToDecimal" />
+        <item itemvalue="Application.DisplayCircles" />
+        <item itemvalue="Application.SierpinskiTriangle" />
         <item itemvalue="Application.FibonacciIndex" />
         <item itemvalue="Application.ComputeFibonacci" />
-        <item itemvalue="Application.ComputeFactorial" />
-        <item itemvalue="Application.PhishingScanner" />
-        <item itemvalue="Application.FileEncryptionDecryption" />
       </list>
     </recent_temporary>
   </component>
