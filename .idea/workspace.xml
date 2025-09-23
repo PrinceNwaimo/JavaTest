@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/DirectorySize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/FileCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/FindWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/KnightsTour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/KochSnowflake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/ReplaceWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/StringPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/ComputeFactorialTailRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/DirectorySize2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/EightQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/HTreeFractal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/RecursiveBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/RecursivePalindromeUsingSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/RecursiveSelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangRecursion/SierpinskiTriangle2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liangRecursion/TowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangRecursion/TowerOfHanoi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +189,7 @@
     "Application.DiceRolling.executor": "Run",
     "Application.DinnerEventDemo.executor": "Run",
     "Application.DirectorySize.executor": "Run",
+    "Application.DirectorySize2.executor": "Run",
     "Application.DisplayCircles.executor": "Run",
     "Application.DisplayDinnerEventFile.executor": "Run",
     "Application.DisplayRentalFile.executor": "Run",
@@ -269,6 +271,7 @@
     "Application.GuessTheCapitals.executor": "Run",
     "Application.GuessTheNumber.executor": "Run",
     "Application.GuessTheNumberModification.executor": "Run",
+    "Application.HTreeFractal.executor": "Run",
     "Application.Hangman.executor": "Run",
     "Application.HealthierIngredients.executor": "Run",
     "Application.Hex2Dec.executor": "Run",
@@ -429,6 +432,7 @@
     "Application.ShowCurrentDateTime.executor": "Run",
     "Application.ShuffleArrayList.executor": "Run",
     "Application.SierpinskiTriangle.executor": "Run",
+    "Application.SierpinskiTriangle2.executor": "Run",
     "Application.SieveOfEratosthenes.executor": "Run",
     "Application.Sort2DArray.executor": "Run",
     "Application.SortArrayList.executor": "Run",
@@ -495,6 +499,7 @@
     "Application.TokenTest.executor": "Run",
     "Application.TokenizingTelephoneNumbers.executor": "Run",
     "Application.TortoiseAndHare.executor": "Run",
+    "Application.TowerOfHanoi.executor": "Run",
     "Application.TriangleWithLoops.executor": "Run",
     "Application.TryToCompareStrings.executor": "Run",
     "Application.TurtleGraphics.executor": "Run",
@@ -539,9 +544,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KnightsTour">
-    <configuration name="DirectorySize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.DirectorySize" />
+  <component name="RunManager" selected="Application.ComputeFactorialTailRecursion">
+    <configuration name="ComputeFactorialTailRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.ComputeFactorialTailRecursion" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -553,8 +558,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.FileCounter" />
+    <configuration name="DirectorySize2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.DirectorySize2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -566,8 +571,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.FindWords" />
+    <configuration name="HTreeFractal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.HTreeFractal" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -579,8 +584,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightsTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.KnightsTour" />
+    <configuration name="SierpinskiTriangle2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.SierpinskiTriangle2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -592,8 +597,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KochSnowflake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.KochSnowflake" />
+    <configuration name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.TowerOfHanoi" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -607,11 +612,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KnightsTour" />
-        <item itemvalue="Application.FindWords" />
-        <item itemvalue="Application.FileCounter" />
-        <item itemvalue="Application.DirectorySize" />
-        <item itemvalue="Application.KochSnowflake" />
+        <item itemvalue="Application.ComputeFactorialTailRecursion" />
+        <item itemvalue="Application.TowerOfHanoi" />
+        <item itemvalue="Application.DirectorySize2" />
+        <item itemvalue="Application.SierpinskiTriangle2" />
+        <item itemvalue="Application.HTreeFractal" />
       </list>
     </recent_temporary>
   </component>

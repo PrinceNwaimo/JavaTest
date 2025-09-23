@@ -4,7 +4,7 @@ public class TowerOfHanoi {
     private static int count = 0;
 
     public static void main(String[] args) {
-        int n = 3; // Number of disks
+        int n = 10; // Number of disks
         System.out.println("Moves needed to move " + n + " disks from tower A to tower B:");
         moveDisks(n, 'A', 'B', 'C');
         System.out.println("Number of moves: " + count);
