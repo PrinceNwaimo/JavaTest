@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangGenerics/Complex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGenerics/ComplexMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGenerics/GenericMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGenerics/BoundedTypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGenerics/GenericMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGenerics/GenericSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGenerics/GenericStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +85,7 @@
     "Application.BirthdayReminder.executor": "Run",
     "Application.BitOutputStream.executor": "Run",
     "Application.BookArray.executor": "Run",
+    "Application.BoundedTypeDemo.executor": "Run",
     "Application.BowlingTeamDemo.executor": "Run",
     "Application.BowlingTeamDemo2.executor": "Run",
     "Application.BowlingTeamDemo3.executor": "Run",
@@ -256,6 +258,7 @@
     "Application.FoodTest.executor": "Run",
     "Application.FormatInteger.executor": "Run",
     "Application.FullDeck.executor": "Run",
+    "Application.GenericSort.executor": "Run",
     "Application.Geometry.executor": "Run",
     "Application.GetIDAndAge.executor": "Run",
     "Application.GradeBookTest.executor": "Run",
@@ -543,7 +546,20 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComplexMatrix">
+  <component name="RunManager" selected="Application.GenericSort">
+    <configuration name="BoundedTypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangGenerics.BoundedTypeDemo" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangGenerics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ComplexMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangGenerics.ComplexMatrix" />
       <module name="testSamples" />
@@ -557,12 +573,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputeFactorialTailRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.ComputeFactorialTailRecursion" />
+    <configuration name="GenericSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangGenerics.GenericSort" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangRecursion.*" />
+          <option name="PATTERN" value="liangGenerics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -572,19 +588,6 @@
     </configuration>
     <configuration name="HilbertCurve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangRecursion.HilbertCurve" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangRecursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecursiveTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.RecursiveTree" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -611,11 +614,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericSort" />
+        <item itemvalue="Application.BoundedTypeDemo" />
         <item itemvalue="Application.ComplexMatrix" />
         <item itemvalue="Application.HilbertCurve" />
         <item itemvalue="Application.RecursiveTreeDragging" />
-        <item itemvalue="Application.RecursiveTree" />
-        <item itemvalue="Application.ComputeFactorialTailRecursion" />
       </list>
     </recent_temporary>
   </component>
@@ -698,5 +701,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/liangGenerics/BoundedTypeDemo.java</url>
+          <line>8</line>
+          <properties class="liangGenerics.BoundedTypeDemo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
