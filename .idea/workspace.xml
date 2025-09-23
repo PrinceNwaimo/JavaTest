@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/CollectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/PriorityQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/SetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/SoortedSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/UsingToArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/WordTypeCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/AccountComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/ColorChooser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/ColorChooserApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/DuplicateElimination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/GenericAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,6 +120,7 @@
     "Application.Circle2D.executor": "Run",
     "Application.Clock.executor": "Run",
     "Application.CoinTossSimulator.executor": "Run",
+    "Application.ColorChooserApp.executor": "Run",
     "Application.Combinations.executor": "Run",
     "Application.CombineTwoLists.executor": "Run",
     "Application.CommandLineAverage.executor": "Run",
@@ -261,6 +260,7 @@
     "Application.FoodTest.executor": "Run",
     "Application.FormatInteger.executor": "Run",
     "Application.FullDeck.executor": "Run",
+    "Application.GenericAccount.executor": "Run",
     "Application.GenericSort.executor": "Run",
     "Application.Geometry.executor": "Run",
     "Application.GetIDAndAge.executor": "Run",
@@ -551,13 +551,13 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordTypeCount">
-    <configuration name="BoundedTypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangGenerics.BoundedTypeDemo" />
+  <component name="RunManager" selected="Application.SetOperations">
+    <configuration name="ColorChooserApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenerics.ColorChooserApp" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangGenerics.*" />
+          <option name="PATTERN" value="diettelGenerics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -565,25 +565,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComplexMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangGenerics.ComplexMatrix" />
+    <configuration name="GenericAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenerics.GenericAccount" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangGenerics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangGenerics.GenericSort" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangGenerics.*" />
+          <option name="PATTERN" value="diettelGenerics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -593,6 +580,19 @@
     </configuration>
     <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="diettelGenerics.ListTest" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettelGenerics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenerics.SetOperations" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -619,11 +619,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetOperations" />
+        <item itemvalue="Application.ColorChooserApp" />
+        <item itemvalue="Application.GenericAccount" />
         <item itemvalue="Application.WordTypeCount" />
         <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.GenericSort" />
-        <item itemvalue="Application.BoundedTypeDemo" />
-        <item itemvalue="Application.ComplexMatrix" />
       </list>
     </recent_temporary>
   </component>
