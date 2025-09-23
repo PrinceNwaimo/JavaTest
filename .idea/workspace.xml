@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/ComputeFactorialTailRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/DirectorySize2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/EightQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/HTreeFractal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/RecursiveBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/RecursivePalindromeUsingSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/RecursiveSelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangRecursion/SierpinskiTriangle2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangRecursion/TowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangRecursion/TowerOfHanoi.java" afterDir="false" />
-    </list>
+    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,6 +122,7 @@
     "Application.ComplexTest.executor": "Run",
     "Application.ComputeDeviation.executor": "Run",
     "Application.ComputeFactorial.executor": "Run",
+    "Application.ComputeFactorialTailRecursion.executor": "Run",
     "Application.ComputeFibonacci.executor": "Run",
     "Application.ComputeGCD.executor": "Run",
     "Application.ComputeTax.executor": "Run",
@@ -544,7 +534,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComputeFactorialTailRecursion">
+  <component name="RunManager" selected="Application.HilbertCurve">
     <configuration name="ComputeFactorialTailRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangRecursion.ComputeFactorialTailRecursion" />
       <module name="testSamples" />
@@ -558,8 +548,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirectorySize2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.DirectorySize2" />
+    <configuration name="HilbertCurve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.HilbertCurve" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -571,8 +561,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HTreeFractal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.HTreeFractal" />
+    <configuration name="RecursiveTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.RecursiveTree" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -584,8 +574,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SierpinskiTriangle2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.SierpinskiTriangle2" />
+    <configuration name="RecursiveTreeDragging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangRecursion.RecursiveTreeDragging" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -612,11 +602,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HilbertCurve" />
+        <item itemvalue="Application.RecursiveTreeDragging" />
+        <item itemvalue="Application.RecursiveTree" />
         <item itemvalue="Application.ComputeFactorialTailRecursion" />
         <item itemvalue="Application.TowerOfHanoi" />
-        <item itemvalue="Application.DirectorySize2" />
-        <item itemvalue="Application.SierpinskiTriangle2" />
-        <item itemvalue="Application.HTreeFractal" />
       </list>
     </recent_temporary>
   </component>
