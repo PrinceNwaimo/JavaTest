@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="" />
+    <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/liangGenerics/Complex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGenerics/ComplexMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGenerics/GenericMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,6 +124,7 @@
     "Application.CompareFolders.executor": "Run",
     "Application.CompareLoopTimes.executor": "Run",
     "Application.CompareStrings.executor": "Run",
+    "Application.ComplexMatrix.executor": "Run",
     "Application.ComplexTest.executor": "Run",
     "Application.ComputeDeviation.executor": "Run",
     "Application.ComputeFactorial.executor": "Run",
@@ -266,6 +272,7 @@
     "Application.HealthierIngredients.executor": "Run",
     "Application.Hex2Dec.executor": "Run",
     "Application.HexEditor.executor": "Run",
+    "Application.HilbertCurve.executor": "Run",
     "Application.HugeIntegerTest.executor": "Run",
     "Application.HypotenuseCalculator.executor": "Run",
     "Application.Inbetween.executor": "Run",
@@ -394,6 +401,8 @@
     "Application.ReadEmployeeFile2.executor": "Run",
     "Application.ReadFiles.executor": "Run",
     "Application.ReadTextFile.executor": "Run",
+    "Application.RecursiveTree.executor": "Run",
+    "Application.RecursiveTreeDragging.executor": "Run",
     "Application.RegexMatches.executor": "Run",
     "Application.RegexSubstitution.executor": "Run",
     "Application.RegularPolygonArea.executor": "Run",
@@ -534,7 +543,20 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HilbertCurve">
+  <component name="RunManager" selected="Application.ComplexMatrix">
+    <configuration name="ComplexMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangGenerics.ComplexMatrix" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangGenerics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ComputeFactorialTailRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangRecursion.ComputeFactorialTailRecursion" />
       <module name="testSamples" />
@@ -587,26 +609,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangRecursion.TowerOfHanoi" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangRecursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComplexMatrix" />
         <item itemvalue="Application.HilbertCurve" />
         <item itemvalue="Application.RecursiveTreeDragging" />
         <item itemvalue="Application.RecursiveTree" />
         <item itemvalue="Application.ComputeFactorialTailRecursion" />
-        <item itemvalue="Application.TowerOfHanoi" />
       </list>
     </recent_temporary>
   </component>
