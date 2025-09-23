@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/AccountComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/ColorChooser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/ColorChooserApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/DuplicateElimination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/GenericAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/LinkedListConcatenation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/LinkedListMixer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/PrimeNumbersAndFactors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/PriorityQueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/SortingWordsWithTreeSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -435,6 +435,7 @@
     "Application.SeekPosition.executor": "Run",
     "Application.SelectionSort2.executor": "Run",
     "Application.SequentialDataFile.executor": "Run",
+    "Application.SetOperations.executor": "Run",
     "Application.ShowCurrentDateTime.executor": "Run",
     "Application.ShuffleArrayList.executor": "Run",
     "Application.SierpinskiTriangle.executor": "Run",
