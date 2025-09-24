@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/LinkedListConcatenation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/LinkedListMixer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/PrimeNumbersAndFactors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/PriorityQueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenerics/SortingWordsWithTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/DisplayWordsInOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/MultipleBounceBall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/TestArrayAndLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/TestCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/TestIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testSamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testSamples.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,6 +199,7 @@
     "Application.DisplaySelectedCustomer.executor": "Run",
     "Application.DisplaySelectedCustomerByBalance.executor": "Run",
     "Application.DisplaySelectedCustomersByNames.executor": "Run",
+    "Application.DisplayWordsInOrder.executor": "Run",
     "Application.DistanceBetweenPoints.executor": "Run",
     "Application.DistanceFromAverage.executor": "Run",
     "Application.DivideEvenly.executor": "Run",
@@ -317,6 +320,7 @@
     "Application.Months.executor": "Run",
     "Application.MorgansBonuses.executor": "Run",
     "Application.MorseCodeDecoder.executor": "Run",
+    "Application.MultipleBounceBall.executor": "Run",
     "Application.Multiples.executor": "Run",
     "Application.MultiplicationCAI.executor": "Run",
     "Application.MultiplicationCAI2.executor": "Run",
@@ -484,10 +488,12 @@
     "Application.Test2.executor": "Run",
     "Application.TestBook.executor": "Run",
     "Application.TestCircleRectangle.executor": "Run",
+    "Application.TestCollection.executor": "Run",
     "Application.TestCourse.executor": "Run",
     "Application.TestCustomer.executor": "Run",
     "Application.TestFileStream.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
+    "Application.TestIterator.executor": "Run",
     "Application.TestLoadedDie.executor": "Run",
     "Application.TestLoanCircle.executor": "Run",
     "Application.TestObjectOutPutStream.executor": "Run",
@@ -542,9 +548,9 @@
     "ignore.virus.scanning.warn.message": "true",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "aws"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -552,13 +558,13 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SetOperations">
-    <configuration name="ColorChooserApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenerics.ColorChooserApp" />
+  <component name="RunManager" selected="Application.MultipleBounceBall">
+    <configuration name="DisplayWordsInOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.DisplayWordsInOrder" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelGenerics.*" />
+          <option name="PATTERN" value="liangCollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -566,27 +572,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenerics.GenericAccount" />
+    <configuration name="MultipleBounceBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.MultipleBounceBall" />
       <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelGenerics.*" />
+          <option name="PATTERN" value="liangCollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenerics.ListTest" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelGenerics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -605,12 +604,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordTypeCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenerics.WordTypeCount" />
+    <configuration name="TestCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.TestCollection" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelGenerics.*" />
+          <option name="PATTERN" value="liangCollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -618,13 +617,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.TestIterator" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangCollections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DisplayWordsInOrder" />
+      <item itemvalue="Application.MultipleBounceBall" />
+      <item itemvalue="Application.SetOperations" />
+      <item itemvalue="Application.TestCollection" />
+      <item itemvalue="Application.TestIterator" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultipleBounceBall" />
+        <item itemvalue="Application.DisplayWordsInOrder" />
+        <item itemvalue="Application.TestIterator" />
+        <item itemvalue="Application.TestCollection" />
         <item itemvalue="Application.SetOperations" />
-        <item itemvalue="Application.ColorChooserApp" />
-        <item itemvalue="Application.GenericAccount" />
-        <item itemvalue="Application.WordTypeCount" />
-        <item itemvalue="Application.ListTest" />
       </list>
     </recent_temporary>
   </component>
