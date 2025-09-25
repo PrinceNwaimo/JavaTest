@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/GroupingSymbolMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/LotteryGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/MultipleBall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/MyPriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/PriorityQueueSetOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/DirectorySize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/InfixToPostfix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/TwentyFourCardGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/TwentyFourPointGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/TwentyFourPointGame2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -287,6 +287,7 @@
     "Application.HypotenuseCalculator.executor": "Run",
     "Application.Inbetween.executor": "Run",
     "Application.IncreasedProduction.executor": "Run",
+    "Application.InfixToPostfix.executor": "Run",
     "Application.InitArray.executor": "Run",
     "Application.InputGrades.executor": "Run",
     "Application.InsertionSortAlgorithm.executor": "Run",
@@ -386,6 +387,7 @@
     "Application.Polling.executor": "Run",
     "Application.PolymorphismTest.executor": "Run",
     "Application.Population.executor": "Run",
+    "Application.PostfixEvaluator.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
     "Application.PrimeNumberMethod.executor": "Run",
     "Application.PrimeNumbers.executor": "Run",
@@ -524,6 +526,8 @@
     "Application.TurtleGraphics.executor": "Run",
     "Application.TurtleGraphics2.executor": "Run",
     "Application.TvTest.executor": "Run",
+    "Application.TwentyFourPointGame.executor": "Run",
+    "Application.TwentyFourPointGame2.executor": "Run",
     "Application.TwinPrimes.executor": "Run",
     "Application.TwoDice3.executor": "Run",
     "Application.TwoDimensionalArrayDemo.executor": "Run",
@@ -564,9 +568,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyPriorityQueue">
-    <configuration name="GroupingSymbolMatcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.GroupingSymbolMatcher" />
+  <component name="RunManager" selected="Application.GeometricObjectSorter">
+    <configuration name="DirectorySize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.DirectorySize" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -578,10 +582,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HangmanGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.HangmanGame" />
+    <configuration name="GeometricObjectSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.GeometricObjectSorter" />
       <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangCollections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfixToPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.InfixToPostfix" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangCollections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwentyFourPointGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.TwentyFourPointGame" />
+      <module name="testSamples" />
+      <option name="VM_PARAMETERS" value=" --module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="liangCollections.*" />
@@ -597,8 +627,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.MultipleBall" />
+    <configuration name="TwentyFourPointGame2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.TwentyFourPointGame2" />
       <module name="testSamples" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
@@ -611,51 +641,25 @@
         <option name="credential" />
         <option name="region" />
         <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.MyPriorityQueue" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangCollections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriorityQueueSetOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.PriorityQueueSetOperations" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangCollections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GroupingSymbolMatcher" />
-      <item itemvalue="Application.MyPriorityQueue" />
-      <item itemvalue="Application.PriorityQueueSetOperations" />
-      <item itemvalue="Application.MultipleBall" />
-      <item itemvalue="Application.HangmanGame" />
+      <item itemvalue="Application.DirectorySize" />
+      <item itemvalue="Application.GeometricObjectSorter" />
+      <item itemvalue="Application.InfixToPostfix" />
+      <item itemvalue="Application.TwentyFourPointGame2" />
+      <item itemvalue="Application.TwentyFourPointGame" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyPriorityQueue" />
-        <item itemvalue="Application.GroupingSymbolMatcher" />
-        <item itemvalue="Application.PriorityQueueSetOperations" />
-        <item itemvalue="Application.MultipleBall" />
-        <item itemvalue="Application.HangmanGame" />
+        <item itemvalue="Application.GeometricObjectSorter" />
+        <item itemvalue="Application.DirectorySize" />
+        <item itemvalue="Application.InfixToPostfix" />
+        <item itemvalue="Application.TwentyFourPointGame2" />
+        <item itemvalue="Application.TwentyFourPointGame" />
       </list>
     </recent_temporary>
   </component>
