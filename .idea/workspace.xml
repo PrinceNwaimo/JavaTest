@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/BouncingBall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/HangmanGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/LinkedListApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/LinkedListTraversalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/PointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/GroupingSymbolMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/LotteryGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/MultipleBall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/MyPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/PriorityQueueSetOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/customers.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,6 +271,7 @@
     "Application.GradeExam2.executor": "Run",
     "Application.GreatestCommonDivisor.executor": "Run",
     "Application.GreatestCommonDivisorMethod.executor": "Run",
+    "Application.GroupingSymbolMatcher.executor": "Run",
     "Application.GuessBirthdayUsingArray.executor": "Run",
     "Application.GuessTheCapitals.executor": "Run",
     "Application.GuessTheNumber.executor": "Run",
@@ -324,6 +323,7 @@
     "Application.Months.executor": "Run",
     "Application.MorgansBonuses.executor": "Run",
     "Application.MorseCodeDecoder.executor": "Run",
+    "Application.MultipleBall.executor": "Run",
     "Application.MultipleBounceBall.executor": "Run",
     "Application.Multiples.executor": "Run",
     "Application.MultiplicationCAI.executor": "Run",
@@ -334,6 +334,7 @@
     "Application.MyDate.executor": "Run",
     "Application.MyInteger.executor": "Run",
     "Application.MyPoint.executor": "Run",
+    "Application.MyPriorityQueue.executor": "Run",
     "Application.MyRectangle2D.executor": "Run",
     "Application.MyStringBuilder2.executor": "Run",
     "Application.MyTriangle.executor": "Run",
@@ -392,6 +393,7 @@
     "Application.PrintCalendar2.executor": "Run",
     "Application.PrintChars.executor": "Run",
     "Application.PrintMatrix.executor": "Run",
+    "Application.PriorityQueueSetOperations.executor": "Run",
     "Application.ProcessingArrays.executor": "Run",
     "Application.PurchaseArray.executor": "Run",
     "Application.QuadraticEquation.executor": "Run",
@@ -562,21 +564,15 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HangmanGame">
-    <configuration name="BouncingBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.BouncingBall" />
+  <component name="RunManager" selected="Application.MyPriorityQueue">
+    <configuration name="GroupingSymbolMatcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.GroupingSymbolMatcher" />
       <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="liangCollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -601,8 +597,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.LinkedListApp" />
+    <configuration name="MultipleBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.MultipleBall" />
       <module name="testSamples" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
@@ -620,8 +616,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTraversalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.LinkedListTraversalTest" />
+    <configuration name="MyPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.MyPriorityQueue" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -633,39 +629,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleBounceBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.MultipleBounceBall" />
+    <configuration name="PriorityQueueSetOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.PriorityQueueSetOperations" />
       <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="liangCollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.GroupingSymbolMatcher" />
+      <item itemvalue="Application.MyPriorityQueue" />
+      <item itemvalue="Application.PriorityQueueSetOperations" />
+      <item itemvalue="Application.MultipleBall" />
       <item itemvalue="Application.HangmanGame" />
-      <item itemvalue="Application.LinkedListTraversalTest" />
-      <item itemvalue="Application.BouncingBall" />
-      <item itemvalue="Application.LinkedListApp" />
-      <item itemvalue="Application.MultipleBounceBall" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyPriorityQueue" />
+        <item itemvalue="Application.GroupingSymbolMatcher" />
+        <item itemvalue="Application.PriorityQueueSetOperations" />
+        <item itemvalue="Application.MultipleBall" />
         <item itemvalue="Application.HangmanGame" />
-        <item itemvalue="Application.LinkedListTraversalTest" />
-        <item itemvalue="Application.BouncingBall" />
-        <item itemvalue="Application.LinkedListApp" />
-        <item itemvalue="Application.MultipleBounceBall" />
       </list>
     </recent_temporary>
   </component>
