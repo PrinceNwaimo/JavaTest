@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/DisplayWordsInOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/MultipleBounceBall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/TestArrayAndLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/TestCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/TestIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/BouncingBall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/HangmanGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/LinkedListApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/LinkedListTraversalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangCollections/PointTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testSamples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/customers.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +88,7 @@
     "Application.BirthdayReminder.executor": "Run",
     "Application.BitOutputStream.executor": "Run",
     "Application.BookArray.executor": "Run",
+    "Application.BouncingBall.executor": "Run",
     "Application.BoundedTypeDemo.executor": "Run",
     "Application.BowlingTeamDemo.executor": "Run",
     "Application.BowlingTeamDemo2.executor": "Run",
@@ -278,6 +279,7 @@
     "Application.GuessTheNumberModification.executor": "Run",
     "Application.HTreeFractal.executor": "Run",
     "Application.Hangman.executor": "Run",
+    "Application.HangmanGame.executor": "Run",
     "Application.HealthierIngredients.executor": "Run",
     "Application.Hex2Dec.executor": "Run",
     "Application.HexEditor.executor": "Run",
@@ -303,6 +305,8 @@
     "Application.LeapYear.executor": "Run",
     "Application.LengthConverter.executor": "Run",
     "Application.LinearSearchApproach.executor": "Run",
+    "Application.LinkedListApp.executor": "Run",
+    "Application.LinkedListTraversalTest.executor": "Run",
     "Application.ListTest.executor": "Run",
     "Application.Location.executor": "Run",
     "Application.LockerPuzzle.executor": "Run",
@@ -558,9 +562,66 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultipleBounceBall">
-    <configuration name="DisplayWordsInOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.DisplayWordsInOrder" />
+  <component name="RunManager" selected="Application.HangmanGame">
+    <configuration name="BouncingBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.BouncingBall" />
+      <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangCollections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HangmanGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.HangmanGame" />
+      <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangCollections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.LinkedListApp" />
+      <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangCollections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTraversalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangCollections.LinkedListTraversalTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -591,59 +652,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenerics.SetOperations" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelGenerics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.TestCollection" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangCollections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.TestIterator" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangCollections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.DisplayWordsInOrder" />
+      <item itemvalue="Application.HangmanGame" />
+      <item itemvalue="Application.LinkedListTraversalTest" />
+      <item itemvalue="Application.BouncingBall" />
+      <item itemvalue="Application.LinkedListApp" />
       <item itemvalue="Application.MultipleBounceBall" />
-      <item itemvalue="Application.SetOperations" />
-      <item itemvalue="Application.TestCollection" />
-      <item itemvalue="Application.TestIterator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HangmanGame" />
+        <item itemvalue="Application.LinkedListTraversalTest" />
+        <item itemvalue="Application.BouncingBall" />
+        <item itemvalue="Application.LinkedListApp" />
         <item itemvalue="Application.MultipleBounceBall" />
-        <item itemvalue="Application.DisplayWordsInOrder" />
-        <item itemvalue="Application.TestIterator" />
-        <item itemvalue="Application.TestCollection" />
-        <item itemvalue="Application.SetOperations" />
       </list>
     </recent_temporary>
   </component>

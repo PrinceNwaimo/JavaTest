@@ -1,3 +1,5 @@
 1,Prince,Nwaimo,0.0
 2,Princess,Shayke,2000.0
 3,Fish,Parker,30000.0
+
+--module-path "C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib" --add-modules javafx.controls,javafx.fxml
