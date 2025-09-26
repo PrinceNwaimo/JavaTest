@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/CountKeywords2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/CountOccurrenceOfWords2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/CountOccurrences2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/CountVowelsAndConsonants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/NonDuplicateWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/SetOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/SyntaxHighlighting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/WordOccurrence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/BabyNameRankings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/CountKeywords3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/GuessCapitals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +71,7 @@
     "Application.AssignVolunteer5.executor": "Run",
     "Application.AverageOfQuizzes.executor": "Run",
     "Application.BabyNameComparison.executor": "Run",
+    "Application.BabyNameRankings.executor": "Run",
     "Application.BankBalance.executor": "Run",
     "Application.BankBalance2.executor": "Run",
     "Application.BankBalanceByRateAndYear.executor": "Run",
@@ -279,6 +275,7 @@
     "Application.GreatestCommonDivisorMethod.executor": "Run",
     "Application.GroupingSymbolMatcher.executor": "Run",
     "Application.GuessBirthdayUsingArray.executor": "Run",
+    "Application.GuessCapitals.executor": "Run",
     "Application.GuessTheCapitals.executor": "Run",
     "Application.GuessTheNumber.executor": "Run",
     "Application.GuessTheNumberModification.executor": "Run",
@@ -580,9 +577,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountOccurrenceOfWords">
-    <configuration name="CountKeywords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangSetsAndMaps.CountKeywords" />
+  <component name="RunManager" selected="Application.WebCrawler">
+    <configuration name="BabyNameRankings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSetsAndMaps.BabyNameRankings" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -607,8 +604,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetListPerformanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangSetsAndMaps.SetListPerformanceTest" />
+    <configuration name="GuessCapitals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSetsAndMaps.GuessCapitals" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -633,8 +630,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTreeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangSetsAndMaps.TestTreeSet" />
+    <configuration name="WebCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSetsAndMaps.WebCrawler" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -647,19 +644,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountKeywords" />
+      <item itemvalue="Application.BabyNameRankings" />
       <item itemvalue="Application.CountOccurrenceOfWords" />
-      <item itemvalue="Application.SetListPerformanceTest" />
+      <item itemvalue="Application.GuessCapitals" />
       <item itemvalue="Application.TestMap" />
-      <item itemvalue="Application.TestTreeSet" />
+      <item itemvalue="Application.WebCrawler" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebCrawler" />
+        <item itemvalue="Application.BabyNameRankings" />
+        <item itemvalue="Application.GuessCapitals" />
         <item itemvalue="Application.CountOccurrenceOfWords" />
         <item itemvalue="Application.TestMap" />
-        <item itemvalue="Application.CountKeywords" />
-        <item itemvalue="Application.SetListPerformanceTest" />
-        <item itemvalue="Application.TestTreeSet" />
       </list>
     </recent_temporary>
   </component>
