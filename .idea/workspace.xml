@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/CountKeywords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/CountOccurrenceOfWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/SetListPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/TestHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/TestLinkedHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/TestMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/TestMethodsInCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/TestTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/CountKeywords2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/CountOccurrenceOfWords2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/CountOccurrences2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/CountVowelsAndConsonants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/NonDuplicateWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/SetOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/SyntaxHighlighting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/WordOccurrence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
