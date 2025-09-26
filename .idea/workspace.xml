@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/DirectorySize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/InfixToPostfix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/TwentyFourCardGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/TwentyFourPointGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangCollections/TwentyFourPointGame2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/CountKeywords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/CountOccurrenceOfWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/SetListPerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/TestHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/TestLinkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/TestMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/TestMethodsInCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSetsAndMaps/TestTreeSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +149,9 @@
     "Application.CountByAnything.executor": "Run",
     "Application.CountChar.executor": "Run",
     "Application.CountFileContent.executor": "Run",
+    "Application.CountKeywords.executor": "Run",
     "Application.CountLetters.executor": "Run",
+    "Application.CountOccurrenceOfWords.executor": "Run",
     "Application.CountPrimeNumbers.executor": "Run",
     "Application.CountSpaces2.executor": "Run",
     "Application.CountWords.executor": "Run",
@@ -264,6 +269,7 @@
     "Application.FullDeck.executor": "Run",
     "Application.GenericAccount.executor": "Run",
     "Application.GenericSort.executor": "Run",
+    "Application.GeometricObjectSorter.executor": "Run",
     "Application.Geometry.executor": "Run",
     "Application.GetIDAndAge.executor": "Run",
     "Application.GradeBookTest.executor": "Run",
@@ -447,6 +453,7 @@
     "Application.SeekPosition.executor": "Run",
     "Application.SelectionSort2.executor": "Run",
     "Application.SequentialDataFile.executor": "Run",
+    "Application.SetListPerformanceTest.executor": "Run",
     "Application.SetOperations.executor": "Run",
     "Application.ShowCurrentDateTime.executor": "Run",
     "Application.ShuffleArrayList.executor": "Run",
@@ -501,13 +508,18 @@
     "Application.TestCustomer.executor": "Run",
     "Application.TestFileStream.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
+    "Application.TestHashSet.executor": "Run",
     "Application.TestIterator.executor": "Run",
+    "Application.TestLinkedHashSet.executor": "Run",
     "Application.TestLoadedDie.executor": "Run",
     "Application.TestLoanCircle.executor": "Run",
+    "Application.TestMap.executor": "Run",
+    "Application.TestMethodsInCollection.executor": "Run",
     "Application.TestObjectOutPutStream.executor": "Run",
     "Application.TestObjectStreamForArray.executor": "Run",
     "Application.TestRandomCharacter.executor": "Run",
     "Application.TestStackOfIntegers.executor": "Run",
+    "Application.TestTreeSet.executor": "Run",
     "Application.TestTriangle.executor": "Run",
     "Application.TestTriangle2D.executor": "Run",
     "Application.ThreeLetterStrings.executor": "Run",
@@ -568,13 +580,13 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GeometricObjectSorter">
-    <configuration name="DirectorySize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.DirectorySize" />
+  <component name="RunManager" selected="Application.CountOccurrenceOfWords">
+    <configuration name="CountKeywords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSetsAndMaps.CountKeywords" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangCollections.*" />
+          <option name="PATTERN" value="liangSetsAndMaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -582,12 +594,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeometricObjectSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.GeometricObjectSorter" />
+    <configuration name="CountOccurrenceOfWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSetsAndMaps.CountOccurrenceOfWords" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangCollections.*" />
+          <option name="PATTERN" value="liangSetsAndMaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -595,12 +607,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfixToPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.InfixToPostfix" />
+    <configuration name="SetListPerformanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSetsAndMaps.SetListPerformanceTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangCollections.*" />
+          <option name="PATTERN" value="liangSetsAndMaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -608,58 +620,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwentyFourPointGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.TwentyFourPointGame" />
+    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSetsAndMaps.TestMap" />
       <module name="testSamples" />
-      <option name="VM_PARAMETERS" value=" --module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangCollections.*" />
+          <option name="PATTERN" value="liangSetsAndMaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwentyFourPointGame2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangCollections.TwentyFourPointGame2" />
+    <configuration name="TestTreeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSetsAndMaps.TestTreeSet" />
       <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangCollections.*" />
+          <option name="PATTERN" value="liangSetsAndMaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DirectorySize" />
-      <item itemvalue="Application.GeometricObjectSorter" />
-      <item itemvalue="Application.InfixToPostfix" />
-      <item itemvalue="Application.TwentyFourPointGame2" />
-      <item itemvalue="Application.TwentyFourPointGame" />
+      <item itemvalue="Application.CountKeywords" />
+      <item itemvalue="Application.CountOccurrenceOfWords" />
+      <item itemvalue="Application.SetListPerformanceTest" />
+      <item itemvalue="Application.TestMap" />
+      <item itemvalue="Application.TestTreeSet" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GeometricObjectSorter" />
-        <item itemvalue="Application.DirectorySize" />
-        <item itemvalue="Application.InfixToPostfix" />
-        <item itemvalue="Application.TwentyFourPointGame2" />
-        <item itemvalue="Application.TwentyFourPointGame" />
+        <item itemvalue="Application.CountOccurrenceOfWords" />
+        <item itemvalue="Application.TestMap" />
+        <item itemvalue="Application.CountKeywords" />
+        <item itemvalue="Application.SetListPerformanceTest" />
+        <item itemvalue="Application.TestTreeSet" />
       </list>
     </recent_temporary>
   </component>
