@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/ConvexHull2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/ConvexHullAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/Last100PrimeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/PrimeNumberExecutionTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/BinarySearchAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/ClosestPairAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/LargestBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/LinearSearchAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/NonCrossPolygon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +83,7 @@
     "Application.BeanMachine.executor": "Run",
     "Application.BinaryEditor.executor": "Run",
     "Application.BinaryEditorTest.executor": "Run",
+    "Application.BinarySearchAnimation.executor": "Run",
     "Application.BinaryToDecimal.executor": "Run",
     "Application.BirthdayReminder.executor": "Run",
     "Application.BitOutputStream.executor": "Run",
@@ -308,11 +310,13 @@
     "Application.KnightsTourClosedTourTest.executor": "Run",
     "Application.KochSnowflake.executor": "Run",
     "Application.LargePrimeNumbers.executor": "Run",
+    "Application.LargestBlock.executor": "Run",
     "Application.LargestRowAndColumn.executor": "Run",
     "Application.LargestRowsAndColumns.executor": "Run",
     "Application.Last100PrimeNumbers.executor": "Run",
     "Application.LeapYear.executor": "Run",
     "Application.LengthConverter.executor": "Run",
+    "Application.LinearSearchAnimation.executor": "Run",
     "Application.LinearSearchApproach.executor": "Run",
     "Application.LinkedListApp.executor": "Run",
     "Application.LinkedListTraversalTest.executor": "Run",
@@ -352,6 +356,7 @@
     "Application.NewStringSplitMethod.executor": "Run",
     "Application.NineHeadsAndTails.executor": "Run",
     "Application.NineInts.executor": "Run",
+    "Application.NonCrossPolygon.executor": "Run",
     "Application.NumberInput.executor": "Run",
     "Application.NumberSystemsTable.executor": "Run",
     "Application.OtherCharMethods.executor": "Run",
@@ -399,6 +404,7 @@
     "Application.Population.executor": "Run",
     "Application.PostfixEvaluator.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
+    "Application.PrimeNumberExecutionTime.executor": "Run",
     "Application.PrimeNumberMethod.executor": "Run",
     "Application.PrimeNumbers.executor": "Run",
     "Application.PrintCalendar.executor": "Run",
@@ -585,22 +591,28 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimeNumberExecutionTime">
-    <configuration name="ConvexHull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.ConvexHull" />
+  <component name="RunManager" selected="Application.LargestBlock">
+    <configuration name="BinarySearchAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBigONotation.BinarySearchAnimation" />
       <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="import javafx.application.Application; import javafx.geometry.Insets; import javafx.geometry.Pos; import javafx.scene.Scene; import javafx.scene.control.Button; import javafx.scene.control.Label; import javafx.scene.control.TextField; import javafx.scene.layout.BorderPane; import javafx.scene.layout.HBox; import javafx.scene.layout.Pane; import javafx.scene.paint.Color; import javafx.scene.shape.Rectangle; import javafx.stage.Stage;" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="liangBigONotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvexHullAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.ConvexHullAnimation" />
+    <configuration name="LargestBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBigONotation.LargestBlock" />
       <module name="testSamples" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
@@ -618,27 +630,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountPrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.CountPrimeNumbers" />
+    <configuration name="LinearSearchAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBigONotation.LinearSearchAnimation" />
       <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="liangBigONotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Last100PrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.Last100PrimeNumbers" />
+    <configuration name="NonCrossPolygon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBigONotation.NonCrossPolygon" />
       <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="liangBigONotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -658,19 +682,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LargestBlock" />
+      <item itemvalue="Application.BinarySearchAnimation" />
+      <item itemvalue="Application.LinearSearchAnimation" />
+      <item itemvalue="Application.NonCrossPolygon" />
       <item itemvalue="Application.PrimeNumberExecutionTime" />
-      <item itemvalue="Application.ConvexHull" />
-      <item itemvalue="Application.ConvexHullAnimation" />
-      <item itemvalue="Application.CountPrimeNumbers" />
-      <item itemvalue="Application.Last100PrimeNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestBlock" />
+        <item itemvalue="Application.BinarySearchAnimation" />
+        <item itemvalue="Application.LinearSearchAnimation" />
+        <item itemvalue="Application.NonCrossPolygon" />
         <item itemvalue="Application.PrimeNumberExecutionTime" />
-        <item itemvalue="Application.ConvexHullAnimation" />
-        <item itemvalue="Application.Last100PrimeNumbers" />
-        <item itemvalue="Application.CountPrimeNumbers" />
-        <item itemvalue="Application.ConvexHull" />
       </list>
     </recent_temporary>
   </component>
