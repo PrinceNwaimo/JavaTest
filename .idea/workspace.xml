@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/EightQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/ImprovedFibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/PerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/MaxConsecutiveIncreasingSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/MaxIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/PatternMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/PatternMatching2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/SameNumberSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -579,20 +581,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EightQueens">
-    <configuration name="BabyNameRankings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangSetsAndMaps.BabyNameRankings" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangSetsAndMaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SameNumberSubsequence">
     <configuration name="EightQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangBigONotation.EightQueens" />
       <module name="testSamples" />
@@ -644,6 +633,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SameNumberSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBigONotation.SameNumberSubsequence" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangBigONotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangSetsAndMaps.WebCrawler" />
       <module name="testSamples" />
@@ -658,7 +660,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BabyNameRankings" />
+      <item itemvalue="Application.SameNumberSubsequence" />
       <item itemvalue="Application.EightQueens" />
       <item itemvalue="Application.ImprovedFibonacci" />
       <item itemvalue="Application.PerformanceTest" />
@@ -666,11 +668,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SameNumberSubsequence" />
         <item itemvalue="Application.EightQueens" />
         <item itemvalue="Application.PerformanceTest" />
         <item itemvalue="Application.ImprovedFibonacci" />
         <item itemvalue="Application.WebCrawler" />
-        <item itemvalue="Application.BabyNameRankings" />
       </list>
     </recent_temporary>
   </component>
