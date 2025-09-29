@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/BinarySearchAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/ClosestPairAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/LargestBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/LinearSearchAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/NonCrossPolygon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/DivideAndConquer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/EightQueens2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/Suduko2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,6 +205,7 @@
     "Application.DisplayWordsInOrder.executor": "Run",
     "Application.DistanceBetweenPoints.executor": "Run",
     "Application.DistanceFromAverage.executor": "Run",
+    "Application.DivideAndConquer.executor": "Run",
     "Application.DivideEvenly.executor": "Run",
     "Application.DivideEvenly2.executor": "Run",
     "Application.DivisibleBy2Or3.executor": "Run",
@@ -218,6 +217,7 @@
     "Application.DrugTests3.executor": "Run",
     "Application.DuplicateElimination.executor": "Run",
     "Application.EightQueens.executor": "Run",
+    "Application.EightQueens2.executor": "Run",
     "Application.ElementArray.executor": "Run",
     "Application.EliminateDuplicates.executor": "Run",
     "Application.EliminateDuplicatesUsingHashsets.executor": "Run",
@@ -498,6 +498,7 @@
     "Application.StringPermutation.executor": "Run",
     "Application.StringStartEnd.executor": "Run",
     "Application.StringValueOf.executor": "Run",
+    "Application.Suduko2.executor": "Run",
     "Application.SumArrayList.executor": "Run",
     "Application.SumArrays.executor": "Run",
     "Application.SumColumn.executor": "Run",
@@ -591,11 +592,43 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LargestBlock">
+  <component name="RunManager" selected="Application.DivideAndConquer">
     <configuration name="BinarySearchAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangBigONotation.BinarySearchAnimation" />
       <module name="testSamples" />
       <option name="VM_PARAMETERS" value="import javafx.application.Application; import javafx.geometry.Insets; import javafx.geometry.Pos; import javafx.scene.Scene; import javafx.scene.control.Button; import javafx.scene.control.Label; import javafx.scene.control.TextField; import javafx.scene.layout.BorderPane; import javafx.scene.layout.HBox; import javafx.scene.layout.Pane; import javafx.scene.paint.Color; import javafx.scene.shape.Rectangle; import javafx.stage.Stage;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangBigONotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DivideAndConquer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBigONotation.DivideAndConquer" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangBigONotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EightQueens2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBigONotation.EightQueens2" />
+      <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="liangBigONotation.*" />
@@ -630,8 +663,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearchAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.LinearSearchAnimation" />
+    <configuration name="Suduko2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBigONotation.Suduko2" />
       <module name="testSamples" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
@@ -644,57 +677,25 @@
         <option name="credential" />
         <option name="region" />
         <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NonCrossPolygon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.NonCrossPolygon" />
-      <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangBigONotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeNumberExecutionTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.PrimeNumberExecutionTime" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangBigONotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.DivideAndConquer" />
+      <item itemvalue="Application.EightQueens2" />
+      <item itemvalue="Application.Suduko2" />
       <item itemvalue="Application.LargestBlock" />
       <item itemvalue="Application.BinarySearchAnimation" />
-      <item itemvalue="Application.LinearSearchAnimation" />
-      <item itemvalue="Application.NonCrossPolygon" />
-      <item itemvalue="Application.PrimeNumberExecutionTime" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DivideAndConquer" />
+        <item itemvalue="Application.EightQueens2" />
+        <item itemvalue="Application.Suduko2" />
         <item itemvalue="Application.LargestBlock" />
         <item itemvalue="Application.BinarySearchAnimation" />
-        <item itemvalue="Application.LinearSearchAnimation" />
-        <item itemvalue="Application.NonCrossPolygon" />
-        <item itemvalue="Application.PrimeNumberExecutionTime" />
       </list>
     </recent_temporary>
   </component>
