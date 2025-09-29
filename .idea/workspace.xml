@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/MaxConsecutiveIncreasingSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/MaxIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/PatternMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/PatternMatching2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/SameNumberSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/ClosestPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/ConvexHull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/CountPrimeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/GCDExecutionTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/PrimeNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,6 +144,7 @@
     "Application.ConnectFour.executor": "Run",
     "Application.ConsecutiveFour.executor": "Run",
     "Application.ConvertMillis.executor": "Run",
+    "Application.ConvexHull.executor": "Run",
     "Application.CountBy5.executor": "Run",
     "Application.CountByAnything.executor": "Run",
     "Application.CountChar.executor": "Run",
@@ -265,6 +267,7 @@
     "Application.FoodTest.executor": "Run",
     "Application.FormatInteger.executor": "Run",
     "Application.FullDeck.executor": "Run",
+    "Application.GCDExecutionTime.executor": "Run",
     "Application.GenericAccount.executor": "Run",
     "Application.GenericSort.executor": "Run",
     "Application.GeometricObjectSorter.executor": "Run",
@@ -445,6 +448,7 @@
     "Application.SMSLanguageTranslator.executor": "Run",
     "Application.SalespersonDatabase.executor": "Run",
     "Application.SameLine.executor": "Run",
+    "Application.SameNumberSubsequence.executor": "Run",
     "Application.SavedCustomerList.executor": "Run",
     "Application.Score.executor": "Run",
     "Application.ScreenOut.executor": "Run",
@@ -581,28 +585,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SameNumberSubsequence">
-    <configuration name="EightQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.EightQueens" />
-      <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangBigONotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImprovedFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.ImprovedFibonacci" />
+  <component name="RunManager" selected="Application.CountPrimeNumbers">
+    <configuration name="ConvexHull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBigONotation.ConvexHull" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -614,20 +599,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerformanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.PerformanceTest" />
+    <configuration name="CountPrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBigONotation.CountPrimeNumbers" />
       <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="liangBigONotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GCDExecutionTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBigONotation.GCDExecutionTime" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangBigONotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBigONotation.PrimeNumbers" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangBigONotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -646,33 +651,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangSetsAndMaps.WebCrawler" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangSetsAndMaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.ConvexHull" />
+      <item itemvalue="Application.CountPrimeNumbers" />
+      <item itemvalue="Application.GCDExecutionTime" />
+      <item itemvalue="Application.PrimeNumbers" />
       <item itemvalue="Application.SameNumberSubsequence" />
-      <item itemvalue="Application.EightQueens" />
-      <item itemvalue="Application.ImprovedFibonacci" />
-      <item itemvalue="Application.PerformanceTest" />
-      <item itemvalue="Application.WebCrawler" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountPrimeNumbers" />
+        <item itemvalue="Application.ConvexHull" />
+        <item itemvalue="Application.PrimeNumbers" />
+        <item itemvalue="Application.GCDExecutionTime" />
         <item itemvalue="Application.SameNumberSubsequence" />
-        <item itemvalue="Application.EightQueens" />
-        <item itemvalue="Application.PerformanceTest" />
-        <item itemvalue="Application.ImprovedFibonacci" />
-        <item itemvalue="Application.WebCrawler" />
       </list>
     </recent_temporary>
   </component>
