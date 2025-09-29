@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/ClosestPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/ConvexHull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/CountPrimeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/GCDExecutionTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/PrimeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/ConvexHull2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/ConvexHullAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/Last100PrimeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/PrimeNumberExecutionTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,6 +143,7 @@
     "Application.ConsecutiveFour.executor": "Run",
     "Application.ConvertMillis.executor": "Run",
     "Application.ConvexHull.executor": "Run",
+    "Application.ConvexHullAnimation.executor": "Run",
     "Application.CountBy5.executor": "Run",
     "Application.CountByAnything.executor": "Run",
     "Application.CountChar.executor": "Run",
@@ -311,6 +310,7 @@
     "Application.LargePrimeNumbers.executor": "Run",
     "Application.LargestRowAndColumn.executor": "Run",
     "Application.LargestRowsAndColumns.executor": "Run",
+    "Application.Last100PrimeNumbers.executor": "Run",
     "Application.LeapYear.executor": "Run",
     "Application.LengthConverter.executor": "Run",
     "Application.LinearSearchApproach.executor": "Run",
@@ -585,7 +585,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountPrimeNumbers">
+  <component name="RunManager" selected="Application.PrimeNumberExecutionTime">
     <configuration name="ConvexHull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangBigONotation.ConvexHull" />
       <module name="testSamples" />
@@ -594,6 +594,25 @@
           <option name="PATTERN" value="liangBigONotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvexHullAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBigONotation.ConvexHullAnimation" />
+      <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangBigONotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -612,8 +631,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCDExecutionTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.GCDExecutionTime" />
+    <configuration name="Last100PrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBigONotation.Last100PrimeNumbers" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -625,21 +644,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.PrimeNumbers" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangBigONotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SameNumberSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.SameNumberSubsequence" />
+    <configuration name="PrimeNumberExecutionTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBigONotation.PrimeNumberExecutionTime" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -652,19 +658,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.PrimeNumberExecutionTime" />
       <item itemvalue="Application.ConvexHull" />
+      <item itemvalue="Application.ConvexHullAnimation" />
       <item itemvalue="Application.CountPrimeNumbers" />
-      <item itemvalue="Application.GCDExecutionTime" />
-      <item itemvalue="Application.PrimeNumbers" />
-      <item itemvalue="Application.SameNumberSubsequence" />
+      <item itemvalue="Application.Last100PrimeNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeNumberExecutionTime" />
+        <item itemvalue="Application.ConvexHullAnimation" />
+        <item itemvalue="Application.Last100PrimeNumbers" />
         <item itemvalue="Application.CountPrimeNumbers" />
         <item itemvalue="Application.ConvexHull" />
-        <item itemvalue="Application.PrimeNumbers" />
-        <item itemvalue="Application.GCDExecutionTime" />
-        <item itemvalue="Application.SameNumberSubsequence" />
       </list>
     </recent_temporary>
   </component>
