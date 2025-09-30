@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/DivideAndConquer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/EightQueens2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/Suduko2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/Sudoku2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/CreateLargeFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/SortLargeFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -289,6 +295,7 @@
     "Application.Hangman.executor": "Run",
     "Application.HangmanGame.executor": "Run",
     "Application.HealthierIngredients.executor": "Run",
+    "Application.HeapSort.executor": "Run",
     "Application.Hex2Dec.executor": "Run",
     "Application.HexEditor.executor": "Run",
     "Application.HilbertCurve.executor": "Run",
@@ -300,6 +307,7 @@
     "Application.InfixToPostfix.executor": "Run",
     "Application.InitArray.executor": "Run",
     "Application.InputGrades.executor": "Run",
+    "Application.InsertionSort.executor": "Run",
     "Application.InsertionSortAlgorithm.executor": "Run",
     "Application.InsuredCarDemo.executor": "Run",
     "Application.IntegerSet2Test.executor": "Run",
@@ -332,6 +340,7 @@
     "Application.Maze.executor": "Run",
     "Application.MeanMedian.executor": "Run",
     "Application.MenuSearch.executor": "Run",
+    "Application.MergeSort.executor": "Run",
     "Application.MergeSortedLists.executor": "Run",
     "Application.MersennePrime.executor": "Run",
     "Application.Months.executor": "Run",
@@ -417,6 +426,7 @@
     "Application.QuadraticEquation.executor": "Run",
     "Application.QuadraticEquationSolver.executor": "Run",
     "Application.Queue.executor": "Run",
+    "Application.QuickSort.executor": "Run",
     "Application.Quiz.executor": "Run",
     "Application.Quiz2.executor": "Run",
     "Application.QuizScoreStatistics.executor": "Run",
@@ -498,6 +508,7 @@
     "Application.StringPermutation.executor": "Run",
     "Application.StringStartEnd.executor": "Run",
     "Application.StringValueOf.executor": "Run",
+    "Application.Sudoku2.executor": "Run",
     "Application.Suduko2.executor": "Run",
     "Application.SumArrayList.executor": "Run",
     "Application.SumArrays.executor": "Run",
@@ -592,32 +603,13 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DivideAndConquer">
-    <configuration name="BinarySearchAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.BinarySearchAnimation" />
-      <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="import javafx.application.Application; import javafx.geometry.Insets; import javafx.geometry.Pos; import javafx.scene.Scene; import javafx.scene.control.Button; import javafx.scene.control.Label; import javafx.scene.control.TextField; import javafx.scene.layout.BorderPane; import javafx.scene.layout.HBox; import javafx.scene.layout.Pane; import javafx.scene.paint.Color; import javafx.scene.shape.Rectangle; import javafx.stage.Stage;" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangBigONotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DivideAndConquer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.DivideAndConquer" />
+  <component name="RunManager" selected="Application.SortLargeFile">
+    <configuration name="CreateLargeFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.CreateLargeFile" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangBigONotation.*" />
+          <option name="PATTERN" value="liangSortingAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -625,77 +617,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EightQueens2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.EightQueens2" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.HeapSort" />
       <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangBigONotation.*" />
+          <option name="PATTERN" value="liangSortingAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.LargestBlock" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.MergeSort" />
       <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangBigONotation.*" />
+          <option name="PATTERN" value="liangSortingAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Suduko2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBigONotation.Suduko2" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.QuickSort" />
       <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangBigONotation.*" />
+          <option name="PATTERN" value="liangSortingAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortLargeFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.SortLargeFile" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangSortingAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DivideAndConquer" />
-      <item itemvalue="Application.EightQueens2" />
-      <item itemvalue="Application.Suduko2" />
-      <item itemvalue="Application.LargestBlock" />
-      <item itemvalue="Application.BinarySearchAnimation" />
+      <item itemvalue="Application.CreateLargeFile" />
+      <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.SortLargeFile" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DivideAndConquer" />
-        <item itemvalue="Application.EightQueens2" />
-        <item itemvalue="Application.Suduko2" />
-        <item itemvalue="Application.LargestBlock" />
-        <item itemvalue="Application.BinarySearchAnimation" />
+        <item itemvalue="Application.SortLargeFile" />
+        <item itemvalue="Application.CreateLargeFile" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
