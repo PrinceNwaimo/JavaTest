@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangBigONotation/Sudoku2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/CreateLargeFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/SortLargeFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/GenericBubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/GenericHeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/GenericMergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/GenericQuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/RevisedGenericQuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,6 +162,7 @@
     "Application.CrapsSimulation.executor": "Run",
     "Application.CreateAliens.executor": "Run",
     "Application.CreateItemFile.executor": "Run",
+    "Application.CreateLargeFile.executor": "Run",
     "Application.CreatePurchase.executor": "Run",
     "Application.CreateSalaryData.executor": "Run",
     "Application.CreateTextFile.executor": "Run",
@@ -276,6 +273,8 @@
     "Application.FullDeck.executor": "Run",
     "Application.GCDExecutionTime.executor": "Run",
     "Application.GenericAccount.executor": "Run",
+    "Application.GenericBubbleSort.executor": "Run",
+    "Application.GenericQuickSort.executor": "Run",
     "Application.GenericSort.executor": "Run",
     "Application.GeometricObjectSorter.executor": "Run",
     "Application.Geometry.executor": "Run",
@@ -460,6 +459,7 @@
     "Application.RetirementGoal2.executor": "Run",
     "Application.ReverseArray.executor": "Run",
     "Application.ReverseInteger.executor": "Run",
+    "Application.RevisedGenericQuickSort.executor": "Run",
     "Application.RollDice.executor": "Run",
     "Application.SMSLanguageTranslator.executor": "Run",
     "Application.SalespersonDatabase.executor": "Run",
@@ -484,6 +484,7 @@
     "Application.Sort2DArray.executor": "Run",
     "Application.SortArrayList.executor": "Run",
     "Application.SortComparableObjects.executor": "Run",
+    "Application.SortLargeFile.executor": "Run",
     "Application.SortPurchasesArray.executor": "Run",
     "Application.SortString.executor": "Run",
     "Application.SortStudents.executor": "Run",
@@ -603,9 +604,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortLargeFile">
-    <configuration name="CreateLargeFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.CreateLargeFile" />
+  <component name="RunManager" selected="Application.RevisedGenericQuickSort">
+    <configuration name="GenericBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.GenericBubbleSort" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -617,8 +618,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.HeapSort" />
+    <configuration name="GenericMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.GenericMergeSort" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -630,8 +631,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.MergeSort" />
+    <configuration name="GenericQuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.GenericQuickSort" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -643,8 +644,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.QuickSort" />
+    <configuration name="RevisedGenericQuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.RevisedGenericQuickSort" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -670,19 +671,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CreateLargeFile" />
-      <item itemvalue="Application.HeapSort" />
-      <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.GenericBubbleSort" />
+      <item itemvalue="Application.GenericMergeSort" />
+      <item itemvalue="Application.GenericQuickSort" />
+      <item itemvalue="Application.RevisedGenericQuickSort" />
       <item itemvalue="Application.SortLargeFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RevisedGenericQuickSort" />
+        <item itemvalue="Application.GenericQuickSort" />
+        <item itemvalue="Application.GenericMergeSort" />
+        <item itemvalue="Application.GenericBubbleSort" />
         <item itemvalue="Application.SortLargeFile" />
-        <item itemvalue="Application.CreateLargeFile" />
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
