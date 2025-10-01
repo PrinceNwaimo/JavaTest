@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/GenericBubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/GenericHeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/GenericMergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/GenericQuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/RevisedGenericQuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/BubbleSortAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/ExternalSortTimeComparison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/Heap3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/Heap4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/HeapVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/MergeAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/MergeSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/MinHeap2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/QuickSortPartitionAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/RadixSortAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/SelectionSortAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/SortHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/SortingTimeComparison.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liangSortingAlgorithms/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liangSortingAlgorithms/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangSortingAlgorithms/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -488,6 +499,7 @@
     "Application.SortPurchasesArray.executor": "Run",
     "Application.SortString.executor": "Run",
     "Application.SortStudents.executor": "Run",
+    "Application.SortingTimeComparison.executor": "Run",
     "Application.SpamScanner.executor": "Run",
     "Application.SportsRecommender.executor": "Run",
     "Application.Sqrt.executor": "Run",
@@ -604,7 +616,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RevisedGenericQuickSort">
+  <component name="RunManager" selected="Application.SortingTimeComparison">
     <configuration name="GenericBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.GenericBubbleSort" />
       <module name="testSamples" />
@@ -657,8 +669,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortLargeFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.SortLargeFile" />
+    <configuration name="SortingTimeComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangSortingAlgorithms.SortingTimeComparison" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -675,15 +687,15 @@
       <item itemvalue="Application.GenericMergeSort" />
       <item itemvalue="Application.GenericQuickSort" />
       <item itemvalue="Application.RevisedGenericQuickSort" />
-      <item itemvalue="Application.SortLargeFile" />
+      <item itemvalue="Application.SortingTimeComparison" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingTimeComparison" />
         <item itemvalue="Application.RevisedGenericQuickSort" />
         <item itemvalue="Application.GenericQuickSort" />
         <item itemvalue="Application.GenericMergeSort" />
         <item itemvalue="Application.GenericBubbleSort" />
-        <item itemvalue="Application.SortLargeFile" />
       </list>
     </recent_temporary>
   </component>

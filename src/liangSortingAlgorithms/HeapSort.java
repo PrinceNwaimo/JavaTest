@@ -2,11 +2,11 @@ package liangSortingAlgorithms;
 
 public class HeapSort {
     /**
-     * Heap sort method
+     * Heap2 sort method
      */
     public static <E extends Comparable<E>> void heapSort(E[] list) {
-        // Create a Heap of integers
-        Heap<E> heap = new Heap<>();
+        // Create a Heap2 of integers
+        Heap2<E> heap = new Heap2<>();
         // Add elements to the heap
         for (int i = 0; i < list.length; i++)
             heap.add(list[i]);
