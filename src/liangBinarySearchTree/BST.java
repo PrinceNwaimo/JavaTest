@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class BST<E extends Comparable<? super E>> extends AbstractTree<E> {
-    protected TreeNode<E> root;
-    protected int size = 0;
+    public TreeNode<E> root;
+    public int size = 0;
 
     public BST() {}
 
@@ -103,9 +103,9 @@ public class BST<E extends Comparable<? super E>> extends AbstractTree<E> {
 
     /** Inner static TreeNode class */
     public static class TreeNode<T> {
-        protected T element;
-        protected TreeNode<T> left;
-        protected TreeNode<T> right;
+        public T element;
+        public TreeNode<T> left;
+        public TreeNode<T> right;
 
         public TreeNode(T e) {
             element = e;
@@ -230,4 +230,5 @@ public class BST<E extends Comparable<? super E>> extends AbstractTree<E> {
         root = null;
         size = 0;
     }
+
 }
