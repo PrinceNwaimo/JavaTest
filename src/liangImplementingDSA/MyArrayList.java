@@ -96,6 +96,21 @@ public class MyArrayList <E> extends MyAbstractList<E>{
             }
 
     @Override
+    public void addAll(MyList<E> list2) {
+
+    }
+
+    @Override
+    public void removeAll(MyList<E> list2) {
+
+    }
+
+    @Override
+    public void retainAll(MyList<E> list2) {
+
+    }
+
+    @Override
     public String toString() {
     StringBuilder result = new StringBuilder("[");
 

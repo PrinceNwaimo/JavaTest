@@ -1,5 +1,8 @@
 package liangImplementingDSA;
 
+import java.util.Spliterator;
+import java.util.function.Consumer;
+
 public class MyLinkedList <E> extends MyAbstractList<E>{
     private Node<E> head, tail;
  /** Create a default list */
@@ -177,10 +180,37 @@ public class MyLinkedList <E> extends MyAbstractList<E>{
         System.out.println("Implementation left as an exercise");
         return null;
             }
- @Override /** Override iterator() defined in Iterable */
+
+    @Override
+    public void addAll(MyList<E> list2) {
+
+    }
+
+    @Override
+    public void removeAll(MyList<E> list2) {
+
+    }
+
+    @Override
+    public void retainAll(MyList<E> list2) {
+
+    }
+
+    @Override /** Override iterator() defined in Iterable */
     public java.util.Iterator<E> iterator() {
         return new LinkedListIterator();
             }
+
+    @Override
+    public void forEach(Consumer<? super E> action) {
+        super.forEach(action);
+    }
+
+    @Override
+    public Spliterator<E> spliterator() {
+        return super.spliterator();
+    }
+
     private class LinkedListIterator
 
         implements java.util.Iterator<E> {
