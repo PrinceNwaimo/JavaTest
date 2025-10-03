@@ -4,6 +4,8 @@ import liangBinarySearchTree.BST;
 
 import java.util.ArrayList;
 
+import static java.nio.file.Files.size;
+
 /**
  * AVL tree implementation that extends the provided BST.
  */
@@ -175,15 +177,61 @@ public class AVLTree<E extends Comparable<? super E>> extends BST<E> {
         balancePath(element);
         return true;
     }
+    // ✅ 1. Print all root-to-leaf paths
+    public void printLeafPaths() {
+        java.util.List<E> path = new java.util.ArrayList<>();
+        printLeafPaths((AVLTreeNode<E>) root, path);
+    }
+
+    private void printLeafPaths(AVLTreeNode<E> node, java.util.List<E> path) {
+        if (node == null) return;
+
+        path.add(node.element); // add current node to path
+
+        if (node.left == null && node.right == null) {
+            // Leaf reached → print the path
+            System.out.println(path);
+        } else {
+            // Recurse left & right
+            printLeafPaths((AVLTreeNode<E>) node.left, path);
+            printLeafPaths((AVLTreeNode<E>) node.right, path);
+        }
+
+        // backtrack
+        path.remove(path.size() - 1);
+    }
+
 
     /**
      * AVLTreeNode extends BST.TreeNode and adds height
      */
     protected static class AVLTreeNode<E> extends TreeNode<E> {
+        public int size;
         int height = 0;  // new field for balancing
 
         AVLTreeNode(E element) {
             super(element);
         }
     }
+    // ✅ 2. Find kth smallest element in O(log n)
+    public E find(int k) {
+        if (k < 1 || root == null || k > ((AVLTreeNode<E>) root).size) {
+            return null;
+        }
+        return find((AVLTreeNode<E>) root, k);
+    }
+    
+    private E find(AVLTreeNode<E> node, int k) {
+        int leftSize = (node.left == null) ? 0 : ((AVLTreeNode<E>) node.left).size;
+
+        if (k == leftSize + 1) {
+            return node.element;  // kth smallest is the current node
+        } else if (k <= leftSize) {
+            return find((AVLTreeNode<E>) node.left, k);
+        } else {
+            return find((AVLTreeNode<E>) node.right, k - leftSize - 1);
+        }
+    }
+
+
 }

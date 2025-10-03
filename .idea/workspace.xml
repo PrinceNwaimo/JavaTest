@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangAVLTree/AVLTreeAnimation2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangAVLTree/TestTreePerformance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/TestMyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangAVLTree/AVLTree2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangAVLTree/AVLTree4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangAVLTree/AVLTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangAVLTree/Exercise26_05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangAVLTree/TestAVLTree2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangAVLTree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangImplementingDSA/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangImplementingDSA/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangImplementingDSA/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangImplementingDSA/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangImplementingDSA/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangImplementingDSA/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liangAVLTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangAVLTree/AVLTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
