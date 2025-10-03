@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangAVLTree/AVLTree2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangAVLTree/AVLTree4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangAVLTree/AVLTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangAVLTree/Exercise26_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangAVLTree/TestAVLTree2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangAVLTree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/BST2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/BST3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/TestInorderWithoutRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/TestPreorderWithoutRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/GenericQueue2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/PrimeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/TwoWayLinkedLis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangAVLTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangAVLTree/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liangBinarySearchTree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liangImplementingDSA/MyLinkedList2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -541,6 +543,7 @@
     "Application.TestFileStream.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
     "Application.TestHashSet.executor": "Run",
+    "Application.TestInorderWithoutRecursion.executor": "Run",
     "Application.TestIterator.executor": "Run",
     "Application.TestLinkedHashSet.executor": "Run",
     "Application.TestLoadedDie.executor": "Run",
@@ -617,7 +620,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AVLTreeAnimation2">
+  <component name="RunManager" selected="Application.TestInorderWithoutRecursion">
     <configuration name="AVLTreeAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangAVLTree.AVLTreeAnimation" />
       <module name="testSamples" />
@@ -656,12 +659,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAVLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangAVLTree.TestAVLTree" />
+    <configuration name="TestInorderWithoutRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.TestInorderWithoutRecursion" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangAVLTree.*" />
+          <option name="PATTERN" value="liangBinarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -674,7 +677,7 @@
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangImplementingDSA.*" />
+          <option name="PATTERN" value="liangImplementingDSA.MyList" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -696,19 +699,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TestInorderWithoutRecursion" />
       <item itemvalue="Application.AVLTreeAnimation2" />
       <item itemvalue="Application.TestMyList" />
       <item itemvalue="Application.TestTreePerformance" />
       <item itemvalue="Application.AVLTreeAnimation" />
-      <item itemvalue="Application.TestAVLTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestInorderWithoutRecursion" />
         <item itemvalue="Application.AVLTreeAnimation2" />
         <item itemvalue="Application.TestMyList" />
         <item itemvalue="Application.TestTreePerformance" />
         <item itemvalue="Application.AVLTreeAnimation" />
-        <item itemvalue="Application.TestAVLTree" />
       </list>
     </recent_temporary>
   </component>

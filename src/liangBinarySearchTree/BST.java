@@ -2,6 +2,8 @@ package liangBinarySearchTree;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class BST<E extends Comparable<? super E>> extends AbstractTree<E> {
     public TreeNode<E> root;
@@ -101,7 +103,33 @@ public class BST<E extends Comparable<? super E>> extends AbstractTree<E> {
         System.out.print(root.element + " ");
     }
 
-    /** Inner static TreeNode class */
+    /** Displays the nodes in a breadth-first traversal */
+    public void breadthFirstTraversal() {
+        if (root == null) return;
+        Queue<TreeNode<E>> queue = new LinkedList<>();
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            TreeNode<E> current = queue.poll();
+            System.out.print(current.element + " ");
+
+            if (current.left != null) queue.add(current.left);
+            if (current.right != null) queue.add(current.right);
+        }
+        System.out.println();
+    }
+
+    /** Returns the height (number of levels) of this binary tree */
+    public int height() {
+        return height(root);
+    }
+
+    private int height(TreeNode<E> node) {
+        if (node == null) return 0;  // base case: 0 levels for empty tree
+        return 1 + Math.max(height(node.left), height(node.right));
+    }
+
+    /** TreeNode class */
     public static class TreeNode<T> {
         public T element;
         public TreeNode<T> left;
@@ -231,4 +259,11 @@ public class BST<E extends Comparable<? super E>> extends AbstractTree<E> {
         size = 0;
     }
 
+    /** Returns true if the tree is a full binary tree */
+    public boolean isFullBST() {
+        int depth = height();             // number of levels in the tree
+        int expectedNodes = (int) Math.pow(2, depth) - 1;
+        return size == expectedNodes;
+    }
 }
+
