@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/ArrayListAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/ArrayListAnimation2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/DoublyLinkedListAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/LinkedListAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/MyPriorityQueue2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/StackAnimation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/FibonacciIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -619,26 +613,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayListAnimation2">
-    <configuration name="AVLTreeAnimation2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangAVLTree.AVLTreeAnimation2" />
-      <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangAVLTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestMyArrayList2">
     <configuration name="ArrayListAnimation2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangImplementingDSA.ArrayListAnimation2" />
       <module name="testSamples" />
@@ -665,6 +640,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimeIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangImplementingDSA.PrimeIterator" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangImplementingDSA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestInorderWithoutRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.TestInorderWithoutRecursion" />
       <module name="testSamples" />
@@ -678,12 +666,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangImplementingDSA.TestMyList" />
+    <configuration name="TestMyArrayList2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangImplementingDSA.TestMyArrayList2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangImplementingDSA.MyList" />
+          <option name="PATTERN" value="liangImplementingDSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -694,17 +682,17 @@
     <list>
       <item itemvalue="Application.ArrayListAnimation2" />
       <item itemvalue="Application.LinkedListAnimation" />
+      <item itemvalue="Application.PrimeIterator" />
       <item itemvalue="Application.TestInorderWithoutRecursion" />
-      <item itemvalue="Application.AVLTreeAnimation2" />
-      <item itemvalue="Application.TestMyList" />
+      <item itemvalue="Application.TestMyArrayList2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMyArrayList2" />
+        <item itemvalue="Application.PrimeIterator" />
         <item itemvalue="Application.ArrayListAnimation2" />
         <item itemvalue="Application.LinkedListAnimation" />
         <item itemvalue="Application.TestInorderWithoutRecursion" />
-        <item itemvalue="Application.AVLTreeAnimation2" />
-        <item itemvalue="Application.TestMyList" />
       </list>
     </recent_temporary>
   </component>
