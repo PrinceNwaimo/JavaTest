@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/FibonacciIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/BST4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/BST5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/TestBidirectionalIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/TestGenericBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/TestPostorderWithoutRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/TestPreorderIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -412,6 +418,7 @@
     "Application.Population.executor": "Run",
     "Application.PostfixEvaluator.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
+    "Application.PrimeIterator.executor": "Run",
     "Application.PrimeNumberExecutionTime.executor": "Run",
     "Application.PrimeNumberMethod.executor": "Run",
     "Application.PrimeNumbers.executor": "Run",
@@ -528,6 +535,7 @@
     "Application.Test2.executor": "Run",
     "Application.TestAVLTree.executor": "Run",
     "Application.TestBST.executor": "Run",
+    "Application.TestBidirectionalIterator.executor": "Run",
     "Application.TestBook.executor": "Run",
     "Application.TestCircleRectangle.executor": "Run",
     "Application.TestCollection.executor": "Run",
@@ -544,10 +552,13 @@
     "Application.TestMap.executor": "Run",
     "Application.TestMethodsInCollection.executor": "Run",
     "Application.TestMyArrayList.executor": "Run",
+    "Application.TestMyArrayList2.executor": "Run",
     "Application.TestMyLinkedList.executor": "Run",
     "Application.TestMyList.executor": "Run",
     "Application.TestObjectOutPutStream.executor": "Run",
     "Application.TestObjectStreamForArray.executor": "Run",
+    "Application.TestPostorderWithoutRecursion.executor": "Run",
+    "Application.TestPreorderIterator.executor": "Run",
     "Application.TestRandomCharacter.executor": "Run",
     "Application.TestStackOfIntegers.executor": "Run",
     "Application.TestStackQueue.executor": "Run",
@@ -613,13 +624,13 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestMyArrayList2">
-    <configuration name="ArrayListAnimation2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangImplementingDSA.ArrayListAnimation2" />
+  <component name="RunManager" selected="Application.TestBSTWithParent">
+    <configuration name="TestBSTWithParent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.TestBSTWithParent" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangImplementingDSA.*" />
+          <option name="PATTERN" value="liangBinarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -627,34 +638,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangImplementingDSA.LinkedListAnimation" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangImplementingDSA.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangImplementingDSA.PrimeIterator" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangImplementingDSA.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestInorderWithoutRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.TestInorderWithoutRecursion" />
+    <configuration name="TestBidirectionalIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.TestBidirectionalIterator" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -679,20 +664,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestPostorderWithoutRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.TestPostorderWithoutRecursion" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangBinarySearchTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPreorderIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.TestPreorderIterator" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangBinarySearchTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ArrayListAnimation2" />
-      <item itemvalue="Application.LinkedListAnimation" />
-      <item itemvalue="Application.PrimeIterator" />
-      <item itemvalue="Application.TestInorderWithoutRecursion" />
+      <item itemvalue="Application.TestBSTWithParent" />
+      <item itemvalue="Application.TestBidirectionalIterator" />
       <item itemvalue="Application.TestMyArrayList2" />
+      <item itemvalue="Application.TestPostorderWithoutRecursion" />
+      <item itemvalue="Application.TestPreorderIterator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBSTWithParent" />
+        <item itemvalue="Application.TestPreorderIterator" />
+        <item itemvalue="Application.TestBidirectionalIterator" />
+        <item itemvalue="Application.TestPostorderWithoutRecursion" />
         <item itemvalue="Application.TestMyArrayList2" />
-        <item itemvalue="Application.PrimeIterator" />
-        <item itemvalue="Application.ArrayListAnimation2" />
-        <item itemvalue="Application.LinkedListAnimation" />
-        <item itemvalue="Application.TestInorderWithoutRecursion" />
       </list>
     </recent_temporary>
   </component>
