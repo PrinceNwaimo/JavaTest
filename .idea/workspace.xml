@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/BST2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/BST3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/TestInorderWithoutRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/TestPreorderWithoutRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/GenericQueue2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/PrimeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/TwoWayLinkedLis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/ArrayListAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/ArrayListAnimation2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/DoublyLinkedListAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/LinkedListAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/MyPriorityQueue2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangImplementingDSA/StackAnimation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangBinarySearchTree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangImplementingDSA/MyLinkedList2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +70,7 @@
     "Application.ApproximateE.executor": "Run",
     "Application.ArcheryGame.executor": "Run",
     "Application.ArithmeticCAI.executor": "Run",
+    "Application.ArrayListAnimation2.executor": "Run",
     "Application.ArrayListDemo2.executor": "Run",
     "Application.ArrayMethodDemo.executor": "Run",
     "Application.ArraysTest.executor": "Run",
@@ -332,6 +330,7 @@
     "Application.LengthConverter.executor": "Run",
     "Application.LinearSearchAnimation.executor": "Run",
     "Application.LinearSearchApproach.executor": "Run",
+    "Application.LinkedListAnimation.executor": "Run",
     "Application.LinkedListApp.executor": "Run",
     "Application.LinkedListTraversalTest.executor": "Run",
     "Application.ListTest.executor": "Run",
@@ -620,9 +619,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestInorderWithoutRecursion">
-    <configuration name="AVLTreeAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangAVLTree.AVLTreeAnimation" />
+  <component name="RunManager" selected="Application.ArrayListAnimation2">
+    <configuration name="AVLTreeAnimation2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangAVLTree.AVLTreeAnimation2" />
       <module name="testSamples" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
@@ -640,20 +639,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AVLTreeAnimation2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangAVLTree.AVLTreeAnimation2" />
+    <configuration name="ArrayListAnimation2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangImplementingDSA.ArrayListAnimation2" />
       <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangAVLTree.*" />
+          <option name="PATTERN" value="liangImplementingDSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangImplementingDSA.LinkedListAnimation" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangImplementingDSA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -685,33 +691,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTreePerformance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangAVLTree.TestTreePerformance" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangAVLTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.ArrayListAnimation2" />
+      <item itemvalue="Application.LinkedListAnimation" />
       <item itemvalue="Application.TestInorderWithoutRecursion" />
       <item itemvalue="Application.AVLTreeAnimation2" />
       <item itemvalue="Application.TestMyList" />
-      <item itemvalue="Application.TestTreePerformance" />
-      <item itemvalue="Application.AVLTreeAnimation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListAnimation2" />
+        <item itemvalue="Application.LinkedListAnimation" />
         <item itemvalue="Application.TestInorderWithoutRecursion" />
         <item itemvalue="Application.AVLTreeAnimation2" />
         <item itemvalue="Application.TestMyList" />
-        <item itemvalue="Application.TestTreePerformance" />
-        <item itemvalue="Application.AVLTreeAnimation" />
       </list>
     </recent_temporary>
   </component>
