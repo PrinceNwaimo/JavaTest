@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/BST4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/BST5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/TestBidirectionalIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/TestGenericBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/TestPostorderWithoutRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/TestPreorderIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/BinPackingLargestFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/BitOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/Exercise25_18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/Exercise25_19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/HuffmanCoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/HuffmanCodingAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/HuffmanTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangHashing/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangHashing/MyHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangHashing/MyMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangHashing/MySet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangHashing/TestMyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangHashing/TestMyHashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +93,7 @@
     "Application.BarChart2.executor": "Run",
     "Application.BasePlusCommissionEmployeeTest.executor": "Run",
     "Application.BeanMachine.executor": "Run",
+    "Application.BinPackingLargestFirst.executor": "Run",
     "Application.BinaryEditor.executor": "Run",
     "Application.BinaryEditorTest.executor": "Run",
     "Application.BinarySearchAnimation.executor": "Run",
@@ -303,6 +311,8 @@
     "Application.Hex2Dec.executor": "Run",
     "Application.HexEditor.executor": "Run",
     "Application.HilbertCurve.executor": "Run",
+    "Application.HuffmanCoding.executor": "Run",
+    "Application.HuffmanCodingAnimation.executor": "Run",
     "Application.HugeIntegerTest.executor": "Run",
     "Application.HypotenuseCalculator.executor": "Run",
     "Application.ImprovedFibonacci.executor": "Run",
@@ -535,6 +545,7 @@
     "Application.Test2.executor": "Run",
     "Application.TestAVLTree.executor": "Run",
     "Application.TestBST.executor": "Run",
+    "Application.TestBSTWithParent.executor": "Run",
     "Application.TestBidirectionalIterator.executor": "Run",
     "Application.TestBook.executor": "Run",
     "Application.TestCircleRectangle.executor": "Run",
@@ -553,6 +564,8 @@
     "Application.TestMethodsInCollection.executor": "Run",
     "Application.TestMyArrayList.executor": "Run",
     "Application.TestMyArrayList2.executor": "Run",
+    "Application.TestMyHashMap.executor": "Run",
+    "Application.TestMyHashSet.executor": "Run",
     "Application.TestMyLinkedList.executor": "Run",
     "Application.TestMyList.executor": "Run",
     "Application.TestObjectOutPutStream.executor": "Run",
@@ -624,9 +637,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestBSTWithParent">
-    <configuration name="TestBSTWithParent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.TestBSTWithParent" />
+  <component name="RunManager" selected="Application.TestMyHashSet">
+    <configuration name="BinPackingLargestFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.BinPackingLargestFirst" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -638,8 +651,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBidirectionalIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.TestBidirectionalIterator" />
+    <configuration name="HuffmanCoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.HuffmanCoding" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -651,12 +664,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMyArrayList2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangImplementingDSA.TestMyArrayList2" />
+    <configuration name="HuffmanCodingAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.HuffmanCodingAnimation" />
+      <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangBinarySearchTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangHashing.TestMyHashMap" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangImplementingDSA.*" />
+          <option name="PATTERN" value="liangHashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -664,25 +696,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPostorderWithoutRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.TestPostorderWithoutRecursion" />
+    <configuration name="TestMyHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangHashing.TestMyHashSet" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangBinarySearchTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPreorderIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.TestPreorderIterator" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangBinarySearchTree.*" />
+          <option name="PATTERN" value="liangHashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -691,19 +710,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestBSTWithParent" />
-      <item itemvalue="Application.TestBidirectionalIterator" />
-      <item itemvalue="Application.TestMyArrayList2" />
-      <item itemvalue="Application.TestPostorderWithoutRecursion" />
-      <item itemvalue="Application.TestPreorderIterator" />
+      <item itemvalue="Application.BinPackingLargestFirst" />
+      <item itemvalue="Application.TestMyHashMap" />
+      <item itemvalue="Application.TestMyHashSet" />
+      <item itemvalue="Application.HuffmanCoding" />
+      <item itemvalue="Application.HuffmanCodingAnimation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestBSTWithParent" />
-        <item itemvalue="Application.TestPreorderIterator" />
-        <item itemvalue="Application.TestBidirectionalIterator" />
-        <item itemvalue="Application.TestPostorderWithoutRecursion" />
-        <item itemvalue="Application.TestMyArrayList2" />
+        <item itemvalue="Application.TestMyHashSet" />
+        <item itemvalue="Application.TestMyHashMap" />
+        <item itemvalue="Application.BinPackingLargestFirst" />
+        <item itemvalue="Application.HuffmanCodingAnimation" />
+        <item itemvalue="Application.HuffmanCoding" />
       </list>
     </recent_temporary>
   </component>
