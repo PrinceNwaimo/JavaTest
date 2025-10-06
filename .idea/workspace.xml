@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/BinPackingLargestFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/BitOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/Exercise25_18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/Exercise25_19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/HuffmanCoding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/HuffmanCodingAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangBinarySearchTree/HuffmanTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangHashing/MyHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangHashing/MyHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangHashing/MyMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangHashing/MySet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangHashing/TestMyHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangHashing/TestMyHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangHashing/LinearProbingAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangHashing/MyHashMap2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangHashing/MyHashMap3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangHashing/MyHashMap4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangHashing/MyHashMap5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangHashing/MyHashSet2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -338,6 +331,7 @@
     "Application.Last100PrimeNumbers.executor": "Run",
     "Application.LeapYear.executor": "Run",
     "Application.LengthConverter.executor": "Run",
+    "Application.LinearProbingAnimation.executor": "Run",
     "Application.LinearSearchAnimation.executor": "Run",
     "Application.LinearSearchApproach.executor": "Run",
     "Application.LinkedListAnimation.executor": "Run",
@@ -370,6 +364,10 @@
     "Application.MultiplicationCAIModification.executor": "Run",
     "Application.MultiplyMatrix.executor": "Run",
     "Application.MyDate.executor": "Run",
+    "Application.MyHashMap2.executor": "Run",
+    "Application.MyHashMap3.executor": "Run",
+    "Application.MyHashMap4.executor": "Run",
+    "Application.MyHashSet2.executor": "Run",
     "Application.MyInteger.executor": "Run",
     "Application.MyPoint.executor": "Run",
     "Application.MyPriorityQueue.executor": "Run",
@@ -637,40 +635,14 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestMyHashSet">
-    <configuration name="BinPackingLargestFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.BinPackingLargestFirst" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangBinarySearchTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HuffmanCoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.HuffmanCoding" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangBinarySearchTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HuffmanCodingAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangBinarySearchTree.HuffmanCodingAnimation" />
+  <component name="RunManager" selected="Application.LinearProbingAnimation">
+    <configuration name="LinearProbingAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangHashing.LinearProbingAnimation" />
       <module name="testSamples" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangBinarySearchTree.*" />
+          <option name="PATTERN" value="liangHashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -683,8 +655,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMyHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangHashing.TestMyHashMap" />
+    <configuration name="MyHashMap2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangHashing.MyHashMap2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -696,8 +668,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMyHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangHashing.TestMyHashSet" />
+    <configuration name="MyHashMap3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangHashing.MyHashMap3" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangHashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHashMap4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangHashing.MyHashMap4" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangHashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHashSet2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangHashing.MyHashSet2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -710,19 +708,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinPackingLargestFirst" />
-      <item itemvalue="Application.TestMyHashMap" />
-      <item itemvalue="Application.TestMyHashSet" />
-      <item itemvalue="Application.HuffmanCoding" />
-      <item itemvalue="Application.HuffmanCodingAnimation" />
+      <item itemvalue="Application.LinearProbingAnimation" />
+      <item itemvalue="Application.MyHashMap2" />
+      <item itemvalue="Application.MyHashMap3" />
+      <item itemvalue="Application.MyHashMap4" />
+      <item itemvalue="Application.MyHashSet2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestMyHashSet" />
-        <item itemvalue="Application.TestMyHashMap" />
-        <item itemvalue="Application.BinPackingLargestFirst" />
-        <item itemvalue="Application.HuffmanCodingAnimation" />
-        <item itemvalue="Application.HuffmanCoding" />
+        <item itemvalue="Application.LinearProbingAnimation" />
+        <item itemvalue="Application.MyHashSet2" />
+        <item itemvalue="Application.MyHashMap4" />
+        <item itemvalue="Application.MyHashMap3" />
+        <item itemvalue="Application.MyHashMap2" />
       </list>
     </recent_temporary>
   </component>
