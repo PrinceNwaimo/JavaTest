@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/ArraysAndStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/ArraysAndStreams2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/ProcessingEmployees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/RandomIntStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/StreamOfLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStreams/AverageOddAndEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStreams/CharacterSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStreams/FileTypeSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStreams/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStreams/InvoiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStreams/PhoneDirectorySorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -647,9 +647,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomIntStream">
-    <configuration name="ArraysAndStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStreams.ArraysAndStreams" />
+  <component name="RunManager" selected="Application.PhoneDirectorySorter">
+    <configuration name="ArraysAndStreams2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStreams.ArraysAndStreams2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -661,8 +661,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysAndStreams2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStreams.ArraysAndStreams2" />
+    <configuration name="PhoneDirectorySorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStreams.PhoneDirectorySorter" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -714,19 +714,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArraysAndStreams" />
       <item itemvalue="Application.ArraysAndStreams2" />
+      <item itemvalue="Application.PhoneDirectorySorter" />
       <item itemvalue="Application.ProcessingEmployees" />
       <item itemvalue="Application.RandomIntStream" />
       <item itemvalue="Application.StreamOfLines" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhoneDirectorySorter" />
         <item itemvalue="Application.RandomIntStream" />
         <item itemvalue="Application.StreamOfLines" />
         <item itemvalue="Application.ProcessingEmployees" />
         <item itemvalue="Application.ArraysAndStreams2" />
-        <item itemvalue="Application.ArraysAndStreams" />
       </list>
     </recent_temporary>
   </component>
