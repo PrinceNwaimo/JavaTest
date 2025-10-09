@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/IntStreamOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/RandomIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/StreamFilterMapReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/StreamMapReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/StreamReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStreams/ArraysAndStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStreams/ArraysAndStreams2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStreams/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStreams/ProcessingEmployees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStreams/RandomIntStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelStreams/StreamOfLines.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +73,8 @@
     "Application.ArrayListAnimation2.executor": "Run",
     "Application.ArrayListDemo2.executor": "Run",
     "Application.ArrayMethodDemo.executor": "Run",
+    "Application.ArraysAndStreams.executor": "Run",
+    "Application.ArraysAndStreams2.executor": "Run",
     "Application.ArraysTest.executor": "Run",
     "Application.AssignVolunteer5.executor": "Run",
     "Application.AverageOfQuizzes.executor": "Run",
@@ -437,6 +440,7 @@
     "Application.PrintMatrix.executor": "Run",
     "Application.PriorityQueueSetOperations.executor": "Run",
     "Application.ProcessingArrays.executor": "Run",
+    "Application.ProcessingEmployees.executor": "Run",
     "Application.PurchaseArray.executor": "Run",
     "Application.QuadraticEquation.executor": "Run",
     "Application.QuadraticEquationSolver.executor": "Run",
@@ -451,6 +455,7 @@
     "Application.QuotientWithException.executor": "Run",
     "Application.RandomAccessTest.executor": "Run",
     "Application.RandomCharacter2.executor": "Run",
+    "Application.RandomIntStream.executor": "Run",
     "Application.RandomIntegers.executor": "Run",
     "Application.RandomNumberChooser.executor": "Run",
     "Application.RandomNumberGenerator.executor": "Run",
@@ -518,6 +523,7 @@
     "Application.StopWatch.executor": "Run",
     "Application.StreamFilterMapReduce.executor": "Run",
     "Application.StreamMapReduce.executor": "Run",
+    "Application.StreamOfLines.executor": "Run",
     "Application.StreamReduce.executor": "Run",
     "Application.StrictlyIdenticalArrays.executor": "Run",
     "Application.StringBeautifier.executor": "Run",
@@ -641,9 +647,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IntStreamOperations">
-    <configuration name="IntStreamOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStreams.IntStreamOperations" />
+  <component name="RunManager" selected="Application.RandomIntStream">
+    <configuration name="ArraysAndStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStreams.ArraysAndStreams" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -655,8 +661,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStreams.RandomIntegers" />
+    <configuration name="ArraysAndStreams2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStreams.ArraysAndStreams2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -668,8 +674,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamFilterMapReduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStreams.StreamFilterMapReduce" />
+    <configuration name="ProcessingEmployees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStreams.ProcessingEmployees" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -681,8 +687,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMapReduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStreams.StreamMapReduce" />
+    <configuration name="RandomIntStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStreams.RandomIntStream" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -694,8 +700,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamReduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStreams.StreamReduce" />
+    <configuration name="StreamOfLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelStreams.StreamOfLines" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -708,19 +714,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IntStreamOperations" />
-      <item itemvalue="Application.RandomIntegers" />
-      <item itemvalue="Application.StreamFilterMapReduce" />
-      <item itemvalue="Application.StreamMapReduce" />
-      <item itemvalue="Application.StreamReduce" />
+      <item itemvalue="Application.ArraysAndStreams" />
+      <item itemvalue="Application.ArraysAndStreams2" />
+      <item itemvalue="Application.ProcessingEmployees" />
+      <item itemvalue="Application.RandomIntStream" />
+      <item itemvalue="Application.StreamOfLines" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IntStreamOperations" />
-        <item itemvalue="Application.RandomIntegers" />
-        <item itemvalue="Application.StreamFilterMapReduce" />
-        <item itemvalue="Application.StreamMapReduce" />
-        <item itemvalue="Application.StreamReduce" />
+        <item itemvalue="Application.RandomIntStream" />
+        <item itemvalue="Application.StreamOfLines" />
+        <item itemvalue="Application.ProcessingEmployees" />
+        <item itemvalue="Application.ArraysAndStreams2" />
+        <item itemvalue="Application.ArraysAndStreams" />
       </list>
     </recent_temporary>
   </component>
