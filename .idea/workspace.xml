@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/InfiniteStreamOfPrimeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/IntStreamAverageClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/IntStreamFilteringAndSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/MappingIntGradesToLetterGrades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/ProcessingEmployee2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/TwoDimensionalArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelStreams/TwoDimensionalArrays2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/FactorialCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/FactorialCalculator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/FibonacciCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,6 +202,7 @@
     "Application.DetectEndOfFile.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
     "Application.DiceRolling.executor": "Run",
+    "Application.DieRolls.executor": "Run",
     "Application.DinnerEventDemo.executor": "Run",
     "Application.DirectorySize.executor": "Run",
     "Application.DirectorySize2.executor": "Run",
@@ -253,10 +249,14 @@
     "Application.Exercise17_10.executor": "Run",
     "Application.Exercise17_12.executor": "Run",
     "Application.ExtractingSubstringsFromStrings.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FactorialCalculator.executor": "Run",
+    "Application.FactorialCalculator2.executor": "Run",
     "Application.Factorials.executor": "Run",
     "Application.Fan.executor": "Run",
     "Application.FancyTimeTest.executor": "Run",
     "Application.Fibonacci.executor": "Run",
+    "Application.FibonacciCalculator.executor": "Run",
     "Application.File1.executor": "Run",
     "Application.File2.executor": "Run",
     "Application.FileAndDirectoryInfo.executor": "Run",
@@ -652,7 +652,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DieRolls">
+  <component name="RunManager" selected="Application.Factorial">
     <configuration name="DieRolls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="diettelStreams.DieRolls" />
       <module name="testSamples" />
@@ -666,12 +666,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfiniteStreamOfPrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStreams.InfiniteStreamOfPrimeNumbers" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelRecursion.Factorial" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelStreams.*" />
+          <option name="PATTERN" value="diettelRecursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -679,12 +679,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneDirectorySorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStreams.PhoneDirectorySorter" />
+    <configuration name="FactorialCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelRecursion.FactorialCalculator" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelStreams.*" />
+          <option name="PATTERN" value="diettelRecursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -692,12 +692,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomIntStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStreams.RandomIntStream" />
+    <configuration name="FactorialCalculator2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelRecursion.FactorialCalculator2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelStreams.*" />
+          <option name="PATTERN" value="diettelRecursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -705,12 +705,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamOfLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStreams.StreamOfLines" />
+    <configuration name="FibonacciCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelRecursion.FibonacciCalculator" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelStreams.*" />
+          <option name="PATTERN" value="diettelRecursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -719,19 +719,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Factorial" />
+      <item itemvalue="Application.FactorialCalculator" />
+      <item itemvalue="Application.FactorialCalculator2" />
+      <item itemvalue="Application.FibonacciCalculator" />
       <item itemvalue="Application.DieRolls" />
-      <item itemvalue="Application.InfiniteStreamOfPrimeNumbers" />
-      <item itemvalue="Application.PhoneDirectorySorter" />
-      <item itemvalue="Application.RandomIntStream" />
-      <item itemvalue="Application.StreamOfLines" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.FibonacciCalculator" />
+        <item itemvalue="Application.FactorialCalculator2" />
+        <item itemvalue="Application.FactorialCalculator" />
         <item itemvalue="Application.DieRolls" />
-        <item itemvalue="Application.InfiniteStreamOfPrimeNumbers" />
-        <item itemvalue="Application.PhoneDirectorySorter" />
-        <item itemvalue="Application.RandomIntStream" />
-        <item itemvalue="Application.StreamOfLines" />
       </list>
     </recent_temporary>
   </component>
