@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/ArrayBackward.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/EightQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/EulerNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/GCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/IntArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/MinimumArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/StarFractal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/ConvertLoopsToLamdaAndStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/Factorial2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/FibonacciCalculator4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/FileCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/KochCurve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/KochSnowflakes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/Maze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/MazeGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -336,6 +338,7 @@
     "Application.KnightsTour.executor": "Run",
     "Application.KnightsTourBruteForce.executor": "Run",
     "Application.KnightsTourClosedTourTest.executor": "Run",
+    "Application.KochCurve.executor": "Run",
     "Application.KochSnowflake.executor": "Run",
     "Application.LargePrimeNumbers.executor": "Run",
     "Application.LargestBlock.executor": "Run",
@@ -360,6 +363,8 @@
     "Application.MaximumElementInArrayList.executor": "Run",
     "Application.MaximumFinder.executor": "Run",
     "Application.Maze.executor": "Run",
+    "Application.MazeGenerator.executor": "Run",
+    "Application.MazeTraversal.executor": "Run",
     "Application.MeanMedian.executor": "Run",
     "Application.MenuSearch.executor": "Run",
     "Application.MergeSort.executor": "Run",
@@ -659,9 +664,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MazeTraversal">
-    <configuration name="ArrayBackward" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelRecursion.ArrayBackward" />
+  <component name="RunManager" selected="Application.Fibonacci">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelRecursion.Fibonacci" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -673,8 +678,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EightQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelRecursion.EightQueens" />
+    <configuration name="KochCurve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelRecursion.KochCurve" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettelRecursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelRecursion.Maze" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettelRecursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MazeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelRecursion.MazeGenerator" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -699,46 +730,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelRecursion.MinimumArray" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelRecursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StarFractal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelRecursion.StarFractal" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelRecursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.ArrayBackward" />
-      <item itemvalue="Application.EightQueens" />
+      <item itemvalue="Application.Fibonacci" />
+      <item itemvalue="Application.KochCurve" />
+      <item itemvalue="Application.Maze" />
+      <item itemvalue="Application.MazeGenerator" />
       <item itemvalue="Application.MazeTraversal" />
-      <item itemvalue="Application.MinimumArray" />
-      <item itemvalue="Application.StarFractal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.KochCurve" />
+        <item itemvalue="Application.Maze" />
+        <item itemvalue="Application.MazeGenerator" />
         <item itemvalue="Application.MazeTraversal" />
-        <item itemvalue="Application.StarFractal" />
-        <item itemvalue="Application.MinimumArray" />
-        <item itemvalue="Application.ArrayBackward" />
-        <item itemvalue="Application.EightQueens" />
       </list>
     </recent_temporary>
   </component>
