@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/FactorialCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/FactorialCalculator2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/FibonacciCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/ArrayBackward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/EightQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/EulerNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/IntArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/MinimumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/StarFractal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +71,7 @@
     "Application.ApproximateE.executor": "Run",
     "Application.ArcheryGame.executor": "Run",
     "Application.ArithmeticCAI.executor": "Run",
+    "Application.ArrayBackward.executor": "Run",
     "Application.ArrayListAnimation2.executor": "Run",
     "Application.ArrayListDemo2.executor": "Run",
     "Application.ArrayMethodDemo.executor": "Run",
@@ -238,6 +242,7 @@
     "Application.EnterSmallValue.executor": "Run",
     "Application.EnumDemo2.executor": "Run",
     "Application.EstimatePi.executor": "Run",
+    "Application.EulerNumbers.executor": "Run",
     "Application.EvenEntryLoop.executor": "Run",
     "Application.EventDemo.executor": "Run",
     "Application.Exercise17_03.executor": "Run",
@@ -360,6 +365,7 @@
     "Application.MergeSort.executor": "Run",
     "Application.MergeSortedLists.executor": "Run",
     "Application.MersennePrime.executor": "Run",
+    "Application.MinimumArray.executor": "Run",
     "Application.Months.executor": "Run",
     "Application.MorgansBonuses.executor": "Run",
     "Application.MorseCodeDecoder.executor": "Run",
@@ -522,6 +528,7 @@
     "Application.Sqrt.executor": "Run",
     "Application.SquareNumbers.executor": "Run",
     "Application.StaffDinnerEventAndCreateFile.executor": "Run",
+    "Application.StarFractal.executor": "Run",
     "Application.StaticCharMethods.executor": "Run",
     "Application.StaticCharMethods2.executor": "Run",
     "Application.Stock.executor": "Run",
@@ -652,22 +659,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Factorial">
-    <configuration name="DieRolls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelStreams.DieRolls" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelStreams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelRecursion.Factorial" />
+  <component name="RunManager" selected="Application.MazeTraversal">
+    <configuration name="ArrayBackward" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelRecursion.ArrayBackward" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -679,8 +673,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelRecursion.FactorialCalculator" />
+    <configuration name="EightQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelRecursion.EightQueens" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -692,8 +686,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialCalculator2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelRecursion.FactorialCalculator2" />
+    <configuration name="MazeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelRecursion.MazeTraversal" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -705,8 +699,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelRecursion.FibonacciCalculator" />
+    <configuration name="MinimumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelRecursion.MinimumArray" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettelRecursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarFractal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelRecursion.StarFractal" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -719,19 +726,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Factorial" />
-      <item itemvalue="Application.FactorialCalculator" />
-      <item itemvalue="Application.FactorialCalculator2" />
-      <item itemvalue="Application.FibonacciCalculator" />
-      <item itemvalue="Application.DieRolls" />
+      <item itemvalue="Application.ArrayBackward" />
+      <item itemvalue="Application.EightQueens" />
+      <item itemvalue="Application.MazeTraversal" />
+      <item itemvalue="Application.MinimumArray" />
+      <item itemvalue="Application.StarFractal" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.FibonacciCalculator" />
-        <item itemvalue="Application.FactorialCalculator2" />
-        <item itemvalue="Application.FactorialCalculator" />
-        <item itemvalue="Application.DieRolls" />
+        <item itemvalue="Application.MazeTraversal" />
+        <item itemvalue="Application.StarFractal" />
+        <item itemvalue="Application.MinimumArray" />
+        <item itemvalue="Application.ArrayBackward" />
+        <item itemvalue="Application.EightQueens" />
       </list>
     </recent_temporary>
   </component>
