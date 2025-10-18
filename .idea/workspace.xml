@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/ConvertLoopsToLamdaAndStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/Factorial2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/FibonacciCalculator4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/FileCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/KochCurve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/KochSnowflakes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelRecursion/MazeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelSearch/BinarySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelSearch/InsertionSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelSearch/LinearSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelSearch/MergeSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelSearch/SelectionSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +92,7 @@
     "Application.BinaryEditor.executor": "Run",
     "Application.BinaryEditorTest.executor": "Run",
     "Application.BinarySearchAnimation.executor": "Run",
+    "Application.BinarySearchTest.executor": "Run",
     "Application.BinaryToDecimal.executor": "Run",
     "Application.BirthdayReminder.executor": "Run",
     "Application.BitOutputStream.executor": "Run",
@@ -330,6 +327,7 @@
     "Application.InputGrades.executor": "Run",
     "Application.InsertionSort.executor": "Run",
     "Application.InsertionSortAlgorithm.executor": "Run",
+    "Application.InsertionSortTest.executor": "Run",
     "Application.InsuredCarDemo.executor": "Run",
     "Application.IntStreamOperations.executor": "Run",
     "Application.IntegerSet2Test.executor": "Run",
@@ -350,6 +348,7 @@
     "Application.LinearProbingAnimation.executor": "Run",
     "Application.LinearSearchAnimation.executor": "Run",
     "Application.LinearSearchApproach.executor": "Run",
+    "Application.LinearSearchTest.executor": "Run",
     "Application.LinkedListAnimation.executor": "Run",
     "Application.LinkedListApp.executor": "Run",
     "Application.LinkedListTraversalTest.executor": "Run",
@@ -368,6 +367,7 @@
     "Application.MeanMedian.executor": "Run",
     "Application.MenuSearch.executor": "Run",
     "Application.MergeSort.executor": "Run",
+    "Application.MergeSortTest.executor": "Run",
     "Application.MergeSortedLists.executor": "Run",
     "Application.MersennePrime.executor": "Run",
     "Application.MinimumArray.executor": "Run",
@@ -511,6 +511,7 @@
     "Application.SecretPhraseUsingFiles.executor": "Run",
     "Application.SeekPosition.executor": "Run",
     "Application.SelectionSort2.executor": "Run",
+    "Application.SelectionSortTest.executor": "Run",
     "Application.SeparateChainingAnimation.executor": "Run",
     "Application.SequentialDataFile.executor": "Run",
     "Application.SetListPerformanceTest.executor": "Run",
@@ -664,13 +665,13 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fibonacci">
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelRecursion.Fibonacci" />
+  <component name="RunManager" selected="Application.MergeSortTest">
+    <configuration name="BinarySearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelSearch.BinarySearchTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelRecursion.*" />
+          <option name="PATTERN" value="diettelSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -678,12 +679,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KochCurve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelRecursion.KochCurve" />
+    <configuration name="InsertionSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelSearch.InsertionSortTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelRecursion.*" />
+          <option name="PATTERN" value="diettelSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -691,12 +692,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelRecursion.Maze" />
+    <configuration name="LinearSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelSearch.LinearSearchTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelRecursion.*" />
+          <option name="PATTERN" value="diettelSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -704,12 +705,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelRecursion.MazeGenerator" />
+    <configuration name="MergeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelSearch.MergeSortTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelRecursion.*" />
+          <option name="PATTERN" value="diettelSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -717,12 +718,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelRecursion.MazeTraversal" />
+    <configuration name="SelectionSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelSearch.SelectionSortTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelRecursion.*" />
+          <option name="PATTERN" value="diettelSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -731,19 +732,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Fibonacci" />
-      <item itemvalue="Application.KochCurve" />
-      <item itemvalue="Application.Maze" />
-      <item itemvalue="Application.MazeGenerator" />
-      <item itemvalue="Application.MazeTraversal" />
+      <item itemvalue="Application.BinarySearchTest" />
+      <item itemvalue="Application.InsertionSortTest" />
+      <item itemvalue="Application.LinearSearchTest" />
+      <item itemvalue="Application.MergeSortTest" />
+      <item itemvalue="Application.SelectionSortTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.KochCurve" />
-        <item itemvalue="Application.Maze" />
-        <item itemvalue="Application.MazeGenerator" />
-        <item itemvalue="Application.MazeTraversal" />
+        <item itemvalue="Application.MergeSortTest" />
+        <item itemvalue="Application.InsertionSortTest" />
+        <item itemvalue="Application.SelectionSortTest" />
+        <item itemvalue="Application.BinarySearchTest" />
+        <item itemvalue="Application.LinearSearchTest" />
       </list>
     </recent_temporary>
   </component>
