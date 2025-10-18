@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelSearch/BinarySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelSearch/InsertionSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelSearch/LinearSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelSearch/MergeSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelSearch/SelectionSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelSearch/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelSearch/BucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelSearch/EnhancedBubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelSearch/RecursiveBubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelSearch/RecursiveInsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +105,7 @@
     "Application.BowlingTeamDemo4.executor": "Run",
     "Application.BubbleSort.executor": "Run",
     "Application.BubbleSortDemo.executor": "Run",
+    "Application.BucketSort.executor": "Run",
     "Application.Businessletter.executor": "Run",
     "Application.Calculator.executor": "Run",
     "Application.CalculatorDemo.executor": "Run",
@@ -238,6 +239,7 @@
     "Application.Emergency.executor": "Run",
     "Application.Emirp.executor": "Run",
     "Application.EmployeeTest.executor": "Run",
+    "Application.EnhancedBubbleSort.executor": "Run",
     "Application.EnterSmallValue.executor": "Run",
     "Application.EnumDemo2.executor": "Run",
     "Application.EstimatePi.executor": "Run",
@@ -483,6 +485,7 @@
     "Application.ReadEmployeeFile2.executor": "Run",
     "Application.ReadFiles.executor": "Run",
     "Application.ReadTextFile.executor": "Run",
+    "Application.RecursiveBubbleSort.executor": "Run",
     "Application.RecursiveTree.executor": "Run",
     "Application.RecursiveTreeDragging.executor": "Run",
     "Application.RegexMatches.executor": "Run",
@@ -665,9 +668,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSortTest">
-    <configuration name="BinarySearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelSearch.BinarySearchTest" />
+  <component name="RunManager" selected="Application.Quicksort">
+    <configuration name="BucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelSearch.BucketSort" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -679,8 +682,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelSearch.InsertionSortTest" />
+    <configuration name="EnhancedBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelSearch.EnhancedBubbleSort" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -692,8 +695,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelSearch.LinearSearchTest" />
+    <configuration name="Quicksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelSearch.Quicksort" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -705,8 +708,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelSearch.MergeSortTest" />
+    <configuration name="RecursiveBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelSearch.RecursiveBubbleSort" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -718,8 +721,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelSearch.SelectionSortTest" />
+    <configuration name="RecursiveInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelSearch.RecursiveInsertionSort" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -732,19 +735,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinarySearchTest" />
-      <item itemvalue="Application.InsertionSortTest" />
-      <item itemvalue="Application.LinearSearchTest" />
-      <item itemvalue="Application.MergeSortTest" />
-      <item itemvalue="Application.SelectionSortTest" />
+      <item itemvalue="Application.BucketSort" />
+      <item itemvalue="Application.EnhancedBubbleSort" />
+      <item itemvalue="Application.Quicksort" />
+      <item itemvalue="Application.RecursiveBubbleSort" />
+      <item itemvalue="Application.RecursiveInsertionSort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSortTest" />
-        <item itemvalue="Application.InsertionSortTest" />
-        <item itemvalue="Application.SelectionSortTest" />
-        <item itemvalue="Application.BinarySearchTest" />
-        <item itemvalue="Application.LinearSearchTest" />
+        <item itemvalue="Application.Quicksort" />
+        <item itemvalue="Application.RecursiveInsertionSort" />
+        <item itemvalue="Application.RecursiveBubbleSort" />
+        <item itemvalue="Application.BucketSort" />
+        <item itemvalue="Application.EnhancedBubbleSort" />
       </list>
     </recent_temporary>
   </component>
