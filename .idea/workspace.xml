@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericMethods/GenericMethodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericMethods/GenericReverseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericMethods/MaximumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericMethods/OverloadGenericWithNonGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericMethods/OverloadedGenericPrintArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericMethods/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericMethods/StackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/DescendingOrderPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Node2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Node2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Node3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Node3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Node4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Node4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/NodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -294,6 +296,7 @@
     "Application.GCDExecutionTime.executor": "Run",
     "Application.GenericAccount.executor": "Run",
     "Application.GenericBubbleSort.executor": "Run",
+    "Application.GenericIsEqualTo.executor": "Run",
     "Application.GenericMethodTest.executor": "Run",
     "Application.GenericQuickSort.executor": "Run",
     "Application.GenericSort.executor": "Run",
@@ -403,6 +406,9 @@
     "Application.NewStringSplitMethod.executor": "Run",
     "Application.NineHeadsAndTails.executor": "Run",
     "Application.NineInts.executor": "Run",
+    "Application.Node2Test.executor": "Run",
+    "Application.Node4Test.executor": "Run",
+    "Application.NodeTest.executor": "Run",
     "Application.NonCrossPolygon.executor": "Run",
     "Application.NumberInput.executor": "Run",
     "Application.NumberSystemsTable.executor": "Run",
@@ -411,6 +417,7 @@
     "Application.OutOfMemoryErrorTest.executor": "Run",
     "Application.OverloadGenericWithNonGeneric.executor": "Run",
     "Application.OverloadedGenericPrintArray.executor": "Run",
+    "Application.PairDemo.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.PalindromeChecker.executor": "Run",
     "Application.PalindromeIgnoreNonAlphanumeric.executor": "Run",
@@ -677,13 +684,13 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PairDemo">
-    <configuration name="GenericIsEqualTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericMethods.GenericIsEqualTo" />
+  <component name="RunManager" selected="Application.DescendingOrderPrinter">
+    <configuration name="DescendingOrderPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.DescendingOrderPrinter" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelGenericMethods.*" />
+          <option name="PATTERN" value="diettelGenericDataStructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -691,12 +698,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericMethods.MaximumTest" />
+    <configuration name="Node2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.Node2Test" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelGenericMethods.*" />
+          <option name="PATTERN" value="diettelGenericDataStructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -704,12 +711,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverloadGenericWithNonGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericMethods.OverloadGenericWithNonGeneric" />
+    <configuration name="Node4Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.Node4Test" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelGenericMethods.*" />
+          <option name="PATTERN" value="diettelGenericDataStructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -717,12 +724,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverloadedGenericPrintArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericMethods.OverloadedGenericPrintArray" />
+    <configuration name="NodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.NodeTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelGenericMethods.*" />
+          <option name="PATTERN" value="diettelGenericDataStructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -744,19 +751,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GenericIsEqualTo" />
-      <item itemvalue="Application.MaximumTest" />
-      <item itemvalue="Application.OverloadGenericWithNonGeneric" />
-      <item itemvalue="Application.OverloadedGenericPrintArray" />
+      <item itemvalue="Application.DescendingOrderPrinter" />
+      <item itemvalue="Application.Node2Test" />
+      <item itemvalue="Application.Node4Test" />
+      <item itemvalue="Application.NodeTest" />
       <item itemvalue="Application.PairDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DescendingOrderPrinter" />
+        <item itemvalue="Application.Node4Test" />
+        <item itemvalue="Application.Node2Test" />
+        <item itemvalue="Application.NodeTest" />
         <item itemvalue="Application.PairDemo" />
-        <item itemvalue="Application.GenericIsEqualTo" />
-        <item itemvalue="Application.OverloadGenericWithNonGeneric" />
-        <item itemvalue="Application.OverloadedGenericPrintArray" />
-        <item itemvalue="Application.MaximumTest" />
       </list>
     </recent_temporary>
   </component>
