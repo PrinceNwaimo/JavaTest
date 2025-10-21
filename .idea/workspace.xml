@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/InfixToPostFixConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/InfixToPostfixConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/PalindromeTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/PostfixEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/PostfixEvaluator2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/PostfixEvaluatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/ArrayDuplicateElimination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/StringBSTProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/SupermarketSimulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/TreeNode3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/TreeNode4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/DoesItHaveLegs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/DoesItHaveLegs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +73,7 @@
     "Application.ArcheryGame.executor": "Run",
     "Application.ArithmeticCAI.executor": "Run",
     "Application.ArrayBackward.executor": "Run",
+    "Application.ArrayDuplicateElimination.executor": "Run",
     "Application.ArrayListAnimation2.executor": "Run",
     "Application.ArrayListDemo2.executor": "Run",
     "Application.ArrayMethodDemo.executor": "Run",
@@ -459,6 +462,7 @@
     "Application.Polling.executor": "Run",
     "Application.PolymorphismTest.executor": "Run",
     "Application.Population.executor": "Run",
+    "Application.PostFixEvaluator2Test.executor": "Run",
     "Application.PostfixEvaluator.executor": "Run",
     "Application.PostfixEvaluatorTest.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
@@ -564,6 +568,7 @@
     "Application.StreamOfLines.executor": "Run",
     "Application.StreamReduce.executor": "Run",
     "Application.StrictlyIdenticalArrays.executor": "Run",
+    "Application.StringBSTProcessor.executor": "Run",
     "Application.StringBeautifier.executor": "Run",
     "Application.StringBuilderAppend.executor": "Run",
     "Application.StringBuilderCapLen.executor": "Run",
@@ -585,6 +590,7 @@
     "Application.SumOfDigits.executor": "Run",
     "Application.SumSeries.executor": "Run",
     "Application.SummingElementsInAColumn.executor": "Run",
+    "Application.SupermarketSimulation.executor": "Run",
     "Application.Tax.executor": "Run",
     "Application.TaxTable.executor": "Run",
     "Application.TelephoneNumberWordGenerator.executor": "Run",
@@ -685,35 +691,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PostFixEvaluator2Test">
-    <configuration name="DescendingOrderPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.DescendingOrderPrinter" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelGenericDataStructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InfixToPostFixConverterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.InfixToPostFixConverterTest" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelGenericDataStructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.PalindromeTester" />
+  <component name="RunManager" selected="Application.ArrayDuplicateElimination">
+    <configuration name="ArrayDuplicateElimination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.ArrayDuplicateElimination" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -751,20 +731,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringBSTProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.StringBSTProcessor" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettelGenericDataStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupermarketSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.SupermarketSimulation" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diettelGenericDataStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.DescendingOrderPrinter" />
-      <item itemvalue="Application.InfixToPostFixConverterTest" />
-      <item itemvalue="Application.PalindromeTester" />
+      <item itemvalue="Application.ArrayDuplicateElimination" />
       <item itemvalue="Application.PostFixEvaluator2Test" />
       <item itemvalue="Application.PostfixEvaluatorTest" />
+      <item itemvalue="Application.StringBSTProcessor" />
+      <item itemvalue="Application.SupermarketSimulation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayDuplicateElimination" />
+        <item itemvalue="Application.StringBSTProcessor" />
+        <item itemvalue="Application.SupermarketSimulation" />
         <item itemvalue="Application.PostFixEvaluator2Test" />
         <item itemvalue="Application.PostfixEvaluatorTest" />
-        <item itemvalue="Application.InfixToPostFixConverterTest" />
-        <item itemvalue="Application.PalindromeTester" />
-        <item itemvalue="Application.DescendingOrderPrinter" />
       </list>
     </recent_temporary>
   </component>

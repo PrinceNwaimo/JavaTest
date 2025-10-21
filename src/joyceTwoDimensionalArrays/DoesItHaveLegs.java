@@ -3,7 +3,7 @@ package joyceTwoDimensionalArrays;
 import java.util.Scanner;
 
 public class DoesItHaveLegs {
-    private static Node root;
+    public static Node root;
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
