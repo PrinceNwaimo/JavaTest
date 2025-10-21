@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelSearch/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelSearch/BucketSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelSearch/EnhancedBubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelSearch/RecursiveBubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelSearch/RecursiveInsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericMethods/GenericMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericMethods/GenericReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericMethods/MaximumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericMethods/OverloadGenericWithNonGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericMethods/OverloadedGenericPrintArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericMethods/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericMethods/StackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -292,6 +294,7 @@
     "Application.GCDExecutionTime.executor": "Run",
     "Application.GenericAccount.executor": "Run",
     "Application.GenericBubbleSort.executor": "Run",
+    "Application.GenericMethodTest.executor": "Run",
     "Application.GenericQuickSort.executor": "Run",
     "Application.GenericSort.executor": "Run",
     "Application.GeometricObjectSorter.executor": "Run",
@@ -363,6 +366,7 @@
     "Application.MarkovMatrix.executor": "Run",
     "Application.MaximumElementInArrayList.executor": "Run",
     "Application.MaximumFinder.executor": "Run",
+    "Application.MaximumTest.executor": "Run",
     "Application.Maze.executor": "Run",
     "Application.MazeGenerator.executor": "Run",
     "Application.MazeTraversal.executor": "Run",
@@ -405,6 +409,8 @@
     "Application.OtherCharMethods.executor": "Run",
     "Application.OtherScopes.executor": "Run",
     "Application.OutOfMemoryErrorTest.executor": "Run",
+    "Application.OverloadGenericWithNonGeneric.executor": "Run",
+    "Application.OverloadedGenericPrintArray.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.PalindromeChecker.executor": "Run",
     "Application.PalindromeIgnoreNonAlphanumeric.executor": "Run",
@@ -465,6 +471,7 @@
     "Application.QuadraticProbingAnimation.executor": "Run",
     "Application.Queue.executor": "Run",
     "Application.QuickSort.executor": "Run",
+    "Application.Quicksort.executor": "Run",
     "Application.Quiz.executor": "Run",
     "Application.Quiz2.executor": "Run",
     "Application.QuizScoreStatistics.executor": "Run",
@@ -486,6 +493,7 @@
     "Application.ReadFiles.executor": "Run",
     "Application.ReadTextFile.executor": "Run",
     "Application.RecursiveBubbleSort.executor": "Run",
+    "Application.RecursiveInsertionSort.executor": "Run",
     "Application.RecursiveTree.executor": "Run",
     "Application.RecursiveTreeDragging.executor": "Run",
     "Application.RegexMatches.executor": "Run",
@@ -536,6 +544,7 @@
     "Application.SportsRecommender.executor": "Run",
     "Application.Sqrt.executor": "Run",
     "Application.SquareNumbers.executor": "Run",
+    "Application.StackTest.executor": "Run",
     "Application.StaffDinnerEventAndCreateFile.executor": "Run",
     "Application.StarFractal.executor": "Run",
     "Application.StaticCharMethods.executor": "Run",
@@ -668,13 +677,13 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Quicksort">
-    <configuration name="BucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelSearch.BucketSort" />
+  <component name="RunManager" selected="Application.PairDemo">
+    <configuration name="GenericIsEqualTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericMethods.GenericIsEqualTo" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelSearch.*" />
+          <option name="PATTERN" value="diettelGenericMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -682,12 +691,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnhancedBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelSearch.EnhancedBubbleSort" />
+    <configuration name="MaximumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericMethods.MaximumTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelSearch.*" />
+          <option name="PATTERN" value="diettelGenericMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -695,12 +704,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quicksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelSearch.Quicksort" />
+    <configuration name="OverloadGenericWithNonGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericMethods.OverloadGenericWithNonGeneric" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelSearch.*" />
+          <option name="PATTERN" value="diettelGenericMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -708,12 +717,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelSearch.RecursiveBubbleSort" />
+    <configuration name="OverloadedGenericPrintArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericMethods.OverloadedGenericPrintArray" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelSearch.*" />
+          <option name="PATTERN" value="diettelGenericMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -721,12 +730,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelSearch.RecursiveInsertionSort" />
+    <configuration name="PairDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericMethods.PairDemo" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelSearch.*" />
+          <option name="PATTERN" value="diettelGenericMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -735,19 +744,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BucketSort" />
-      <item itemvalue="Application.EnhancedBubbleSort" />
-      <item itemvalue="Application.Quicksort" />
-      <item itemvalue="Application.RecursiveBubbleSort" />
-      <item itemvalue="Application.RecursiveInsertionSort" />
+      <item itemvalue="Application.GenericIsEqualTo" />
+      <item itemvalue="Application.MaximumTest" />
+      <item itemvalue="Application.OverloadGenericWithNonGeneric" />
+      <item itemvalue="Application.OverloadedGenericPrintArray" />
+      <item itemvalue="Application.PairDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Quicksort" />
-        <item itemvalue="Application.RecursiveInsertionSort" />
-        <item itemvalue="Application.RecursiveBubbleSort" />
-        <item itemvalue="Application.BucketSort" />
-        <item itemvalue="Application.EnhancedBubbleSort" />
+        <item itemvalue="Application.PairDemo" />
+        <item itemvalue="Application.GenericIsEqualTo" />
+        <item itemvalue="Application.OverloadGenericWithNonGeneric" />
+        <item itemvalue="Application.OverloadedGenericPrintArray" />
+        <item itemvalue="Application.MaximumTest" />
       </list>
     </recent_temporary>
   </component>
