@@ -64,5 +64,106 @@ class BinarySearchTree2 {
             inorderRecursive(root.right);
         }
     }
+    public void deleteNode(int value) {
+        root = deleteNodeRecursive(root, value);
+    }
+
+    private TreeNode4 deleteNodeRecursive(TreeNode4 root, int value) {
+        if (root == null) {
+            System.out.println("Value " + value + " not found in the tree.");
+            return null;
+        }
+
+        if (value < root.data) {
+            root.left = deleteNodeRecursive(root.left, value);
+        } else if (value > root.data) {
+            root.right = deleteNodeRecursive(root.right, value);
+        } else {
+            // Node to delete found
+            // Case 1: No children (leaf node)
+            if (root.left == null && root.right == null) {
+                return null;
+            }
+            // Case 2: One child
+            else if (root.left == null) {
+                return root.right;
+            } else if (root.right == null) {
+                return root.left;
+            }
+            // Case 3: Two children
+            else {
+                TreeNode4 temp = findMin(root.right); // Find inorder successor
+                root.data = temp.data;
+                root.right = deleteNodeRecursive(root.right, temp.data);
+            }
+        }
+        return root;
+    }
+
+    private TreeNode4 findMin(TreeNode4 node) {
+        while (node.left != null) {
+            node = node.left;
+        }
+        return node;
+    }
+
+    public void preorderTraversal() {
+        System.out.println("Preorder Traversal:");
+        preorderRecursive(root);
+        System.out.println();
+    }
+
+    private void preorderRecursive(TreeNode4 root) {
+        if (root != null) {
+            System.out.print(root.data + " ");
+            preorderRecursive(root.left);
+            preorderRecursive(root.right);
+        }
+    }
+
+    public void postorderTraversal() {
+        System.out.println("Postorder Traversal:");
+        postorderRecursive(root);
+        System.out.println();
+    }
+
+    private void postorderRecursive(TreeNode4 root) {
+        if (root != null) {
+            postorderRecursive(root.left);
+            postorderRecursive(root.right);
+            System.out.print(root.data + " ");
+        }
+    }
+    public Integer contains(int searchKey) {
+        return containsRecursive(root, searchKey);
+    }
+
+    private Integer containsRecursive(TreeNode4 node, int searchKey) {
+        if (node == null) {
+            return null; // Base case: not found
+        }
+
+        if (searchKey < node.data) {
+            return containsRecursive(node.left, searchKey);
+        } else if (searchKey > node.data) {
+            return containsRecursive(node.right, searchKey);
+        } else {
+            return node.data; // Found match
+        }
+    }
+    public void outputTree(int totalSpaces) {
+        outputTreeRecursive(root, totalSpaces);
+    }
+
+    private void outputTreeRecursive(TreeNode4 node, int totalSpaces) {
+        if (node != null) {
+            outputTreeRecursive(node.right, totalSpaces + 5); // Traverse right subtree
+            for (int i = 0; i < totalSpaces; i++) {
+                System.out.print(" ");
+            }
+            System.out.println(node.data);          // Visit node (print data)
+            outputTreeRecursive(node.left, totalSpaces + 5);  // Traverse left subtree
+        }
+    }
 }
 

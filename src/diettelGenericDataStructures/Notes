@@ -1,0 +1,251 @@
+Here are Simple programs to accomplish each of the specified tasks:
+
+a) Input three integers, determine their average and print the result.
+
+10 rem calculate average of three integers
+20 input a
+30 input b
+40 input c
+50 let sum = a + b + c
+60 let average = sum / 3
+70 print average
+80 rem terminate program execution
+99 end
+
+
+b) Use a sentinel-controlled loop to input 10 integers and compute and print their sum.
+
+10 rem calculate sum of integers using sentinel-controlled loop (actually inputs until -9999)
+20 let sum = 0
+30 let count = 0
+40 input i
+50 if i == -9999 goto 90
+60 let sum = sum + i
+70 let count = count + 1
+80 goto 40
+90 print sum
+99 end
+
+Note: Modified to use -9999 as sentinel; adjust logic if strictly 10 inputs are needed without sentinel.
+
+c) Use a counter-controlled loop to input 7 integers, some positive and some negative, and compute and print their average.
+
+10 rem calculate average of 7 integers
+20 let sum = 0
+30 let count = 0
+40 input i
+50 let sum = sum + i
+60 let count = count + 1
+70 if count >= 7 goto 90
+80 goto 40
+90 let average = sum / 7
+100 print average
+99 end
+
+
+d) Input a series of integers and determine and print the largest. The first integer input indicates how many numbers should be processed.
+
+10 rem find largest of series of integers
+20 input n
+30 input largest
+40 let count = 1
+50 if count >= n goto 90
+60 input i
+70 if i > largest goto 80
+75 goto 85
+80 let largest = i
+85 let count = count + 1
+90 goto 50
+100 print largest
+99 end
+
+
+e) Input 10 integers and print the smallest.
+
+10 rem find smallest of 10 integers
+20 input i
+30 let smallest = i
+40 let count = 1
+50 if count >= 10 goto 100
+60 input j
+70 if j < smallest goto 80
+75 goto 90
+80 let smallest = j
+90 let count = count + 1
+95 goto 50
+100 print smallest
+99 end
+
+
+f) Calculate and print the sum of the even integers from 2 to 30.
+
+10 rem sum of even integers from 2 to 30
+20 let sum = 0
+30 let i = 2
+40 if i > 30 goto 80
+50 let sum = sum + i
+60 let i = i + 2
+70 goto 40
+80 print sum
+99 end
+
+
+g) Calculate and print the product of the odd integers from 1 to 9.
+
+10 rem product of odd integers from 1 to 9
+20 let product = 1
+30 let i = 1
+40 if i > 9 goto 80
+50 let product = product * i
+60 let i = i + 2
+70 goto 40
+80 print product
+99 end
+
+Building a Simple compiler sounds like an exciting project! Let's break down the process and key components involved.
+
+Overview of the Compilation Process
+The Simple compiler converts Simple language programs into Simple Machine Language (SML) code, which can be executed by the Simpletron simulator. This process involves two passes:
+1. First Pass: Constructs a symbol table and generates preliminary SML instructions. Some instructions might be incomplete due to forward references.
+2. Second Pass: Resolves unresolved references and finalizes the SML code.
+
+Key Components
+- Symbol Table: Stores line numbers, variables, and constants with their types ('L', 'V', 'C') and SML memory locations.
+- TableEntry: Represents each symbol with fields for symbol, type, and location.
+- Flags Array: Tracks unresolved references (initialized to -1).
+- SML Array: Holds the generated machine language instructions.
+
+Compilation Steps
+1. Tokenization: Breaks Simple statements into tokens (line numbers, commands, variables, constants).
+2. Symbol Table Population: Inserts symbols into the table with appropriate types and locations.
+3. SML Instruction Generation: Translates Simple commands into SML instructions.
+    - rem: Ignored, but line number is stored.
+    - input, print, goto, end: Directly map to SML instructions (read, write, branch, halt).
+    - if/goto: Simulated using branch zero/negative instructions.
+    - let: Involves infix-to-postfix conversion and postfix evaluation to generate SML code.
+
+Challenges and Considerations
+- Forward References: Handled in the second pass by resolving references stored in the flags array.
+- Memory Management: Compiler must track instruction and data locations, checking for memory exhaustion.
+- Redundant Instructions: Might appear in generated SML code; optimization could be considered.
+
+Tasks for Building the Compiler
+a) Modify Simpletron Simulator: Read input from a file, output to disk, and refactor for object-oriented design.
+b) Modify Infix-to-Postfix Algorithm: Handle multidigit integers and single-letter variable names.
+c) Modify Postfix Evaluation: Generate SML instructions instead of direct evaluation, supporting variables and constants.
+d) Implement Compiler: Incorporate modified algorithms, perform two passes, and design object-oriented structure.
+
+This project offers a deep dive into compiler construction principles and practical implementation challenges!
+
+Let's explore the modifications to enhance the Simple compiler and Simpletron simulator.
+
+Modifications Overview
+These enhancements expand Simple's capabilities, requiring adjustments to both the compiler and, in some cases, the Simpletron simulator.
+
+a) Remainder Operator (%)
+- Compiler Change: Recognize % in let statements, generate SML code for remainder operation.
+- Simpletron Change: Add SML instruction (e.g., REM opcode) to compute remainder.
+
+b) Exponentiation (^)
+- Compiler Change: Handle ^ in expressions, convert to postfix, generate SML for exponentiation.
+- Simpletron Change: Introduce SML instruction (e.g., EXP opcode) for exponentiation.
+
+c) Case Insensitivity
+- Compiler Change: Convert input Simple code to lowercase (or handle case-insensitively), ensuring symbols are treated uniformly.
+- Simpletron Change: None required.
+
+d) Multiple Input Variables
+- Compiler Change: Parse input x, y; generate SML to read multiple values sequentially.
+- Simpletron Change: None required; simulator's read operation can be invoked multiple times.
+
+e) Multiple Print Values
+- Compiler Change: Handle print a, b, c; emit SML write instructions for each variable.
+- Simpletron Change: None needed; multiple write operations can be executed.
+
+f) Syntax Checking
+- Compiler Change: Implement checks for syntax errors (e.g., undefined variables, malformed statements), output meaningful error messages.
+- Simpletron Change: None required.
+
+g) Integer Arrays
+- Compiler Change: Support array declarations, indexing; manage symbol table entries for arrays.
+- Simpletron Change: None explicitly needed; compiler manages array access SML translation.
+
+h) Subroutines (gosub/return)
+- Compiler Change: Recognize gosub/return, manage call stack/return addresses in SML.
+- Simpletron Change: None required; handled via compiler-generated SML control flow.
+
+i/j) For Loops
+- Compiler Change: Implement for loop parsing, generate SML for loop control (init, test, increment, body).
+- Simpletron Change: None needed; compiler translates loops into SML constructs.
+
+k) String Processing
+- Compiler Change: Handle string literals, operations; adjust symbol table for strings.
+- Simpletron Change: Modify to store/retrieve/print strings (e.g., using half-words for Unicode chars).
+
+l) Floating-Point Support
+- Compiler Change: Extend to parse/handle float literals, operations; adjust SML generation.
+- Simpletron Change: Adapt simulator's ALU, registers, memory to handle floating-point arithmetic.
+
+Considerations
+- SML Instruction Set: Extensions must fit Simpletron's architecture.
+- Symbol Table Management: Adapt for new data types/features (arrays, strings, floats).
+- Error Handling: Robust syntax checking enhances usability.
+- Testing: Comprehensive test cases validate each enhancement.
+
+These modifications significantly broaden Simple's expressiveness and applicability!
+
+
+Let's delve into creating an interpreter for the Simple language, leveraging the infix-to-postfix converter and postfix evaluator developed earlier.
+
+Interpreter Overview
+The Simple interpreter directly executes Simple language statements without prior compilation to machine language (SML), contrasting with the compiler approach.
+
+Key Components
+1. Infix-to-Postfix Converter: Transforms expressions from infix notation to postfix.
+2. Postfix Evaluator: Computes the value of postfix expressions.
+3. Symbol Table: Stores variables' names and current values.
+4. Statement Interpreter: Processes Simple statements (rem, input, let, print, goto, if/goto, end).
+
+Interpreter Workflow
+1. Read Simple Program: Load statements into memory.
+2. Parse Statements: Tokenize and interpret each statement's command and operands.
+3. Execute Statements:
+    - *rem*: Skip (comment).
+    - *input*: Read value, update symbol table.
+    - *let*: Evaluate expression (infix → postfix → evaluate), assign result.
+    - *print*: Output variable/value from symbol table.
+    - *goto*: Alter program counter (PC).
+    - *if/goto*: Evaluate condition, branch if true.
+    - *end*: Terminate execution.
+
+Implementation Considerations
+- Symbol Table Management: Store/retrieve variable values efficiently.
+- Expression Evaluation: Utilize modified infix-to-postfix and postfix evaluator for variables/constants.
+- Control Flow: Implement goto, if/goto logic correctly.
+- Error Handling: Detect/report runtime errors (undefined variables, division by zero).
+
+Utilizing Existing Components
+- Infix-to-Postfix (Exercise 21.12): Adapt for Simple's grammar, variables/constants.
+- Postfix Evaluator (Exercise 21.13): Modify to lookup variables in symbol table, handle Simple's operators.
+
+Testing Strategy
+- Simple Programs (Exercise 21.30): Run interpreter on examples (sum, larger of two integers, squares).
+- Comparison: Contrast interpreter results with compiled SML execution via Simpletron simulator.
+
+Pros and Cons
+- Interpreter Pros: Immediate execution, potentially easier debugging.
+- Interpreter Cons: Generally slower than compiled code, especially for loops.
+
+Example Walkthrough
+For a Simple program like:
+
+10 input x
+20 let y = x * x
+30 print y
+99 end
+
+1. *Input x*: Store in symbol table.
+2. *Evaluate x * x*: Infix → postfix (x x *) → evaluate using symbol table value.
+3. *Print y*: Output computed value.
+
+This interpreter approach offers direct execution of Simple programs, bypassing explicit compilation to SML.

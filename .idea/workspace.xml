@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/ArrayDuplicateElimination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/StringBSTProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/SupermarketSimulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/TreeNode3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/TreeNode4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/BSTContainsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/BSTDeleteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/ListNode3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/ListSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/ListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/ListTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/DoesItHaveLegs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/joyceTwoDimensionalArrays/DoesItHaveLegs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diettelGenericDataStructures/TreeNode4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/TreeNode4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +83,8 @@
     "Application.AssignVolunteer5.executor": "Run",
     "Application.AverageOfQuizzes.executor": "Run",
     "Application.BSTAnimation.executor": "Run",
+    "Application.BSTContainsTest.executor": "Run",
+    "Application.BSTDeleteTest.executor": "Run",
     "Application.BabyNameComparison.executor": "Run",
     "Application.BabyNameRankings.executor": "Run",
     "Application.BankBalance.executor": "Run",
@@ -362,7 +364,9 @@
     "Application.LinkedListAnimation.executor": "Run",
     "Application.LinkedListApp.executor": "Run",
     "Application.LinkedListTraversalTest.executor": "Run",
+    "Application.ListSearchTest.executor": "Run",
     "Application.ListTest.executor": "Run",
+    "Application.ListTest2.executor": "Run",
     "Application.Location.executor": "Run",
     "Application.LockerPuzzle.executor": "Run",
     "Application.Main.executor": "Run",
@@ -691,9 +695,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayDuplicateElimination">
-    <configuration name="ArrayDuplicateElimination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.ArrayDuplicateElimination" />
+  <component name="RunManager" selected="Application.ListTest">
+    <configuration name="BSTContainsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.BSTContainsTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -705,8 +709,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostFixEvaluator2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.PostFixEvaluator2Test" />
+    <configuration name="BSTDeleteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.BSTDeleteTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -718,8 +722,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostfixEvaluatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.PostfixEvaluatorTest" />
+    <configuration name="ListSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.ListSearchTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -731,8 +735,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBSTProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.StringBSTProcessor" />
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.ListTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -744,8 +748,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupermarketSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.SupermarketSimulation" />
+    <configuration name="ListTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.ListTest2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -758,19 +762,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayDuplicateElimination" />
-      <item itemvalue="Application.PostFixEvaluator2Test" />
-      <item itemvalue="Application.PostfixEvaluatorTest" />
-      <item itemvalue="Application.StringBSTProcessor" />
-      <item itemvalue="Application.SupermarketSimulation" />
+      <item itemvalue="Application.BSTContainsTest" />
+      <item itemvalue="Application.BSTDeleteTest" />
+      <item itemvalue="Application.ListSearchTest" />
+      <item itemvalue="Application.ListTest" />
+      <item itemvalue="Application.ListTest2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayDuplicateElimination" />
-        <item itemvalue="Application.StringBSTProcessor" />
-        <item itemvalue="Application.SupermarketSimulation" />
-        <item itemvalue="Application.PostFixEvaluator2Test" />
-        <item itemvalue="Application.PostfixEvaluatorTest" />
+        <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.ListTest2" />
+        <item itemvalue="Application.BSTContainsTest" />
+        <item itemvalue="Application.BSTDeleteTest" />
+        <item itemvalue="Application.ListSearchTest" />
       </list>
     </recent_temporary>
   </component>
