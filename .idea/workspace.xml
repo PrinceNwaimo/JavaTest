@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/DescendingOrderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Node2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Node2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Node3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Node3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Node4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/Node4Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/NodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/InfixToPostFixConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/InfixToPostfixConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/PalindromeTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/PostfixEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/PostfixEvaluator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/PostfixEvaluatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,6 +204,7 @@
     "Application.DemoSugarSmash.executor": "Run",
     "Application.DemoTees.executor": "Run",
     "Application.DemoVehicles.executor": "Run",
+    "Application.DescendingOrderPrinter.executor": "Run",
     "Application.DetectEndOfFile.executor": "Run",
     "Application.DiagonalOs.executor": "Run",
     "Application.DiceRolling.executor": "Run",
@@ -330,6 +328,7 @@
     "Application.Inbetween.executor": "Run",
     "Application.IncreasedProduction.executor": "Run",
     "Application.InfiniteStreamOfPrimeNumbers.executor": "Run",
+    "Application.InfixToPostFixConverterTest.executor": "Run",
     "Application.InfixToPostfix.executor": "Run",
     "Application.InitArray.executor": "Run",
     "Application.InputGrades.executor": "Run",
@@ -422,6 +421,7 @@
     "Application.PalindromeChecker.executor": "Run",
     "Application.PalindromeIgnoreNonAlphanumeric.executor": "Run",
     "Application.PalindromeInteger.executor": "Run",
+    "Application.PalindromeTester.executor": "Run",
     "Application.PalindromicPrime.executor": "Run",
     "Application.PartitionList.executor": "Run",
     "Application.PassArray.executor": "Run",
@@ -460,6 +460,7 @@
     "Application.PolymorphismTest.executor": "Run",
     "Application.Population.executor": "Run",
     "Application.PostfixEvaluator.executor": "Run",
+    "Application.PostfixEvaluatorTest.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
     "Application.PrimeIterator.executor": "Run",
     "Application.PrimeNumberExecutionTime.executor": "Run",
@@ -684,7 +685,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DescendingOrderPrinter">
+  <component name="RunManager" selected="Application.PostFixEvaluator2Test">
     <configuration name="DescendingOrderPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.DescendingOrderPrinter" />
       <module name="testSamples" />
@@ -698,8 +699,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Node2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.Node2Test" />
+    <configuration name="InfixToPostFixConverterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.InfixToPostFixConverterTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -711,8 +712,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Node4Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.Node4Test" />
+    <configuration name="PalindromeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.PalindromeTester" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -724,8 +725,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.NodeTest" />
+    <configuration name="PostFixEvaluator2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.PostFixEvaluator2Test" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -737,12 +738,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericMethods.PairDemo" />
+    <configuration name="PostfixEvaluatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.PostfixEvaluatorTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelGenericMethods.*" />
+          <option name="PATTERN" value="diettelGenericDataStructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -752,18 +753,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.DescendingOrderPrinter" />
-      <item itemvalue="Application.Node2Test" />
-      <item itemvalue="Application.Node4Test" />
-      <item itemvalue="Application.NodeTest" />
-      <item itemvalue="Application.PairDemo" />
+      <item itemvalue="Application.InfixToPostFixConverterTest" />
+      <item itemvalue="Application.PalindromeTester" />
+      <item itemvalue="Application.PostFixEvaluator2Test" />
+      <item itemvalue="Application.PostfixEvaluatorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PostFixEvaluator2Test" />
+        <item itemvalue="Application.PostfixEvaluatorTest" />
+        <item itemvalue="Application.InfixToPostFixConverterTest" />
+        <item itemvalue="Application.PalindromeTester" />
         <item itemvalue="Application.DescendingOrderPrinter" />
-        <item itemvalue="Application.Node4Test" />
-        <item itemvalue="Application.Node2Test" />
-        <item itemvalue="Application.NodeTest" />
-        <item itemvalue="Application.PairDemo" />
       </list>
     </recent_temporary>
   </component>
