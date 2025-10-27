@@ -2,7 +2,7 @@ package liangGraphs;
 
 import java.util.*;
 
-public class UnweightedGraph <V> extends  AbstractGraph<V> {
+public abstract class UnweightedGraph <V> extends  AbstractGraph<V> {
     /** Construct an empty graph */
   public UnweightedGraph() {
             }
