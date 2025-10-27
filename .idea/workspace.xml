@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/BSTContainsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/BSTDeleteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/ListNode3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/ListSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/ListTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/AbstractGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/DisplayNigerianMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/Displayable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/GraphView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/NineTail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/NineTailModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/TestGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/UnweightedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/TestWeightedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedEdge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/diettelGenericDataStructures/TreeNode4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diettelGenericDataStructures/TreeNode4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,11 +224,13 @@
     "Application.DirectorySize2.executor": "Run",
     "Application.DisplayCircles.executor": "Run",
     "Application.DisplayDinnerEventFile.executor": "Run",
+    "Application.DisplayNigerianMap.executor": "Run",
     "Application.DisplayRentalFile.executor": "Run",
     "Application.DisplayRents.executor": "Run",
     "Application.DisplaySelectedCustomer.executor": "Run",
     "Application.DisplaySelectedCustomerByBalance.executor": "Run",
     "Application.DisplaySelectedCustomersByNames.executor": "Run",
+    "Application.DisplayUSMap.executor": "Run",
     "Application.DisplayWordsInOrder.executor": "Run",
     "Application.DistanceBetweenPoints.executor": "Run",
     "Application.DistanceFromAverage.executor": "Run",
@@ -412,6 +419,7 @@
     "Application.NewStringSplitMethod.executor": "Run",
     "Application.NineHeadsAndTails.executor": "Run",
     "Application.NineInts.executor": "Run",
+    "Application.NineTail.executor": "Run",
     "Application.Node2Test.executor": "Run",
     "Application.Node4Test.executor": "Run",
     "Application.NodeTest.executor": "Run",
@@ -612,6 +620,7 @@
     "Application.TestCustomer.executor": "Run",
     "Application.TestFileStream.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
+    "Application.TestGraph.executor": "Run",
     "Application.TestHashSet.executor": "Run",
     "Application.TestInorderWithoutRecursion.executor": "Run",
     "Application.TestIterator.executor": "Run",
@@ -637,6 +646,7 @@
     "Application.TestTreeSet.executor": "Run",
     "Application.TestTriangle.executor": "Run",
     "Application.TestTriangle2D.executor": "Run",
+    "Application.TestWeightedGraph.executor": "Run",
     "Application.ThreeLetterStrings.executor": "Run",
     "Application.ThrowUsedCarException.executor": "Run",
     "Application.TicTacToe.executor": "Run",
@@ -695,41 +705,21 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListTest">
-    <configuration name="BSTContainsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.BSTContainsTest" />
+  <component name="RunManager" selected="Application.TestWeightedGraph">
+    <configuration name="DisplayNigerianMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangGraphs.DisplayNigerianMap" />
       <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelGenericDataStructures.*" />
+          <option name="PATTERN" value="liangGraphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BSTDeleteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.BSTDeleteTest" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelGenericDataStructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.ListSearchTest" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diettelGenericDataStructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -748,12 +738,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.ListTest2" />
+    <configuration name="NineTail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangGraphs.NineTail" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelGenericDataStructures.*" />
+          <option name="PATTERN" value="liangGraphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangGraphs.TestGraph" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangGraphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWeightedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangWeighedGraphs.TestWeightedGraph" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangWeighedGraphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -762,19 +778,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BSTContainsTest" />
-      <item itemvalue="Application.BSTDeleteTest" />
-      <item itemvalue="Application.ListSearchTest" />
+      <item itemvalue="Application.NineTail" />
+      <item itemvalue="Application.TestWeightedGraph" />
+      <item itemvalue="Application.DisplayNigerianMap" />
+      <item itemvalue="Application.TestGraph" />
       <item itemvalue="Application.ListTest" />
-      <item itemvalue="Application.ListTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestWeightedGraph" />
+        <item itemvalue="Application.NineTail" />
+        <item itemvalue="Application.DisplayNigerianMap" />
+        <item itemvalue="Application.TestGraph" />
         <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.ListTest2" />
-        <item itemvalue="Application.BSTContainsTest" />
-        <item itemvalue="Application.BSTDeleteTest" />
-        <item itemvalue="Application.ListSearchTest" />
       </list>
     </recent_temporary>
   </component>
