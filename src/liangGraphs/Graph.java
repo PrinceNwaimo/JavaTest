@@ -1,5 +1,7 @@
 package liangGraphs;
 
+import java.util.List;
+
 public interface Graph <V>{
     public int getSize();
           /** Return the vertices in the graph */
@@ -31,4 +33,6 @@ public interface Graph <V>{
          public AbstractGraph<V>.Tree dfs(int v);
          /** Obtain a breadth-first search tree starting from v */
          public AbstractGraph<V>.Tree bfs(int v);
+
+    public List<Integer> getHamiltonianCycle();
 }

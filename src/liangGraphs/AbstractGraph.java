@@ -1,7 +1,6 @@
 package liangGraphs;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public abstract class AbstractGraph <V> implements Graph<V>{
     protected List<V> vertices = new ArrayList<>(); // Store vertices
@@ -171,7 +170,7 @@ public List<V> getVertices() {
               dfs(v, parent, searchOrder, isVisited);
 
          // Return a search tree
-         return new Tree(v, parent, searchOrder);
+         return new Tree(v, searchOrder);
             }
 
           /** Recursive method for DFS search */
@@ -212,7 +211,7 @@ public List<V> getVertices() {
                         }
                   }
 
-         return new Tree(v, parent, searchOrder);
+         return new Tree(v, searchOrder);
             }
 
           /** Tree inner class inside the AbstractGraph class */
@@ -223,7 +222,7 @@ public List<V> getVertices() {
   private List<Integer> searchOrder; // Store the search order
 
           /** Construct a tree with root, parent, and searchOrder */
-          public Tree(int root, int[] parent, List<Integer> searchOrder) {
+          public Tree(int root, List<Integer> searchOrder) {
              this.root = root;
              this.parent = parent;
              this.searchOrder = searchOrder;
@@ -279,4 +278,195 @@ public List<V> getVertices() {
                     System.out.println();
                  }
      }
-   }
+    public List<Integer> getPath(int u, int v) {
+        boolean[] visited = new boolean[getSize()];
+        int[] parent = new int[getSize()];
+        Arrays.fill(parent, -1);
+
+        Queue<Integer> queue = new LinkedList<>();
+        visited[u] = true;
+        queue.offer(u);
+
+        // BFS traversal
+        while (!queue.isEmpty()) {
+            int current = queue.poll();
+            if (current == v) break; // Found destination
+
+            for (Edge edge : neighbors.get(current)) {
+                int neighbor = edge.v;
+                if (!visited[neighbor]) {
+                    visited[neighbor] = true;
+                    parent[neighbor] = current;
+                    queue.offer(neighbor);
+                }
+            }
+        }
+
+        // Reconstruct path from u → v using parent[]
+        List<Integer> path = new ArrayList<>();
+        for (int at = v; at != -1; at = parent[at]) {
+            path.add(at);
+        }
+        Collections.reverse(path);
+
+        // If v was unreachable, path will not start with u
+        if (path.get(0) != u) {
+            return new ArrayList<>(); // return empty list if no path exists
+        }
+
+        return path;
+    }
+
+    public boolean isCyclic() {
+        boolean[] visited = new boolean[getSize()];
+
+        // Check all components
+        for (int i = 0; i < getSize(); i++) {
+            if (!visited[i]) {
+                if (isCyclicDFS(i, visited, -1)) {
+                    return true; // Found a cycle
+                }
+            }
+        }
+        return false; // No cycles found
+    }
+
+    // Helper method for DFS-based cycle detection
+    private boolean isCyclicDFS(int current, boolean[] visited, int parent) {
+        visited[current] = true;
+
+        for (Edge edge : neighbors.get(current)) {
+            int neighbor = edge.v;
+
+            if (!visited[neighbor]) {
+                if (isCyclicDFS(neighbor, visited, current))
+                    return true;
+            } else if (neighbor != parent) {
+                // Found a visited vertex that isn’t the parent → cycle
+                return true;
+            }
+        }
+
+        return false;
+    }
+    public List<Integer> getACycle(int start) {
+        boolean[] visited = new boolean[getSize()];
+        int[] parent = new int[getSize()];
+        Arrays.fill(parent, -1);
+
+        List<Integer> cycle = new ArrayList<>();
+
+        if (dfsFindCycle(start, visited, parent, cycle, -1))
+            return cycle;  // found a cycle
+        else
+            return null;   // no cycle found
+    }
+
+    // --- Helper recursive DFS for cycle detection & reconstruction ---
+    private boolean dfsFindCycle(int current, boolean[] visited, int[] parent,
+                                 List<Integer> cycle, int par) {
+        visited[current] = true;
+
+        for (Edge edge : neighbors.get(current)) {
+            int neighbor = edge.v;
+
+            if (!visited[neighbor]) {
+                parent[neighbor] = current;
+                if (dfsFindCycle(neighbor, visited, parent, cycle, current))
+                    return true;
+            } else if (neighbor != par) {
+                // ✅ Found a back-edge → reconstruct cycle
+                buildCyclePath(current, neighbor, parent, cycle);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // --- Helper to reconstruct the cycle from parent[] info ---
+    private void buildCyclePath(int current, int neighbor, int[] parent, List<Integer> cycle) {
+        cycle.add(neighbor);
+        int temp = current;
+
+        while (temp != neighbor && temp != -1) {
+            cycle.add(temp);
+            temp = parent[temp];
+        }
+
+        // Reverse so cycle starts with first found vertex
+        Collections.reverse(cycle);
+    }
+    public boolean isBipartite() {
+        int[] color = new int[vertices.size()];
+        Arrays.fill(color, -1); // -1 means uncolored
+
+        for (int start = 0; start < vertices.size(); start++) {
+            if (color[start] == -1) {
+                // Start BFS for this component
+                Queue<Integer> queue = new LinkedList<>();
+                queue.offer(start);
+                color[start] = 0;
+
+                while (!queue.isEmpty()) {
+                    int v = queue.poll();
+                    for (Edge e : neighbors.get(v)) {
+                        int u = e.v; // adjacent vertex
+                        if (color[u] == -1) {
+                            color[u] = 1 - color[v];
+                            queue.offer(u);
+                        } else if (color[u] == color[v]) {
+                            return false; // adjacent vertices with same color
+                        }
+                    }
+                }
+            }
+        }
+        return true; // No conflict found
+    }
+    public List<List<Integer>> getBipartite() {
+        int n = vertices.size();
+        int[] color = new int[n];
+        Arrays.fill(color, -1);
+
+        List<Integer> setA = new ArrayList<>();
+        List<Integer> setB = new ArrayList<>();
+
+        for (int start = 0; start < n; start++) {
+            if (color[start] == -1) {
+                Queue<Integer> queue = new LinkedList<>();
+                queue.offer(start);
+                color[start] = 0;
+
+                while (!queue.isEmpty()) {
+                    int v = queue.poll();
+                    for (Edge e : neighbors.get(v)) {
+                        int u = e.v;
+                        if (color[u] == -1) {
+                            color[u] = 1 - color[v];
+                            queue.offer(u);
+                        } else if (color[u] == color[v]) {
+                            // Not bipartite
+                            return null;
+                        }
+                    }
+                }
+            }
+        }
+
+        // Divide into sets after coloring
+        for (int i = 0; i < n; i++) {
+            if (color[i] == 0) {
+                setA.add(i);
+            } else if (color[i] == 1) {
+                setB.add(i);
+            }
+        }
+
+        List<List<Integer>> result = new ArrayList<>();
+        result.add(setA);
+        result.add(setB);
+        return result;
+    }
+
+
+}

@@ -119,7 +119,7 @@ public MST getMinimumSpanningTree(int startingVertex) {
 public class MST extends Tree {
         private double totalWeight; // Total weight of all edges in the tree
  public MST(int root, int[] parent, List<Integer> searchOrder, double totalWeight) {
-             super(root, parent, searchOrder);
+             super(root, searchOrder);
              this.totalWeight = totalWeight;
                   }
  public double getTotalWeight() {
@@ -168,7 +168,7 @@ public class ShortestPathTree extends Tree {
         /** Construct a path */
  public ShortestPathTree(int source, int[] parent,
           List<Integer> searchOrder, double[] cost) {
-             super(source, parent, searchOrder);
+             super(source, searchOrder);
              this.cost = cost;
                   }
  /** Return the cost for a path from the root to vertex v */

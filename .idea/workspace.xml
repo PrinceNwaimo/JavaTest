@@ -5,20 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/AbstractGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/DisplayNigerianMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/Displayable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/GraphView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/NineTail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/NineTailModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/TestGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/UnweightedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/TestWeightedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedEdge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/Graph2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/GraphConnectedChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/GraphFileCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/GraphShortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/MyGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/NineTailGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/TestFindCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/TestGraphCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/TestGraphPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/TestMyGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/UnweightedGraphWithNonrecursiveDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liangGraphs/AbstractGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangGraphs/AbstractGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liangGraphs/UnweightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangGraphs/UnweightedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,6 +319,7 @@
     "Application.GradeBookTest.executor": "Run",
     "Application.GradeExam.executor": "Run",
     "Application.GradeExam2.executor": "Run",
+    "Application.GraphShortestPath.executor": "Run",
     "Application.GreatestCommonDivisor.executor": "Run",
     "Application.GreatestCommonDivisorMethod.executor": "Run",
     "Application.GroupingSymbolMatcher.executor": "Run",
@@ -420,6 +424,7 @@
     "Application.NineHeadsAndTails.executor": "Run",
     "Application.NineInts.executor": "Run",
     "Application.NineTail.executor": "Run",
+    "Application.NineTailGUI.executor": "Run",
     "Application.Node2Test.executor": "Run",
     "Application.Node4Test.executor": "Run",
     "Application.NodeTest.executor": "Run",
@@ -619,8 +624,11 @@
     "Application.TestCourse.executor": "Run",
     "Application.TestCustomer.executor": "Run",
     "Application.TestFileStream.executor": "Run",
+    "Application.TestFindCycle.executor": "Run",
     "Application.TestFusedLoopTime.executor": "Run",
     "Application.TestGraph.executor": "Run",
+    "Application.TestGraphCycle.executor": "Run",
+    "Application.TestGraphPath.executor": "Run",
     "Application.TestHashSet.executor": "Run",
     "Application.TestInorderWithoutRecursion.executor": "Run",
     "Application.TestIterator.executor": "Run",
@@ -631,10 +639,12 @@
     "Application.TestMethodsInCollection.executor": "Run",
     "Application.TestMyArrayList.executor": "Run",
     "Application.TestMyArrayList2.executor": "Run",
+    "Application.TestMyGraph.executor": "Run",
     "Application.TestMyHashMap.executor": "Run",
     "Application.TestMyHashSet.executor": "Run",
     "Application.TestMyLinkedList.executor": "Run",
     "Application.TestMyList.executor": "Run",
+    "Application.TestNonrecursiveDFS.executor": "Run",
     "Application.TestObjectOutPutStream.executor": "Run",
     "Application.TestObjectStreamForArray.executor": "Run",
     "Application.TestPostorderWithoutRecursion.executor": "Run",
@@ -686,6 +696,7 @@
     "Application.WriteDataWithAutoClose.executor": "Run",
     "Application.liangInheritance.account.Test.executor": "Run",
     "Application.main.executor": "Run",
+    "Application.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -705,14 +716,27 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestWeightedGraph">
-    <configuration name="DisplayNigerianMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangGraphs.DisplayNigerianMap" />
+  <component name="RunManager" selected="Application.NineTailGUI">
+    <configuration name="GraphShortestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangGraphs.GraphShortestPath" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangGraphs.AbstractGraph" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NineTailGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangGraphs.NineTailGUI" />
       <module name="testSamples" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangGraphs.*" />
+          <option name="PATTERN" value="liangGraphs.AbstractGraph" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -725,12 +749,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="diettelGenericDataStructures.ListTest" />
+    <configuration name="TestFindCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangGraphs.TestFindCycle" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diettelGenericDataStructures.*" />
+          <option name="PATTERN" value="liangGraphs.AbstractGraph" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -738,12 +762,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NineTail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangGraphs.NineTail" />
+    <configuration name="TestGraphCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangGraphs.TestGraphCycle" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangGraphs.*" />
+          <option name="PATTERN" value="liangGraphs.AbstractGraph" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -751,25 +775,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangGraphs.TestGraph" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangGraphs.test" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangGraphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestWeightedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangWeighedGraphs.TestWeightedGraph" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangWeighedGraphs.*" />
+          <option name="PATTERN" value="liangGraphs.AbstractGraph" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -778,19 +789,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NineTail" />
-      <item itemvalue="Application.TestWeightedGraph" />
-      <item itemvalue="Application.DisplayNigerianMap" />
-      <item itemvalue="Application.TestGraph" />
-      <item itemvalue="Application.ListTest" />
+      <item itemvalue="Application.GraphShortestPath" />
+      <item itemvalue="Application.NineTailGUI" />
+      <item itemvalue="Application.TestFindCycle" />
+      <item itemvalue="Application.TestGraphCycle" />
+      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestWeightedGraph" />
-        <item itemvalue="Application.NineTail" />
-        <item itemvalue="Application.DisplayNigerianMap" />
-        <item itemvalue="Application.TestGraph" />
-        <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.NineTailGUI" />
+        <item itemvalue="Application.GraphShortestPath" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.TestFindCycle" />
+        <item itemvalue="Application.TestGraphCycle" />
       </list>
     </recent_temporary>
   </component>
