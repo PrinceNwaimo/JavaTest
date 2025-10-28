@@ -1,0 +1,21 @@
+Concept Recap — Kruskal’s Algorithm
+
+Goal: Find a Minimum Spanning Tree (MST) in a weighted, undirected graph.
+
+Idea:
+
+Sort all edges in non-decreasing order of weight.
+
+Initialize an empty tree T.
+
+Add edges one by one:
+
+For each edge (u, v):
+
+If adding (u, v) does not form a cycle (i.e., u and v are in different sets),
+add it to the MST.
+
+Stop when MST contains (V - 1) edges.
+
+Key data structure:
+👉 Union–Find (Disjoint Set Union) — used to efficiently check and merge connected components.
