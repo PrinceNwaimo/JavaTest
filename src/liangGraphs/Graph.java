@@ -34,5 +34,5 @@ public interface Graph <V>{
          /** Obtain a breadth-first search tree starting from v */
          public AbstractGraph<V>.Tree bfs(int v);
 
-    public List<Integer> getHamiltonianCycle();
+//    public List<Integer> getHamiltonianCycle();
 }

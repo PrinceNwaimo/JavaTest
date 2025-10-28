@@ -164,7 +164,7 @@ abstract class AbstractGraph2<V> {
 /* ==============================================================
    UnweightedGraph Class
    ============================================================== */
-class UnweightedGraph2<V> extends AbstractGraph<V> {
+abstract class UnweightedGraph2<V> extends AbstractGraph<V> {
     public UnweightedGraph2(List<Edge> edges, int numVertices) {
         super(edges, numVertices);
     }

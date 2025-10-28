@@ -4,7 +4,7 @@ import java.util.List;
 
 public class TestHamilton {
     public static void main(String[] args) {
-        UnweightedGraph<String> graph = new UnweightedGraph<>(
+        UnweightedGraph3<String> graph = new UnweightedGraph3<>(
                 new String[]{"A", "B", "C", "D"},
                 new int[][] {
                         {0, 1}, {1, 2}, {2, 3}, {3, 0}

@@ -1,5 +1,7 @@
 package liangWeighedGraphs;
 
+import java.util.List;
+
 public class TestWeightedGraph {
     public static void main(String[] args) {
               String[] vertices = {"Seattle", "San Francisco","Los Angeles",
@@ -23,7 +25,8 @@ public class TestWeightedGraph {
                         {10, 2, 1435}, {10,4,496}, {10,8,781}, {10,11,239},
                         {11, 8, 810}, {11,9,1187}, {11,10,239}
         };
-         WeightedGraph<String> graph1 = new WeightedGraph<>(vertices, edges);
+         WeightedGraph<String> graph1 = new WeightedGraph<>(vertices, edges) {
+         };
               System.out.println("The number of vertices in graph1: "   + graph1.getSize());
              System.out.println("The vertex with index 1 is "    + graph1.getVertex(1));
              System.out.println("The index for Miami is " + graph1.getIndex("Miami"));
