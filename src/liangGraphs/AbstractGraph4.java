@@ -41,6 +41,10 @@ public  class AbstractGraph4<V> implements Grapher<V> {
         createAdjacencyLists(edges, numberOfVertices);
     }
 
+    public AbstractGraph4(List<Displayable2> vertices, int[][] edges) {
+        super();
+    }
+
     /** Create adjacency lists for each vertex */
     private void createAdjacencyLists(
             int[][] edges, int numberOfVertices) {

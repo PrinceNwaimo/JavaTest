@@ -21,6 +21,10 @@ public class UnweightedGraph3<V> extends  AbstractGraph4<V>{
         super(edges, numberOfVertices);
     }
 
+    public UnweightedGraph3(List<Displayable2> vertices, int[][] edges) {
+        super(vertices,edges);
+    }
+
     public List<Integer> getShortestPath(int start, int end) {
         boolean[] visited = new boolean[vertices.size()];
         int[] parent = new int[vertices.size()];
