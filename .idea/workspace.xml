@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/City2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/DisplayGraphDFSBFSTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/Displayable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/Graph3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/GraphView2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangGraphs/GraphView3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangGraphs/AbstractGraph4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangGraphs/AbstractGraph4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangGraphs/D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangGraphs/Displayable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangGraphs/Displayable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangGraphs/UnweightedGraph3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangGraphs/UnweightedGraph3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangGraphs/ConnectedCirclesColor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -712,13 +702,26 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KnightTourCycle">
-    <configuration name="GraphShortestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangGraphs.GraphShortestPath" />
+  <component name="RunManager" selected="Application.ConnectedCirclesColor">
+    <configuration name="ConnectedCirclesColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangGraphs.ConnectedCirclesColor" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangGraphs.AbstractGraph" />
+          <option name="PATTERN" value="liangGraphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisplayNigerianMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangGraphs.DisplayNigerianMap" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangGraphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -771,33 +774,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangGraphs.test" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangGraphs.AbstractGraph" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.ConnectedCirclesColor" />
+      <item itemvalue="Application.DisplayNigerianMap" />
       <item itemvalue="Application.KnightTourApp" />
       <item itemvalue="Application.KnightTourCycle" />
-      <item itemvalue="Application.GraphShortestPath" />
       <item itemvalue="Application.NineTailGUI" />
-      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectedCirclesColor" />
+        <item itemvalue="Application.DisplayNigerianMap" />
         <item itemvalue="Application.KnightTourCycle" />
         <item itemvalue="Application.KnightTourApp" />
         <item itemvalue="Application.NineTailGUI" />
-        <item itemvalue="Application.GraphShortestPath" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
