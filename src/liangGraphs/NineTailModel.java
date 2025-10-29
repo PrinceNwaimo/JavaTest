@@ -82,4 +82,9 @@ public class NineTailModel {
             System.out.println(node[i]);
             System.out.println();
             }
+
+
+    public AbstractGraph4<Object>.Tree getTree(int i) {
+        return null;
+    }
 }

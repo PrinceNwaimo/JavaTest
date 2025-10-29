@@ -232,9 +232,11 @@ public List<V> getVertices() {
           public int getRoot() {
              return root;
                   }
-          /** Return the parent of vertex v */
-          public int getParent(int v) {
-             return parent[v];
+          /**
+           * Return the parent of vertex v
+           */
+          public int[] getParent(int v) {
+             return new int[]{parent[v]};
                   }
 
           /** Return an array representing search order */

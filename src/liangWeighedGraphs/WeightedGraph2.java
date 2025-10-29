@@ -1,6 +1,5 @@
 package liangWeighedGraphs;
 
-import liangGraphs.AbstractGraph;
 import liangGraphs.AbstractGraph4;
 
 import java.util.*;
@@ -11,12 +10,16 @@ import java.util.*;
  * - Supports undirected weighted graphs
  * - Implements addEdge, constructors, printing, getWeight, MST (Prim), shortest paths (Dijkstra-like)
  */
-public class WeightedGraph2<V> extends AbstractGraph<V> {
+public class WeightedGraph2<V> extends AbstractGraph4<V> {
+
+    public WeightedGraph2(List<liangWeighedGraphs.WeightedEdge2> edges, V numberOfNodes) {
+        super();
+    }
 
     /**
      * Inner weighted edge class that extends AbstractGraph.Edge
      */
-    public static class WeightedEdge2 extends AbstractGraph.Edge implements Comparable<WeightedEdge2> {
+    public static class WeightedEdge2 extends AbstractGraph4.Edge implements Comparable<WeightedEdge2> {
         public double weight;
 
         public WeightedEdge2(int u, int v, double weight) {
@@ -247,7 +250,7 @@ public class WeightedGraph2<V> extends AbstractGraph<V> {
         private final double totalWeight;
 
         public MST(int root, int[] parent, List<Integer> searchOrder, double totalWeight) {
-            super(root, searchOrder);
+            super(root, searchOrder,parent);
             this.totalWeight = totalWeight;
         }
 
@@ -302,13 +305,17 @@ public class WeightedGraph2<V> extends AbstractGraph<V> {
 
         /** Construct a path */
         public ShortestPathTree(int source, int[] parent, List<Integer> searchOrder, double[] cost) {
-            super(source, searchOrder);
+            super(source, searchOrder,parent);
             this.cost = cost;
+            this.parent = parent;
         }
 
         /** Return the cost for a path from the root to vertex v */
         public double getCost(int v) {
             return cost[v];
+        }
+        public int[] getParent(){
+            return parent;
         }
 
         /** Print paths from all vertices to the source */
@@ -319,5 +326,71 @@ public class WeightedGraph2<V> extends AbstractGraph<V> {
                 System.out.println("(cost: " + cost[i] + ")");
             }
         }
+
     }
+    public List<Integer> getShortestHamiltonianCycle() {
+        int n = getSize();  // number of vertices
+        boolean[] visited = new boolean[n];
+        List<Integer> bestCycle = null;
+        double[] bestCost = {Double.POSITIVE_INFINITY};
+
+        List<Integer> currentPath = new ArrayList<>();
+        currentPath.add(0); // start from vertex 0 (you can change it)
+
+        visited[0] = true;
+        tspBacktrack(0, 0, 1, 0, visited, currentPath, bestCost);
+
+        if (bestCost[0] == Double.POSITIVE_INFINITY) {
+            return null; // no Hamiltonian cycle
+        }
+
+        // Return to start
+        currentPath.add(0);
+        return currentPath;
+    }
+
+    private void tspBacktrack(int start, int current, int count, double cost,
+                              boolean[] visited, List<Integer> currentPath, double[] bestCost) {
+        int n = getSize();
+
+        if (count == n) {
+            // Check if we can return to start
+            Double backEdge = null;
+            try {
+                backEdge = getWeight(current, start);
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+            if (backEdge != null) {
+                double totalCost = cost + backEdge;
+                if (totalCost < bestCost[0]) {
+                    bestCost[0] = totalCost;
+                    bestPath = new ArrayList<>(currentPath);
+                    bestPath.add(start);
+                }
+            }
+            return;
+        }
+
+        for (int i = 0; i < n; i++) {
+            Double w = null;
+            try {
+                w = getWeight(current, i);
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+            if (w != null && !visited[i]) {
+                visited[i] = true;
+                currentPath.add(i);
+
+                tspBacktrack(start, i, count + 1, cost + w, visited, currentPath, bestCost);
+
+                visited[i] = false;
+                currentPath.remove(currentPath.size() - 1);
+            }
+        }
+    }
+
+    private List<Integer> bestPath = null; // store best path globally
+
 }

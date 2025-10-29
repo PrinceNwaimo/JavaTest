@@ -174,7 +174,7 @@ public  class AbstractGraph4<V> implements Grapher<V> {
         dfs(v, parent, searchOrder, isVisited);
 
         // Return a search tree
-        return new AbstractGraph4.Tree(v, searchOrder);
+        return new AbstractGraph4.Tree(v, searchOrder,parent);
     }
 
     /** Recursive method for DFS search */
@@ -215,18 +215,18 @@ public  class AbstractGraph4<V> implements Grapher<V> {
             }
         }
 
-        return new AbstractGraph4.Tree(v, searchOrder);
+        return new AbstractGraph4.Tree(v, searchOrder,parent);
     }
 
     /** Tree inner class inside the AbstractGraph class */
     /** To be discussed in Section 28.6 */
     public class Tree {
         private int root; // The root of the tree
-        private int[] parent; // Store the parent of each vertex
+        protected int[] parent; // Store the parent of each vertex
         private List<Integer> searchOrder; // Store the search order
 
         /** Construct a tree with root, parent, and searchOrder */
-        public Tree(int root, List<Integer> searchOrder) {
+        public Tree(int root, List<Integer> searchOrder, int[]parent) {
             this.root = root;
             this.parent = parent;
             this.searchOrder = searchOrder;

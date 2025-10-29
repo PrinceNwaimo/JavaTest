@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/Kruskal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/KruskalsAlgorithmExplanation" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedEdge2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedGraph2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/CompareNineTailModels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/NineTailModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/NineTailWeighted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedNineTailModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedEdge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedEdge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liangGraphs/AbstractGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangGraphs/AbstractGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liangGraphs/AbstractGraph4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangGraphs/AbstractGraph4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liangGraphs/NineTailModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangGraphs/NineTailModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedGraph2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedGraph2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +146,7 @@
     "Application.CommissionCalculator.executor": "Run",
     "Application.CompareFolders.executor": "Run",
     "Application.CompareLoopTimes.executor": "Run",
+    "Application.CompareNineTailModels.executor": "Run",
     "Application.CompareStrings.executor": "Run",
     "Application.Comparison.executor": "Run",
     "Application.ComplexMatrix.executor": "Run",
@@ -418,6 +421,7 @@
     "Application.NineInts.executor": "Run",
     "Application.NineTail.executor": "Run",
     "Application.NineTailGUI.executor": "Run",
+    "Application.NineTailWeighted.executor": "Run",
     "Application.Node2Test.executor": "Run",
     "Application.Node4Test.executor": "Run",
     "Application.NodeTest.executor": "Run",
@@ -476,6 +480,7 @@
     "Application.PostfixEvaluator.executor": "Run",
     "Application.PostfixEvaluatorTest.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
+    "Application.PrimMSTWithAdjacencyMatrix.executor": "Run",
     "Application.PrimeIterator.executor": "Run",
     "Application.PrimeNumberExecutionTime.executor": "Run",
     "Application.PrimeNumberMethod.executor": "Run",
@@ -709,13 +714,13 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimMSTWithAdjacencyMatrix">
-    <configuration name="ConnectedCirclesColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangGraphs.ConnectedCirclesColor" />
+  <component name="RunManager" selected="Application.FindMSTFromFile">
+    <configuration name="CompareNineTailModels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangWeighedGraphs.CompareNineTailModels" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangGraphs.*" />
+          <option name="PATTERN" value="liangWeighedGraphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -723,12 +728,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisplayNigerianMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangGraphs.DisplayNigerianMap" />
+    <configuration name="FindMSTFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangWeighedGraphs.FindMSTFromFile" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangGraphs.*" />
+          <option name="PATTERN" value="liangWeighedGraphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -736,12 +741,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightTourCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangGraphs.KnightTourCycle" />
+    <configuration name="NineTailWeighted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangWeighedGraphs.NineTailWeighted" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangGraphs.*" />
+          <option name="PATTERN" value="liangWeighedGraphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -776,19 +781,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConnectedCirclesColor" />
-      <item itemvalue="Application.DisplayNigerianMap" />
+      <item itemvalue="Application.CompareNineTailModels" />
+      <item itemvalue="Application.FindMSTFromFile" />
+      <item itemvalue="Application.NineTailWeighted" />
       <item itemvalue="Application.PrimMSTWithAdjacencyMatrix" />
       <item itemvalue="Application.TestWeightedGraph" />
-      <item itemvalue="Application.KnightTourCycle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMSTFromFile" />
+        <item itemvalue="Application.CompareNineTailModels" />
+        <item itemvalue="Application.NineTailWeighted" />
         <item itemvalue="Application.PrimMSTWithAdjacencyMatrix" />
         <item itemvalue="Application.TestWeightedGraph" />
-        <item itemvalue="Application.ConnectedCirclesColor" />
-        <item itemvalue="Application.DisplayNigerianMap" />
-        <item itemvalue="Application.KnightTourCycle" />
       </list>
     </recent_temporary>
   </component>
