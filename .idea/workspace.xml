@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/AccountWithSemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/AccountWithSyncUsingLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/AccountWithoutSync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ConsumerProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/FlashText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ParallelMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ParallelMergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/TaskThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ThreadCooperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/BallPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ClockPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ConcurrentModificationExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ConcurrentModificationExceptionDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/DepositThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/FanPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/IntegerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ThreadCooperation2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/WithdrawThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,6 +163,7 @@
     "Application.ComputeTax.executor": "Run",
     "Application.ComputeWeeklyHours.executor": "Run",
     "Application.ConcatenationTimeComparison.executor": "Run",
+    "Application.ConcurrentModificationExceptionDemo2.executor": "Run",
     "Application.ConnectFour.executor": "Run",
     "Application.ConnectedCirclesColor.executor": "Run",
     "Application.ConsecutiveFour.executor": "Run",
@@ -663,6 +664,7 @@
     "Application.TestTriangle.executor": "Run",
     "Application.TestTriangle2D.executor": "Run",
     "Application.TestWeightedGraph.executor": "Run",
+    "Application.ThreadCooperation2.executor": "Run",
     "Application.ThreeLetterStrings.executor": "Run",
     "Application.ThrowUsedCarException.executor": "Run",
     "Application.TicTacToe.executor": "Run",
@@ -722,7 +724,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccountWithSyncUsingLock">
+  <component name="RunManager" selected="Application.ThreadCooperation2">
     <configuration name="AccountWithSyncUsingLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangMultiThreading.AccountWithSyncUsingLock" />
       <module name="testSamples" />
@@ -749,6 +751,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConcurrentModificationExceptionDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.ConcurrentModificationExceptionDemo2" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangMultiThreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liangMultiThreading.ExecutorDemo" />
       <module name="testSamples" />
@@ -762,27 +777,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlashText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.FlashText" />
-      <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangMultiThreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.TaskThreadDemo" />
+    <configuration name="ThreadCooperation2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.ThreadCooperation2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -797,17 +793,17 @@
     <list>
       <item itemvalue="Application.AccountWithSyncUsingLock" />
       <item itemvalue="Application.AccountWithoutSync" />
+      <item itemvalue="Application.ConcurrentModificationExceptionDemo2" />
       <item itemvalue="Application.ExecutorDemo" />
-      <item itemvalue="Application.TaskThreadDemo" />
-      <item itemvalue="Application.FlashText" />
+      <item itemvalue="Application.ThreadCooperation2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadCooperation2" />
+        <item itemvalue="Application.ConcurrentModificationExceptionDemo2" />
         <item itemvalue="Application.AccountWithSyncUsingLock" />
         <item itemvalue="Application.AccountWithoutSync" />
         <item itemvalue="Application.ExecutorDemo" />
-        <item itemvalue="Application.TaskThreadDemo" />
-        <item itemvalue="Application.FlashText" />
       </list>
     </recent_temporary>
   </component>
