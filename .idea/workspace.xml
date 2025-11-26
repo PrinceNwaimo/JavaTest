@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/CompareNineTailModels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/NineTailModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/NineTailWeighted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedNineTailModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/AccountWithSemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/AccountWithSyncUsingLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/AccountWithoutSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ConsumerProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/FlashText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ParallelMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ParallelMergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/TaskThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ThreadCooperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangGraphs/AbstractGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangGraphs/AbstractGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangGraphs/AbstractGraph4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangGraphs/AbstractGraph4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangGraphs/NineTailModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangGraphs/NineTailModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedGraph2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liangWeighedGraphs/WeightedGraph2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +63,8 @@
     "Application.AVLTreeAnimation.executor": "Run",
     "Application.AVLTreeAnimation2.executor": "Run",
     "Application.Account.executor": "Run",
+    "Application.AccountWithSyncUsingLock.executor": "Run",
+    "Application.AccountWithoutSync.executor": "Run",
     "Application.AddMatrix.executor": "Run",
     "Application.AdditionQuiz.executor": "Run",
     "Application.AddressBookTest.executor": "Run",
@@ -257,6 +261,7 @@
     "Application.EulerNumbers.executor": "Run",
     "Application.EvenEntryLoop.executor": "Run",
     "Application.EventDemo.executor": "Run",
+    "Application.ExecutorDemo.executor": "Run",
     "Application.Exercise17_03.executor": "Run",
     "Application.Exercise17_04.executor": "Run",
     "Application.Exercise17_05.executor": "Run",
@@ -288,6 +293,7 @@
     "Application.FinancialTsunami.executor": "Run",
     "Application.FindDiscount.executor": "Run",
     "Application.FindFlippedCell.executor": "Run",
+    "Application.FindMSTFromFile.executor": "Run",
     "Application.FindNearestPoints.executor": "Run",
     "Application.FindPrice.executor": "Run",
     "Application.FindRent.executor": "Run",
@@ -296,6 +302,7 @@
     "Application.FindWords.executor": "Run",
     "Application.FiveDice2.executor": "Run",
     "Application.FiveDice3.executor": "Run",
+    "Application.FlashText.executor": "Run",
     "Application.FloorAndCeil.executor": "Run",
     "Application.FoodTest.executor": "Run",
     "Application.FormatInteger.executor": "Run",
@@ -606,6 +613,7 @@
     "Application.SumSeries.executor": "Run",
     "Application.SummingElementsInAColumn.executor": "Run",
     "Application.SupermarketSimulation.executor": "Run",
+    "Application.TaskThreadDemo.executor": "Run",
     "Application.Tax.executor": "Run",
     "Application.TaxTable.executor": "Run",
     "Application.TelephoneNumberWordGenerator.executor": "Run",
@@ -714,13 +722,13 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindMSTFromFile">
-    <configuration name="CompareNineTailModels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangWeighedGraphs.CompareNineTailModels" />
+  <component name="RunManager" selected="Application.AccountWithSyncUsingLock">
+    <configuration name="AccountWithSyncUsingLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.AccountWithSyncUsingLock" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangWeighedGraphs.*" />
+          <option name="PATTERN" value="liangMultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -728,12 +736,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMSTFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangWeighedGraphs.FindMSTFromFile" />
+    <configuration name="AccountWithoutSync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.AccountWithoutSync" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangWeighedGraphs.*" />
+          <option name="PATTERN" value="liangMultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -741,12 +749,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NineTailWeighted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangWeighedGraphs.NineTailWeighted" />
+    <configuration name="ExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.ExecutorDemo" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangWeighedGraphs.*" />
+          <option name="PATTERN" value="liangMultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -754,25 +762,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimMSTWithAdjacencyMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangWeighedGraphs.PrimMSTWithAdjacencyMatrix" />
+    <configuration name="FlashText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.FlashText" />
       <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangWeighedGraphs.*" />
+          <option name="PATTERN" value="liangMultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWeightedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangWeighedGraphs.TestWeightedGraph" />
+    <configuration name="TaskThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.TaskThreadDemo" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liangWeighedGraphs.*" />
+          <option name="PATTERN" value="liangMultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -781,19 +795,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CompareNineTailModels" />
-      <item itemvalue="Application.FindMSTFromFile" />
-      <item itemvalue="Application.NineTailWeighted" />
-      <item itemvalue="Application.PrimMSTWithAdjacencyMatrix" />
-      <item itemvalue="Application.TestWeightedGraph" />
+      <item itemvalue="Application.AccountWithSyncUsingLock" />
+      <item itemvalue="Application.AccountWithoutSync" />
+      <item itemvalue="Application.ExecutorDemo" />
+      <item itemvalue="Application.TaskThreadDemo" />
+      <item itemvalue="Application.FlashText" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindMSTFromFile" />
-        <item itemvalue="Application.CompareNineTailModels" />
-        <item itemvalue="Application.NineTailWeighted" />
-        <item itemvalue="Application.PrimMSTWithAdjacencyMatrix" />
-        <item itemvalue="Application.TestWeightedGraph" />
+        <item itemvalue="Application.AccountWithSyncUsingLock" />
+        <item itemvalue="Application.AccountWithoutSync" />
+        <item itemvalue="Application.ExecutorDemo" />
+        <item itemvalue="Application.TaskThreadDemo" />
+        <item itemvalue="Application.FlashText" />
       </list>
     </recent_temporary>
   </component>
