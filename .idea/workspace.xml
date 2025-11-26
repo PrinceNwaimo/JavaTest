@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/BallPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ClockPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ConcurrentModificationExceptionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ConcurrentModificationExceptionDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/DepositThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/FanPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/IntegerWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ThreadCooperation2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/WithdrawThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/BouncingBalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/DeadlockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/EightQueensAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ParallelArrayInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ParallelEightQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ParallelMatrixAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ParallelMatrixMultiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ParallelMergeSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/ParallelSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/SortingAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liangMultiThreading/SudokuSearchAnimation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,6 +109,7 @@
     "Application.BitOutputStream.executor": "Run",
     "Application.BookArray.executor": "Run",
     "Application.BouncingBall.executor": "Run",
+    "Application.BouncingBalls.executor": "Run",
     "Application.BoundedTypeDemo.executor": "Run",
     "Application.BowlingTeamDemo.executor": "Run",
     "Application.BowlingTeamDemo2.executor": "Run",
@@ -200,6 +202,7 @@
     "Application.DateFormatConverter.executor": "Run",
     "Application.DayOfWeek.executor": "Run",
     "Application.DaysInYear.executor": "Run",
+    "Application.DeadlockDemo.executor": "Run",
     "Application.DeckOfCards.executor": "Run",
     "Application.DeckOfCards2$deckOfCards2$Hand.executor": "Run",
     "Application.DeckOfCardsTest.executor": "Run",
@@ -249,6 +252,7 @@
     "Application.DuplicateElimination.executor": "Run",
     "Application.EightQueens.executor": "Run",
     "Application.EightQueens2.executor": "Run",
+    "Application.EightQueensAnimation.executor": "Run",
     "Application.ElementArray.executor": "Run",
     "Application.EliminateDuplicates.executor": "Run",
     "Application.EliminateDuplicatesUsingHashsets.executor": "Run",
@@ -277,6 +281,7 @@
     "Application.FactorialCalculator2.executor": "Run",
     "Application.Factorials.executor": "Run",
     "Application.Fan.executor": "Run",
+    "Application.FanPanel.executor": "Run",
     "Application.FancyTimeTest.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.FibonacciCalculator.executor": "Run",
@@ -448,6 +453,12 @@
     "Application.PalindromeInteger.executor": "Run",
     "Application.PalindromeTester.executor": "Run",
     "Application.PalindromicPrime.executor": "Run",
+    "Application.ParallelEightQueens.executor": "Run",
+    "Application.ParallelMatrixAddition.executor": "Run",
+    "Application.ParallelMatrixMultiplication.executor": "Run",
+    "Application.ParallelMergeSort2.executor": "Run",
+    "Application.ParallelQuickSort.executor": "Run",
+    "Application.ParallelSum.executor": "Run",
     "Application.PartitionList.executor": "Run",
     "Application.PassArray.executor": "Run",
     "Application.PassArrayElement.executor": "Run",
@@ -574,6 +585,7 @@
     "Application.SortPurchasesArray.executor": "Run",
     "Application.SortString.executor": "Run",
     "Application.SortStudents.executor": "Run",
+    "Application.SortingAnimation.executor": "Run",
     "Application.SortingTimeComparison.executor": "Run",
     "Application.SpamScanner.executor": "Run",
     "Application.SportsRecommender.executor": "Run",
@@ -604,6 +616,7 @@
     "Application.StringStartEnd.executor": "Run",
     "Application.StringValueOf.executor": "Run",
     "Application.Sudoku2.executor": "Run",
+    "Application.SudokuSearchAnimation.executor": "Run",
     "Application.Suduko2.executor": "Run",
     "Application.SumArrayList.executor": "Run",
     "Application.SumArrays.executor": "Run",
@@ -724,9 +737,47 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadCooperation2">
-    <configuration name="AccountWithSyncUsingLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.AccountWithSyncUsingLock" />
+  <component name="RunManager" selected="Application.EightQueensAnimation">
+    <configuration name="BouncingBalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.BouncingBalls" />
+      <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangMultiThreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EightQueensAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.EightQueensAnimation" />
+      <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liangMultiThreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelEightQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.ParallelEightQueens" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -738,72 +789,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountWithoutSync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.AccountWithoutSync" />
+    <configuration name="SortingAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.SortingAnimation" />
       <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="liangMultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcurrentModificationExceptionDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.ConcurrentModificationExceptionDemo2" />
+    <configuration name="SudokuSearchAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.SudokuSearchAnimation" />
       <module name="testSamples" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="liangMultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.ExecutorDemo" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangMultiThreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadCooperation2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liangMultiThreading.ThreadCooperation2" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liangMultiThreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AccountWithSyncUsingLock" />
-      <item itemvalue="Application.AccountWithoutSync" />
-      <item itemvalue="Application.ConcurrentModificationExceptionDemo2" />
-      <item itemvalue="Application.ExecutorDemo" />
-      <item itemvalue="Application.ThreadCooperation2" />
+      <item itemvalue="Application.EightQueensAnimation" />
+      <item itemvalue="Application.BouncingBalls" />
+      <item itemvalue="Application.SudokuSearchAnimation" />
+      <item itemvalue="Application.ParallelEightQueens" />
+      <item itemvalue="Application.SortingAnimation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadCooperation2" />
-        <item itemvalue="Application.ConcurrentModificationExceptionDemo2" />
-        <item itemvalue="Application.AccountWithSyncUsingLock" />
-        <item itemvalue="Application.AccountWithoutSync" />
-        <item itemvalue="Application.ExecutorDemo" />
+        <item itemvalue="Application.EightQueensAnimation" />
+        <item itemvalue="Application.BouncingBalls" />
+        <item itemvalue="Application.SudokuSearchAnimation" />
+        <item itemvalue="Application.SortingAnimation" />
+        <item itemvalue="Application.ParallelEightQueens" />
       </list>
     </recent_temporary>
   </component>
