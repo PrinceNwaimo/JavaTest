@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/networkProgramming/Loaner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/networkProgramming/LoanerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/networkProgramming/LoanerServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/networkProgramming/ticTacToeGameOverTheInternet/TicTacToeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/networkProgramming/ticTacToeGameOverTheInternet/TicTacToeConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/networkProgramming/ticTacToeGameOverTheInternet/TicTacToeServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
