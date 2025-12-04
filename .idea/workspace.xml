@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/networkProgramming/Exercise31_06Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/networkProgramming/Exercise31_06Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/networkProgramming/StudentAddress2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/networkProgramming/Exercise31_09Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/networkProgramming/Exercise31_09Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/networkProgramming/Exercise31_10Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/networkProgramming/Exercise31_10Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -272,6 +273,12 @@
     "Application.Exercise17_08.executor": "Run",
     "Application.Exercise17_10.executor": "Run",
     "Application.Exercise17_12.executor": "Run",
+    "Application.Exercise31_07Client.executor": "Run",
+    "Application.Exercise31_07Server.executor": "Run",
+    "Application.Exercise31_09Client.executor": "Run",
+    "Application.Exercise31_09Server.executor": "Run",
+    "Application.Exercise31_10Client.executor": "Run",
+    "Application.Exercise31_10Server.executor": "Run",
     "Application.ExtractingSubstringsFromStrings.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FactorialCalculator.executor": "Run",
@@ -749,7 +756,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise31_07Client">
+  <component name="RunManager" selected="Application.Exercise31_10Client">
     <configuration name="Exercise31_07Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="networkProgramming.Exercise31_07Client" />
       <module name="testSamples" />
@@ -763,8 +770,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise31_07Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="networkProgramming.Exercise31_07Server" />
+    <configuration name="Exercise31_09Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="networkProgramming.Exercise31_09Client" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -776,8 +783,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoanerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="networkProgramming.LoanerClient" />
+    <configuration name="Exercise31_09Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="networkProgramming.Exercise31_09Server" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -789,39 +796,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="networkProgramming.ticTacToeGameOverTheInternet.TicTacToeClient" />
+    <configuration name="Exercise31_10Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="networkProgramming.Exercise31_10Client" />
       <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml " />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="networkProgramming.ticTacToeGameOverTheInternet.*" />
+          <option name="PATTERN" value="networkProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="networkProgramming.ticTacToeGameOverTheInternet.TicTacToeServer" />
+    <configuration name="Exercise31_10Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="networkProgramming.Exercise31_10Server" />
       <module name="testSamples" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\USER\IdeaProjects\JavaTest\javafx-sdk-25\lib&quot; --add-modules javafx.controls,javafx.fxml " />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="networkProgramming.ticTacToeGameOverTheInternet.*" />
+          <option name="PATTERN" value="networkProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -829,18 +824,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Exercise31_07Client" />
-      <item itemvalue="Application.Exercise31_07Server" />
-      <item itemvalue="Application.TicTacToeClient" />
-      <item itemvalue="Application.LoanerClient" />
-      <item itemvalue="Application.TicTacToeServer" />
+      <item itemvalue="Application.Exercise31_09Client" />
+      <item itemvalue="Application.Exercise31_09Server" />
+      <item itemvalue="Application.Exercise31_10Client" />
+      <item itemvalue="Application.Exercise31_10Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise31_10Client" />
+        <item itemvalue="Application.Exercise31_10Server" />
+        <item itemvalue="Application.Exercise31_09Client" />
+        <item itemvalue="Application.Exercise31_09Server" />
         <item itemvalue="Application.Exercise31_07Client" />
-        <item itemvalue="Application.Exercise31_07Server" />
-        <item itemvalue="Application.TicTacToeClient" />
-        <item itemvalue="Application.TicTacToeServer" />
-        <item itemvalue="Application.LoanerClient" />
       </list>
     </recent_temporary>
   </component>
