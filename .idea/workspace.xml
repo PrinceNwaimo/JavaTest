@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/networkProgramming/Exercise31_09Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/networkProgramming/Exercise31_09Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/networkProgramming/Exercise31_10Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/networkProgramming/Exercise31_10Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/LinkedListCycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -389,6 +386,7 @@
     "Application.LinearSearchTest.executor": "Run",
     "Application.LinkedListAnimation.executor": "Run",
     "Application.LinkedListApp.executor": "Run",
+    "Application.LinkedListCycle$Solution.executor": "Run",
     "Application.LinkedListTraversalTest.executor": "Run",
     "Application.ListSearchTest.executor": "Run",
     "Application.ListTest.executor": "Run",
@@ -756,20 +754,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise31_10Client">
-    <configuration name="Exercise31_07Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="networkProgramming.Exercise31_07Client" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="networkProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LinkedListCycle$Solution">
     <configuration name="Exercise31_09Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="networkProgramming.Exercise31_09Client" />
       <module name="testSamples" />
@@ -822,8 +807,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedListCycle$Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.LinkedListCycle$Solution" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Exercise31_07Client" />
+      <item itemvalue="Application.LinkedListCycle$Solution" />
       <item itemvalue="Application.Exercise31_09Client" />
       <item itemvalue="Application.Exercise31_09Server" />
       <item itemvalue="Application.Exercise31_10Client" />
@@ -831,11 +829,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercise31_10Client" />
-        <item itemvalue="Application.Exercise31_10Server" />
+        <item itemvalue="Application.LinkedListCycle$Solution" />
         <item itemvalue="Application.Exercise31_09Client" />
         <item itemvalue="Application.Exercise31_09Server" />
-        <item itemvalue="Application.Exercise31_07Client" />
+        <item itemvalue="Application.Exercise31_10Client" />
+        <item itemvalue="Application.Exercise31_10Server" />
       </list>
     </recent_temporary>
   </component>
