@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/IntersectionOfTwoLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -590,6 +591,7 @@
     "Application.SierpinskiTriangle.executor": "Run",
     "Application.SierpinskiTriangle2.executor": "Run",
     "Application.SieveOfEratosthenes.executor": "Run",
+    "Application.Solution.executor": "Run",
     "Application.Sort2DArray.executor": "Run",
     "Application.SortArrayList.executor": "Run",
     "Application.SortComparableObjects.executor": "Run",
