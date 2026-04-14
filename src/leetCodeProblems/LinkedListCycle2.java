@@ -1,11 +1,11 @@
 package leetCodeProblems;
 
 public class LinkedListCycle2 {
-    public ListNode2 detectCycle(ListNode2 head) {
+    public ListNode3 detectCycle(ListNode3 head) {
         if (head == null) return null;
 
-        ListNode2 fast = head;
-        ListNode2 slow = head;
+        ListNode3 fast = head;
+        ListNode3 slow = head;
         boolean hasCycle = false;
 
         while (fast != null && fast.next != null) {
@@ -30,15 +30,15 @@ public class LinkedListCycle2 {
     public static void main(String[] args) {
         // Example usage:
         // Create a cycle for testing
-        ListNode2 node1 = new ListNode2(1);
-        ListNode2 node2 = new ListNode2(2);
-        ListNode2 node3 = new ListNode2(3);
+        ListNode3 node1 = new ListNode3(1);
+        ListNode3 node2 = new ListNode3(2);
+        ListNode3 node3 = new ListNode3(3);
         node1.next = node2;
         node2.next = node3;
         node3.next = node2; // Create cycle
 
         LinkedListCycle2 solution = new LinkedListCycle2();
-        ListNode2 cycleStart = solution.detectCycle(node1);
+        ListNode3 cycleStart = solution.detectCycle(node1);
         if (cycleStart != null) {
             System.out.println("Cycle starts at: " + cycleStart.val);
         } else {

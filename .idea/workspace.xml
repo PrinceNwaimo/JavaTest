@@ -753,7 +753,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.RemoveDuplicatesFromSortedLinkedList">
     <configuration name="DeletingNodeFromALinkedList$Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.DeletingNodeFromALinkedList$Solution" />
       <module name="testSamples" />
@@ -780,12 +780,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise31_09Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="networkProgramming.Exercise31_09Server" />
+    <configuration name="LinkedListCycle$Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.LinkedListCycle$Solution" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="networkProgramming.*" />
+          <option name="PATTERN" value="leetCodeProblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -793,8 +793,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListCycle$Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.LinkedListCycle$Solution" />
+    <configuration name="RemoveDuplicatesFromSortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.RemoveDuplicatesFromSortedLinkedList" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -820,19 +820,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.RemoveDuplicatesFromSortedLinkedList" />
       <item itemvalue="Application.DeletingNodeFromALinkedList$Solution" />
       <item itemvalue="Application.Exercise31_09Client" />
-      <item itemvalue="Application.Exercise31_09Server" />
       <item itemvalue="Application.LinkedListCycle$Solution" />
       <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicatesFromSortedLinkedList" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.DeletingNodeFromALinkedList$Solution" />
         <item itemvalue="Application.LinkedListCycle$Solution" />
         <item itemvalue="Application.Exercise31_09Client" />
-        <item itemvalue="Application.Exercise31_09Server" />
       </list>
     </recent_temporary>
   </component>
