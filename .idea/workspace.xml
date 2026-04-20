@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/RemoveNthFromEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -560,6 +559,7 @@
     "Application.RemoveDuplicates2.executor": "Run",
     "Application.RemoveDuplicatesFromSortedLinkedList.executor": "Run",
     "Application.RemoveDuplicatesFromSortedLinkedListII.executor": "Run",
+    "Application.RemoveNthNodeFromEndOfList.executor": "Run",
     "Application.RenameFiles2.executor": "Run",
     "Application.RentalDemo.executor": "Run",
     "Application.RentalDemoAndCreateFile.executor": "Run",
@@ -758,20 +758,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveNthNodeFromEndOfList">
-    <configuration name="DeletingNodeFromALinkedList$Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.DeletingNodeFromALinkedList$Solution" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCodeProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Serialize">
     <configuration name="RemoveDuplicatesFromSortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.RemoveDuplicatesFromSortedLinkedList" />
       <module name="testSamples" />
@@ -811,6 +798,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Serialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.Serialize" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.Solution" />
       <module name="testSamples" />
@@ -828,16 +828,16 @@
       <item itemvalue="Application.RemoveDuplicatesFromSortedLinkedList" />
       <item itemvalue="Application.RemoveDuplicatesFromSortedLinkedListII" />
       <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
-      <item itemvalue="Application.DeletingNodeFromALinkedList$Solution" />
+      <item itemvalue="Application.Serialize" />
       <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Serialize" />
         <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
         <item itemvalue="Application.RemoveDuplicatesFromSortedLinkedListII" />
         <item itemvalue="Application.RemoveDuplicatesFromSortedLinkedList" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.DeletingNodeFromALinkedList$Solution" />
       </list>
     </recent_temporary>
   </component>
