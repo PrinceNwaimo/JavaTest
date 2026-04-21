@@ -22,7 +22,7 @@ public class Codec {
             serializedList.add("null");
             return;
         }
-        serializedList.add(String.valueOf(root.val));
+        serializedList.add(String.valueOf(root.value));
         serializeHelper(root.left);
         serializeHelper(root.right);
     }

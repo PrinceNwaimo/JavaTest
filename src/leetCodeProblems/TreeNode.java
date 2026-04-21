@@ -1,8 +1,9 @@
 package leetCodeProblems;
 
 public class TreeNode {
-    int val;
+    int value;
     TreeNode left;
     TreeNode right;
-    TreeNode(int x) { val = x; }
+    TreeNode(int x) { value = x; }
+
 }

@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/PreorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/PreorderTraversalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCodeProblems/Codec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeProblems/Codec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCodeProblems/Serialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeProblems/Serialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCodeProblems/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeProblems/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -510,6 +515,7 @@
     "Application.PostfixEvaluator.executor": "Run",
     "Application.PostfixEvaluatorTest.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
+    "Application.PreorderTraversalTest.executor": "Run",
     "Application.PrimMSTWithAdjacencyMatrix.executor": "Run",
     "Application.PrimeIterator.executor": "Run",
     "Application.PrimeNumberExecutionTime.executor": "Run",
@@ -585,6 +591,7 @@
     "Application.SelectionSortTest.executor": "Run",
     "Application.SeparateChainingAnimation.executor": "Run",
     "Application.SequentialDataFile.executor": "Run",
+    "Application.Serialize.executor": "Run",
     "Application.SetListPerformanceTest.executor": "Run",
     "Application.SetOperations.executor": "Run",
     "Application.SharedArrayTest.executor": "Run",
@@ -758,7 +765,20 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Serialize">
+  <component name="RunManager" selected="Application.PreorderTraversalTest">
+    <configuration name="PreorderTraversalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.PreorderTraversalTest" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RemoveDuplicatesFromSortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.RemoveDuplicatesFromSortedLinkedList" />
       <module name="testSamples" />
@@ -811,33 +831,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.Solution" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCodeProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.PreorderTraversalTest" />
       <item itemvalue="Application.RemoveDuplicatesFromSortedLinkedList" />
       <item itemvalue="Application.RemoveDuplicatesFromSortedLinkedListII" />
       <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
       <item itemvalue="Application.Serialize" />
-      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PreorderTraversalTest" />
         <item itemvalue="Application.Serialize" />
         <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
         <item itemvalue="Application.RemoveDuplicatesFromSortedLinkedListII" />
         <item itemvalue="Application.RemoveDuplicatesFromSortedLinkedList" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>

@@ -21,8 +21,8 @@ public class Serialize {
         // Output: 1,2,null,4,null,null,3,null,null
 
         TreeNode ans = deser.deserialize(serialized);
-        System.out.println("Root after deserialize: " + ans.val); // 1
-        System.out.println("Left child: " + ans.left.val); // 2
-        System.out.println("Right child: " + ans.right.val); // 3
+        System.out.println("Root after deserialize: " + ans.value); // 1
+        System.out.println("Left child: " + ans.left.value); // 2
+        System.out.println("Right child: " + ans.right.value); // 3
     }
 }
