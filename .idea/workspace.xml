@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/InorderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +82,7 @@
     "Application.BSTAnimation.executor": "Run",
     "Application.BSTContainsTest.executor": "Run",
     "Application.BSTDeleteTest.executor": "Run",
+    "Application.BSTIteratorTest.executor": "Run",
     "Application.BabyNameComparison.executor": "Run",
     "Application.BabyNameRankings.executor": "Run",
     "Application.BankBalance.executor": "Run",
@@ -760,7 +762,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BSTIteratorTest">
+  <component name="RunManager" selected="Application.InorderTraversalTest">
     <configuration name="BSTIteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BSTIteratorTest" />
       <module name="testSamples" />
@@ -774,8 +776,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreorderTraversalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.PreorderTraversalTest" />
+    <configuration name="InorderTraversalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.InorderTraversalTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -787,8 +789,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedLinkedListII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.RemoveDuplicatesFromSortedLinkedListII" />
+    <configuration name="PreorderTraversalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.PreorderTraversalTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -828,18 +830,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BSTIteratorTest" />
+      <item itemvalue="Application.InorderTraversalTest" />
       <item itemvalue="Application.PreorderTraversalTest" />
-      <item itemvalue="Application.RemoveDuplicatesFromSortedLinkedListII" />
       <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
       <item itemvalue="Application.Serialize" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InorderTraversalTest" />
         <item itemvalue="Application.BSTIteratorTest" />
         <item itemvalue="Application.PreorderTraversalTest" />
         <item itemvalue="Application.Serialize" />
         <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
-        <item itemvalue="Application.RemoveDuplicatesFromSortedLinkedListII" />
       </list>
     </recent_temporary>
   </component>
