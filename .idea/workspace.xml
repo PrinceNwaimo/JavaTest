@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/InorderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCodeProblems/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeProblems/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,6 +359,7 @@
     "Application.InfixToPostFixConverterTest.executor": "Run",
     "Application.InfixToPostfix.executor": "Run",
     "Application.InitArray.executor": "Run",
+    "Application.InorderTraversalTest.executor": "Run",
     "Application.InputGrades.executor": "Run",
     "Application.InsertionSort.executor": "Run",
     "Application.InsertionSortAlgorithm.executor": "Run",
@@ -762,7 +763,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InorderTraversalTest">
+  <component name="RunManager" selected="Application.SymmetricTreeTest">
     <configuration name="BSTIteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BSTIteratorTest" />
       <module name="testSamples" />
@@ -802,8 +803,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNthNodeFromEndOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.RemoveNthNodeFromEndOfList" />
+    <configuration name="Serialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.Serialize" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -815,8 +816,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Serialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.Serialize" />
+    <configuration name="SymmetricTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.SymmetricTreeTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -832,16 +833,16 @@
       <item itemvalue="Application.BSTIteratorTest" />
       <item itemvalue="Application.InorderTraversalTest" />
       <item itemvalue="Application.PreorderTraversalTest" />
-      <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
       <item itemvalue="Application.Serialize" />
+      <item itemvalue="Application.SymmetricTreeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SymmetricTreeTest" />
         <item itemvalue="Application.InorderTraversalTest" />
         <item itemvalue="Application.BSTIteratorTest" />
         <item itemvalue="Application.PreorderTraversalTest" />
         <item itemvalue="Application.Serialize" />
-        <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
       </list>
     </recent_temporary>
   </component>
