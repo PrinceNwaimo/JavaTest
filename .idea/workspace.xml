@@ -84,6 +84,7 @@
     "Application.BSTIteratorTest.executor": "Run",
     "Application.BabyNameComparison.executor": "Run",
     "Application.BabyNameRankings.executor": "Run",
+    "Application.BalancedBinaryTreeTest.executor": "Run",
     "Application.BankBalance.executor": "Run",
     "Application.BankBalance2.executor": "Run",
     "Application.BankBalanceByRateAndYear.executor": "Run",
@@ -763,7 +764,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BalancedBinaryTreeTest">
+  <component name="RunManager" selected="Application.ClosestBinarySearchTreeValueTest">
     <configuration name="BSTIteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BSTIteratorTest" />
       <module name="testSamples" />
@@ -790,8 +791,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InorderTraversalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.InorderTraversalTest" />
+    <configuration name="ClosestBinarySearchTreeValueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ClosestBinarySearchTreeValueTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -803,8 +804,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreorderTraversalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.PreorderTraversalTest" />
+    <configuration name="InorderTraversalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.InorderTraversalTest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -832,17 +833,17 @@
     <list>
       <item itemvalue="Application.BSTIteratorTest" />
       <item itemvalue="Application.BalancedBinaryTreeTest" />
+      <item itemvalue="Application.ClosestBinarySearchTreeValueTest" />
       <item itemvalue="Application.InorderTraversalTest" />
-      <item itemvalue="Application.PreorderTraversalTest" />
       <item itemvalue="Application.SymmetricTreeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClosestBinarySearchTreeValueTest" />
         <item itemvalue="Application.BalancedBinaryTreeTest" />
         <item itemvalue="Application.SymmetricTreeTest" />
         <item itemvalue="Application.InorderTraversalTest" />
         <item itemvalue="Application.BSTIteratorTest" />
-        <item itemvalue="Application.PreorderTraversalTest" />
       </list>
     </recent_temporary>
   </component>
