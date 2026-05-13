@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/BinaryTreeMaxPathSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +98,7 @@
     "Application.BinarySearchAnimation.executor": "Run",
     "Application.BinarySearchTest.executor": "Run",
     "Application.BinaryToDecimal.executor": "Run",
+    "Application.BinaryTreeMaxPathSum.executor": "Run",
     "Application.BirthdayReminder.executor": "Run",
     "Application.BitOutputStream.executor": "Run",
     "Application.BookArray.executor": "Run",
@@ -773,9 +774,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PathSum">
-    <configuration name="LowestCommonAncestorOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.LowestCommonAncestorOfBST" />
+  <component name="RunManager" selected="Application.BinaryTreeMaxPathSum">
+    <configuration name="BinaryTreeMaxPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BinaryTreeMaxPathSum" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -840,7 +841,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LowestCommonAncestorOfBST" />
+      <item itemvalue="Application.BinaryTreeMaxPathSum" />
       <item itemvalue="Application.LowestCommonAncestorOfBSTII" />
       <item itemvalue="Application.PathSum" />
       <item itemvalue="Application.UniqueBinarySearchTrees" />
@@ -848,11 +849,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeMaxPathSum" />
         <item itemvalue="Application.PathSum" />
         <item itemvalue="Application.UniqueBinarySearchTreesII" />
         <item itemvalue="Application.UniqueBinarySearchTrees" />
         <item itemvalue="Application.LowestCommonAncestorOfBSTII" />
-        <item itemvalue="Application.LowestCommonAncestorOfBST" />
       </list>
     </recent_temporary>
   </component>
