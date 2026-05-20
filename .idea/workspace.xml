@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ConstructBTFromInorderAndPreorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/BinaryTreePaths.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +99,7 @@
     "Application.BinarySearchTest.executor": "Run",
     "Application.BinaryToDecimal.executor": "Run",
     "Application.BinaryTreeMaxPathSum.executor": "Run",
+    "Application.BinaryTreePaths.executor": "Run",
     "Application.BirthdayReminder.executor": "Run",
     "Application.BitOutputStream.executor": "Run",
     "Application.BookArray.executor": "Run",
@@ -779,9 +779,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConstructBTFromInorderAndPreorderTraversal">
-    <configuration name="BinaryTreeMaxPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BinaryTreeMaxPathSum" />
+  <component name="RunManager" selected="Application.BinaryTreePaths">
+    <configuration name="BinaryTreePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BinaryTreePaths" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -846,7 +846,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryTreeMaxPathSum" />
+      <item itemvalue="Application.BinaryTreePaths" />
       <item itemvalue="Application.ConstructBTFromInorderAndPreorderTraversal" />
       <item itemvalue="Application.ConvertSortedArrayToBST" />
       <item itemvalue="Application.FlattenBinaryTreeToLinkedList" />
@@ -854,11 +854,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreePaths" />
         <item itemvalue="Application.ConstructBTFromInorderAndPreorderTraversal" />
         <item itemvalue="Application.FlattenBinaryTreeToLinkedList" />
         <item itemvalue="Application.ConvertSortedArrayToBST" />
         <item itemvalue="Application.MinimumDepthOfBinaryTree" />
-        <item itemvalue="Application.BinaryTreeMaxPathSum" />
       </list>
     </recent_temporary>
   </component>
