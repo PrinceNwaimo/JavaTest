@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/RecoverBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/PathSum2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -495,6 +495,7 @@
     "Application.PathDemo5.executor": "Run",
     "Application.PathDemo6.executor": "Run",
     "Application.PathSum.executor": "Run",
+    "Application.PathSum2.executor": "Run",
     "Application.PatternDisplay.executor": "Run",
     "Application.PayableInterfaceTest.executor": "Run",
     "Application.PentagonArea.executor": "Run",
@@ -780,7 +781,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RecoverBST">
+  <component name="RunManager" selected="Application.PathSum2">
     <configuration name="BinaryTreePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BinaryTreePaths" />
       <module name="testSamples" />
@@ -807,8 +808,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertSortedArrayToBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ConvertSortedArrayToBST" />
+    <configuration name="FlattenBinaryTreeToLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.FlattenBinaryTreeToLinkedList" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -820,8 +821,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlattenBinaryTreeToLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.FlattenBinaryTreeToLinkedList" />
+    <configuration name="PathSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.PathSum2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -849,17 +850,17 @@
     <list>
       <item itemvalue="Application.BinaryTreePaths" />
       <item itemvalue="Application.ConstructBTFromInorderAndPreorderTraversal" />
-      <item itemvalue="Application.ConvertSortedArrayToBST" />
       <item itemvalue="Application.FlattenBinaryTreeToLinkedList" />
+      <item itemvalue="Application.PathSum2" />
       <item itemvalue="Application.RecoverBST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathSum2" />
         <item itemvalue="Application.RecoverBST" />
         <item itemvalue="Application.BinaryTreePaths" />
         <item itemvalue="Application.ConstructBTFromInorderAndPreorderTraversal" />
         <item itemvalue="Application.FlattenBinaryTreeToLinkedList" />
-        <item itemvalue="Application.ConvertSortedArrayToBST" />
       </list>
     </recent_temporary>
   </component>
