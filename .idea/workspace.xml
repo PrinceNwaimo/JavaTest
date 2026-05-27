@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/BinaryLevelOrderTraversal2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/KthSmallestElementBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,6 +383,7 @@
     "Application.KnightsTourClosedTourTest.executor": "Run",
     "Application.KochCurve.executor": "Run",
     "Application.KochSnowflake.executor": "Run",
+    "Application.KthSmallestElementBST.executor": "Run",
     "Application.LargePrimeNumbers.executor": "Run",
     "Application.LargestBlock.executor": "Run",
     "Application.LargestRowAndColumn.executor": "Run",
@@ -782,7 +783,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryLevelOrderTraversal2">
+  <component name="RunManager" selected="Application.KthSmallestElementBST">
     <configuration name="BinaryLevelOrderTraversal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BinaryLevelOrderTraversal2" />
       <module name="testSamples" />
@@ -809,8 +810,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructBTFromInorderAndPreorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ConstructBTFromInorderAndPreorderTraversal" />
+    <configuration name="KthSmallestElementBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.KthSmallestElementBST" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -851,17 +852,17 @@
     <list>
       <item itemvalue="Application.BinaryLevelOrderTraversal2" />
       <item itemvalue="Application.BinaryTreePaths" />
-      <item itemvalue="Application.ConstructBTFromInorderAndPreorderTraversal" />
+      <item itemvalue="Application.KthSmallestElementBST" />
       <item itemvalue="Application.PathSum2" />
       <item itemvalue="Application.RecoverBST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KthSmallestElementBST" />
         <item itemvalue="Application.BinaryLevelOrderTraversal2" />
         <item itemvalue="Application.PathSum2" />
         <item itemvalue="Application.RecoverBST" />
         <item itemvalue="Application.BinaryTreePaths" />
-        <item itemvalue="Application.ConstructBTFromInorderAndPreorderTraversal" />
       </list>
     </recent_temporary>
   </component>
