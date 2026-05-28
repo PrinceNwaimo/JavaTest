@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/KthSmallestElementBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ConstructBinaryTreeFromInorderAndPostorderTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +167,7 @@
     "Application.ConnectedCirclesColor.executor": "Run",
     "Application.ConsecutiveFour.executor": "Run",
     "Application.ConstructBTFromInorderAndPreorderTraversal.executor": "Run",
+    "Application.ConstructBinaryTreeFromInorderAndPostorderTraversal.executor": "Run",
     "Application.ConvertMillis.executor": "Run",
     "Application.ConvertSortedArrayToBST.executor": "Run",
     "Application.ConvexHull.executor": "Run",
@@ -783,7 +784,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KthSmallestElementBST">
+  <component name="RunManager" selected="Application.ConstructBinaryTreeFromInorderAndPostorderTraversal">
     <configuration name="BinaryLevelOrderTraversal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BinaryLevelOrderTraversal2" />
       <module name="testSamples" />
@@ -797,8 +798,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BinaryTreePaths" />
+    <configuration name="ConstructBinaryTreeFromInorderAndPostorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ConstructBinaryTreeFromInorderAndPostorderTraversal" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -851,18 +852,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BinaryLevelOrderTraversal2" />
-      <item itemvalue="Application.BinaryTreePaths" />
+      <item itemvalue="Application.ConstructBinaryTreeFromInorderAndPostorderTraversal" />
       <item itemvalue="Application.KthSmallestElementBST" />
       <item itemvalue="Application.PathSum2" />
       <item itemvalue="Application.RecoverBST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConstructBinaryTreeFromInorderAndPostorderTraversal" />
         <item itemvalue="Application.KthSmallestElementBST" />
         <item itemvalue="Application.BinaryLevelOrderTraversal2" />
         <item itemvalue="Application.PathSum2" />
         <item itemvalue="Application.RecoverBST" />
-        <item itemvalue="Application.BinaryTreePaths" />
       </list>
     </recent_temporary>
   </component>
