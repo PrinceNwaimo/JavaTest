@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/InorderSuccessorInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/BinaryTreeLongestConsecutiveSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/BinaryTreeUpsideDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/CountUniValueSubtrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/VerifyPreorderSequenceInBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +103,10 @@
     "Application.BinarySearchAnimation.executor": "Run",
     "Application.BinarySearchTest.executor": "Run",
     "Application.BinaryToDecimal.executor": "Run",
+    "Application.BinaryTreeLongestConsecutiveSequence.executor": "Run",
     "Application.BinaryTreeMaxPathSum.executor": "Run",
     "Application.BinaryTreePaths.executor": "Run",
+    "Application.BinaryTreeZigzagLevelOrderTraversal.executor": "Run",
     "Application.BirthdayReminder.executor": "Run",
     "Application.BitOutputStream.executor": "Run",
     "Application.BookArray.executor": "Run",
@@ -183,6 +189,7 @@
     "Application.CountPrimeNumbers.executor": "Run",
     "Application.CountServer.executor": "Run",
     "Application.CountSpaces2.executor": "Run",
+    "Application.CountUniValueSubtrees.executor": "Run",
     "Application.CountWords.executor": "Run",
     "Application.CouponCollector.executor": "Run",
     "Application.Course2.executor": "Run",
@@ -354,6 +361,7 @@
     "Application.Hex2Dec.executor": "Run",
     "Application.HexEditor.executor": "Run",
     "Application.HilbertCurve.executor": "Run",
+    "Application.HouseRobber3.executor": "Run",
     "Application.HuffmanCoding.executor": "Run",
     "Application.HuffmanCodingAnimation.executor": "Run",
     "Application.HugeIntegerTest.executor": "Run",
@@ -754,6 +762,7 @@
     "Application.VariableLengthArgumentList.executor": "Run",
     "Application.VehicleDatabase.executor": "Run",
     "Application.VerifyCode.executor": "Run",
+    "Application.VerifyPreorderSequenceInBST.executor": "Run",
     "Application.VirtualKeyboardDemo.executor": "Run",
     "Application.War3.executor": "Run",
     "Application.Weather.executor": "Run",
@@ -785,7 +794,33 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeZigzagLevelOrderTraversal">
+  <component name="RunManager" selected="Application.BinaryTreeUpsideDown">
+    <configuration name="BinaryTreeLongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BinaryTreeLongestConsecutiveSequence" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeUpsideDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BinaryTreeUpsideDown" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinaryTreeZigzagLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BinaryTreeZigzagLevelOrderTraversal" />
       <module name="testSamples" />
@@ -799,8 +834,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructBinaryTreeFromInorderAndPostorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ConstructBinaryTreeFromInorderAndPostorderTraversal" />
+    <configuration name="CountUniValueSubtrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.CountUniValueSubtrees" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -812,34 +847,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseRobber3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.HouseRobber3" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCodeProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InorderSuccessorInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.InorderSuccessorInBST" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCodeProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KthSmallestElementBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.KthSmallestElementBST" />
+    <configuration name="VerifyPreorderSequenceInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.VerifyPreorderSequenceInBST" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -852,19 +861,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BinaryTreeLongestConsecutiveSequence" />
+      <item itemvalue="Application.BinaryTreeUpsideDown" />
       <item itemvalue="Application.BinaryTreeZigzagLevelOrderTraversal" />
-      <item itemvalue="Application.ConstructBinaryTreeFromInorderAndPostorderTraversal" />
-      <item itemvalue="Application.HouseRobber3" />
-      <item itemvalue="Application.InorderSuccessorInBST" />
-      <item itemvalue="Application.KthSmallestElementBST" />
+      <item itemvalue="Application.CountUniValueSubtrees" />
+      <item itemvalue="Application.VerifyPreorderSequenceInBST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeUpsideDown" />
+        <item itemvalue="Application.CountUniValueSubtrees" />
+        <item itemvalue="Application.VerifyPreorderSequenceInBST" />
+        <item itemvalue="Application.BinaryTreeLongestConsecutiveSequence" />
         <item itemvalue="Application.BinaryTreeZigzagLevelOrderTraversal" />
-        <item itemvalue="Application.HouseRobber3" />
-        <item itemvalue="Application.InorderSuccessorInBST" />
-        <item itemvalue="Application.ConstructBinaryTreeFromInorderAndPostorderTraversal" />
-        <item itemvalue="Application.KthSmallestElementBST" />
       </list>
     </recent_temporary>
   </component>
