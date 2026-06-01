@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/BinaryTreeLongestConsecutiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/BinaryTreeUpsideDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/CountUniValueSubtrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/VerifyPreorderSequenceInBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/NumberOfConnectedComponentsInAnUndirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Vertex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +104,7 @@
     "Application.BinaryTreeLongestConsecutiveSequence.executor": "Run",
     "Application.BinaryTreeMaxPathSum.executor": "Run",
     "Application.BinaryTreePaths.executor": "Run",
+    "Application.BinaryTreeUpsideDown.executor": "Run",
     "Application.BinaryTreeZigzagLevelOrderTraversal.executor": "Run",
     "Application.BirthdayReminder.executor": "Run",
     "Application.BitOutputStream.executor": "Run",
@@ -476,6 +475,7 @@
     "Application.NodeTest.executor": "Run",
     "Application.NonCrossPolygon.executor": "Run",
     "Application.NumberInput.executor": "Run",
+    "Application.NumberOfConnectedComponentsInAnUndirectedGraph.executor": "Run",
     "Application.NumberSystemsTable.executor": "Run",
     "Application.OtherCharMethods.executor": "Run",
     "Application.OtherScopes.executor": "Run",
@@ -794,7 +794,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeUpsideDown">
+  <component name="RunManager" selected="Application.NumberOfConnectedComponentsInAnUndirectedGraph">
     <configuration name="BinaryTreeLongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BinaryTreeLongestConsecutiveSequence" />
       <module name="testSamples" />
@@ -821,8 +821,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeZigzagLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BinaryTreeZigzagLevelOrderTraversal" />
+    <configuration name="CountUniValueSubtrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.CountUniValueSubtrees" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -834,8 +834,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountUniValueSubtrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.CountUniValueSubtrees" />
+    <configuration name="NumberOfConnectedComponentsInAnUndirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.NumberOfConnectedComponentsInAnUndirectedGraph" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -863,17 +863,17 @@
     <list>
       <item itemvalue="Application.BinaryTreeLongestConsecutiveSequence" />
       <item itemvalue="Application.BinaryTreeUpsideDown" />
-      <item itemvalue="Application.BinaryTreeZigzagLevelOrderTraversal" />
       <item itemvalue="Application.CountUniValueSubtrees" />
+      <item itemvalue="Application.NumberOfConnectedComponentsInAnUndirectedGraph" />
       <item itemvalue="Application.VerifyPreorderSequenceInBST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfConnectedComponentsInAnUndirectedGraph" />
         <item itemvalue="Application.BinaryTreeUpsideDown" />
         <item itemvalue="Application.CountUniValueSubtrees" />
         <item itemvalue="Application.VerifyPreorderSequenceInBST" />
         <item itemvalue="Application.BinaryTreeLongestConsecutiveSequence" />
-        <item itemvalue="Application.BinaryTreeZigzagLevelOrderTraversal" />
       </list>
     </recent_temporary>
   </component>
