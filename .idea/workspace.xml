@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/NumberOfConnectedComponentsInAnUndirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/CourseSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Graph2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Vertex2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +194,7 @@
     "Application.CountWords.executor": "Run",
     "Application.CouponCollector.executor": "Run",
     "Application.Course2.executor": "Run",
+    "Application.CourseSchedule.executor": "Run",
     "Application.Craps.executor": "Run",
     "Application.CrapsSimulation.executor": "Run",
     "Application.CreateAliens.executor": "Run",
@@ -794,20 +797,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfConnectedComponentsInAnUndirectedGraph">
-    <configuration name="BinaryTreeLongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BinaryTreeLongestConsecutiveSequence" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCodeProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.CourseSchedule">
     <configuration name="BinaryTreeUpsideDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BinaryTreeUpsideDown" />
       <module name="testSamples" />
@@ -823,6 +813,19 @@
     </configuration>
     <configuration name="CountUniValueSubtrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.CountUniValueSubtrees" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.CourseSchedule" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -861,19 +864,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryTreeLongestConsecutiveSequence" />
       <item itemvalue="Application.BinaryTreeUpsideDown" />
       <item itemvalue="Application.CountUniValueSubtrees" />
+      <item itemvalue="Application.CourseSchedule" />
       <item itemvalue="Application.NumberOfConnectedComponentsInAnUndirectedGraph" />
       <item itemvalue="Application.VerifyPreorderSequenceInBST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CourseSchedule" />
         <item itemvalue="Application.NumberOfConnectedComponentsInAnUndirectedGraph" />
         <item itemvalue="Application.BinaryTreeUpsideDown" />
         <item itemvalue="Application.CountUniValueSubtrees" />
         <item itemvalue="Application.VerifyPreorderSequenceInBST" />
-        <item itemvalue="Application.BinaryTreeLongestConsecutiveSequence" />
       </list>
     </recent_temporary>
   </component>
