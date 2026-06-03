@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/CourseSchedule2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/DirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Graph3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/GraphValidTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Vertex3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Vertex4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/NumberOfIslands.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -483,6 +477,7 @@
     "Application.NonCrossPolygon.executor": "Run",
     "Application.NumberInput.executor": "Run",
     "Application.NumberOfConnectedComponentsInAnUndirectedGraph.executor": "Run",
+    "Application.NumberOfIslands.executor": "Run",
     "Application.NumberSystemsTable.executor": "Run",
     "Application.OtherCharMethods.executor": "Run",
     "Application.OtherScopes.executor": "Run",
@@ -801,20 +796,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CourseSchedule2">
-    <configuration name="BinaryTreeUpsideDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BinaryTreeUpsideDown" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCodeProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NumberOfIslands">
     <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.CourseSchedule" />
       <module name="testSamples" />
@@ -867,20 +849,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.NumberOfIslands" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.BinaryTreeUpsideDown" />
       <item itemvalue="Application.CourseSchedule" />
       <item itemvalue="Application.CourseSchedule2" />
       <item itemvalue="Application.GraphValidTree" />
       <item itemvalue="Application.NumberOfConnectedComponentsInAnUndirectedGraph" />
+      <item itemvalue="Application.NumberOfIslands" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfIslands" />
         <item itemvalue="Application.CourseSchedule2" />
         <item itemvalue="Application.GraphValidTree" />
         <item itemvalue="Application.CourseSchedule" />
         <item itemvalue="Application.NumberOfConnectedComponentsInAnUndirectedGraph" />
-        <item itemvalue="Application.BinaryTreeUpsideDown" />
       </list>
     </recent_temporary>
   </component>
