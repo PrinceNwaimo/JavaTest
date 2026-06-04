@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/NumberOfIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/KthLargestElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/MergeKSortedLinkedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/RotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/TwoSumII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +177,7 @@
     "Application.ConsecutiveFour.executor": "Run",
     "Application.ConstructBTFromInorderAndPreorderTraversal.executor": "Run",
     "Application.ConstructBinaryTreeFromInorderAndPostorderTraversal.executor": "Run",
+    "Application.ContainsDuplicate.executor": "Run",
     "Application.ConvertMillis.executor": "Run",
     "Application.ConvertSortedArrayToBST.executor": "Run",
     "Application.ConvexHull.executor": "Run",
@@ -393,6 +400,7 @@
     "Application.KnightsTourClosedTourTest.executor": "Run",
     "Application.KochCurve.executor": "Run",
     "Application.KochSnowflake.executor": "Run",
+    "Application.KthLargestElementInArray.executor": "Run",
     "Application.KthSmallestElementBST.executor": "Run",
     "Application.LargePrimeNumbers.executor": "Run",
     "Application.LargestBlock.executor": "Run",
@@ -435,6 +443,7 @@
     "Application.MazeTraversal.executor": "Run",
     "Application.MeanMedian.executor": "Run",
     "Application.MenuSearch.executor": "Run",
+    "Application.MergeKSortedLinkedLists.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.MergeSortTest.executor": "Run",
     "Application.MergeSortedLists.executor": "Run",
@@ -602,6 +611,7 @@
     "Application.ReverseInteger.executor": "Run",
     "Application.RevisedGenericQuickSort.executor": "Run",
     "Application.RollDice.executor": "Run",
+    "Application.RotateArray.executor": "Run",
     "Application.SMSLanguageTranslator.executor": "Run",
     "Application.SalespersonDatabase.executor": "Run",
     "Application.SameLine.executor": "Run",
@@ -754,6 +764,8 @@
     "Application.TwinPrimes.executor": "Run",
     "Application.TwoDice3.executor": "Run",
     "Application.TwoDimensionalArrayDemo.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "Application.TwoSumII.executor": "Run",
     "Application.UniqueBinarySearchTrees.executor": "Run",
     "Application.UniqueBinarySearchTreesII.executor": "Run",
     "Application.UseCourse.executor": "Run",
@@ -796,9 +808,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfIslands">
-    <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.CourseSchedule" />
+  <component name="RunManager" selected="Application.MergeKSortedLinkedLists">
+    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ContainsDuplicate" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -810,8 +822,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourseSchedule2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.CourseSchedule2" />
+    <configuration name="KthLargestElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.KthLargestElementInArray" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -823,8 +835,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphValidTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.GraphValidTree" />
+    <configuration name="MergeKSortedLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.MergeKSortedLinkedLists" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -836,8 +848,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfConnectedComponentsInAnUndirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.NumberOfConnectedComponentsInAnUndirectedGraph" />
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.TwoSum" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -849,8 +861,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.NumberOfIslands" />
+    <configuration name="TwoSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.TwoSumII" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -863,19 +875,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CourseSchedule" />
-      <item itemvalue="Application.CourseSchedule2" />
-      <item itemvalue="Application.GraphValidTree" />
-      <item itemvalue="Application.NumberOfConnectedComponentsInAnUndirectedGraph" />
-      <item itemvalue="Application.NumberOfIslands" />
+      <item itemvalue="Application.ContainsDuplicate" />
+      <item itemvalue="Application.KthLargestElementInArray" />
+      <item itemvalue="Application.MergeKSortedLinkedLists" />
+      <item itemvalue="Application.TwoSum" />
+      <item itemvalue="Application.TwoSumII" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumberOfIslands" />
-        <item itemvalue="Application.CourseSchedule2" />
-        <item itemvalue="Application.GraphValidTree" />
-        <item itemvalue="Application.CourseSchedule" />
-        <item itemvalue="Application.NumberOfConnectedComponentsInAnUndirectedGraph" />
+        <item itemvalue="Application.MergeKSortedLinkedLists" />
+        <item itemvalue="Application.KthLargestElementInArray" />
+        <item itemvalue="Application.TwoSumII" />
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.ContainsDuplicate" />
       </list>
     </recent_temporary>
   </component>
