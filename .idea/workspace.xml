@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ContainsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/KthLargestElementInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/MergeKSortedLinkedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/TwoSumII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ThreeSumClosest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/TwoSum2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -539,6 +537,7 @@
     "Application.PlanMenu.executor": "Run",
     "Application.PlanMenu2.executor": "Run",
     "Application.PlanVegetarianMenu.executor": "Run",
+    "Application.PlusOne.executor": "Run",
     "Application.PointPosition.executor": "Run",
     "Application.PointTest.executor": "Run",
     "Application.Polling.executor": "Run",
@@ -742,6 +741,8 @@
     "Application.TestWeightedGraph.executor": "Run",
     "Application.ThreadCooperation2.executor": "Run",
     "Application.ThreeLetterStrings.executor": "Run",
+    "Application.ThreeSum.executor": "Run",
+    "Application.ThreeSumClosest.executor": "Run",
     "Application.ThrowUsedCarException.executor": "Run",
     "Application.TicTacToe.executor": "Run",
     "Application.TicTacToe2.executor": "Run",
@@ -765,6 +766,7 @@
     "Application.TwoDice3.executor": "Run",
     "Application.TwoDimensionalArrayDemo.executor": "Run",
     "Application.TwoSum.executor": "Run",
+    "Application.TwoSum2.executor": "Run",
     "Application.TwoSumII.executor": "Run",
     "Application.UniqueBinarySearchTrees.executor": "Run",
     "Application.UniqueBinarySearchTreesII.executor": "Run",
@@ -808,9 +810,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeKSortedLinkedLists">
-    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ContainsDuplicate" />
+  <component name="RunManager" selected="Application.ThreeSumSmaller">
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.PlusOne" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -822,8 +824,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthLargestElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.KthLargestElementInArray" />
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ThreeSum" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -835,8 +837,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeKSortedLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.MergeKSortedLinkedLists" />
+    <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ThreeSumClosest" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -848,8 +850,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.TwoSum" />
+    <configuration name="ThreeSumSmaller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ThreeSumSmaller" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -861,8 +863,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.TwoSumII" />
+    <configuration name="TwoSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.TwoSum2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -875,19 +877,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ContainsDuplicate" />
-      <item itemvalue="Application.KthLargestElementInArray" />
-      <item itemvalue="Application.MergeKSortedLinkedLists" />
-      <item itemvalue="Application.TwoSum" />
-      <item itemvalue="Application.TwoSumII" />
+      <item itemvalue="Application.PlusOne" />
+      <item itemvalue="Application.ThreeSum" />
+      <item itemvalue="Application.ThreeSumClosest" />
+      <item itemvalue="Application.ThreeSumSmaller" />
+      <item itemvalue="Application.TwoSum2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeKSortedLinkedLists" />
-        <item itemvalue="Application.KthLargestElementInArray" />
-        <item itemvalue="Application.TwoSumII" />
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.ContainsDuplicate" />
+        <item itemvalue="Application.ThreeSumSmaller" />
+        <item itemvalue="Application.ThreeSum" />
+        <item itemvalue="Application.TwoSum2" />
+        <item itemvalue="Application.ThreeSumClosest" />
+        <item itemvalue="Application.PlusOne" />
       </list>
     </recent_temporary>
   </component>
