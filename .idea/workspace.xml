@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ThreeSumClosest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/TwoSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ContainsNearbyDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/MoveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ShortestWordDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/awsToolkit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/awsToolkit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +99,7 @@
     "Application.BarChart2.executor": "Run",
     "Application.BasePlusCommissionEmployeeTest.executor": "Run",
     "Application.BeanMachine.executor": "Run",
+    "Application.BestTimeToBuyAndSellStock.executor": "Run",
     "Application.BinPackingLargestFirst.executor": "Run",
     "Application.BinaryEditor.executor": "Run",
     "Application.BinaryEditorTest.executor": "Run",
@@ -176,6 +180,7 @@
     "Application.ConstructBTFromInorderAndPreorderTraversal.executor": "Run",
     "Application.ConstructBinaryTreeFromInorderAndPostorderTraversal.executor": "Run",
     "Application.ContainsDuplicate.executor": "Run",
+    "Application.ContainsNearbyDuplicate.executor": "Run",
     "Application.ConvertMillis.executor": "Run",
     "Application.ConvertSortedArrayToBST.executor": "Run",
     "Application.ConvexHull.executor": "Run",
@@ -430,6 +435,7 @@
     "Application.LowestCommonAncestorOfBSTII.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Maine.executor": "Run",
+    "Application.MajorityElement.executor": "Run",
     "Application.Majors.executor": "Run",
     "Application.MarkovMatrix.executor": "Run",
     "Application.MaximumDepthOfBinaryTree.executor": "Run",
@@ -451,6 +457,7 @@
     "Application.Months.executor": "Run",
     "Application.MorgansBonuses.executor": "Run",
     "Application.MorseCodeDecoder.executor": "Run",
+    "Application.MoveZeroes.executor": "Run",
     "Application.MultiThreadServer.executor": "Run",
     "Application.MultipleBall.executor": "Run",
     "Application.MultipleBounceBall.executor": "Run",
@@ -597,6 +604,7 @@
     "Application.RegexSubstitution.executor": "Run",
     "Application.RegularPolygonArea.executor": "Run",
     "Application.RemoveDuplicates2.executor": "Run",
+    "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
     "Application.RemoveDuplicatesFromSortedLinkedList.executor": "Run",
     "Application.RemoveDuplicatesFromSortedLinkedListII.executor": "Run",
     "Application.RemoveNthNodeFromEndOfList.executor": "Run",
@@ -631,6 +639,7 @@
     "Application.SetListPerformanceTest.executor": "Run",
     "Application.SetOperations.executor": "Run",
     "Application.SharedArrayTest.executor": "Run",
+    "Application.ShortestWordDistance.executor": "Run",
     "Application.ShowCurrentDateTime.executor": "Run",
     "Application.ShuffleArrayList.executor": "Run",
     "Application.SierpinskiTriangle.executor": "Run",
@@ -743,6 +752,7 @@
     "Application.ThreeLetterStrings.executor": "Run",
     "Application.ThreeSum.executor": "Run",
     "Application.ThreeSumClosest.executor": "Run",
+    "Application.ThreeSumSmaller.executor": "Run",
     "Application.ThrowUsedCarException.executor": "Run",
     "Application.TicTacToe.executor": "Run",
     "Application.TicTacToe2.executor": "Run",
@@ -810,9 +820,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreeSumSmaller">
-    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.PlusOne" />
+  <component name="RunManager" selected="Application.BestTimeToBuyAndSellStock">
+    <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BestTimeToBuyAndSellStock" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -824,8 +834,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ThreeSum" />
+    <configuration name="ContainsNearbyDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ContainsNearbyDuplicate" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -837,8 +847,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ThreeSumClosest" />
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.MajorityElement" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -850,8 +860,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSumSmaller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ThreeSumSmaller" />
+    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.MoveZeroes" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -863,8 +873,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.TwoSum2" />
+    <configuration name="ShortestWordDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ShortestWordDistance" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -877,19 +887,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PlusOne" />
-      <item itemvalue="Application.ThreeSum" />
-      <item itemvalue="Application.ThreeSumClosest" />
-      <item itemvalue="Application.ThreeSumSmaller" />
-      <item itemvalue="Application.TwoSum2" />
+      <item itemvalue="Application.BestTimeToBuyAndSellStock" />
+      <item itemvalue="Application.ContainsNearbyDuplicate" />
+      <item itemvalue="Application.MajorityElement" />
+      <item itemvalue="Application.MoveZeroes" />
+      <item itemvalue="Application.ShortestWordDistance" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreeSumSmaller" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.TwoSum2" />
-        <item itemvalue="Application.ThreeSumClosest" />
-        <item itemvalue="Application.PlusOne" />
+        <item itemvalue="Application.BestTimeToBuyAndSellStock" />
+        <item itemvalue="Application.ShortestWordDistance" />
+        <item itemvalue="Application.MoveZeroes" />
+        <item itemvalue="Application.ContainsNearbyDuplicate" />
+        <item itemvalue="Application.MajorityElement" />
       </list>
     </recent_temporary>
   </component>
