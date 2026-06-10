@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ContainsNearbyDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ShortestWordDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/awsToolkit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/awsToolkit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/IntersectionOfTwoArraysII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/MergeSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/NestedListWeightSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/RemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -395,6 +392,7 @@
     "Application.IntegerSet2Test.executor": "Run",
     "Application.IntegerSetTest.executor": "Run",
     "Application.Interest.executor": "Run",
+    "Application.IntersectionOfTwoArraysII.executor": "Run",
     "Application.InvertBinaryTree.executor": "Run",
     "Application.KnightTourApp.executor": "Run",
     "Application.KnightTourCycle.executor": "Run",
@@ -450,6 +448,7 @@
     "Application.MergeKSortedLinkedLists.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.MergeSortTest.executor": "Run",
+    "Application.MergeSortedArrays.executor": "Run",
     "Application.MergeSortedLists.executor": "Run",
     "Application.MersennePrime.executor": "Run",
     "Application.MinimumArray.executor": "Run",
@@ -479,6 +478,7 @@
     "Application.MyStringBuilder2.executor": "Run",
     "Application.MyTriangle.executor": "Run",
     "Application.NearestPoints.executor": "Run",
+    "Application.NestedListWeightSum.executor": "Run",
     "Application.NewStringSplitMethod.executor": "Run",
     "Application.NineHeadsAndTails.executor": "Run",
     "Application.NineInts.executor": "Run",
@@ -820,7 +820,7 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BestTimeToBuyAndSellStock">
+  <component name="RunManager" selected="Application.NestedListWeightSum">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BestTimeToBuyAndSellStock" />
       <module name="testSamples" />
@@ -834,8 +834,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainsNearbyDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ContainsNearbyDuplicate" />
+    <configuration name="IntersectionOfTwoArraysII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.IntersectionOfTwoArraysII" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -847,8 +847,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.MajorityElement" />
+    <configuration name="MergeSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.MergeSortedArrays" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -860,8 +860,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.MoveZeroes" />
+    <configuration name="NestedListWeightSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.NestedListWeightSum" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -888,18 +888,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BestTimeToBuyAndSellStock" />
-      <item itemvalue="Application.ContainsNearbyDuplicate" />
-      <item itemvalue="Application.MajorityElement" />
-      <item itemvalue="Application.MoveZeroes" />
+      <item itemvalue="Application.IntersectionOfTwoArraysII" />
+      <item itemvalue="Application.MergeSortedArrays" />
+      <item itemvalue="Application.NestedListWeightSum" />
       <item itemvalue="Application.ShortestWordDistance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NestedListWeightSum" />
+        <item itemvalue="Application.IntersectionOfTwoArraysII" />
+        <item itemvalue="Application.MergeSortedArrays" />
         <item itemvalue="Application.BestTimeToBuyAndSellStock" />
         <item itemvalue="Application.ShortestWordDistance" />
-        <item itemvalue="Application.MoveZeroes" />
-        <item itemvalue="Application.ContainsNearbyDuplicate" />
-        <item itemvalue="Application.MajorityElement" />
       </list>
     </recent_temporary>
   </component>
