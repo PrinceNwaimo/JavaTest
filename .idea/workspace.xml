@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/IntersectionOfTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ProductOfArrayExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ReverseVowelsOfAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/BestTimeToBuyAndSellStock2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/FindMinimumInRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/MaximumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/TrappingRainWater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +97,7 @@
     "Application.BasePlusCommissionEmployeeTest.executor": "Run",
     "Application.BeanMachine.executor": "Run",
     "Application.BestTimeToBuyAndSellStock.executor": "Run",
+    "Application.BestTimeToBuyAndSellStock2.executor": "Run",
     "Application.BinPackingLargestFirst.executor": "Run",
     "Application.BinaryEditor.executor": "Run",
     "Application.BinaryEditorTest.executor": "Run",
@@ -324,6 +325,7 @@
     "Application.FindDiscount.executor": "Run",
     "Application.FindFlippedCell.executor": "Run",
     "Application.FindMSTFromFile.executor": "Run",
+    "Application.FindMinimumInRotatedSortedArray.executor": "Run",
     "Application.FindNearestPoints.executor": "Run",
     "Application.FindPrice.executor": "Run",
     "Application.FindRent.executor": "Run",
@@ -441,6 +443,7 @@
     "Application.MaximumDepthOfBinaryTree.executor": "Run",
     "Application.MaximumElementInArrayList.executor": "Run",
     "Application.MaximumFinder.executor": "Run",
+    "Application.MaximumSubarray.executor": "Run",
     "Application.MaximumTest.executor": "Run",
     "Application.Maze.executor": "Run",
     "Application.MazeGenerator.executor": "Run",
@@ -769,6 +772,7 @@
     "Application.TokenizingTelephoneNumbers.executor": "Run",
     "Application.TortoiseAndHare.executor": "Run",
     "Application.TowerOfHanoi.executor": "Run",
+    "Application.TrappingRainWater.executor": "Run",
     "Application.TriangleWithLoops.executor": "Run",
     "Application.TryToCompareStrings.executor": "Run",
     "Application.TurtleGraphics.executor": "Run",
@@ -824,9 +828,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseVowelsOfAString">
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ContainerWithMostWater" />
+  <component name="RunManager" selected="Application.FindMinimumInRotatedSortedArray">
+    <configuration name="BestTimeToBuyAndSellStock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BestTimeToBuyAndSellStock2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -838,8 +842,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.IntersectionOfTwoArrays" />
+    <configuration name="FindMinimumInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.FindMinimumInRotatedSortedArray" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -851,21 +855,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedListWeightSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.NestedListWeightSum" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCodeProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ProductOfArrayExceptSelf" />
+    <configuration name="MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.MaximumSubarray" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -890,20 +881,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.TrappingRainWater" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ContainerWithMostWater" />
-      <item itemvalue="Application.IntersectionOfTwoArrays" />
-      <item itemvalue="Application.NestedListWeightSum" />
-      <item itemvalue="Application.ProductOfArrayExceptSelf" />
+      <item itemvalue="Application.BestTimeToBuyAndSellStock2" />
+      <item itemvalue="Application.FindMinimumInRotatedSortedArray" />
+      <item itemvalue="Application.MaximumSubarray" />
       <item itemvalue="Application.ReverseVowelsOfAString" />
+      <item itemvalue="Application.TrappingRainWater" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMinimumInRotatedSortedArray" />
+        <item itemvalue="Application.BestTimeToBuyAndSellStock2" />
+        <item itemvalue="Application.MaximumSubarray" />
+        <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.ReverseVowelsOfAString" />
-        <item itemvalue="Application.IntersectionOfTwoArrays" />
-        <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.ProductOfArrayExceptSelf" />
-        <item itemvalue="Application.NestedListWeightSum" />
       </list>
     </recent_temporary>
   </component>
