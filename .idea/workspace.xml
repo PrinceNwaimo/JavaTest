@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/BestTimeToBuyAndSellStock2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/FindMinimumInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/MaximumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PascalTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/PascalTriangle2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/SummaryRanges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -517,6 +516,8 @@
     "Application.ParallelQuickSort.executor": "Run",
     "Application.ParallelSum.executor": "Run",
     "Application.PartitionList.executor": "Run",
+    "Application.PascalTriangle.executor": "Run",
+    "Application.PascalTriangle2.executor": "Run",
     "Application.PassArray.executor": "Run",
     "Application.PassArrayElement.executor": "Run",
     "Application.PassTwoDimensionalArrays.executor": "Run",
@@ -701,6 +702,7 @@
     "Application.SumMajorDiagonal.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
     "Application.SumSeries.executor": "Run",
+    "Application.SummaryRanges.executor": "Run",
     "Application.SummingElementsInAColumn.executor": "Run",
     "Application.SupermarketSimulation.executor": "Run",
     "Application.SymmetricTreeTest.executor": "Run",
@@ -828,9 +830,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindMinimumInRotatedSortedArray">
-    <configuration name="BestTimeToBuyAndSellStock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BestTimeToBuyAndSellStock2" />
+  <component name="RunManager" selected="Application.ValidPalindrome">
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.MissingNumber" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -842,8 +844,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinimumInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.FindMinimumInRotatedSortedArray" />
+    <configuration name="PascalTriangle2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.PascalTriangle2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -855,8 +857,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.MaximumSubarray" />
+    <configuration name="SummaryRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.SummaryRanges" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -868,8 +870,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseVowelsOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ReverseVowelsOfAString" />
+    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ValidAnagram" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -881,8 +883,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.TrappingRainWater" />
+    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ValidPalindrome" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -895,19 +897,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BestTimeToBuyAndSellStock2" />
-      <item itemvalue="Application.FindMinimumInRotatedSortedArray" />
-      <item itemvalue="Application.MaximumSubarray" />
-      <item itemvalue="Application.ReverseVowelsOfAString" />
-      <item itemvalue="Application.TrappingRainWater" />
+      <item itemvalue="Application.MissingNumber" />
+      <item itemvalue="Application.PascalTriangle2" />
+      <item itemvalue="Application.SummaryRanges" />
+      <item itemvalue="Application.ValidAnagram" />
+      <item itemvalue="Application.ValidPalindrome" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindMinimumInRotatedSortedArray" />
-        <item itemvalue="Application.BestTimeToBuyAndSellStock2" />
-        <item itemvalue="Application.MaximumSubarray" />
-        <item itemvalue="Application.TrappingRainWater" />
-        <item itemvalue="Application.ReverseVowelsOfAString" />
+        <item itemvalue="Application.ValidPalindrome" />
+        <item itemvalue="Application.ValidAnagram" />
+        <item itemvalue="Application.MissingNumber" />
+        <item itemvalue="Application.SummaryRanges" />
+        <item itemvalue="Application.PascalTriangle2" />
       </list>
     </recent_temporary>
   </component>
