@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PascalTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/PascalTriangle2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/SummaryRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/PalindromeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/SumOfTwoIntegers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -457,6 +459,7 @@
     "Application.MersennePrime.executor": "Run",
     "Application.MinimumArray.executor": "Run",
     "Application.MinimumDepthOfBinaryTree.executor": "Run",
+    "Application.MissingNumber.executor": "Run",
     "Application.Months.executor": "Run",
     "Application.MorgansBonuses.executor": "Run",
     "Application.MorseCodeDecoder.executor": "Run",
@@ -507,6 +510,7 @@
     "Application.PalindromeChecker.executor": "Run",
     "Application.PalindromeIgnoreNonAlphanumeric.executor": "Run",
     "Application.PalindromeInteger.executor": "Run",
+    "Application.PalindromeNumber.executor": "Run",
     "Application.PalindromeTester.executor": "Run",
     "Application.PalindromicPrime.executor": "Run",
     "Application.ParallelEightQueens.executor": "Run",
@@ -653,6 +657,7 @@
     "Application.SierpinskiTriangle.executor": "Run",
     "Application.SierpinskiTriangle2.executor": "Run",
     "Application.SieveOfEratosthenes.executor": "Run",
+    "Application.SingleNumber.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.Sort2DArray.executor": "Run",
     "Application.SortArrayList.executor": "Run",
@@ -701,6 +706,7 @@
     "Application.SumDigits.executor": "Run",
     "Application.SumMajorDiagonal.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
+    "Application.SumOfTwoIntegers.executor": "Run",
     "Application.SumSeries.executor": "Run",
     "Application.SummaryRanges.executor": "Run",
     "Application.SummingElementsInAColumn.executor": "Run",
@@ -794,6 +800,8 @@
     "Application.UseDinnerParty.executor": "Run",
     "Application.UseGeometric.executor": "Run",
     "Application.UseParty.executor": "Run",
+    "Application.ValidAnagram.executor": "Run",
+    "Application.ValidPalindrome.executor": "Run",
     "Application.Validate.executor": "Run",
     "Application.VariableLengthArgumentList.executor": "Run",
     "Application.VehicleDatabase.executor": "Run",
@@ -830,9 +838,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidPalindrome">
-    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.MissingNumber" />
+  <component name="RunManager" selected="Application.IsomorphicStrings">
+    <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.IsomorphicStrings" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -844,8 +852,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PascalTriangle2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.PascalTriangle2" />
+    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ReverseInteger" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -857,8 +865,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SummaryRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.SummaryRanges" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ReverseString" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -870,8 +878,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ValidAnagram" />
+    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.SingleNumber" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -883,8 +891,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ValidPalindrome" />
+    <configuration name="SumOfTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.SumOfTwoIntegers" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -897,19 +905,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MissingNumber" />
-      <item itemvalue="Application.PascalTriangle2" />
-      <item itemvalue="Application.SummaryRanges" />
-      <item itemvalue="Application.ValidAnagram" />
-      <item itemvalue="Application.ValidPalindrome" />
+      <item itemvalue="Application.IsomorphicStrings" />
+      <item itemvalue="Application.ReverseInteger" />
+      <item itemvalue="Application.ReverseString" />
+      <item itemvalue="Application.SingleNumber" />
+      <item itemvalue="Application.SumOfTwoIntegers" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidPalindrome" />
-        <item itemvalue="Application.ValidAnagram" />
-        <item itemvalue="Application.MissingNumber" />
-        <item itemvalue="Application.SummaryRanges" />
-        <item itemvalue="Application.PascalTriangle2" />
+        <item itemvalue="Application.IsomorphicStrings" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.SumOfTwoIntegers" />
+        <item itemvalue="Application.SingleNumber" />
+        <item itemvalue="Application.ReverseInteger" />
       </list>
     </recent_temporary>
   </component>
