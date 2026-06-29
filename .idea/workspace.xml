@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/PalindromeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/SingleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/SumOfTwoIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/BulbSwitcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/PaintFence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Pow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/SelfCrossing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Subset3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Subsets2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Tets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -399,6 +402,7 @@
     "Application.IntersectionOfTwoArrays.executor": "Run",
     "Application.IntersectionOfTwoArraysII.executor": "Run",
     "Application.InvertBinaryTree.executor": "Run",
+    "Application.IsomorphicStrings.executor": "Run",
     "Application.KnightTourApp.executor": "Run",
     "Application.KnightTourCycle.executor": "Run",
     "Application.KnightsTour.executor": "Run",
@@ -505,6 +509,7 @@
     "Application.OutOfMemoryErrorTest.executor": "Run",
     "Application.OverloadGenericWithNonGeneric.executor": "Run",
     "Application.OverloadedGenericPrintArray.executor": "Run",
+    "Application.PaintFence.executor": "Run",
     "Application.PairDemo.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.PalindromeChecker.executor": "Run",
@@ -564,6 +569,7 @@
     "Application.PostOrderTraversal.executor": "Run",
     "Application.PostfixEvaluator.executor": "Run",
     "Application.PostfixEvaluatorTest.executor": "Run",
+    "Application.Pow.executor": "Run",
     "Application.PrefixPostFixDemo.executor": "Run",
     "Application.PreorderTraversalTest.executor": "Run",
     "Application.PrimMSTWithAdjacencyMatrix.executor": "Run",
@@ -627,6 +633,7 @@
     "Application.RetirementGoal2.executor": "Run",
     "Application.ReverseArray.executor": "Run",
     "Application.ReverseInteger.executor": "Run",
+    "Application.ReverseString.executor": "Run",
     "Application.ReverseVowelsOfAString.executor": "Run",
     "Application.RevisedGenericQuickSort.executor": "Run",
     "Application.RollDice.executor": "Run",
@@ -645,6 +652,7 @@
     "Application.SeekPosition.executor": "Run",
     "Application.SelectionSort2.executor": "Run",
     "Application.SelectionSortTest.executor": "Run",
+    "Application.SelfCrossing.executor": "Run",
     "Application.SeparateChainingAnimation.executor": "Run",
     "Application.SequentialDataFile.executor": "Run",
     "Application.Serialize.executor": "Run",
@@ -697,6 +705,9 @@
     "Application.StringStartEnd.executor": "Run",
     "Application.StringValueOf.executor": "Run",
     "Application.StudentServer.executor": "Run",
+    "Application.Subset3.executor": "Run",
+    "Application.Subsets.executor": "Run",
+    "Application.Subsets2.executor": "Run",
     "Application.Sudoku2.executor": "Run",
     "Application.SudokuSearchAnimation.executor": "Run",
     "Application.Suduko2.executor": "Run",
@@ -763,6 +774,7 @@
     "Application.TestTriangle.executor": "Run",
     "Application.TestTriangle2D.executor": "Run",
     "Application.TestWeightedGraph.executor": "Run",
+    "Application.Tets.executor": "Run",
     "Application.ThreadCooperation2.executor": "Run",
     "Application.ThreeLetterStrings.executor": "Run",
     "Application.ThreeSum.executor": "Run",
@@ -838,9 +850,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IsomorphicStrings">
-    <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.IsomorphicStrings" />
+  <component name="RunManager" selected="Application.BulbSwitcher">
+    <configuration name="BulbSwitcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BulbSwitcher" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -852,8 +864,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ReverseInteger" />
+    <configuration name="PaintFence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.PaintFence" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -865,8 +877,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ReverseString" />
+    <configuration name="SelfCrossing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.SelfCrossing" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -878,8 +890,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.SingleNumber" />
+    <configuration name="Subset3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.Subset3" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -891,8 +903,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.SumOfTwoIntegers" />
+    <configuration name="Subsets2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.Subsets2" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -905,19 +917,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IsomorphicStrings" />
-      <item itemvalue="Application.ReverseInteger" />
-      <item itemvalue="Application.ReverseString" />
-      <item itemvalue="Application.SingleNumber" />
-      <item itemvalue="Application.SumOfTwoIntegers" />
+      <item itemvalue="Application.BulbSwitcher" />
+      <item itemvalue="Application.PaintFence" />
+      <item itemvalue="Application.SelfCrossing" />
+      <item itemvalue="Application.Subset3" />
+      <item itemvalue="Application.Subsets2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IsomorphicStrings" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.SumOfTwoIntegers" />
-        <item itemvalue="Application.SingleNumber" />
-        <item itemvalue="Application.ReverseInteger" />
+        <item itemvalue="Application.BulbSwitcher" />
+        <item itemvalue="Application.PaintFence" />
+        <item itemvalue="Application.SelfCrossing" />
+        <item itemvalue="Application.Subset3" />
+        <item itemvalue="Application.Subsets2" />
       </list>
     </recent_temporary>
   </component>
