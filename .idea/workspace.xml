@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ConstantSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/NimGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/NimGameTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/RotateImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Search2DMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/SearchMatrixII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/SetMatrixZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/SpiralMatrixII.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -683,6 +676,8 @@
     "Application.SortingAnimation.executor": "Run",
     "Application.SortingTimeComparison.executor": "Run",
     "Application.SpamScanner.executor": "Run",
+    "Application.SpiralMatrix.executor": "Run",
+    "Application.SpiralOrder.executor": "Run",
     "Application.SportsRecommender.executor": "Run",
     "Application.Sqrt.executor": "Run",
     "Application.SquareNumbers.executor": "Run",
@@ -856,22 +851,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpiralOrder">
-    <configuration name="ConstantSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ConstantSpace" />
-      <module name="testSamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCodeProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Search2DMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.Search2DMatrix" />
+  <component name="RunManager" selected="Application.LRUCache">
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.LRUCache" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -909,6 +891,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpiralMatrixII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.SpiralMatrixII" />
+      <module name="testSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeProblems.SpiralOrder" />
       <module name="testSamples" />
@@ -923,19 +918,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConstantSpace" />
-      <item itemvalue="Application.Search2DMatrix" />
+      <item itemvalue="Application.LRUCache" />
       <item itemvalue="Application.SearchMatrixII" />
       <item itemvalue="Application.SpiralMatrix" />
+      <item itemvalue="Application.SpiralMatrixII" />
       <item itemvalue="Application.SpiralOrder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LRUCache" />
+        <item itemvalue="Application.SpiralMatrixII" />
         <item itemvalue="Application.SpiralOrder" />
         <item itemvalue="Application.SpiralMatrix" />
         <item itemvalue="Application.SearchMatrixII" />
-        <item itemvalue="Application.Search2DMatrix" />
-        <item itemvalue="Application.ConstantSpace" />
       </list>
     </recent_temporary>
   </component>
