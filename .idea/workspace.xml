@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd4a48-e7fe-49a7-b473-e942c42def69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/BulbSwitcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/PaintFence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Pow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/SelfCrossing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Subset3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Subsets2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Tets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/ConstantSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/NimGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/NimGameTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/RotateImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/Search2DMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/SearchMatrixII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeProblems/SetMatrixZero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +126,7 @@
     "Application.BubbleSort.executor": "Run",
     "Application.BubbleSortDemo.executor": "Run",
     "Application.BucketSort.executor": "Run",
+    "Application.BulbSwitcher.executor": "Run",
     "Application.Businessletter.executor": "Run",
     "Application.Calculator.executor": "Run",
     "Application.CalculatorDemo.executor": "Run",
@@ -179,6 +179,7 @@
     "Application.ConnectFour.executor": "Run",
     "Application.ConnectedCirclesColor.executor": "Run",
     "Application.ConsecutiveFour.executor": "Run",
+    "Application.ConstantSpace.executor": "Run",
     "Application.ConstructBTFromInorderAndPreorderTraversal.executor": "Run",
     "Application.ConstructBinaryTreeFromInorderAndPostorderTraversal.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
@@ -491,6 +492,7 @@
     "Application.NearestPoints.executor": "Run",
     "Application.NestedListWeightSum.executor": "Run",
     "Application.NewStringSplitMethod.executor": "Run",
+    "Application.NimGameTester.executor": "Run",
     "Application.NineHeadsAndTails.executor": "Run",
     "Application.NineInts.executor": "Run",
     "Application.NineTail.executor": "Run",
@@ -638,6 +640,7 @@
     "Application.RevisedGenericQuickSort.executor": "Run",
     "Application.RollDice.executor": "Run",
     "Application.RotateArray.executor": "Run",
+    "Application.RotateImage.executor": "Run",
     "Application.SMSLanguageTranslator.executor": "Run",
     "Application.SalespersonDatabase.executor": "Run",
     "Application.SameLine.executor": "Run",
@@ -646,7 +649,9 @@
     "Application.SavedCustomerList.executor": "Run",
     "Application.Score.executor": "Run",
     "Application.ScreenOut.executor": "Run",
+    "Application.Search2DMatrix.executor": "Run",
     "Application.SearchExecutionTime.executor": "Run",
+    "Application.SearchMatrixII.executor": "Run",
     "Application.SecretPhrase2.executor": "Run",
     "Application.SecretPhraseUsingFiles.executor": "Run",
     "Application.SeekPosition.executor": "Run",
@@ -657,6 +662,7 @@
     "Application.SequentialDataFile.executor": "Run",
     "Application.Serialize.executor": "Run",
     "Application.SetListPerformanceTest.executor": "Run",
+    "Application.SetMatrixZero.executor": "Run",
     "Application.SetOperations.executor": "Run",
     "Application.SharedArrayTest.executor": "Run",
     "Application.ShortestWordDistance.executor": "Run",
@@ -850,9 +856,9 @@
       <recent name="joyceExceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BulbSwitcher">
-    <configuration name="BulbSwitcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.BulbSwitcher" />
+  <component name="RunManager" selected="Application.SpiralOrder">
+    <configuration name="ConstantSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.ConstantSpace" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -864,8 +870,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaintFence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.PaintFence" />
+    <configuration name="Search2DMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.Search2DMatrix" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -877,8 +883,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelfCrossing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.SelfCrossing" />
+    <configuration name="SearchMatrixII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.SearchMatrixII" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -890,8 +896,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subset3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.Subset3" />
+    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.SpiralMatrix" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -903,8 +909,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subsets2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.Subsets2" />
+    <configuration name="SpiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeProblems.SpiralOrder" />
       <module name="testSamples" />
       <extension name="coverage">
         <pattern>
@@ -917,19 +923,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BulbSwitcher" />
-      <item itemvalue="Application.PaintFence" />
-      <item itemvalue="Application.SelfCrossing" />
-      <item itemvalue="Application.Subset3" />
-      <item itemvalue="Application.Subsets2" />
+      <item itemvalue="Application.ConstantSpace" />
+      <item itemvalue="Application.Search2DMatrix" />
+      <item itemvalue="Application.SearchMatrixII" />
+      <item itemvalue="Application.SpiralMatrix" />
+      <item itemvalue="Application.SpiralOrder" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BulbSwitcher" />
-        <item itemvalue="Application.PaintFence" />
-        <item itemvalue="Application.SelfCrossing" />
-        <item itemvalue="Application.Subset3" />
-        <item itemvalue="Application.Subsets2" />
+        <item itemvalue="Application.SpiralOrder" />
+        <item itemvalue="Application.SpiralMatrix" />
+        <item itemvalue="Application.SearchMatrixII" />
+        <item itemvalue="Application.Search2DMatrix" />
+        <item itemvalue="Application.ConstantSpace" />
       </list>
     </recent_temporary>
   </component>
